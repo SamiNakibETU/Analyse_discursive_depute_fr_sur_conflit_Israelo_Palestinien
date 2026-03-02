@@ -26,7 +26,7 @@ FIGURES_CLES = [
     "fig33_convergence_batch",
     "fig28_variables_batch",
     "fig11_stance_panel_b4",
-    "fig23_fighting_words_temporal",
+    "fig22_fighting_words_temporal",
     "fig40_portraits_transfuges",
     "fig43_registres_par_batch",
 ]
