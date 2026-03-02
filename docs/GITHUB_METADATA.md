@@ -1,4 +1,4 @@
-# Métadonnées GitHub — à configurer dans les paramètres du repo
+# Metadata GitHub — à configurer dans les paramètres du dépôt
 
 ## Description (Settings → General → Description)
 
@@ -8,11 +8,11 @@ NLP · stance detection · LLM annotation · event study · French parliament ·
 
 ## Topics (About → Topics)
 
-```
-nlp
-political-science
-stance-detection
-llm
-france
-computational-social-science
-```
+- `nlp`
+- `political-science`
+- `stance-detection`
+- `llm`
+- `france`
+- `computational-social-science`
+- `parliament`
+- `discourse-analysis`

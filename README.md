@@ -27,7 +27,7 @@ Analyse computationnelle du discours de **459 députés** sur **10 774 textes** 
 | Polarisation lexicale Gauche radicale / Droite | [fig18](figures/fig18_distance_cosinus_gr_droite.png) |
 | Variables batch-spécifiques (condemns_hamas, genocide_framing...) | [fig28](figures/fig28_variables_batch.png) |
 
-Voir [Catalogue des figures](docs/CATALOGUE_FIGURES.md) pour la liste complète (fig01–fig47).
+Voir [Catalogue des figures](docs/CATALOGUE_FIGURES.md) pour la liste complète (fig01–fig51).
 
 ---
 
@@ -38,7 +38,7 @@ python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt
 python src/prepare_data.py
 python src/build_extra_analyses.py
-jupyter notebook notebooks/
+jupyter notebook notebooks/   # 01→09
 ```
 
 Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `data/processed/` — ou copié via `prepare_data.py` si le projet source est voisin. Variable d'environnement : `GAZA_SOURCE_PROJECT`.
@@ -62,9 +62,11 @@ Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `dat
 
 ```
 ├── notebooks/   # 01–09 : corpus → validation → dynamiques → polarisation → événements → convergence → émotions → analyses_fond → engagement
-├── src/         # config, prepare_data, build_extra_analyses, export_figures_social
+├── src/         # config, prepare_data, build_extra_analyses, validation_humaine, validation_metrics
 ├── data/results/
+├── data/validation/   # sample.csv, annotations.csv (validation humaine)
 ├── figures/
+├── reports/     # brief_analytique.md
 └── docs/
 ```
 
@@ -73,7 +75,7 @@ Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `dat
 ## Livrables
 
 - **Brief analytique** : [reports/brief_analytique.md](reports/brief_analytique.md) (8 pages, figures clés)
-- **Validation humaine** : `python src/validation_humaine_sample.py` → annotation → `validation_metrics.py`
+- **Validation humaine** : `python src/validation_humaine.py` → annotation → `python src/validation_metrics.py`
 
 ---
 
