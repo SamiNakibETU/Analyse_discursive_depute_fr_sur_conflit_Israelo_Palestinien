@@ -61,12 +61,19 @@ Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `dat
 ## Structure
 
 ```
-├── notebooks/   # 01–08 : corpus → validation → dynamiques → polarisation → événements → convergence → émotions → analyses_fond
+├── notebooks/   # 01–09 : corpus → validation → dynamiques → polarisation → événements → convergence → émotions → analyses_fond → engagement
 ├── src/         # config, prepare_data, build_extra_analyses, export_figures_social
 ├── data/results/
 ├── figures/
 └── docs/
 ```
+
+---
+
+## Livrables
+
+- **Brief analytique** : [reports/brief_analytique.md](reports/brief_analytique.md) (8 pages, figures clés)
+- **Validation humaine** : `python src/validation_humaine_sample.py` → annotation → `validation_metrics.py`
 
 ---
 

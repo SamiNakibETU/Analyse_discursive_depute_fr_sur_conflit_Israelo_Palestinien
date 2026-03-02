@@ -88,3 +88,10 @@ Chaque figure est un lien cliquable vers le fichier PNG.
 |---|---------|--------------|
 | 48 | [fig48_sensibilite_corpus](../figures/fig48_sensibilite_corpus.png) | Sensibilité au déséquilibre (complet vs sous-échantillonné) |
 | 49 | [fig49_panel_b4_vs_complet_ribbon](../figures/fig49_panel_b4_vs_complet_ribbon.png) | Stance ribbon : Panel B4 vs corpus complet |
+
+## NB09 — Engagement Twitter (fig50–51)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 50 | [fig50_engagement_par_bloc](../figures/fig50_engagement_par_bloc.png) | Engagement médian par bloc |
+| 51 | [fig51_engagement_vs_radicalite](../figures/fig51_engagement_vs_radicalite.png) | Engagement vs |stance| (radicalité) |
