@@ -1,0 +1,164 @@
+month,pair,dist
+2023-10,Gauche radicale vs Gauche moderee,0.08559676287493123
+2023-10,Gauche radicale vs Centre / Majorite,0.15196193717773654
+2023-10,Gauche radicale vs Droite,0.19468839263663407
+2023-10,Gauche moderee vs Centre / Majorite,0.1563847737426215
+2023-10,Gauche moderee vs Droite,0.19963791901800354
+2023-10,Centre / Majorite vs Droite,0.08713547254258003
+2023-11,Gauche radicale vs Gauche moderee,0.1404833933091575
+2023-11,Gauche radicale vs Centre / Majorite,0.32824416943483803
+2023-11,Gauche radicale vs Droite,0.23034790876752298
+2023-11,Gauche moderee vs Centre / Majorite,0.294404033136046
+2023-11,Gauche moderee vs Droite,0.2352096012207504
+2023-11,Centre / Majorite vs Droite,0.17833139563166212
+2023-12,Gauche radicale vs Gauche moderee,0.19652293399519116
+2023-12,Gauche radicale vs Centre / Majorite,0.22254862546895415
+2023-12,Gauche radicale vs Droite,0.2754015160295993
+2023-12,Gauche moderee vs Centre / Majorite,0.31455161491869044
+2023-12,Gauche moderee vs Droite,0.35274216107002454
+2023-12,Centre / Majorite vs Droite,0.28034344143164613
+2024-01,Gauche radicale vs Gauche moderee,0.17034093607094358
+2024-01,Gauche radicale vs Centre / Majorite,0.23466344832634656
+2024-01,Gauche radicale vs Droite,0.3616627706161677
+2024-01,Gauche moderee vs Centre / Majorite,0.29156712276635255
+2024-01,Gauche moderee vs Droite,0.44068082425804
+2024-01,Centre / Majorite vs Droite,0.19387920879471832
+2024-02,Gauche radicale vs Gauche moderee,0.14695978061024495
+2024-02,Gauche radicale vs Centre / Majorite,0.22239360346668968
+2024-02,Gauche radicale vs Droite,0.300760193001529
+2024-02,Gauche moderee vs Centre / Majorite,0.299685542445425
+2024-02,Gauche moderee vs Droite,0.37494538600148375
+2024-02,Centre / Majorite vs Droite,0.15258860036538602
+2024-03,Gauche radicale vs Gauche moderee,0.14465920549939437
+2024-03,Gauche radicale vs Centre / Majorite,0.20958195706158245
+2024-03,Gauche radicale vs Droite,0.24334182381157443
+2024-03,Gauche moderee vs Centre / Majorite,0.2969536312297357
+2024-03,Gauche moderee vs Droite,0.33638340330426386
+2024-03,Centre / Majorite vs Droite,0.18718025935982008
+2024-04,Gauche radicale vs Gauche moderee,0.1724404437004443
+2024-04,Gauche radicale vs Centre / Majorite,0.19661299957275402
+2024-04,Gauche radicale vs Droite,0.2733187413049606
+2024-04,Gauche moderee vs Centre / Majorite,0.2685949305025477
+2024-04,Gauche moderee vs Droite,0.3177107831061754
+2024-04,Centre / Majorite vs Droite,0.20802462536771815
+2024-05,Gauche radicale vs Gauche moderee,0.11672897363212997
+2024-05,Gauche radicale vs Centre / Majorite,0.19563710792846656
+2024-05,Gauche radicale vs Droite,0.2824260175303831
+2024-05,Gauche moderee vs Centre / Majorite,0.2289800002012201
+2024-05,Gauche moderee vs Droite,0.3327500208347648
+2024-05,Centre / Majorite vs Droite,0.22957950801948013
+2024-06,Gauche radicale vs Gauche moderee,0.16321506673841202
+2024-06,Gauche radicale vs Centre / Majorite,0.20169789373070746
+2024-06,Gauche radicale vs Droite,0.2889309143429094
+2024-06,Gauche moderee vs Centre / Majorite,0.20966076718730764
+2024-06,Gauche moderee vs Droite,0.3389863912418605
+2024-06,Centre / Majorite vs Droite,0.22783249593523847
+2024-07,Gauche radicale vs Gauche moderee,0.26752767557857793
+2024-07,Gauche radicale vs Centre / Majorite,0.2694674792903111
+2024-07,Gauche radicale vs Droite,0.2838990975489134
+2024-07,Gauche moderee vs Centre / Majorite,0.3852974015546192
+2024-07,Gauche moderee vs Droite,0.37112463065618184
+2024-07,Centre / Majorite vs Droite,0.22209384700106005
+2024-08,Gauche radicale vs Gauche moderee,0.2409619643227251
+2024-08,Gauche radicale vs Centre / Majorite,0.22501500170012778
+2024-08,Gauche radicale vs Droite,0.2639831548578069
+2024-08,Gauche moderee vs Centre / Majorite,0.30048336414653243
+2024-08,Gauche moderee vs Droite,0.3205846399517225
+2024-08,Centre / Majorite vs Droite,0.1976751938811353
+2024-09,Gauche radicale vs Gauche moderee,0.23505310049762562
+2024-09,Gauche radicale vs Centre / Majorite,0.30808386576439206
+2024-09,Gauche radicale vs Droite,0.2992135386401579
+2024-09,Gauche moderee vs Centre / Majorite,0.4464987482959354
+2024-09,Gauche moderee vs Droite,0.408446850730911
+2024-09,Centre / Majorite vs Droite,0.2783613351668289
+2024-10,Gauche radicale vs Gauche moderee,0.22428838811523932
+2024-10,Gauche radicale vs Centre / Majorite,0.1911588411142462
+2024-10,Gauche radicale vs Droite,0.20003135873197964
+2024-10,Gauche moderee vs Centre / Majorite,0.30084789385363353
+2024-10,Gauche moderee vs Droite,0.3148694646271827
+2024-10,Centre / Majorite vs Droite,0.14498718604644234
+2024-11,Gauche radicale vs Gauche moderee,0.1580585294856376
+2024-11,Gauche radicale vs Centre / Majorite,0.20600460185585234
+2024-11,Gauche radicale vs Droite,0.210887420595671
+2024-11,Gauche moderee vs Centre / Majorite,0.2894297755278755
+2024-11,Gauche moderee vs Droite,0.3011172512879199
+2024-11,Centre / Majorite vs Droite,0.21276627824730576
+2024-12,Gauche radicale vs Gauche moderee,0.2733256800745948
+2024-12,Gauche radicale vs Centre / Majorite,0.40500821035053747
+2024-12,Gauche radicale vs Droite,0.22177602404013896
+2024-12,Gauche moderee vs Centre / Majorite,0.5572344060469755
+2024-12,Gauche moderee vs Droite,0.3659622435030394
+2024-12,Centre / Majorite vs Droite,0.38096263111467266
+2025-01,Gauche radicale vs Gauche moderee,0.18940903718703628
+2025-01,Gauche radicale vs Centre / Majorite,0.15692425340581762
+2025-01,Gauche radicale vs Droite,0.2612510635406645
+2025-01,Gauche moderee vs Centre / Majorite,0.21072724749643423
+2025-01,Gauche moderee vs Droite,0.33068206389728405
+2025-01,Centre / Majorite vs Droite,0.21825881212954257
+2025-02,Gauche radicale vs Gauche moderee,0.24116991446225666
+2025-02,Gauche radicale vs Centre / Majorite,0.24365972172164163
+2025-02,Gauche radicale vs Droite,0.2891437476161747
+2025-02,Gauche moderee vs Centre / Majorite,0.36834505687106267
+2025-02,Gauche moderee vs Droite,0.37948931513317674
+2025-02,Centre / Majorite vs Droite,0.17494333541373752
+2025-03,Gauche radicale vs Gauche moderee,0.2087649353002129
+2025-03,Gauche radicale vs Centre / Majorite,0.18272444917428865
+2025-03,Gauche radicale vs Droite,0.28204557949020237
+2025-03,Gauche moderee vs Centre / Majorite,0.2763606745878786
+2025-03,Gauche moderee vs Droite,0.3931436879791751
+2025-03,Centre / Majorite vs Droite,0.22884226877978997
+2025-04,Gauche radicale vs Gauche moderee,0.20971463198827323
+2025-04,Gauche radicale vs Centre / Majorite,0.22068002412589993
+2025-04,Gauche radicale vs Droite,0.3148960542737652
+2025-04,Gauche moderee vs Centre / Majorite,0.26752920731606755
+2025-04,Gauche moderee vs Droite,0.39735527358461353
+2025-04,Centre / Majorite vs Droite,0.363649483340733
+2025-05,Gauche radicale vs Gauche moderee,0.154316259795651
+2025-05,Gauche radicale vs Centre / Majorite,0.16035648653648915
+2025-05,Gauche radicale vs Droite,0.22885140155971584
+2025-05,Gauche moderee vs Centre / Majorite,0.18638851698882675
+2025-05,Gauche moderee vs Droite,0.2756788490993908
+2025-05,Centre / Majorite vs Droite,0.14274529403111236
+2025-06,Gauche radicale vs Gauche moderee,0.13857434965168247
+2025-06,Gauche radicale vs Centre / Majorite,0.15898319566552244
+2025-06,Gauche radicale vs Droite,0.21580958270284523
+2025-06,Gauche moderee vs Centre / Majorite,0.16346140417823052
+2025-06,Gauche moderee vs Droite,0.23444136310969987
+2025-06,Centre / Majorite vs Droite,0.16504643791581752
+2025-07,Gauche radicale vs Gauche moderee,0.1602739816200105
+2025-07,Gauche radicale vs Centre / Majorite,0.260319517797306
+2025-07,Gauche radicale vs Droite,0.23668270069583852
+2025-07,Gauche moderee vs Centre / Majorite,0.3204844707937551
+2025-07,Gauche moderee vs Droite,0.30351021711158455
+2025-07,Centre / Majorite vs Droite,0.2056004877463561
+2025-08,Gauche radicale vs Gauche moderee,0.21360107081045354
+2025-08,Gauche radicale vs Centre / Majorite,0.2671808063696768
+2025-08,Gauche radicale vs Droite,0.27477254533070306
+2025-08,Gauche moderee vs Centre / Majorite,0.3236520764933054
+2025-08,Gauche moderee vs Droite,0.35910256249246364
+2025-08,Centre / Majorite vs Droite,0.24976897797990683
+2025-09,Gauche radicale vs Gauche moderee,0.14802067460802548
+2025-09,Gauche radicale vs Centre / Majorite,0.2955697650046867
+2025-09,Gauche radicale vs Droite,0.2791616519825173
+2025-09,Gauche moderee vs Centre / Majorite,0.27433402540850205
+2025-09,Gauche moderee vs Droite,0.27550079301685537
+2025-09,Centre / Majorite vs Droite,0.3253768743274741
+2025-10,Gauche radicale vs Gauche moderee,0.4033544397459742
+2025-10,Gauche radicale vs Centre / Majorite,0.20976563672788562
+2025-10,Gauche radicale vs Droite,0.22750658397857737
+2025-10,Gauche moderee vs Centre / Majorite,0.2786535642759892
+2025-10,Gauche moderee vs Droite,0.3366234363410756
+2025-10,Centre / Majorite vs Droite,0.17153899572649967
+2025-11,Gauche radicale vs Gauche moderee,0.24636249109035357
+2025-11,Gauche radicale vs Centre / Majorite,0.24869969065919895
+2025-11,Gauche radicale vs Droite,0.24831410565058043
+2025-11,Gauche moderee vs Centre / Majorite,0.29025150307662617
+2025-11,Gauche moderee vs Droite,0.31629013313216514
+2025-11,Centre / Majorite vs Droite,0.3550515545821985
+2025-12,Gauche radicale vs Gauche moderee,0.2525835283554573
+2025-12,Gauche radicale vs Centre / Majorite,0.24275006075611882
+2025-12,Gauche radicale vs Droite,0.29127783739663615
+2025-12,Gauche moderee vs Centre / Majorite,0.21484487083356785
+2025-12,Gauche moderee vs Droite,0.31879316647777933
+2025-12,Centre / Majorite vs Droite,0.2853324831719507
+2026-01,Gauche radicale vs Centre / Majorite,0.46427898606809703
