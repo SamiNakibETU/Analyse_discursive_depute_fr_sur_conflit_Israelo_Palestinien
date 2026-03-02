@@ -81,3 +81,10 @@ Chaque figure est un lien cliquable vers le fichier PNG.
 | 44 | [fig44_emotions_temporelles](../figures/fig44_emotions_temporelles.png) | Émotions temporelles |
 | 45 | [fig45_heatmap_registres](../figures/fig45_heatmap_registres.png) | Heatmap registres |
 | 46 | [fig46_registre_dominant](../figures/fig46_registre_dominant.png) | Registre dominant |
+
+## NB08 — Analyses de fond (fig48+)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 48 | [fig48_sensibilite_corpus](../figures/fig48_sensibilite_corpus.png) | Sensibilité au déséquilibre (complet vs sous-échantillonné) |
+| 49 | [fig49_panel_b4_vs_complet_ribbon](../figures/fig49_panel_b4_vs_complet_ribbon.png) | Stance ribbon : Panel B4 vs corpus complet |
