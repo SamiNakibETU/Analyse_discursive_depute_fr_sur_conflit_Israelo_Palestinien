@@ -31,7 +31,7 @@ Le Centre varie significativement après les événements pivot ; la Gauche radi
 
 Quand le Centre appelle au cessez-le-feu (janv. 2025), la Droite durcit son discours (Δ stance -1,03, p≈0,008). Interprétation : stratégie de différenciation plutôt qu’alignement.
 
-![fig12](figures/fig12_diff_in_diff.png)
+![fig12](../figures/fig12_diff_in_diff.png)
 
 ---
 
