@@ -54,7 +54,9 @@ Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `dat
 | Event studies | Shift temporel avant/après, Mann-Whitney |
 | Polarisation | Distance cosinus, log-odds (Monroe et al. 2008) |
 
-**Limites :** pas de validation humaine de l'annotation LLM ; corpus déséquilibré par bloc ; aucune inférence causale stricte. Voir [METHODOLOGIE.md](docs/METHODOLOGIE.md).
+**Limites :** pas de validation humaine de l'annotation LLM ; corpus déséquilibré par bloc ; aucune inférence causale stricte.
+
+**Documentation détaillée :** [METHODOLOGIE.md](docs/METHODOLOGIE.md) (pipeline pas à pas), [CODEBOOK.md](docs/CODEBOOK.md), [DONNEES.md](docs/DONNEES.md). Renommage du dossier local : [RENOMAGE.md](docs/RENOMAGE.md).
 
 ---
 
@@ -67,7 +69,7 @@ Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `dat
 ├── data/validation/   # sample.csv, annotations.csv (validation humaine)
 ├── figures/
 ├── reports/     # brief_analytique.md
-└── docs/
+└── docs/        # METHODOLOGIE.md (pas à pas), CODEBOOK.md, DONNEES.md, RENOMAGE.md
 ```
 
 ---
