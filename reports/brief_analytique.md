@@ -13,7 +13,7 @@
 **Corpus** : 10 774 textes (tweets + interventions AN) de 459 députés. Fenêtre : oct. 2023 – janv. 2026.
 
 **Méthode** :
-- Annotation du positionnement (-2 pro-Israël à +2 pro-Palestine) par LLM ; accord v3↔v4 : Spearman 0,86.
+- Annotation du positionnement (-2 pro-Israël à +2 pro-Palestine) ; accord v3↔v4 : Spearman 0,86.
 - Segmentation en 7 batches temporels (CHOC → NEW_OFFENSIVE).
 - Analyses : stance mensuel par bloc, shift temporel avant/après événements, distance cosinus entre blocs, fighting words (log-odds).
 
@@ -53,7 +53,7 @@ Distance cosinus maximale Gauche radicale – Droite en décembre 2024. Les « f
 
 ## 7. Limites et perspectives
 
-- Pas de validation humaine de l’annotation LLM.
+- Pas de validation humaine de l’annotation.
 - Corpus déséquilibré par bloc (Gauche radicale majoritaire).
 - Aucune inférence causale stricte (shift temporel descriptif).
 - Pistes : validation humaine, granularité parti (LR/RN séparés).
@@ -62,4 +62,7 @@ Distance cosinus maximale Gauche radicale – Droite en décembre 2024. Les « f
 
 ## 8. Annexe méthodo
 
-Voir [METHODOLOGIE.md](docs/METHODOLOGIE.md) et [DONNEES.md](docs/DONNEES.md).
+- **Rapport complet** (toutes les métriques) : [data/results/RAPPORT_RESULTATS.txt](../data/results/RAPPORT_RESULTATS.txt)
+- Documentation : [METHODOLOGIE.md](../docs/METHODOLOGIE.md), [DONNEES.md](../docs/DONNEES.md)
+
+*Les figures ci-dessus sont générées par `python scripts/run_analysis.py` (dossier `figures/`).*

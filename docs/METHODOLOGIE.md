@@ -9,9 +9,9 @@ Documentation pas à pas du pipeline analytique complet (octobre 2023 – janvie
 | Phase | Contenu | Fichiers / Commandes |
 |-------|---------|----------------------|
 | **1** | Données brutes | Tweets + interventions AN (projet source) |
-| **2** | Annotation LLM | `stance_v3`, `stance_v4`, cadres, batches |
-| **3** | Préparation | `prepare_data.py`, `build_extra_analyses.py` |
-| **4** | Analyses | Notebooks 01 → 09 |
+| **2** | Annotation | `stance_v3`, `stance_v4`, cadres, batches |
+| **3** | Préparation | `prepare_data.py` |
+| **4** | Analyses | `scripts/run_analysis.py` ou notebooks 01 → 10 |
 | **5** | Validation | `validation_humaine.py`, `validation_metrics.py` |
 
 ---
@@ -20,7 +20,7 @@ Documentation pas à pas du pipeline analytique complet (octobre 2023 – janvie
 
 ### 2.1 Corpus principal (v3)
 
-- **Tweets** : `tweets_v3_full_clean.parquet` — textes, date, groupe politique, annotation LLM
+- **Tweets** : `tweets_v3_full_clean.parquet` — textes, date, groupe politique, annotation de stance
 - **Interventions AN** : `interventions_v3_full_clean.parquet` — idem
 - **Unification** : fusion en un seul `corpus_v3.parquet` avec colonnes harmonisées (`author`, `bloc`, `date`, `text`, `stance_v3`, etc.)
 - **Effectif** : 10 774 textes, 459 députés
@@ -34,9 +34,9 @@ Documentation pas à pas du pipeline analytique complet (octobre 2023 – janvie
 
 ---
 
-## 3. Annotation LLM
+## 3. Annotation de stance
 
-### 3.1 Échelle de stance
+### 3.1 Échelle
 
 | Score | Interprétation |
 |-------|----------------|
@@ -95,14 +95,11 @@ Justification du regroupement Droite : insuffisance de données pour séparer LR
 - **Source** : variable `GAZA_SOURCE_PROJECT` ou `fr_assemblee_discourse_analysis` (sibling)
 - **Sortie** : `data/processed/` (corpus), `data/results/` (CSV si disponibles)
 
-### 6.2 Étape 2 : `python src/build_extra_analyses.py`
+### 6.2 Étape 2 : `python scripts/run_analysis.py`
 
-- **Prérequis** : `corpus_v3.parquet` présent
-- **Génère** :
-  1. `fighting_words_temporal.csv` : log-odds (Monroe et al. 2008) Gauche radicale vs Droite par mois
-  2. `lag_adoption.csv` : premier mois où chaque bloc dépasse 10 % de textes contenant « cessez-le-feu »
-  3. `movers_caches.csv` : députés avec `stance_range > 0` (trajectoires non plates)
-  4. `pca_coordonnees.csv` : PCA TF-IDF sur textes agrégés par auteur
+- **Prérequis** : `corpus_v3.parquet` et `corpus_v4.parquet` dans `data/processed/`
+- **Génère** : tous les CSV dans `data/results/`, toutes les figures dans `figures/`, rapport dans `data/results/RAPPORT_RESULTATS.txt`
+- **Équivalent** : exécution consolidée des notebooks 01 → 10
 
 ---
 
@@ -128,7 +125,7 @@ Justification du regroupement Droite : insuffisance de données pour séparer LR
 | Matrice confusion | v3 vs v4 (textes communs) | fig06 |
 | Calibration | stance moyen par bloc | fig07 |
 | Panel B4 vs complet | comparaison des moyennes | fig08 |
-| Lexical vs LLM | corrélation proxy lexical – stance | fig09 |
+| Lexical vs stance | corrélation proxy lexical – stance | fig09 |
 
 **Validation** : Spearman, Pearson, accord de signe.
 
@@ -227,7 +224,7 @@ python src/validation_humaine.py
 ```
 
 - 150 textes stratifiés par bloc (40 par bloc si possible)
-- Export : `data/validation/sample_150.csv` (colonnes : id, text, bloc — sans stance LLM)
+- Export : `data/validation/sample_150.csv` (colonnes : id, text, bloc — sans stance)
 
 ### 9.2 Annotation manuelle
 
@@ -240,8 +237,8 @@ python src/validation_humaine.py
 python src/validation_metrics.py
 ```
 
-- Cohen’s Kappa (accord inter-annotateurs et/ou humain–LLM)
-- Spearman ρ (humain vs LLM)
+- Cohen’s Kappa (accord inter-annotateurs)
+- Spearman ρ (humain vs annotation de référence)
 
 ---
 
@@ -249,7 +246,7 @@ python src/validation_metrics.py
 
 | Limite | Description |
 |--------|-------------|
-| Validation LLM | Pas de validation humaine systématique ; scores = proxy |
+| Validation | Pas de validation humaine systématique ; scores = proxy |
 | Déséquilibre | Gauche radicale ≈ 63 % du corpus |
 | Panel B4 | Biais de sélection (députés les plus actifs) |
 | Causalité | Aucune inférence causale stricte ; analyses associatives |

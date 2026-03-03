@@ -13,13 +13,13 @@ Répertoire : `data/results/`.
 | mann_kendall_bloc | NB03 | NB03 fig18 |
 | cosine_distance_mensuelle | NB04 | fig19, fig21 |
 | fighting_words | NB04 | fig22 |
-| fighting_words_temporal | build_extra_analyses | NB04 fig23 |
+| fighting_words_temporal | run_analysis / NB04 | NB04 fig23 |
 | ceasefire_lexical | NB04 | fig24, fig25 |
-| lag_adoption | build_extra_analyses | NB04 fig25 |
+| lag_adoption | run_analysis / NB04 | NB04 fig25 |
 | polarisation_index | NB04 | fig26 |
 | variables_batch_specifiques | NB05 | fig28 |
 | convergence_batch_bloc | NB06 | fig33 |
-| movers_caches | build_extra_analyses | NB06 fig35 |
-| pca_coordonnees | build_extra_analyses | NB06 fig38 |
+| movers_caches | run_analysis / NB06 | NB06 fig35 |
+| pca_coordonnees | run_analysis / NB06 | NB06 fig38 |
 
 Corpus : `data/processed/corpus_v3.parquet`, `corpus_v4.parquet` (non versionnés).

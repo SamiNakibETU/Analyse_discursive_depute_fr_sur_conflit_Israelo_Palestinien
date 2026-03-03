@@ -5,7 +5,7 @@
 [![Textes: 10 774](https://img.shields.io/badge/corpus-10%20774%20textes-green)]()
 [![Députés: 459](https://img.shields.io/badge/députés-459-orange)]()
 
-Analyse computationnelle du discours de **459 députés** sur **10 774 textes** (tweets et interventions à l'Assemblée nationale) entre octobre 2023 et janvier 2026. Annotation par LLM, analyse de cadrage, méthodes de science politique computationnelle.
+Analyse computationnelle du discours de **459 députés** sur **10 774 textes** (tweets et interventions à l'Assemblée nationale) entre octobre 2023 et janvier 2026. Annotation de stance, analyse de cadrage, méthodes de science politique computationnelle.
 
 ---
 
@@ -37,11 +37,12 @@ Voir [Catalogue des figures](docs/CATALOGUE_FIGURES.md) pour la liste complète 
 python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt
 python src/prepare_data.py
-python src/build_extra_analyses.py
-jupyter notebook notebooks/   # 01→09
+python scripts/run_analysis.py
 ```
 
 Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `data/processed/` — ou copié via `prepare_data.py` si le projet source est voisin. Variable d'environnement : `GAZA_SOURCE_PROJECT`.
+
+Le script produit CSV dans `data/results/`, figures dans `figures/`, rapport dans `data/results/RAPPORT_RESULTATS.txt`.
 
 ---
 
@@ -49,27 +50,26 @@ Le corpus (`corpus_v3.parquet`, `corpus_v4.parquet`) doit être placé dans `dat
 
 | Étape | Méthode |
 |-------|---------|
-| Annotation stance | LLM (-2 à +2), accord v3↔v4 : Spearman 0,86 |
+| Annotation stance | Échelle -2 à +2, accord v3↔v4 : Spearman 0,86 |
 | Segmentation | 7 batches (CHOC → NEW_OFFENSIVE), cf. [METHODOLOGIE.md](docs/METHODOLOGIE.md) |
 | Event studies | Shift temporel avant/après, Mann-Whitney |
 | Polarisation | Distance cosinus, log-odds (Monroe et al. 2008) |
 
-**Limites :** pas de validation humaine de l'annotation LLM ; corpus déséquilibré par bloc ; aucune inférence causale stricte.
+**Limites :** pas de validation humaine systématique ; corpus déséquilibré par bloc ; aucune inférence causale stricte.
 
-**Documentation détaillée :** [METHODOLOGIE.md](docs/METHODOLOGIE.md) (pipeline pas à pas), [CODEBOOK.md](docs/CODEBOOK.md), [DONNEES.md](docs/DONNEES.md). Renommage du dossier local : [RENOMAGE.md](docs/RENOMAGE.md).
+**Documentation :** [METHODOLOGIE.md](docs/METHODOLOGIE.md), [CODEBOOK.md](docs/CODEBOOK.md), [DONNEES.md](docs/DONNEES.md), [METHODES_COMPLEMENTAIRES.md](docs/METHODES_COMPLEMENTAIRES.md).
 
 ---
 
 ## Structure
 
 ```
-├── notebooks/   # 01–09 : corpus → validation → dynamiques → polarisation → événements → convergence → émotions → analyses_fond → engagement
-├── src/         # config, prepare_data, build_extra_analyses, validation_humaine, validation_metrics
+├── scripts/    # run_analysis.py (script unique)
+├── notebooks/  # 01–10 : reproductibles
+├── src/        # config, prepare_data, vad_lexicon, mfd_lexicon, registre_discursif, validation_humaine, validation_metrics
 ├── data/results/
-├── data/validation/   # sample.csv, annotations.csv (validation humaine)
 ├── figures/
-├── reports/     # brief_analytique.md
-└── docs/        # METHODOLOGIE.md (pas à pas), CODEBOOK.md, DONNEES.md, RENOMAGE.md
+└── docs/       # METHODOLOGIE.md, CODEBOOK.md, DONNEES.md, METHODES_COMPLEMENTAIRES.md
 ```
 
 ---

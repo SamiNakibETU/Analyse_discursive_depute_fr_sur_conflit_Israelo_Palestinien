@@ -19,7 +19,7 @@ Chaque figure est un lien cliquable vers le fichier PNG.
 | 06 | [fig06_matrice_confusion_v3_v4](../figures/fig06_matrice_confusion_v3_v4.png) | Matrice de confusion v3 vs v4 |
 | 07 | [fig07_calibration_par_bloc](../figures/fig07_calibration_par_bloc.png) | Calibration par bloc |
 | 08 | [fig08_panel_b4_vs_complet](../figures/fig08_panel_b4_vs_complet.png) | Panel B4 vs corpus complet |
-| 09 | [fig09_lexical_vs_llm](../figures/fig09_lexical_vs_llm.png) | Lexical vs LLM |
+| 09 | [fig09_lexical_vs_annotation](../figures/fig09_lexical_vs_annotation.png) | Lexical vs annotation |
 
 ## NB03 — Dynamiques temporelles (fig10–18)
 
@@ -89,16 +89,33 @@ Chaque figure est un lien cliquable vers le fichier PNG.
 | 48 | [fig48_sensibilite_corpus](../figures/fig48_sensibilite_corpus.png) | Sensibilité au déséquilibre (complet vs sous-échantillonné) |
 | 49 | [fig49_panel_b4_vs_complet_ribbon](../figures/fig49_panel_b4_vs_complet_ribbon.png) | Stance ribbon : Panel B4 vs corpus complet |
 
-## NB09 — Engagement Twitter (fig50+)
-
-| # | Fichier | Description |
-|---|---------|--------------|
-| 50 | [fig50_engagement_par_bloc](../figures/fig50_engagement_par_bloc.png) | Engagement Twitter médian par bloc |
-| 51 | [fig51_engagement_vs_radicalite](../figures/fig51_engagement_vs_radicalite.png) | Engagement vs \|stance\| (radicalité paie ?) |
-
 ## NB09 — Engagement Twitter (fig50–51)
 
 | # | Fichier | Description |
 |---|---------|--------------|
 | 50 | [fig50_engagement_par_bloc](../figures/fig50_engagement_par_bloc.png) | Engagement médian par bloc |
-| 51 | [fig51_engagement_vs_radicalite](../figures/fig51_engagement_vs_radicalite.png) | Engagement vs |stance| (radicalité) |
+| 51 | [fig51_engagement_vs_radicalite](../figures/fig51_engagement_vs_radicalite.png) | Engagement vs \|stance\| (radicalité) |
+
+## Analyses complémentaires — NB01, NB03, NB04 (fig52–56)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 52 | [fig52_entropic_polarization_temporal](../figures/fig52_entropic_polarization_temporal.png) | Polarisation entropique Ec (Bao & Gill) : globale + par bloc |
+| 53 | [fig53_wasserstein_convergence](../figures/fig53_wasserstein_convergence.png) | Distance de Wasserstein : inter-blocs + drift intra-bloc |
+| 54 | [fig54_effective_dimensionality](../figures/fig54_effective_dimensionality.png) | Effective Dimensionality temporelle |
+| 55 | [fig55_activity_bias](../figures/fig55_activity_bias.png) | Biais d'activité : tweets par député par bloc |
+| 56 | [fig56_visibility_paradox](../figures/fig56_visibility_paradox.png) | Paradoxe visibilité–polarisation : \|stance\| vs visibilité |
+
+## Polarisation affective, MFT, registre discursif, Twitter–AN — NB03, NB04, NB10 (fig57–66)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 57 | [fig57_affective_vad_temporal](../figures/fig57_affective_vad_temporal.png) | Polarisation affective VAD : V/A/D par bloc + gap temporel |
+| 58 | [fig58_vad_valence_arousal](../figures/fig58_vad_valence_arousal.png) | Espace Valence–Arousal par bloc-mois |
+| 59 | [fig59_moral_foundations_by_bloc](../figures/fig59_moral_foundations_by_bloc.png) | Fondements moraux (MFT) par bloc |
+| 60 | [fig60_mfd_centre_care_authority](../figures/fig60_mfd_centre_care_authority.png) | Évolution Care vs Authority (Centre) |
+| 61 | [fig61_mfd_care_vs_stance](../figures/fig61_mfd_care_vs_stance.png) | Care vs stance par bloc-mois |
+| 62 | [fig62_deliberative_conflictual_temporal](../figures/fig62_deliberative_conflictual_temporal.png) | % discours conflictuel par bloc |
+| 63 | [fig63_stance_vs_conflictual](../figures/fig63_stance_vs_conflictual.png) | Stance vs intensité conflictuelle |
+| 64 | [fig64_delta_stance_by_bloc](../figures/fig64_delta_stance_by_bloc.png) | Δ stance (Twitter − AN) par bloc (violin) |
+| 65 | [fig65_delta_stance_temporal](../figures/fig65_delta_stance_temporal.png) | Δ stance temporel par bloc |

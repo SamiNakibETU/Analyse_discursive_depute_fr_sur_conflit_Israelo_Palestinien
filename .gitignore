@@ -10,4 +10,4 @@ Thumbs.db
 .idea/
 .cursor/
 *.swp
-data/validation/validation_humaine_llm_ref.csv
+data/validation/*_ref.csv

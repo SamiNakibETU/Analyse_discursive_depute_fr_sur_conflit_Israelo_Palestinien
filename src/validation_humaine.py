@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Échantillonnage pour validation humaine de l'annotation LLM.
+Échantillonnage pour validation humaine.
 150 textes stratifiés par bloc (max 40 par bloc), mélangés v3/v4.
-Exporter sans colonne stance LLM — l'annotateur juge en aveugle.
+Export sans la colonne stance — l'annotateur juge en aveugle.
 
 Usage: python src/validation_humaine.py
 Sortie: data/validation/sample_150.csv

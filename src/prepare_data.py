@@ -36,6 +36,18 @@ RESULTS_TO_COPY = [
     "stance_panel_vs_complet",
     "mann_kendall_bloc",
     "polarisation_index",
+    "entropic_polarization_temporal",
+    "wasserstein_inter_blocs",
+    "wasserstein_drift",
+    "effective_dimensionality_temporal",
+    "activity_bias_by_bloc",
+    "visibility_paradox_quintiles",
+    "stance_twitter_vs_an_by_deputy",
+    "regression_delta_stance",
+    "deliberative_intensity_by_bloc_month",
+    "affective_vad_by_bloc_month",
+    "affective_polarization_temporal",
+    "moral_foundations_by_bloc_month",
     "frames_par_bloc",
     "anova_type2",
     "anova_interaction",
@@ -77,7 +89,7 @@ def main():
         if copied:
             print(f"Copié {copied} CSV depuis le projet source.")
     else:
-        print("Projet source absent — les CSV seront générés par les notebooks et build_extra_analyses.")
+        print("Projet source absent — les CSV seront générés par run_analysis.py.")
 
 
 if __name__ == "__main__":
