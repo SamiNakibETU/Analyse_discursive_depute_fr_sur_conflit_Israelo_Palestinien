@@ -27,7 +27,7 @@ Analyse computationnelle du discours de **459 députés** sur **10 774 textes** 
 | Polarisation lexicale Gauche radicale / Droite | [fig18](figures/fig18_distance_cosinus_gr_droite.png) |
 | Variables batch-spécifiques (condemns_hamas, genocide_framing...) | [fig28](figures/fig28_variables_batch.png) |
 
-Voir [Catalogue des figures](docs/CATALOGUE_FIGURES.md) pour la liste complète (fig01–fig51).
+Voir [Catalogue des figures](docs/CATALOGUE_FIGURES.md) pour la liste complète (fig01–fig50).
 
 ---
 

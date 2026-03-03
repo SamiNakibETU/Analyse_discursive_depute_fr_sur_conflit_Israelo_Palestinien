@@ -1,12 +1,16 @@
-# Metadata GitHub — à configurer dans les paramètres du dépôt
+# Métadonnées GitHub
 
-## Description (Settings → General → Description)
+## Description du dépôt
+
+À ajouter dans **Settings → General → Description** :
 
 ```
 NLP · stance detection · LLM annotation · event study · French parliament · computational political science
 ```
 
-## Topics (About → Topics)
+## Topics
+
+Dans **About** du dépôt, ajouter les topics :
 
 - `nlp`
 - `political-science`
@@ -15,4 +19,4 @@ NLP · stance detection · LLM annotation · event study · French parliament ·
 - `france`
 - `computational-social-science`
 - `parliament`
-- `discourse-analysis`
+- `gaza`
