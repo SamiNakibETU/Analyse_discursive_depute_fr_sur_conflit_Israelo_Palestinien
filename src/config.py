@@ -23,7 +23,7 @@ SOURCE_PROJECT = Path(_SOURCE_ENV) if _SOURCE_ENV else ROOT.parent / "fr_assembl
 SOURCE_PROC = SOURCE_PROJECT / "data" / "processed"
 SOURCE_RESULTS = SOURCE_PROJECT / "data" / "results"
 
-# Blocs politiques et couleurs
+# Blocs politiques et couleurs — granularité 4 blocs (analyses principales)
 BLOC_COLORS = {
     "Gauche radicale": "#c0392b",
     "Gauche moderee": "#e67e22",
@@ -31,6 +31,19 @@ BLOC_COLORS = {
     "Droite": "#2c3e50",
 }
 BLOC_ORDER = ["Gauche radicale", "Gauche moderee", "Centre / Majorite", "Droite"]
+
+# Granularité fine — 5 blocs (LR et RN séparés pour les analyses de robustesse)
+# Voir docs/AMELIORATIONS.md § B1
+BLOC_COLORS_FINE = {
+    "Gauche radicale": "#c0392b",
+    "Gauche moderee": "#e67e22",
+    "Centre / Majorite": "#2980b9",
+    "LR": "#7f8c8d",
+    "RN / extreme droite": "#1a1a2e",
+}
+BLOC_ORDER_FINE = [
+    "Gauche radicale", "Gauche moderee", "Centre / Majorite", "LR", "RN / extreme droite"
+]
 
 # Dates d'annonce pour les lignes verticales sur les figures
 EVENTS = {
