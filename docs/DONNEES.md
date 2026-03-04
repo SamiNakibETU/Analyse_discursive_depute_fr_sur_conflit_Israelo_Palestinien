@@ -2,6 +2,8 @@
 
 Répertoire : `data/results/`.
 
+**Export Markdown exhaustif** : `run_analysis.py` produit `reports/RESULTATS_NUMERIQUES.md` regroupant tous les chiffres et séries temporelles des notebooks (synthèse métriques + tables CSV en format Markdown).
+
 | CSV | Source | Utilisé par |
 |-----|--------|-------------|
 | volume_mensuel | NB01 | NB03, fig01 |

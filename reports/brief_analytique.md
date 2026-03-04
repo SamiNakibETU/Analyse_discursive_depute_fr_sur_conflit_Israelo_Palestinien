@@ -63,6 +63,33 @@ Distance cosinus maximale Gauche radicale – Droite en décembre 2024. Les « f
 ## 8. Annexe méthodo
 
 - **Rapport complet** (toutes les métriques) : [data/results/RAPPORT_RESULTATS.txt](../data/results/RAPPORT_RESULTATS.txt)
+- **Résultats numériques (MD)** : [RESULTATS_NUMERIQUES.md](RESULTATS_NUMERIQUES.md) — export exhaustif chiffres et séries temporelles
 - Documentation : [METHODOLOGIE.md](../docs/METHODOLOGIE.md), [DONNEES.md](../docs/DONNEES.md)
 
 *Les figures ci-dessus sont générées par `python scripts/run_analysis.py` (dossier `figures/`).*
+
+---
+
+## 9. Brief de finalisation — Récapitulatif des implémentations
+
+### Phase 1 — Fondations (A1, A2, A3)
+- **A1 — Validation humaine** : `validation_humaine.py` (échantillonnage triple stratification bloc×arène×batch), `validation_metrics.py` (Cohen Kappa, Spearman, biais par bloc, matrice confusion), notebook 11, fig51–52
+- **A2 — LR vs RN** : `config.py` (`BLOC_ORDER_5`, `BLOC_COLORS_5`), notebook 12, analyses stance/effectifs LR–RN
+- **A3 — Tendances pré-événement** : fenêtre 60 jours, Mann-Kendall pré-événement, fig53, METHODOLOGIE §8
+
+### Phase 2 — Robustesse (A4, A5)
+- **A4 — Corpus équilibré** : fig66–68 (stance ribbon, diff-in-diff, cosinus) corpus complet vs équilibré, tableau de robustesse
+- **A5 — CODEBOOK** : références théoriques par frame (HUM, SEC, LEG, DIP, MOR, HIS, ECO, POL)
+
+### Phase 3 — Enrichissements (B1, B4, B5)
+- **B1 — NER cibles discursives** : `ner_analysis.py`, notebook 13, fig69–71 (entités, humanization_score)
+- **B4 — Twitter vs AN** : extension NB10, fig72, régression delta_stance, fighting words différentiels
+- **B5 — Trajectoires movers** : critères stance_initial/final, fig73–74 (spaghetti, distribution delta)
+
+### Phase 4 — Raffinements (C1, C2, C3)
+- **C1 — MFD étendu** : lexique 40+ mots/fondement (care, fairness, loyalty, authority, sanctity), `compute_mfd_coverage()` (~99 % couverture)
+- **C2 — Registre discursif** : `CONTEXTES_AMBIGU` (« responsable » contextuel), Spearman registre vs stance, fig75 bloc×batch
+- **C3 — Polarisation entropique** : fig76 Ec vs distance cosinus, METHODES_COMPLEMENTAIRES (interprétation ED)
+
+### Export et reproductibilité
+- **RESULTATS_NUMERIQUES.md** : un seul MD (synthèse métriques + tables CSV) produit par `run_analysis.py`, équivalent exhaustif des notebooks

@@ -106,6 +106,34 @@ Chaque figure est un lien cliquable vers le fichier PNG.
 | 55 | [fig55_activity_bias](../figures/fig55_activity_bias.png) | Biais d'activité : tweets par député par bloc |
 | 56 | [fig56_visibility_paradox](../figures/fig56_visibility_paradox.png) | Paradoxe visibilité–polarisation : \|stance\| vs visibilité |
 
+## A3 — Tendances pré-événement (fig53)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 53 | [fig53_tendances_pre_event](../figures/fig53_tendances_pre_event.png) | Tendances 60j avant + 30j après (Cessez-le-feu, Mandats CPI) par bloc |
+
+## A4 — Robustesse corpus équilibré (fig66–68)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 66 | [fig66_robustesse_stance_ribbon](../figures/fig66_robustesse_stance_ribbon.png) | Stance ribbon : corpus complet vs corpus équilibré (n_min/bloc) |
+| 67 | [fig67_robustesse_diff_in_diff](../figures/fig67_robustesse_diff_in_diff.png) | Diff-in-diff : corpus complet vs corpus équilibré |
+| 68 | [fig68_robustesse_cosinus](../figures/fig68_robustesse_cosinus.png) | Distance cosinus GR–Droite : corpus complet vs corpus équilibré |
+
+## NB12 — LR vs RN (séparation Droite)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| — | [fig_lr_rn_stance_ribbon](../figures/fig_lr_rn_stance_ribbon.png) | Stance mensuel par bloc (5 blocs, LR/RN séparés) |
+| — | [fig_lr_rn_fighting_words](../figures/fig_lr_rn_fighting_words.png) | Fighting words log-odds (LR vs RN) |
+
+## NB11 — Validation humaine (fig51–52 validation)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 51 | [fig51_validation_matrice_confusion](../figures/fig51_validation_matrice_confusion.png) | Matrice de confusion humain vs LLM (5×5) |
+| 52 | [fig52_validation_biais_bloc](../figures/fig52_validation_biais_bloc.png) | Biais systématique LLM par bloc (mean(LLM − humain)) |
+
 ## Polarisation affective, MFT, registre discursif, Twitter–AN — NB03, NB04, NB10 (fig57–66)
 
 | # | Fichier | Description |
@@ -119,3 +147,31 @@ Chaque figure est un lien cliquable vers le fichier PNG.
 | 63 | [fig63_stance_vs_conflictual](../figures/fig63_stance_vs_conflictual.png) | Stance vs intensité conflictuelle |
 | 64 | [fig64_delta_stance_by_bloc](../figures/fig64_delta_stance_by_bloc.png) | Δ stance (Twitter − AN) par bloc (violin) |
 | 65 | [fig65_delta_stance_temporal](../figures/fig65_delta_stance_temporal.png) | Δ stance temporel par bloc |
+
+## B1 — NER cibles discursives (fig69–71)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 69 | [fig69_ner_entites_par_bloc](../figures/fig69_ner_entites_par_bloc.png) | Top-20 entités PER+ORG+GPE par bloc (4 sous-figures) |
+| 70 | [fig70_ner_humanization_batch](../figures/fig70_ner_humanization_batch.png) | Score humanisation par bloc × batch (grouped barplot) |
+| 71 | [fig71_ner_humanization_temporal](../figures/fig71_ner_humanization_temporal.png) | Évolution temporelle humanization_score par bloc (IC 95%) |
+
+## B4 — Extension Twitter vs AN (fig72)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 72 | [fig72_twitter_vs_an_scatter](../figures/fig72_twitter_vs_an_scatter.png) | Scatter stance_twitter vs stance_AN par député, droite d'identité |
+
+## B5 — Trajectoires movers (fig73–74)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 73 | [fig73_movers_spaghetti](../figures/fig73_movers_spaghetti.png) | Spaghetti plot des top-10 movers (trajectoires mensuelles) |
+| 74 | [fig74_movers_delta_distribution](../figures/fig74_movers_delta_distribution.png) | Distribution du delta_individuel (stance_final − stance_initial) |
+
+## Phase 4 — C2, C3 (registre discursif, polarisation entropique)
+
+| # | Fichier | Description |
+|---|---------|--------------|
+| 75 | [fig75_registre_conflictuel_bloc_batch](../figures/fig75_registre_conflictuel_bloc_batch.png) | Registre conflictuel moyen par bloc × batch (convergence CEASEFIRE_BREACH) |
+| 76 | [fig76_entropic_polarization_vs_cosine](../figures/fig76_entropic_polarization_vs_cosine.png) | Polarisation entropique Ec vs distance cosinus mensuelle, événements pivot |

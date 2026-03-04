@@ -32,6 +32,33 @@ BLOC_COLORS = {
 }
 BLOC_ORDER = ["Gauche radicale", "Gauche moderee", "Centre / Majorite", "Droite"]
 
+# AJOUT TÂCHE A2 — Séparation LR / RN
+GROUP_TO_BLOC_5 = {
+    "LR": "Droite LR",
+    "RN": "Droite RN",
+    "UDR": "Droite RN",
+    "NI": None,
+}
+BLOC_ORDER_5 = ["Gauche radicale", "Gauche moderee", "Centre / Majorite", "Droite LR", "Droite RN"]
+BLOC_COLORS_5 = {
+    "Gauche radicale": "#c0392b",
+    "Gauche moderee": "#e67e22",
+    "Centre / Majorite": "#2980b9",
+    "Droite LR": "#3498db",
+    "Droite RN": "#2c3e50",
+}
+
+
+def add_bloc_5(df, group_col="group", bloc_col="bloc"):
+    """Ajoute la colonne bloc_5 (LR vs RN séparés). NI exclu. Les autres blocs conservent leur nom."""
+    out = df.copy()
+    droit_groups = out[out[bloc_col] == "Droite"][group_col].map(GROUP_TO_BLOC_5)
+    out["bloc_5"] = out[bloc_col]
+    out.loc[droit_groups.index, "bloc_5"] = droit_groups
+    out = out[out["bloc_5"].notna()]
+    return out
+
+
 # Dates d'annonce pour les lignes verticales sur les figures
 EVENTS = {
     "2023-10-07": "7 oct.",
@@ -65,6 +92,18 @@ EVENT_STUDY_DATES = {
     "Cessez-le-feu": "2025-01-19",
     "Rupture CLF": "2025-03-15",
 }
+
+
+def month_to_batch(m):
+    """Associe un mois (YYYY-MM) à un batch temporel."""
+    import pandas as pd
+    if pd.isna(m) or m is None:
+        return "OTHER"
+    d = pd.Timestamp(str(m) + "-15")
+    for name, r in BATCHES.items():
+        if pd.Timestamp(r["start"]) <= d <= pd.Timestamp(r["end"]):
+            return name
+    return "OTHER"
 
 
 def add_events(ax, events=None, ymax_frac=0.97, fontsize=6.5):

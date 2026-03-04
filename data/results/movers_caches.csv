@@ -1,292 +1,148 @@
-author,bloc,stance_mean,stance_range
-Adrien Quatennens,Gauche radicale,1.6842105263157894,3
-Agnès Firmin Le Bodo,Centre / Majorite,-1.1428571428571428,2
-Alexandre Sabatou,Droite,-1.5,1
-Alexis Jolly,Droite,-1.8,1
-Alma Dufour,Gauche radicale,1.6787003610108304,4
-Amélia Lakrafi,Centre / Majorite,0.3225806451612903,3
-Anne Sicard,Droite,-1.6666666666666667,1
-Anne-Cécile Violland,Centre / Majorite,-1.3333333333333333,1
-Antoine Léaument,Gauche radicale,1.4307692307692308,3
-Antoine Villedieu,Droite,-1.5384615384615385,1
-Arthur Delaporte,Gauche moderee,0.5,3
-Aurore Bergé,Centre / Majorite,-0.9833333333333333,3
-Aurélien Saintoul,Gauche radicale,1.4615384615384615,4
-Aurélien Taché,Gauche radicale,1.616,4
-Ayda Hadizadeh,Gauche moderee,0.2222222222222222,4
-Aymeric Caron,Gauche radicale,1.608805031446541,4
-Bastien Lachaud,Gauche radicale,1.6122448979591837,3
-Belkhir Belhaddad,Centre / Majorite,0.6,2
-Benjamin Haddad,Centre / Majorite,-0.9459459459459459,2
-Boris Vallaud,Gauche moderee,0.7428571428571429,3
-Brigitte Klinkert,Centre / Majorite,-0.95,3
-Bruno Bilde,Droite,-1.6428571428571428,2
-Bruno Fuchs,Centre / Majorite,0.3333333333333333,2
-Bruno Millienne,Centre / Majorite,-1.125,2
-Bryan Masson,Droite,-1.2857142857142858,1
-Carlos Martens Bilongo,Gauche radicale,1.2916666666666667,4
-Caroline Colombier,Droite,-1.8571428571428572,1
-Caroline Parmentier,Droite,-1.25,1
-Caroline Yadan,Centre / Majorite,-1.2352941176470589,4
-Catherine Couturier,Gauche radicale,1.4444444444444444,2
-Charles Sitzenstuhl,Centre / Majorite,-0.3333333333333333,1
-Christophe Marion,Centre / Majorite,-0.8,1
-Claire Lejeune,Gauche radicale,1.8888888888888888,2
-Clémence Guetté,Gauche radicale,1.891304347826087,1
-Clémentine Autain,Gauche radicale,1.576470588235294,3
-Constance Le Grip,Centre / Majorite,-1.036697247706422,3
-Cyrielle Chatelain,Gauche moderee,0.9655172413793104,3
-Cécile Rilhac,Centre / Majorite,-0.25,2
-Céline Calvez,Centre / Majorite,-0.1111111111111111,2
-Damien Maudet,Gauche radicale,1.4615384615384615,3
-Daniel Labaronne,Centre / Majorite,-0.75,1
-Danielle Simonnet,Gauche moderee,1.1714285714285715,3
-Danièle Obono,Gauche radicale,1.7729257641921397,4
-David Guiraud,Gauche radicale,1.7598039215686274,3
-Dominique Potier,Gauche moderee,0.5,2
-Edwige Diaz,Droite,-1.44,4
-Elsa Faucillon,Gauche radicale,1.6951219512195121,3
-Emmanuel Fernandes,Gauche radicale,1.5,4
-Emmanuelle Ménard,Droite,-1.1764705882352942,3
-Ersilia Soudais,Gauche radicale,1.6111111111111112,4
-Erwan Balanant,Centre / Majorite,-0.25,3
-Eva Sas,Gauche moderee,0.8095238095238095,3
-Fabien Roussel,Gauche radicale,1.4743589743589745,3
-Florian Chauche,Gauche radicale,1.3157894736842106,3
-François Cormier-Bouligeon,Centre / Majorite,-1.2352941176470589,3
-François Piquemal,Gauche radicale,1.5176470588235293,3
-François Ruffin,Gauche moderee,1.5,3
-Frédéric Valletoux,Centre / Majorite,-0.75,3
-Gabriel Amard,Gauche radicale,1.5,3
-Gabriel Attal,Centre / Majorite,-0.7777777777777778,2
-Gabrielle Cathala,Gauche radicale,1.7603305785123966,4
-Gisèle Lelouis,Droite,-1.1111111111111112,1
-Grégoire de Fournas,Droite,-1.5,1
-Guillaume Bigot,Droite,-1.53125,2
-Gérald Darmanin,Centre / Majorite,-0.9,2
-Hadrien Clouet,Gauche radicale,1.2761194029850746,4
-Hendrik Davi,Gauche moderee,1.121212121212121,3
-Hervé de Lépinau,Droite,-1.7105263157894737,2
-Hélène Laporte,Droite,-1.3846153846153846,2
-Ian Boucard,Droite,0.2,2
-Isabelle Santiago,Gauche moderee,-0.5,2
-Jean-Charles Larsonneur,Droite,-0.15384615384615385,2
-Jean-Claude Raux,Gauche moderee,1.3333333333333333,3
-Jean-François Coulomme,Gauche radicale,1.4913793103448276,4
-Jean-Louis Thiériot,Droite,-1.3333333333333333,1
-Jean-Philippe Tanguy,Droite,-1.5,1
-Jean-René Cazeneuve,Centre / Majorite,-1.1538461538461537,2
-Julie Delpech,Centre / Majorite,-0.75,1
-Julie Laernoes,Gauche moderee,1.25,1
-Julien Odoul,Droite,-1.7054794520547945,2
-Jérôme Buisson,Droite,-1.4577464788732395,2
-Jérôme Guedj,Gauche moderee,0.022727272727272728,4
-Jérôme Legavre,Gauche radicale,1.6953405017921146,4
-Karine Lebon,Gauche radicale,0.6666666666666666,1
-Kévin Mauvieux,Droite,-1.5555555555555556,1
-Laure Miller,Centre / Majorite,-0.8333333333333334,1
-Laurent Alexandre,Gauche radicale,1.6,1
-Laurent Croizier,Centre / Majorite,-0.8666666666666667,3
-Laurent Jacobelli,Droite,-1.375,1
-Louis Boyard,Gauche radicale,1.8432835820895523,3
-Loïc Kervran,Centre / Majorite,-0.4,3
-Ludovic Mendes,Centre / Majorite,0.0,2
-M. Adrien Quatennens,Gauche radicale,-1.0,2
-M. Alexandre Portier,Droite,-1.5,2
-M. Alexandre Sabatou,Droite,0.5,1
-M. André Chassaigne,Gauche radicale,1.5454545454545454,2
-M. Antoine Léaument,Gauche radicale,0.3157894736842105,4
-M. Arnaud Le Gall,Gauche radicale,0.7692307692307693,4
-M. Aurélien Saintoul,Gauche radicale,0.8888888888888888,3
-M. Aurélien Taché (Écolo-NUPES),Gauche moderee,1.5,1
-M. Aymeric Caron,Gauche radicale,0.75,4
-M. Bastien Lachaud,Gauche radicale,1.0,2
-M. Benjamin Haddad,Centre / Majorite,0.125,2
-M. Benjamin Lucas,Centre / Majorite,0.0,2
-M. Benjamin Lucas-Lundy,Gauche moderee,1.4285714285714286,3
-M. Bernard Chaix,Droite,-1.25,2
-M. Boris Vallaud,Gauche moderee,0.8,2
-M. Bruno Retailleau,Droite,-1.6666666666666667,1
-M. Charles Sitzenstuhl,Centre / Majorite,0.6666666666666666,1
-M. David Guiraud,Gauche radicale,1.1538461538461537,3
-M. Davy Rimane,Gauche radicale,0.5,3
-M. Erwan Balanant,Centre / Majorite,0.0,2
-M. Fabien Roussel,Gauche radicale,1.0,2
-M. Fabien Roussel (GDR-NUPES),Gauche radicale,0.5,1
-M. Franck Riester,Centre / Majorite,-0.5,2
-M. Frank Giletti,Droite,-1.3333333333333333,2
-M. François Bayrou,Centre / Majorite,-0.30303030303030304,3
-M. François Cormier-Bouligeon,Centre / Majorite,-1.0,3
-M. François Cormier-Bouligeon (RE),Centre / Majorite,-1.5,1
-M. François Piquemal,Gauche radicale,0.0,4
-M. François Ruffin,Gauche radicale,1.5,1
-M. Frédéric Maillot,Gauche radicale,1.5,1
-M. Frédéric Mathieu,Gauche radicale,1.75,1
-M. Frédéric Petit,Centre / Majorite,0.6,1
-M. Frédéric Petit (Dem),Centre / Majorite,-0.3333333333333333,1
-M. Gabriel Attal,Centre / Majorite,-0.375,2
-M. Gérald Darmanin,Centre / Majorite,-0.9,2
-M. Hendrik Davi,Gauche moderee,1.0,2
-M. Jean-François Coulomme,Gauche radicale,1.375,2
-M. Jean-Louis Bourlanges,Centre / Majorite,0.047619047619047616,3
-M. Jean-Louis Thiériot,Droite,-0.25,2
-M. Jean-Marc Tellier,Gauche radicale,1.6666666666666667,1
-M. Jean-Noël Barrot,Centre / Majorite,-0.058823529411764705,3
-M. Jean-Paul Lecoq,Gauche radicale,1.3846153846153846,2
-M. Jean-Philippe Tanguy,Droite,-1.75,1
-M. Jean-Pierre Taite,Droite,-1.4,1
-M. Julien Odoul,Droite,-1.744186046511628,2
-M. Jérémie Patrier-Leitus,Centre / Majorite,-1.4,3
-M. Jérôme Guedj,Gauche moderee,0.25,2
-M. Jérôme Legavre,Gauche radicale,1.5,1
-M. Laurent Jacobelli,Droite,-1.6923076923076923,1
-M. Laurent Marcangeli,Centre / Majorite,-0.8571428571428571,3
-M. Laurent Saint-Martin,Gauche radicale,0.15384615384615385,2
-M. Louis Boyard,Gauche radicale,0.9130434782608695,4
-M. Manuel Bompard,Gauche radicale,1.6,1
-M. Marcellin Nadeau,Gauche radicale,1.0,2
-M. Mathieu Lefèvre,Centre / Majorite,-1.7272727272727273,2
-M. Meyer Habib,Droite,-1.5,1
-M. Michel Barnier,Droite,-0.18181818181818182,2
-M. Nicolas Forissier,Droite,-0.4,1
-M. Nicolas Sansu,Gauche radicale,1.8,1
-M. Nicolas Turquois,Centre / Majorite,1.1666666666666667,2
-M. Olivier Becht,Centre / Majorite,0.0,2
-M. Olivier Falorni,Centre / Majorite,-0.5,1
-M. Olivier Faure,Gauche moderee,0.0,4
-M. Olivier Fayssat,Droite,-1.2,2
-M. Peio Dufau (SOC),Gauche moderee,1.5,1
-M. Philippe Juvin,Droite,-1.5,1
-M. Pierre Cazeneuve,Centre / Majorite,-1.0,2
-M. Pierre Dharréville,Gauche radicale,1.3333333333333333,1
-M. Pierre Meurin,Droite,0.5,3
-M. Pierre-Henri Dumont,Droite,-1.5,1
-M. Pieyre-Alexandre Anglade,Centre / Majorite,-0.14285714285714285,2
-M. Raphaël Arnault,Gauche radicale,0.3333333333333333,4
-M. René Pilato,Gauche radicale,0.0,4
-M. Richard Ramos,Centre / Majorite,1.5,1
-M. Roger Chudeau,Droite,-1.8823529411764706,1
-M. Stéphane Peu,Gauche radicale,1.0,2
-M. Stéphane Séjourné,Centre / Majorite,0.0,3
-M. Sylvain Maillard,Centre / Majorite,-1.1,2
-M. Sébastien Chenu,Droite,-1.375,4
-M. Sébastien Delogu,Gauche radicale,1.1764705882352942,4
-M. Sébastien Lecornu,Droite,-0.6666666666666666,1
-M. Thani Mohamed Soilihi,Centre / Majorite,0.6666666666666666,1
-M. Thomas Portes,Gauche radicale,1.2941176470588236,4
-M. Ugo Bernalicis,Gauche radicale,-0.6666666666666666,3
-M. Vincent Jeanbrun,Droite,-0.8,4
-M. Éric Ciotti,Droite,-1.2857142857142858,2
-M. Éric Coquerel,Gauche radicale,1.375,2
-M. Éric Dupond-Moretti,Centre / Majorite,-1.1666666666666667,2
-M. Éric Michoux,Droite,-1.3333333333333333,1
-Manuel Bompard,Gauche radicale,1.4438202247191012,4
-Marie Lebec,Centre / Majorite,-0.4,4
-Marie Mesmeur,Gauche radicale,1.7846153846153847,4
-Marie Pochon,Gauche moderee,0.625,3
-Marietta Karamanli,Gauche moderee,-0.5,1
-Marine Hamelet,Droite,-1.25,1
-Marine Le Pen,Droite,-1.1333333333333333,3
-Mathilde Panot,Gauche radicale,1.737991266375546,4
-Matthias Renault,Droite,-1.5,3
-Matthias Tavel,Gauche radicale,1.4878048780487805,3
-Matthieu Marchio,Droite,-1.3,1
-Maud Gatel,Centre / Majorite,-0.6666666666666666,2
-Michel Barnier,Droite,-0.8666666666666667,1
-Michel Guiniot,Droite,-1.0,2
-Michèle Tabarot,Droite,-1.3814432989690721,2
-Mme Alma Dufour,Gauche radicale,1.8823529411764706,1
-Mme Amélie de Montchalin,Gauche moderee,0.625,1
-Mme Andrée Taurinya,Gauche radicale,1.7142857142857142,1
-Mme Aurore Bergé,Centre / Majorite,-1.2962962962962963,2
-Mme Ayda Hadizadeh,Gauche moderee,1.5,1
-Mme Caroline Yadan,Centre / Majorite,-1.490566037735849,3
-Mme Catherine Colonna,Gauche radicale,0.12903225806451613,3
-Mme Clémentine Autain,Gauche radicale,1.6666666666666667,1
-Mme Constance Le Grip,Centre / Majorite,-1.3571428571428572,2
-Mme Cyrielle Chatelain,Gauche moderee,1.1923076923076923,2
-Mme Céline Hervieu,Gauche moderee,0.5,1
-Mme Danielle Simonnet,Gauche radicale,1.5,1
-Mme Danièle Obono,Gauche radicale,1.4615384615384615,4
-Mme Dominique Faure,Centre / Majorite,-1.5,1
-Mme Elsa Faucillon,Gauche radicale,1.7777777777777777,1
-Mme Emmanuelle Ménard,Droite,-1.6363636363636365,1
-Mme Emmanuelle Ménard (NI),Droite,-1.5,1
-Mme Farida Amrani,Gauche radicale,1.1666666666666667,4
-Mme Fatiha Keloua Hachi,Gauche moderee,1.3333333333333333,1
-Mme Francesca Pasquini,Gauche moderee,1.5,1
-Mme Gabrielle Cathala,Gauche radicale,0.7894736842105263,4
-Mme Laurence Boone,Centre / Majorite,-0.11764705882352941,3
-Mme Léa Balage El Mariky,Gauche moderee,-0.3333333333333333,3
-Mme Marie Mesmeur,Gauche radicale,1.4545454545454546,2
-Mme Marine Le Pen,Droite,-0.8888888888888888,2
-Mme Mathilde Panot,Gauche radicale,1.411764705882353,4
-Mme Michèle Tabarot,Droite,-1.2,2
-Mme Monique Chemillier-Gendreau,Droite,1.0,2
-Mme Nadège Abomangoli,Gauche radicale,-0.5,4
-Mme Nathalie Oziol,Gauche radicale,1.411764705882353,3
-Mme Pascale Bordes,Droite,-1.2,1
-Mme Patricia Mirallès,Centre / Majorite,-0.5,1
-Mme Prisca Thevenot,Centre / Majorite,0.07692307692307693,3
-Mme Sabrina Sebaihi,Gauche moderee,1.8571428571428572,1
-Mme Sandra Regol,Gauche moderee,-0.4,3
-Mme Sandrine Rousseau,Gauche moderee,0.8333333333333334,4
-Mme Sophie Primas,Droite,0.47368421052631576,4
-Mme Sophie Taillé-Polian,Gauche moderee,0.5,3
-Mme Soumya Bourouaha,Gauche radicale,1.0,3
-Mme Sylvie Bonnet,Droite,-1.5,1
-Mme Ségolène Amiot,Gauche radicale,0.4,3
-Mme Violette Spillebout,Centre / Majorite,-0.6666666666666666,3
-Mme Élisa Martin,Gauche radicale,1.6666666666666667,1
-Mme Élisabeth Borne,Gauche radicale,-0.6410256410256411,3
-Mohamed Laqhila,Centre / Majorite,0.0,2
-Nadège Abomangoli,Gauche radicale,1.5743801652892562,4
-Natalia Pouzyreff,Centre / Majorite,-1.0714285714285714,2
-Nathalie Oziol,Gauche radicale,1.6044776119402986,4
-Nicolas Dupont-Aignan,Droite,0.0,2
-Olivier Falorni,Centre / Majorite,-1.25,1
-Olivier Faure,Gauche moderee,0.828125,4
-Olivier Fayssat,Droite,-1.0,3
-Paul Vannier,Gauche radicale,1.6029411764705883,4
-Philippe Ballard,Droite,-1.3409090909090908,2
-Philippe Brun,Gauche moderee,0.3333333333333333,3
-Philippe Gosselin,Droite,-1.3333333333333333,2
-Philippe Juvin,Droite,-1.0526315789473684,2
-Philippe Schreck,Droite,-1.6571428571428573,1
-Pierre Cazeneuve,Centre / Majorite,-0.375,3
-Pierre Meurin,Droite,-1.5,1
-Pierre-Henri Dumont,Droite,-1.434782608695652,2
-Pierre-Yves Cadalen,Gauche radicale,1.4382022471910112,4
-Pouria Amirshahi,Gauche moderee,1.105263157894737,3
-Prisca Thevenot,Centre / Majorite,-0.7,3
-Raphaël Arnault,Gauche radicale,1.6456692913385826,4
-René Pilato,Gauche radicale,1.378787878787879,4
-Roger Chudeau,Droite,-1.8,1
-Sabrina Agresti-Roubache,Centre / Majorite,-0.6666666666666666,2
-Sabrina Sebaihi,Gauche moderee,1.3734939759036144,3
-Sandra Regol,Gauche moderee,0.42857142857142855,2
-Sandrine Rousseau,Gauche moderee,0.7,4
-Sarah Legrain,Gauche radicale,1.5806451612903225,4
-Sophie Blanc,Droite,-1.8,1
-Soumya Bourouaha,Gauche radicale,1.3333333333333333,3
-Stéphane Mazars,Centre / Majorite,-1.5,1
-Stéphane Peu,Gauche radicale,1.1666666666666667,3
-Sylvain Maillard,Centre / Majorite,-1.2142857142857142,2
-Sébastien Chenu,Droite,-1.476923076923077,3
-Sébastien Delogu,Gauche radicale,1.703125,4
-Sébastien Jumel,Gauche radicale,0.8421052631578947,3
-Ségolène Amiot,Gauche radicale,1.7608695652173914,1
-Thomas Ménagé,Droite,-1.6666666666666667,1
-Thomas Portes,Gauche radicale,1.8771121351766513,4
-Théo Bernhardt,Droite,-1.3333333333333333,3
-Ugo Bernalicis,Gauche radicale,1.6885245901639345,3
-Vincent Jeanbrun,Droite,-1.6666666666666667,1
-Violette Spillebout,Centre / Majorite,-0.3333333333333333,3
-William Martinet,Gauche radicale,1.7857142857142858,2
-Yoann Gillet,Droite,-1.3,1
-Élise Leboucher,Gauche radicale,1.5555555555555556,3
-Éric Bothorel,Centre / Majorite,-0.6307692307692307,4
-Éric Ciotti,Droite,-1.5172413793103448,3
-Éric Coquerel,Gauche radicale,1.5,3
-Éric Pauget,Droite,-1.5151515151515151,1
-Éric Poulliat,Centre / Majorite,-1.1666666666666667,1
+author,stance_initial,stance_final,delta_individuel,bloc,mover_type,rupture_date
+Adrien Quatennens,1.1666666666666667,2.0,0.8333333333333333,Gauche radicale,modere,
+Agnès Firmin Le Bodo,-2.0,-1.0,1.0,Centre / Majorite,modere,
+Alma Dufour,1.4615384615384615,1.696,0.2344615384615385,Gauche radicale,non_mover,
+Amélia Lakrafi,0.0,0.8571428571428571,0.8571428571428571,Centre / Majorite,modere,
+Anne-Cécile Violland,-1.5,-1.0,0.5,Centre / Majorite,non_mover,
+Antoine Léaument,1.2,1.4090909090909092,0.20909090909090922,Gauche radicale,non_mover,
+Antoine Villedieu,-2.0,-2.0,0.0,Droite,non_mover,
+Arthur Delaporte,0.5,0.5,0.0,Gauche moderee,non_mover,
+Aurore Bergé,-1.125,-0.9333333333333333,0.19166666666666665,Centre / Majorite,non_mover,
+Aurélien Saintoul,1.6,1.3548387096774193,-0.24516129032258083,Gauche radicale,non_mover,
+Aurélien Taché,1.7333333333333334,1.5277777777777777,-0.2055555555555557,Gauche radicale,non_mover,
+Aymeric Caron,1.1666666666666667,1.6895306859205776,0.5228640192539109,Gauche radicale,non_mover,
+Bastien Lachaud,1.6470588235294117,1.6744186046511629,0.027359781121751192,Gauche radicale,non_mover,
+Belkhir Belhaddad,1.0,1.0,0.0,Centre / Majorite,non_mover,
+Benjamin Haddad,-1.0625,-1.0,0.0625,Centre / Majorite,non_mover,
+Boris Vallaud,0.6,1.0,0.4,Gauche moderee,non_mover,
+Brigitte Klinkert,-0.6666666666666666,-1.0,-0.33333333333333337,Centre / Majorite,non_mover,
+Bruno Bilde,-1.4,-1.75,-0.3500000000000001,Droite,non_mover,
+Bryan Masson,-1.0,-1.0,0.0,Droite,non_mover,
+Carlos Martens Bilongo,1.6428571428571428,1.7272727272727273,0.0844155844155845,Gauche radicale,non_mover,
+Caroline Parmentier,-1.0,-2.0,-1.0,Droite,modere,
+Caroline Yadan,-0.8,-1.1111111111111112,-0.3111111111111111,Centre / Majorite,non_mover,
+Catherine Couturier,1.2,1.75,0.55,Gauche radicale,non_mover,
+Claire Lejeune,1.0,1.911764705882353,0.911764705882353,Gauche radicale,modere,
+Clémence Guetté,1.8333333333333333,1.875,0.04166666666666674,Gauche radicale,non_mover,
+Clémentine Autain,1.375,1.8076923076923077,0.4326923076923077,Gauche radicale,non_mover,
+Constance Le Grip,-1.1153846153846154,-1.0,0.11538461538461542,Centre / Majorite,non_mover,
+Céline Calvez,-0.3333333333333333,0.3333333333333333,0.6666666666666666,Centre / Majorite,non_mover,
+Damien Maudet,1.4285714285714286,1.0,-0.4285714285714286,Gauche radicale,non_mover,
+Danielle Simonnet,1.5,1.0,-0.5,Gauche moderee,non_mover,
+Danièle Obono,1.7,1.7926829268292683,0.09268292682926838,Gauche radicale,non_mover,
+David Guiraud,1.7215189873417722,1.9393939393939394,0.21787495205216723,Gauche radicale,non_mover,
+Dominique Potier,0.3333333333333333,0.3333333333333333,0.0,Gauche moderee,non_mover,
+Edwige Diaz,-2.0,-1.0714285714285714,0.9285714285714286,Droite,modere,
+Elsa Faucillon,1.4,1.7826086956521738,0.3826086956521739,Gauche radicale,non_mover,
+Emmanuel Fernandes,1.5666666666666667,1.4545454545454546,-0.11212121212121207,Gauche radicale,non_mover,
+Ersilia Soudais,1.4285714285714286,1.8888888888888888,0.46031746031746024,Gauche radicale,non_mover,
+Erwan Balanant,-1.5,1.0,2.5,Centre / Majorite,fort,
+Fabien Roussel,1.4,1.6578947368421053,0.2578947368421054,Gauche radicale,non_mover,
+Florian Chauche,1.5,0.6666666666666666,-0.8333333333333334,Gauche radicale,modere,
+Franck Riester,-1.0,-1.0,0.0,Centre / Majorite,non_mover,
+François Cormier-Bouligeon,-1.2,-1.3333333333333333,-0.1333333333333333,Centre / Majorite,non_mover,
+François Piquemal,1.0,1.6363636363636365,0.6363636363636365,Gauche radicale,non_mover,
+François Ruffin,1.2222222222222223,1.8,0.5777777777777777,Gauche moderee,non_mover,
+Frédéric Valletoux,-1.0,-2.0,-1.0,Centre / Majorite,modere,
+Gabriel Amard,1.3333333333333333,1.5588235294117647,0.22549019607843146,Gauche radicale,non_mover,
+Guillaume Bigot,-1.5714285714285714,-1.0,0.5714285714285714,Droite,non_mover,
+Gérald Darmanin,-1.0,-1.0,0.0,Centre / Majorite,non_mover,
+Hadrien Clouet,1.3703703703703705,1.3114754098360655,-0.058894960534304985,Gauche radicale,non_mover,
+Hervé de Lépinau,-1.625,-2.0,-0.375,Droite,non_mover,
+Hélène Laporte,-1.2,-1.25,-0.050000000000000044,Droite,non_mover,
+Ian Boucard,-1.0,0.0,1.0,Droite,modere,
+Isabelle Santiago,-1.0,0.0,1.0,Gauche moderee,modere,
+Jean-Claude Raux,0.5,1.6,1.1,Gauche moderee,modere,
+Jean-François Coulomme,1.1875,1.5873015873015872,0.3998015873015872,Gauche radicale,non_mover,
+Jean-Philippe Tanguy,-1.6666666666666667,-1.0,0.6666666666666667,Droite,non_mover,
+Jean-René Cazeneuve,-1.0,-1.3333333333333333,-0.33333333333333326,Centre / Majorite,non_mover,
+Julien Odoul,-1.75,-1.7307692307692308,0.019230769230769162,Droite,non_mover,
+Jérôme Buisson,-1.4318181818181819,-1.5172413793103448,-0.08542319749216287,Droite,non_mover,
+Jérôme Guedj,0.0,-0.15384615384615385,-0.15384615384615385,Gauche moderee,non_mover,
+Jérôme Legavre,1.5675675675675675,1.6216216216216217,0.05405405405405417,Gauche radicale,non_mover,
+Kévin Mauvieux,-1.0,-1.75,-0.75,Droite,non_mover,
+Laurent Croizier,-1.4,-0.25,1.15,Centre / Majorite,modere,
+Laurent Jacobelli,-1.2222222222222223,-1.4,-0.1777777777777776,Droite,non_mover,
+Louis Boyard,1.7777777777777777,1.8064516129032258,0.028673835125448077,Gauche radicale,non_mover,
+Loïc Kervran,0.5,-1.0,-1.5,Centre / Majorite,modere,
+M. Antoine Léaument,1.0,1.0,0.0,Gauche radicale,non_mover,
+M. Arnaud Le Gall,1.0,0.3333333333333333,-0.6666666666666667,Gauche radicale,non_mover,
+M. Aurélien Saintoul,0.0,0.5,0.5,Gauche radicale,non_mover,
+M. Aymeric Caron,0.0,0.8571428571428571,0.8571428571428571,Gauche radicale,modere,
+M. David Guiraud,2.0,-0.3333333333333333,-2.3333333333333335,Gauche radicale,fort,
+M. Erwan Balanant,-1.0,1.0,2.0,Centre / Majorite,fort,
+M. François Piquemal,-2.0,-2.0,0.0,Gauche radicale,non_mover,
+M. Jean-Paul Lecoq,1.7142857142857142,1.4545454545454546,-0.2597402597402596,Gauche radicale,non_mover,
+M. Jean-Philippe Tanguy,-2.0,-1.0,1.0,Droite,modere,
+M. Julien Odoul,-2.0,-1.7333333333333334,0.2666666666666666,Droite,non_mover,
+M. Jérémie Patrier-Leitus,-1.3333333333333333,-1.3529411764705883,-0.019607843137255054,Centre / Majorite,non_mover,
+M. Jérôme Guedj,0.3333333333333333,0.0,-0.3333333333333333,Gauche moderee,non_mover,
+M. Jérôme Legavre,1.25,1.5,0.25,Gauche radicale,non_mover,
+M. Laurent Jacobelli,-1.5,-2.0,-0.5,Droite,non_mover,
+M. Louis Boyard,1.0,0.8571428571428571,-0.1428571428571429,Gauche radicale,non_mover,
+M. Mathieu Lefèvre,-1.6666666666666667,-1.5,0.16666666666666674,Centre / Majorite,non_mover,
+M. Nicolas Turquois,1.0,1.25,0.25,Centre / Majorite,non_mover,
+M. Olivier Faure,0.0,0.0,0.0,Gauche moderee,non_mover,
+M. Pierre Meurin,2.0,-1.0,-3.0,Droite,fort,
+M. Pieyre-Alexandre Anglade,-0.25,0.0,0.25,Centre / Majorite,non_mover,
+M. Sylvain Maillard,-1.4,-1.0,0.3999999999999999,Centre / Majorite,non_mover,
+M. Sébastien Chenu,-2.0,-1.75,0.25,Droite,non_mover,
+M. Sébastien Delogu,0.75,2.0,1.25,Gauche radicale,modere,
+M. Thomas Portes,-2.0,2.0,4.0,Gauche radicale,fort,
+M. Éric Ciotti,-2.0,-1.25,0.75,Droite,non_mover,
+Manuel Bompard,1.3584905660377358,1.446808510638298,0.08831794460056219,Gauche radicale,non_mover,
+Marie Lebec,-1.5,0.25,1.75,Centre / Majorite,fort,
+Marie Mesmeur,2.0,1.8333333333333333,-0.16666666666666674,Gauche radicale,non_mover,
+Marie Pochon,0.4166666666666667,1.0,0.5833333333333333,Gauche moderee,non_mover,
+Marine Le Pen,-0.9090909090909091,-1.3636363636363635,-0.4545454545454545,Droite,non_mover,
+Mathilde Panot,1.7777777777777777,1.7171717171717171,-0.06060606060606055,Gauche radicale,non_mover,
+Matthias Tavel,1.5555555555555556,1.7857142857142858,0.23015873015873023,Gauche radicale,non_mover,
+Matthieu Marchio,-1.3333333333333333,-1.0,0.33333333333333326,Droite,non_mover,
+Maxime Michelet,-1.0,-1.0,0.0,Droite,non_mover,
+Michel Barnier,-1.0,-0.8,0.19999999999999996,Droite,non_mover,
+Michel Guiniot,-1.0,-1.0,0.0,Droite,non_mover,
+Michèle Tabarot,-1.3,-1.1818181818181819,0.11818181818181817,Droite,non_mover,
+Mme Alma Dufour,1.6666666666666667,1.8,0.1333333333333333,Gauche radicale,non_mover,
+Mme Caroline Yadan,-1.2857142857142858,-1.588235294117647,-0.30252100840336116,Centre / Majorite,non_mover,
+Mme Constance Le Grip,-1.5,0.0,1.5,Centre / Majorite,modere,
+Mme Cyrielle Chatelain,1.125,0.8,-0.32499999999999996,Gauche moderee,non_mover,
+Mme Elsa Faucillon,1.6666666666666667,2.0,0.33333333333333326,Gauche radicale,non_mover,
+Mme Marine Le Pen,-0.8333333333333334,-1.0,-0.16666666666666663,Droite,non_mover,
+Mme Mathilde Panot,1.4848484848484849,1.5,0.015151515151515138,Gauche radicale,non_mover,
+Mme Michèle Tabarot,-1.4,-1.0,0.3999999999999999,Droite,non_mover,
+Mme Sabrina Sebaihi,1.6666666666666667,1.8,0.1333333333333333,Gauche moderee,non_mover,
+Mme Sandrine Rousseau,1.25,-2.0,-3.25,Gauche moderee,fort,
+Mme Sophie Taillé-Polian,1.5,-0.5,-2.0,Gauche moderee,fort,
+Nadège Abomangoli,1.5161290322580645,1.641025641025641,0.12489660876757647,Gauche radicale,non_mover,
+Natalia Pouzyreff,-1.0909090909090908,-1.0,0.09090909090909083,Centre / Majorite,non_mover,
+Nathalie Oziol,1.5625,1.7027027027027026,0.14020270270270263,Gauche radicale,non_mover,
+Olivier Faure,0.5681818181818182,1.0277777777777777,0.45959595959595945,Gauche moderee,non_mover,
+Patrick Hetzel,-1.0,-1.0,0.0,Droite,non_mover,
+Paul Vannier,1.6428571428571428,1.7142857142857142,0.0714285714285714,Gauche radicale,non_mover,
+Philippe Ballard,-1.2,-1.25,-0.050000000000000044,Droite,non_mover,
+Philippe Brun,-0.5,0.5454545454545454,1.0454545454545454,Gauche moderee,modere,
+Philippe Gosselin,-1.4,-1.0,0.3999999999999999,Droite,non_mover,
+Philippe Juvin,-1.0,-1.1666666666666667,-0.16666666666666674,Droite,non_mover,
+Philippe Schreck,-2.0,-1.5,0.5,Droite,non_mover,
+Pierre Cazeneuve,-1.0,1.0,2.0,Centre / Majorite,fort,
+Pierre-Henri Dumont,-1.0,-1.3333333333333333,-0.33333333333333326,Droite,non_mover,
+Pierre-Yves Cadalen,1.3333333333333333,1.4745762711864407,0.1412429378531075,Gauche radicale,non_mover,
+Raphaël Arnault,1.542857142857143,1.736842105263158,0.19398496240601504,Gauche radicale,non_mover,
+René Pilato,0.8571428571428571,1.608695652173913,0.751552795031056,Gauche radicale,non_mover,
+Roger Chudeau,-2.0,-2.0,0.0,Droite,non_mover,
+Sabrina Sebaihi,0.6666666666666666,1.3636363636363635,0.6969696969696969,Gauche moderee,non_mover,
+Sarah Legrain,1.5,1.8928571428571428,0.3928571428571428,Gauche radicale,non_mover,
+Soumya Bourouaha,1.5,1.5714285714285714,0.0714285714285714,Gauche radicale,non_mover,
+Stéphane Peu,0.8333333333333334,1.3,0.4666666666666667,Gauche radicale,non_mover,
+Sylvain Maillard,-1.2,-1.375,-0.17500000000000004,Centre / Majorite,non_mover,
+Sébastien Chenu,-1.5416666666666667,-1.44,0.1016666666666668,Droite,non_mover,
+Sébastien Delogu,1.8571428571428572,1.7857142857142858,-0.0714285714285714,Gauche radicale,non_mover,
+Ségolène Amiot,1.6666666666666667,1.85,0.18333333333333335,Gauche radicale,non_mover,
+Thomas Portes,1.75,1.865612648221344,0.11561264822134398,Gauche radicale,non_mover,
+Théo Bernhardt,-1.4545454545454546,-1.25,0.20454545454545459,Droite,non_mover,
+Ugo Bernalicis,1.4,1.6538461538461537,0.25384615384615383,Gauche radicale,non_mover,
+Violette Spillebout,0.0,0.0,0.0,Centre / Majorite,non_mover,
+Éric Bothorel,-0.6538461538461539,-0.72,-0.06615384615384612,Centre / Majorite,non_mover,
+Éric Ciotti,-1.5,-1.7272727272727273,-0.2272727272727273,Droite,non_mover,
+Éric Coquerel,1.4,1.5925925925925926,0.19259259259259265,Gauche radicale,non_mover,
+Éric Pauget,-1.6666666666666667,-1.5,0.16666666666666674,Droite,non_mover,
