@@ -60,7 +60,7 @@ Métrique Ec (arXiv:2603.02102) : polarisation entropique sur la distribution de
 
 **Interprétation Ec** : Ec élevé → positions fortement polarisées ; Ec faible → convergence des positions.
 
-**Interprétation Effective Dimensionality (ED)** : ED diminue → l'espace discursif se réduit à un seul axe (Gaza oui/non). ED augmente → le débat se complexifie, plusieurs dimensions en jeu.
+**Interprétation Effective Dimensionality (ED)** : ED diminue → l'espace discursif se réduit à un seul axe (positionnement binaire pour/contre). ED augmente → le débat se complexifie, plusieurs dimensions en jeu.
 
 ---
 

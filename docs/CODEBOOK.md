@@ -21,11 +21,11 @@
 
 | Valeur | Interprétation |
 |--------|----------------|
-| -2 | Très pro-Israël |
-| -1 | Plutôt pro-Israël |
+| -2 | Très favorable à Israël |
+| -1 | Plutôt favorable à Israël |
 | 0 | Neutre |
-| +1 | Plutôt pro-Palestine / cessez-le-feu |
-| +2 | Très pro-Palestine |
+| +1 | Plutôt favorable à la Palestine / cessez-le-feu |
+| +2 | Très favorable à la Palestine |
 
 ## Cadres (primary_frame_v3)
 

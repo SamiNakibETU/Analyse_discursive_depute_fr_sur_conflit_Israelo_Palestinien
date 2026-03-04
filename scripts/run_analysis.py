@@ -1461,7 +1461,7 @@ def write_resultats_markdown():
     """
     MD_PATH = REPORTS_DIR / "RESULTATS_NUMERIQUES.md"
     lines = [
-        "# Résultats numériques — Analyse discours Gaza",
+        "# Résultats numériques — Analyse discours sur le conflit israélo-palestinien",
         "",
         "Export exhaustif des données chiffrées et séries temporelles produites par `run_analysis.py`.",
         "Équivalent des sorties numériques des notebooks 01 à 13.",
@@ -1625,6 +1625,19 @@ def main():
 
     if not CORPUS_V3.exists():
         print(f"Corpus absent : {CORPUS_V3}")
+        placeholder = (
+            "RAPPORT DES RÉSULTATS — ANALYSE DISCOURS GAZA\n"
+            "============================================================\n\n"
+            "Corpus absent. Placez corpus_v3.parquet dans data/processed/ ou exécutez prepare_data.py, "
+            "puis relancez : python scripts/run_analysis.py\n"
+        )
+        RAPPORT_PATH.write_text(placeholder, encoding="utf-8")
+        (REPORTS_DIR / "RESULTATS_NUMERIQUES.md").write_text(
+            "# Résultats numériques — Analyse discours sur le conflit israélo-palestinien\n\n"
+            "Corpus absent. Exécutez `python scripts/run_analysis.py` après avoir placé "
+            "corpus_v3.parquet dans data/processed/ pour générer les résultats.\n",
+            encoding="utf-8"
+        )
         sys.exit(1)
 
     df = pd.read_parquet(CORPUS_V3)

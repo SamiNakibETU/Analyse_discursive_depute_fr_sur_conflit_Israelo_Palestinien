@@ -1,4 +1,4 @@
-# Brief analytique — Discours parlementaire français sur Gaza (2023–2026)
+# Brief analytique — Discours parlementaire français sur le conflit israélo-palestinien (2023–2026)
 
 ## 1. Contexte et question de recherche
 
@@ -13,7 +13,7 @@
 **Corpus** : 10 774 textes (tweets + interventions AN) de 459 députés. Fenêtre : oct. 2023 – janv. 2026.
 
 **Méthode** :
-- Annotation du positionnement (-2 pro-Israël à +2 pro-Palestine) ; accord v3↔v4 : Spearman 0,86.
+- Annotation du positionnement (-2 favorable à Israël à +2 favorable à la Palestine) ; accord v3↔v4 : Spearman 0,86.
 - Segmentation en 7 batches temporels (CHOC → NEW_OFFENSIVE).
 - Analyses : stance mensuel par bloc, shift temporel avant/après événements, distance cosinus entre blocs, fighting words (log-odds).
 
@@ -29,7 +29,7 @@ Le Centre varie significativement après les événements pivot ; la Gauche radi
 
 ## 4. Résultat 2 : Paradoxe de la Droite au cessez-le-feu
 
-Quand le Centre appelle au cessez-le-feu (janv. 2025), la Droite durcit son discours (Δ stance -1,03, p≈0,008). Interprétation : stratégie de différenciation plutôt qu’alignement.
+Quand le Centre appelle au cessez-le-feu (janv. 2025), la Droite durcit son discours (Δ stance -1,03, p≈0,008). 
 
 ![fig12](../figures/fig12_diff_in_diff.png)
 
@@ -53,10 +53,10 @@ Distance cosinus maximale Gauche radicale – Droite en décembre 2024. Les « f
 
 ## 7. Limites et perspectives
 
-- Pas de validation humaine de l’annotation.
-- Corpus déséquilibré par bloc (Gauche radicale majoritaire).
-- Aucune inférence causale stricte (shift temporel descriptif).
-- Pistes : validation humaine, granularité parti (LR/RN séparés).
+- **Validation humaine** : protocole A1 implémenté (échantillon 150, Cohen Kappa, biais par bloc) — annotations à compléter pour benchmark final.
+- **Granularité LR/RN** : séparation implémentée (A2, `BLOC_ORDER_5`) ; analyses notebook 12.
+- Corpus déséquilibré par bloc (Gauche radicale majoritaire) — robustesse testée A4 (corpus équilibré).
+- Aucune inférence causale stricte (shift temporel descriptif) — tendances pré-événement A3 pour crédibiliser les event studies.
 
 ---
 
