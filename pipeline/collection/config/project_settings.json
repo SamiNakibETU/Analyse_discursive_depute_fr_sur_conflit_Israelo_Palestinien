@@ -1,0 +1,35 @@
+{
+  "scraping": {
+    "start_date": "2023-01-01",
+    "min_text_length": 50,
+    "keywords_file": "keywords.json",
+    "legislatures": [
+      {
+        "id": 16,
+        "base_url": "https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance"
+      },
+      {
+        "id": 17,
+        "base_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance"
+      }
+    ],
+    "http": {
+      "timeout": 40,
+      "retries": 5,
+      "backoff_factor": 1.5,
+      "max_workers": 6,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.7,en;q=0.5"
+      }
+    }
+  },
+  "storage": {
+    "raw_sessions": "data/raw/sessions.jsonl",
+    "raw_interventions": "data/raw/interventions.jsonl",
+    "relevant_interventions": "data/processed/interventions_relevant.jsonl",
+    "enriched_interventions": "data/processed/interventions_enriched.jsonl",
+    "metadata": "data/processed/run_metadata.json"
+  }
+}

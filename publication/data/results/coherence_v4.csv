@@ -1,0 +1,6 @@
+check,valeur
+ceasefire_type non-null & call=False,0.0
+stance_v4=-2 & ceasefire_call=True,1.0
+textes avec flags d'incohérence,0.0
+neutral+absolute (incohérence potentielle),96.0
+accord_frame_v3_v4_pct,60.23

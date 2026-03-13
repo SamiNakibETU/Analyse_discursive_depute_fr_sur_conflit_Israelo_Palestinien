@@ -1,0 +1,122 @@
+{
+  "version": "4.0",
+  "last_updated": "2026-01-08",
+  "description": "Dictionnaire de filtrage équilibré pour le conflit Gaza/Palestine",
+  
+  "core_terms": {
+    "description": "Termes centraux - leur présence suffit pour inclure",
+    "terms": [
+      "gaza", "palestine", "palestinien", "palestinienne", "palestiniens", "palestiniennes",
+      "israel", "israelien", "israelienne", "israeliens", "israeliennes",
+      "hamas", "netanyahu", "netanyahou", "tsahal"
+    ]
+  },
+  
+  "locations": {
+    "description": "Lieux géographiques du conflit",
+    "primary": [
+      "bande de gaza", "cisjordanie", "jerusalem", "tel aviv", "rafah",
+      "khan younis", "territoires palestiniens", "territoires occupes"
+    ],
+    "secondary": [
+      "naplouse", "hebron", "jenine", "ramallah", "bethlehem", 
+      "deir al-balah", "jabaliya", "beit hanoun", "shifa"
+    ]
+  },
+  
+  "actors": {
+    "palestinian": [
+      "autorite palestinienne", "fatah", "olp", "anp",
+      "jihad islamique", "resistance palestinienne"
+    ],
+    "israeli": [
+      "idf", "forces israeliennes", "armee israelienne",
+      "gouvernement israelien", "knesset", "likoud"
+    ],
+    "international": [
+      "unrwa", "cpi", "cij", "cour penale internationale",
+      "cour internationale de justice", "onu", "nations unies",
+      "conseil de securite"
+    ],
+    "french": [
+      "crif", "licra", "afps", "bnvca", 
+      "quai d'orsay", "ambassade de france"
+    ]
+  },
+  
+  "events": {
+    "description": "Événements marquants à capturer",
+    "terms": [
+      "7 octobre", "sept octobre", "attaque du 7 octobre",
+      "offensive terrestre", "operation terrestre",
+      "cessez-le-feu", "treve", "pause humanitaire",
+      "ordonnance cij", "mandat cpi", "reconnaissance palestine"
+    ]
+  },
+  
+  "concepts": {
+    "humanitarian": [
+      "genocide", "crime de guerre", "crimes de guerre", "crime contre l'humanite",
+      "famine", "aide humanitaire", "corridors humanitaires", "blocus",
+      "catastrophe humanitaire", "crise humanitaire"
+    ],
+    "political": [
+      "colonisation", "colons", "colonies", "occupation", "annexion",
+      "solution a deux etats", "deux etats", "etat palestinien",
+      "autodetermination", "droit international"
+    ],
+    "conflict": [
+      "otage", "otages", "bombardement", "bombardements",
+      "siege", "massacre", "victimes civiles", "civils"
+    ]
+  },
+  
+  "stance_markers": {
+    "description": "Termes révélant un positionnement - NE PAS utiliser pour filtrage, seulement pour analyse",
+    "pro_palestine": [
+      "genocide", "nettoyage ethnique", "epuration ethnique", "apartheid",
+      "punition collective", "occupation illegale", "resistance legitime",
+      "etat voyou", "crimes de netanyahu"
+    ],
+    "pro_israel": [
+      "terrorisme", "terroristes", "pogrom", "massacre du 7 octobre",
+      "droit de se defendre", "autodefense", "bouclier humain",
+      "tunnels du hamas", "roquettes", "barbarie"
+    ],
+    "neutral_frames": [
+      "paix juste et durable", "dialogue", "negociations",
+      "desescalade", "solution politique", "communaute internationale"
+    ]
+  },
+  
+  "qualifiers": {
+    "identity": [
+      "antisemitisme", "antisemite", "islamophobie", "islamophobe",
+      "sionisme", "sioniste", "antisionisme", "antisioniste"
+    ],
+    "judgment": [
+      "disproportionne", "disproportionnee", "legitime", "illegitime",
+      "illegal", "illegale"
+    ]
+  },
+  
+  "exclusions": {
+    "description": "Termes trop génériques seuls - nécessitent un terme core_terms",
+    "terms": [
+      "proche-orient", "proche orient", "moyen-orient", "moyen orient",
+      "conflit", "guerre", "paix"
+    ]
+  },
+  
+  "filtering_rules": {
+    "include_if": [
+      "Au moins 1 terme de core_terms",
+      "OU au moins 2 termes de locations/actors/events/concepts"
+    ],
+    "exclude_if": [
+      "Seulement des termes de exclusions sans autre contexte"
+    ]
+  }
+}
+
+

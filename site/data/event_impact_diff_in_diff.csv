@@ -1,0 +1,7 @@
+event,code,GRAD_diff,GRAD_sig,GMOD_diff,GMOD_sig,CTR_diff,CTR_sig,DRT_diff,DRT_sig
+Ord. CIJ,E1,-0.077,,0.132,,-0.436,*,0.224,
+Off. Rafah,E2,0.205,**,0.075,,0.404,**,-0.424,
+M. Sinwar,E3,0.125,,0.300,,-0.055,,-0.028,
+Mandats CPI,E4,-0.080,,0.025,,0.032,,0.389,
+CLF,E5,0.094,,-0.760,,-0.670,**,-1.104,*
+Rupt. CLF,E6,0.084,,-0.200,,-0.917,**,-0.234,

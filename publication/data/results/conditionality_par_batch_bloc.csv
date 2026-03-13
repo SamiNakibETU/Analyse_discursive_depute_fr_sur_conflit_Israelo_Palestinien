@@ -1,0 +1,82 @@
+batch,bloc,conditionality,n,pct
+CEASEFIRE_BREACH,Centre / Majorite,absolute,50,37.88
+CEASEFIRE_BREACH,Centre / Majorite,balanced,79,59.85
+CEASEFIRE_BREACH,Centre / Majorite,conditional,1,0.76
+CEASEFIRE_BREACH,Centre / Majorite,neutral,2,1.52
+CEASEFIRE_BREACH,Droite,absolute,91,77.78
+CEASEFIRE_BREACH,Droite,balanced,26,22.22
+CEASEFIRE_BREACH,Gauche moderee,absolute,15,25.42
+CEASEFIRE_BREACH,Gauche moderee,balanced,44,74.58
+CEASEFIRE_BREACH,Gauche radicale,absolute,295,66.59
+CEASEFIRE_BREACH,Gauche radicale,balanced,141,31.83
+CEASEFIRE_BREACH,Gauche radicale,neutral,7,1.58
+CHOC,Centre / Majorite,absolute,169,58.89
+CHOC,Centre / Majorite,balanced,110,38.33
+CHOC,Centre / Majorite,conditional,7,2.44
+CHOC,Centre / Majorite,neutral,1,0.35
+CHOC,Droite,absolute,326,92.61
+CHOC,Droite,balanced,26,7.39
+CHOC,Gauche moderee,absolute,59,32.42
+CHOC,Gauche moderee,balanced,115,63.19
+CHOC,Gauche moderee,conditional,8,4.4
+CHOC,Gauche radicale,absolute,499,63.24
+CHOC,Gauche radicale,balanced,277,35.11
+CHOC,Gauche radicale,conditional,11,1.39
+CHOC,Gauche radicale,neutral,2,0.25
+MANDATS_CPI,Centre / Majorite,absolute,12,75.0
+MANDATS_CPI,Centre / Majorite,balanced,4,25.0
+MANDATS_CPI,Droite,absolute,23,63.89
+MANDATS_CPI,Droite,balanced,13,36.11
+MANDATS_CPI,Gauche moderee,absolute,14,45.16
+MANDATS_CPI,Gauche moderee,balanced,17,54.84
+MANDATS_CPI,Gauche radicale,absolute,181,80.09
+MANDATS_CPI,Gauche radicale,balanced,45,19.91
+NEW_OFFENSIVE,Centre / Majorite,absolute,82,31.06
+NEW_OFFENSIVE,Centre / Majorite,balanced,164,62.12
+NEW_OFFENSIVE,Centre / Majorite,conditional,11,4.17
+NEW_OFFENSIVE,Centre / Majorite,neutral,7,2.65
+NEW_OFFENSIVE,Droite,absolute,172,86.43
+NEW_OFFENSIVE,Droite,balanced,24,12.06
+NEW_OFFENSIVE,Droite,conditional,1,0.5
+NEW_OFFENSIVE,Droite,neutral,2,1.01
+NEW_OFFENSIVE,Gauche moderee,absolute,45,37.19
+NEW_OFFENSIVE,Gauche moderee,balanced,73,60.33
+NEW_OFFENSIVE,Gauche moderee,conditional,3,2.48
+NEW_OFFENSIVE,Gauche radicale,absolute,833,76.63
+NEW_OFFENSIVE,Gauche radicale,balanced,240,22.08
+NEW_OFFENSIVE,Gauche radicale,conditional,5,0.46
+NEW_OFFENSIVE,Gauche radicale,neutral,9,0.83
+POST_CIJ,Centre / Majorite,absolute,31,56.36
+POST_CIJ,Centre / Majorite,balanced,24,43.64
+POST_CIJ,Droite,absolute,28,87.5
+POST_CIJ,Droite,balanced,4,12.5
+POST_CIJ,Gauche moderee,absolute,25,54.35
+POST_CIJ,Gauche moderee,balanced,20,43.48
+POST_CIJ,Gauche moderee,neutral,1,2.17
+POST_CIJ,Gauche radicale,absolute,181,83.41
+POST_CIJ,Gauche radicale,balanced,35,16.13
+POST_CIJ,Gauche radicale,conditional,1,0.46
+POST_SINWAR,Centre / Majorite,absolute,15,45.45
+POST_SINWAR,Centre / Majorite,balanced,14,42.42
+POST_SINWAR,Centre / Majorite,conditional,4,12.12
+POST_SINWAR,Droite,absolute,33,76.74
+POST_SINWAR,Droite,balanced,9,20.93
+POST_SINWAR,Droite,conditional,1,2.33
+POST_SINWAR,Gauche moderee,absolute,1,14.29
+POST_SINWAR,Gauche moderee,balanced,6,85.71
+POST_SINWAR,Gauche radicale,absolute,115,74.68
+POST_SINWAR,Gauche radicale,balanced,38,24.68
+POST_SINWAR,Gauche radicale,conditional,1,0.65
+RAFAH,Centre / Majorite,absolute,63,48.46
+RAFAH,Centre / Majorite,balanced,60,46.15
+RAFAH,Centre / Majorite,conditional,6,4.62
+RAFAH,Centre / Majorite,neutral,1,0.77
+RAFAH,Droite,absolute,63,88.73
+RAFAH,Droite,balanced,7,9.86
+RAFAH,Droite,conditional,1,1.41
+RAFAH,Gauche moderee,absolute,59,55.66
+RAFAH,Gauche moderee,balanced,46,43.4
+RAFAH,Gauche moderee,neutral,1,0.94
+RAFAH,Gauche radicale,absolute,560,83.58
+RAFAH,Gauche radicale,balanced,109,16.27
+RAFAH,Gauche radicale,neutral,1,0.15

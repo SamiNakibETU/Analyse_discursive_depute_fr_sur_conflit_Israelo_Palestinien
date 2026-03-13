@@ -1,0 +1,1338 @@
+{
+  "generated_at": "2026-01-05T20:12:57.118298",
+  "total": 222,
+  "validated_accounts": [
+    {
+      "depute_name": "Mathilde Panot",
+      "validated_username": "mathildepanot",
+      "group": "LFI-NFP",
+      "intervention_count": 66
+    },
+    {
+      "depute_name": "François Cormier-Bouligeon",
+      "validated_username": "fcbdeputeducher",
+      "group": "EPR",
+      "intervention_count": 45
+    },
+    {
+      "depute_name": "Caroline Yadan",
+      "validated_username": "carolineyadan",
+      "group": "EPR",
+      "intervention_count": 45
+    },
+    {
+      "depute_name": "David Habib",
+      "validated_username": "daviddhabib",
+      "group": "LIOT",
+      "intervention_count": 42
+    },
+    {
+      "depute_name": "Élisa Martin",
+      "validated_username": "elisamartin_nfp",
+      "group": "LFI-NFP",
+      "intervention_count": 40
+    },
+    {
+      "depute_name": "Julien Odoul",
+      "validated_username": "julienodoul",
+      "group": "RN",
+      "intervention_count": 40
+    },
+    {
+      "depute_name": "Stéphane Mazars",
+      "validated_username": "s_mazars",
+      "group": "REN",
+      "intervention_count": 33
+    },
+    {
+      "depute_name": "Catherine Couturier",
+      "validated_username": "couturiercathy",
+      "group": "LFI",
+      "intervention_count": 33
+    },
+    {
+      "depute_name": "Cyrielle Chatelain",
+      "validated_username": "cyrielle_chtl",
+      "group": "ECO-NFP",
+      "intervention_count": 31
+    },
+    {
+      "depute_name": "Elsa Faucillon",
+      "validated_username": "elsafaucillon",
+      "group": "GDR",
+      "intervention_count": 29
+    },
+    {
+      "depute_name": "Sabrina Sebaihi",
+      "validated_username": "sabrinasebaihi",
+      "group": "ECO-NFP",
+      "intervention_count": 27
+    },
+    {
+      "depute_name": "Gabriel Attal",
+      "validated_username": "gabrielattal",
+      "group": "EPR",
+      "intervention_count": 25
+    },
+    {
+      "depute_name": "Aurore Bergé",
+      "validated_username": "auroreberge",
+      "group": "REN",
+      "intervention_count": 25
+    },
+    {
+      "depute_name": "Michèle Tabarot",
+      "validated_username": "mtabarot",
+      "group": "LR",
+      "intervention_count": 23
+    },
+    {
+      "depute_name": "Sébastien Chenu",
+      "validated_username": "sebchenu",
+      "group": "RN",
+      "intervention_count": 22
+    },
+    {
+      "depute_name": "Constance Le Grip",
+      "validated_username": "constancelegrip",
+      "group": "EPR",
+      "intervention_count": 22
+    },
+    {
+      "depute_name": "Laurence Maillart-Méhaignerie",
+      "validated_username": "lmaillart",
+      "group": "REN",
+      "intervention_count": 22
+    },
+    {
+      "depute_name": "Aymeric Caron",
+      "validated_username": "caronaymericoff",
+      "group": "LFI-NFP",
+      "intervention_count": 21
+    },
+    {
+      "depute_name": "Gabrielle Cathala",
+      "validated_username": "gabriellecthl",
+      "group": "LFI-NFP",
+      "intervention_count": 18
+    },
+    {
+      "depute_name": "Emmanuelle Ménard",
+      "validated_username": "emenard34",
+      "group": "NI",
+      "intervention_count": 17
+    },
+    {
+      "depute_name": "Sébastien Delogu",
+      "validated_username": "sebastiendelogu",
+      "group": "LFI-NFP",
+      "intervention_count": 16
+    },
+    {
+      "depute_name": "Éric Coquerel",
+      "validated_username": "ericcoquerel",
+      "group": "LFI-NFP",
+      "intervention_count": 16
+    },
+    {
+      "depute_name": "Louis Boyard",
+      "validated_username": "louisboyard",
+      "group": "LFI-NFP",
+      "intervention_count": 16
+    },
+    {
+      "depute_name": "Laurent Alexandre",
+      "validated_username": "laualexandre12",
+      "group": "LFI-NFP",
+      "intervention_count": 16
+    },
+    {
+      "depute_name": "Sophie Blanc",
+      "validated_username": "sblanc66000",
+      "group": "RN",
+      "intervention_count": 16
+    },
+    {
+      "depute_name": "Alma Dufour",
+      "validated_username": "alma_dufour",
+      "group": "LFI-NFP",
+      "intervention_count": 15
+    },
+    {
+      "depute_name": "Nathalie Oziol",
+      "validated_username": "nathalieoziol",
+      "group": "LFI-NFP",
+      "intervention_count": 15
+    },
+    {
+      "depute_name": "Thomas Portes",
+      "validated_username": "portes_thomas",
+      "group": "LFI-NFP",
+      "intervention_count": 15
+    },
+    {
+      "depute_name": "Marine Le Pen",
+      "validated_username": "mlp_officiel",
+      "group": "RN",
+      "intervention_count": 15
+    },
+    {
+      "depute_name": "Mathieu Lefèvre",
+      "validated_username": "mathieulefevre_",
+      "group": "EPR",
+      "intervention_count": 15
+    },
+    {
+      "depute_name": "Prisca Thevenot",
+      "validated_username": "priscathevenot",
+      "group": "REN",
+      "intervention_count": 15
+    },
+    {
+      "depute_name": "Benjamin Haddad",
+      "validated_username": "benjaminhaddad",
+      "group": "REN",
+      "intervention_count": 14
+    },
+    {
+      "depute_name": "Aurélien Saintoul",
+      "validated_username": "a_saintoul",
+      "group": "LFI-NFP",
+      "intervention_count": 13
+    },
+    {
+      "depute_name": "Olivier Faure",
+      "validated_username": "faureolivier",
+      "group": "PS-NFP",
+      "intervention_count": 13
+    },
+    {
+      "depute_name": "Bruno Bilde",
+      "validated_username": "brunobilde",
+      "group": "RN",
+      "intervention_count": 13
+    },
+    {
+      "depute_name": "Michel Barnier",
+      "validated_username": "michelbarnier",
+      "group": "LR",
+      "intervention_count": 12
+    },
+    {
+      "depute_name": "Boris Vallaud",
+      "validated_username": "borisvallaud",
+      "group": "SOC",
+      "intervention_count": 11
+    },
+    {
+      "depute_name": "Jérôme Guedj",
+      "validated_username": "jeromeguedj",
+      "group": "PS-NFP",
+      "intervention_count": 11
+    },
+    {
+      "depute_name": "Laurent Jacobelli",
+      "validated_username": "ljacobelli",
+      "group": "RN",
+      "intervention_count": 11
+    },
+    {
+      "depute_name": "Benjamin Saint-Huile",
+      "validated_username": "bsainthuile",
+      "group": "LIOT",
+      "intervention_count": 10
+    },
+    {
+      "depute_name": "Antoine Léaument",
+      "validated_username": "aleaument",
+      "group": "LFI-NFP",
+      "intervention_count": 10
+    },
+    {
+      "depute_name": "David Guiraud",
+      "validated_username": "guiraudind",
+      "group": "LFI-NFP",
+      "intervention_count": 10
+    },
+    {
+      "depute_name": "Sylvain Maillard",
+      "validated_username": "sylvainmaillard",
+      "group": "EPR",
+      "intervention_count": 9
+    },
+    {
+      "depute_name": "Éric Poulliat",
+      "validated_username": "epoulliat",
+      "group": "REN",
+      "intervention_count": 9
+    },
+    {
+      "depute_name": "Soumya Bourouaha",
+      "validated_username": "s_bourouaha",
+      "group": "GDR",
+      "intervention_count": 9
+    },
+    {
+      "depute_name": "Fabien Roussel",
+      "validated_username": "fabien_roussel",
+      "group": "GDR",
+      "intervention_count": 9
+    },
+    {
+      "depute_name": "Danièle Obono",
+      "validated_username": "deputee_obono",
+      "group": "LFI-NFP",
+      "intervention_count": 9
+    },
+    {
+      "depute_name": "Aurélien Taché",
+      "validated_username": "aurelientache",
+      "group": "LFI-NFP",
+      "intervention_count": 8
+    },
+    {
+      "depute_name": "Jérôme Legavre",
+      "validated_username": "legavrejerome",
+      "group": "LFI-NFP",
+      "intervention_count": 8
+    },
+    {
+      "depute_name": "Pierre-Yves Cadalen",
+      "validated_username": "pycadalen",
+      "group": "LFI-NFP",
+      "intervention_count": 8
+    },
+    {
+      "depute_name": "Marie Mesmeur",
+      "validated_username": "mariemesmeur",
+      "group": "LFI-NFP",
+      "intervention_count": 8
+    },
+    {
+      "depute_name": "Gérald Darmanin",
+      "validated_username": "gdarmanin",
+      "group": "REN",
+      "intervention_count": 7
+    },
+    {
+      "depute_name": "Roger Chudeau",
+      "validated_username": "chudeaur",
+      "group": "RN",
+      "intervention_count": 7
+    },
+    {
+      "depute_name": "Jean-François Coulomme",
+      "validated_username": "jfcoulomme",
+      "group": "LFI-NFP",
+      "intervention_count": 7
+    },
+    {
+      "depute_name": "Nicolas Turquois",
+      "validated_username": "turquoisnicolas",
+      "group": "DEM",
+      "intervention_count": 7
+    },
+    {
+      "depute_name": "Bastien Lachaud",
+      "validated_username": "lachaudb",
+      "group": "LFI-NFP",
+      "intervention_count": 7
+    },
+    {
+      "depute_name": "Manuel Bompard",
+      "validated_username": "mbompard",
+      "group": "LFI-NFP",
+      "intervention_count": 6
+    },
+    {
+      "depute_name": "Stéphane Peu",
+      "validated_username": "stephane1peu",
+      "group": "GDR",
+      "intervention_count": 6
+    },
+    {
+      "depute_name": "Frank Giletti",
+      "validated_username": "frankgiletti",
+      "group": "RN",
+      "intervention_count": 6
+    },
+    {
+      "depute_name": "Jean-Louis Thiériot",
+      "validated_username": "jl_thieriot",
+      "group": "LR",
+      "intervention_count": 6
+    },
+    {
+      "depute_name": "Éric Ciotti",
+      "validated_username": "eciotti",
+      "group": "UDR",
+      "intervention_count": 6
+    },
+    {
+      "depute_name": "Vincent Jeanbrun",
+      "validated_username": "vincentjeanbrun",
+      "group": "LR",
+      "intervention_count": 6
+    },
+    {
+      "depute_name": "Sabrina Agresti-Roubache",
+      "validated_username": "sabrinaroubache",
+      "group": "REN",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Franck Riester",
+      "validated_username": "franckriester",
+      "group": "REN",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Paul Vannier",
+      "validated_username": "paulvannierfi",
+      "group": "LFI",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Pierre-Henri Dumont",
+      "validated_username": "phdumont",
+      "group": "LR",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Hélène Laporte",
+      "validated_username": "helenelaportern",
+      "group": "RN",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Sandrine Rousseau",
+      "validated_username": "sandrousseau",
+      "group": "ECO",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Nadège Abomangoli",
+      "validated_username": "abomangoli",
+      "group": "LFI-NFP",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Eva Sas",
+      "validated_username": "_evasas",
+      "group": "ECO-NFP",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Sophia Chikirou",
+      "validated_username": "sochik75",
+      "group": "LFI-NFP",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Bruno Fuchs",
+      "validated_username": "bruno_fuchs",
+      "group": "DEM",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Nicolas Forissier",
+      "validated_username": "n_forissier",
+      "group": "LR",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Alexandre Portier",
+      "validated_username": "portier_a_",
+      "group": "LR",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Hendrik Davi",
+      "validated_username": "hendrik_davi",
+      "group": "ECO-NFP",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Ayda Hadizadeh",
+      "validated_username": "aydahadi",
+      "group": "PS-NFP",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Raphaël Arnault",
+      "validated_username": "arnaultraphael",
+      "group": "LFI-NFP",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Mohamed Laqhila",
+      "validated_username": "laqhila",
+      "group": "MODEM",
+      "intervention_count": 5
+    },
+    {
+      "depute_name": "Philippe Latombe",
+      "validated_username": "platombe",
+      "group": "DEM",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Matthias Tavel",
+      "validated_username": "matthiastavel",
+      "group": "LFI-NFP",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Ersilia Soudais",
+      "validated_username": "ersiliasoudais",
+      "group": "LFI-NFP",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Jean-Philippe Tanguy",
+      "validated_username": "jphtanguy",
+      "group": "RN",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Ségolène Amiot",
+      "validated_username": "segoleneamiot",
+      "group": "LFI-NFP",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Olivier Fayssat",
+      "validated_username": "olivierfayssat",
+      "group": "UDR",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Clémence Guetté",
+      "validated_username": "clemence_guette",
+      "group": "LFI-NFP",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Charles Sitzenstuhl",
+      "validated_username": "csitzenstuhl",
+      "group": "EPR",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Jean-Pierre Taite",
+      "validated_username": "jpierre_taite",
+      "group": "LR",
+      "intervention_count": 4
+    },
+    {
+      "depute_name": "Carlos Martens Bilongo",
+      "validated_username": "bilongocarlos",
+      "group": "LFI",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Danielle Simonnet",
+      "validated_username": "simonnetdeputee",
+      "group": "ECO-NFP",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "François Ruffin",
+      "validated_username": "francois_ruffin",
+      "group": "ECO-NFP",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Clémentine Autain",
+      "validated_username": "clem_autain",
+      "group": "LFI",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Claudia Rouaux",
+      "validated_username": "claudia_rouaux",
+      "group": "SOC",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Patrick Hetzel",
+      "validated_username": "patrickhetzel",
+      "group": "LR",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Jean-Paul Mattei",
+      "validated_username": "jp_mattei",
+      "group": "MODEM",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Didier Martin",
+      "validated_username": "dmartindijon",
+      "group": "REN",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Brigitte Klinkert",
+      "validated_username": "klinkertbrigitt",
+      "group": "EPR",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Géraldine Bannier",
+      "validated_username": "bannier_g",
+      "group": "DEM",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Geneviève Darrieussecq",
+      "validated_username": "darrieussecq",
+      "group": "DEM",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Jean-Claude Raux",
+      "validated_username": "jeanclauderaux",
+      "group": "ECO-NFP",
+      "intervention_count": 3
+    },
+    {
+      "depute_name": "Violette Spillebout",
+      "validated_username": "vspillebout",
+      "group": "REN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "René Pilato",
+      "validated_username": "pilatorene",
+      "group": "LFI-NFP",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Lise Magnier",
+      "validated_username": "lise_magnier",
+      "group": "HOR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Florian Chauche",
+      "validated_username": "florianchauche9",
+      "group": "LFI",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Jean-Charles Larsonneur",
+      "validated_username": "jclarsonneur",
+      "group": "NI",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Sarah Legrain",
+      "validated_username": "s_legrain",
+      "group": "LFI-NFP",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Éric Pauget",
+      "validated_username": "ericpauget1",
+      "group": "LR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Cécile Rilhac",
+      "validated_username": "cecile_rilhac",
+      "group": "REN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "François Piquemal",
+      "validated_username": "frapiquemal",
+      "group": "LFI",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Frédéric Maillot",
+      "validated_username": "frdric_maillot",
+      "group": "GDR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Julie Laernoes",
+      "validated_username": "laernoes",
+      "group": "ECO",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Arthur Delaporte",
+      "validated_username": "arthurdelaporte",
+      "group": "PS-NFP",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "David Taupiac",
+      "validated_username": "davidtaupiac",
+      "group": "LIOT",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Thomas Ménagé",
+      "validated_username": "thomas_mng",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Loïc Kervran",
+      "validated_username": "loickervran18",
+      "group": "HOR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Hervé de Lépinau",
+      "validated_username": "h2lepinau",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Philippe Ballard",
+      "validated_username": "ballardphilippe",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Pierre Meurin",
+      "validated_username": "meurin_p",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Natalia Pouzyreff",
+      "validated_username": "npouzyreff78",
+      "group": "EPR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Alexandre Sabatou",
+      "validated_username": "asabatou",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Erwan Balanant",
+      "validated_username": "erwanbalanant",
+      "group": "DEM",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Sébastien Jumel",
+      "validated_username": "sebastienjumel",
+      "group": "GDR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Yoann Gillet",
+      "validated_username": "yoanngillet30",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Guillaume Kasbarian",
+      "validated_username": "guillaumekasba",
+      "group": "EPR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Isabelle Santiago",
+      "validated_username": "isasantiago_94",
+      "group": "SOC",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Nicolas Dupont-Aignan",
+      "validated_username": "dupontaignan",
+      "group": "NI",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Emeric Salmon",
+      "validated_username": "emericsalmon",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Matthias Renault",
+      "validated_username": "matthiasrn",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Philippe Juvin",
+      "validated_username": "philippejuvin",
+      "group": "LR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Guillaume Bigot",
+      "validated_username": "guillaume_bigot",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Pierre Henriet",
+      "validated_username": "henrietpierre",
+      "group": "HOR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Céline Calvez",
+      "validated_username": "celinecalvez",
+      "group": "EPR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Marie-Agnès Poussier-Winsback",
+      "validated_username": "mapoussier",
+      "group": "HOR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Céline Hervieu",
+      "validated_username": "celine_hervieu",
+      "group": "PS-NFP",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Sandra Regol",
+      "validated_username": "sandraregol",
+      "group": "ECO-NFP",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Thierry Perez",
+      "validated_username": "thierryperez43",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Fabrice Brun",
+      "validated_username": "fabricebrun",
+      "group": "LR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Kévin Mauvieux",
+      "validated_username": "mauvieuxkevin",
+      "group": "RN",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Amélia Lakrafi",
+      "validated_username": "amelia_lkf",
+      "group": "EPR",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Peio Dufau",
+      "validated_username": "peioizate",
+      "group": "PS-NFP",
+      "intervention_count": 2
+    },
+    {
+      "depute_name": "Marietta Karamanli",
+      "validated_username": "mkaramanli72",
+      "group": "SOC",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Karine Lebon",
+      "validated_username": "karinelebon",
+      "group": "GDR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Virginie Duby-Muller",
+      "validated_username": "dubymuller",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Frédéric Valletoux",
+      "validated_username": "fredvalletoux",
+      "group": "HOR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Hervé Berville",
+      "validated_username": "herveberville",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Grégoire de Fournas",
+      "validated_username": "gdefournas",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Julie Delpech",
+      "validated_username": "juliedelpech72",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Cécile Untermaier",
+      "validated_username": "ceciluntermaier",
+      "group": "SOC",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Paul Molac",
+      "validated_username": "paul_molac",
+      "group": "LIOT",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Christophe Marion",
+      "validated_username": "mariondepute41",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Marie Lebec",
+      "validated_username": "marielebec78",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Antoine Vermorel-Marques",
+      "validated_username": "antoinevermorel",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Belkhir Belhaddad",
+      "validated_username": "b_belhaddad",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Mickaël Bouloux",
+      "validated_username": "mickaelbouloux",
+      "group": "SOC",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Marine Hamelet",
+      "validated_username": "marine_hamelet",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Caroline Parmentier",
+      "validated_username": "parmentier_rn",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Xavier Breton",
+      "validated_username": "bretonxavier",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Maud Gatel",
+      "validated_username": "maudgatel",
+      "group": "MODEM",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Paul-André Colombani",
+      "validated_username": "pacolombani",
+      "group": "LIOT",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Jérôme Buisson",
+      "validated_username": "jerome_buisson",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Lisa Belluco",
+      "validated_username": "lisabelluco",
+      "group": "ECO",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Gabriel Amard",
+      "validated_username": "gabrielamard",
+      "group": "LFI",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Bertrand Sorre",
+      "validated_username": "bertrandsorre",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Alexis Jolly",
+      "validated_username": "alexisjollyrn",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Caroline Colombier",
+      "validated_username": "ccolombier_rn",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "William Martinet",
+      "validated_username": "williammartinet",
+      "group": "LFI",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Olivier Falorni",
+      "validated_username": "olivierfalorni",
+      "group": "MODEM",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Dominique Potier",
+      "validated_username": "potierdominique",
+      "group": "SOC",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Bryan Masson",
+      "validated_username": "massonbryan",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Adrien Quatennens",
+      "validated_username": "aquatennens",
+      "group": "LFI",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Laurent Croizier",
+      "validated_username": "croizierlaurent",
+      "group": "MODEM",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Bertrand Pancher",
+      "validated_username": "bertrandpancher",
+      "group": "LIOT",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Caroline Abadie",
+      "validated_username": "abadiecaroline",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Didier Paris",
+      "validated_username": "didierparis",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Éric Bothorel",
+      "validated_username": "ebothorel",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Delphine Batho",
+      "validated_username": "delphinebatho",
+      "group": "ECO",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Olivia Grégoire",
+      "validated_username": "oliviagregoire",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Aurélien Lopez-Liguori",
+      "validated_username": "lopezliguori",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Paul Christophe",
+      "validated_username": "christophe_p",
+      "group": "HOR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Bruno Millienne",
+      "validated_username": "brunomillienne",
+      "group": "MODEM",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Gisèle Lelouis",
+      "validated_username": "gisele_lelouis",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Vincent Bru",
+      "validated_username": "bru_vincent",
+      "group": "MODEM",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Matthieu Marchio",
+      "validated_username": "marchiomatthieu",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Frantz Gumbs",
+      "validated_username": "frantzgumbs",
+      "group": "MODEM",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Laetitia Saint-Paul",
+      "validated_username": "l_saintpaul",
+      "group": "REN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Élise Leboucher",
+      "validated_username": "leboucher_elise",
+      "group": "LFI",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Estelle Youssouffa",
+      "validated_username": "deputeeestelle",
+      "group": "LIOT",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Ian Boucard",
+      "validated_username": "ianboucard",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Agnès Firmin Le Bodo",
+      "validated_username": "agnesfirmin",
+      "group": "HOR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Philippe Brun",
+      "validated_username": "p_brun",
+      "group": "PS-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Hadrien Clouet",
+      "validated_username": "hadrienclouet",
+      "group": "LFI-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Damien Maudet",
+      "validated_username": "damienmaudt",
+      "group": "LFI-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Laure Miller",
+      "validated_username": "laure_miller",
+      "group": "EPR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Daniel Labaronne",
+      "validated_username": "labaronnedaniel",
+      "group": "EPR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Stéphanie Rist",
+      "validated_username": "stephanie_rist",
+      "group": "EPR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Claire Lejeune",
+      "validated_username": "clairemlejeune",
+      "group": "LFI-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Romain Eskenazi",
+      "validated_username": "romain",
+      "group": "PS-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Ugo Bernalicis",
+      "validated_username": "ugobernalicis",
+      "group": "LFI-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Philippe Schreck",
+      "validated_username": "ph_schreck",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Philippe Gosselin",
+      "validated_username": "phgosselin",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Marc de Fleurian",
+      "validated_username": "marcdefleurian",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Élisabeth de Maistre",
+      "validated_username": "emaistre",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Yannick Favennec-Bécot",
+      "validated_username": "yfavennec",
+      "group": "LIOT",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Anne-Cécile Violland",
+      "validated_username": "annececilevio",
+      "group": "HOR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Marie Pochon",
+      "validated_username": "mariepochon",
+      "group": "ECO-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Brigitte Liso",
+      "validated_username": "brigitte_liso",
+      "group": "EPR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Sylvie Bonnet",
+      "validated_username": "sylviebonnet_42",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Théo Bernhardt",
+      "validated_username": "th_bnrdt",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Pouria Amirshahi",
+      "validated_username": "pouriaamirshahi",
+      "group": "ECO-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Maxime Michelet",
+      "validated_username": "maxime_michelet",
+      "group": "UDR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Anne Sicard",
+      "validated_username": "annesicard1",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Philippe Bonnecarrère",
+      "validated_username": "pbonnecarrere81",
+      "group": "NI",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Michel Guiniot",
+      "validated_username": "michelguiniot",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Sophie Ricourt Vaginay",
+      "validated_username": "sophievaginay",
+      "group": "UDR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Hanane Mansouri",
+      "validated_username": "hanane_mnsr",
+      "group": "UDR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Antoine Villedieu",
+      "validated_username": "villedieu_a",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Mélanie Thomin",
+      "validated_username": "mel_thomin",
+      "group": "PS-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Ludovic Mendes",
+      "validated_username": "ludovicmds",
+      "group": "EPR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Emmanuel Fernandes",
+      "validated_username": "emmanfernandes",
+      "group": "LFI-NFP",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Edwige Diaz",
+      "validated_username": "diaz_edwige",
+      "group": "RN",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Jean-René Cazeneuve",
+      "validated_username": "jrcazeneuve",
+      "group": "EPR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Michel Herbillon",
+      "validated_username": "michelherbillon",
+      "group": "LR",
+      "intervention_count": 1
+    },
+    {
+      "depute_name": "Pierre Cazeneuve",
+      "validated_username": "pierrecazeneuve",
+      "group": "EPR",
+      "intervention_count": 1
+    }
+  ]
+}

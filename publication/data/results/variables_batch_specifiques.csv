@@ -1,0 +1,73 @@
+batch,variable,bloc,pct
+CHOC,condemns_hamas_attack,Gauche radicale,11.4
+CHOC,condemns_hamas_attack,Gauche moderee,23.2
+CHOC,condemns_hamas_attack,Centre / Majorite,57.3
+CHOC,condemns_hamas_attack,Droite,67.2
+CHOC,self_defense_mention,Gauche radicale,3.8
+CHOC,self_defense_mention,Gauche moderee,11.5
+CHOC,self_defense_mention,Centre / Majorite,16.7
+CHOC,self_defense_mention,Droite,12.2
+CHOC,proportionality_issue,Gauche radicale,30.0
+CHOC,proportionality_issue,Gauche moderee,30.8
+CHOC,proportionality_issue,Centre / Majorite,2.4
+CHOC,proportionality_issue,Droite,0.6
+CHOC,displacement_mention,Gauche radicale,28.5
+CHOC,displacement_mention,Gauche moderee,26.4
+CHOC,displacement_mention,Centre / Majorite,4.2
+CHOC,displacement_mention,Droite,2.0
+POST_CIJ,icj_reference,Gauche radicale,38.7
+POST_CIJ,icj_reference,Gauche moderee,17.4
+POST_CIJ,icj_reference,Centre / Majorite,0.0
+POST_CIJ,icj_reference,Droite,0.0
+POST_CIJ,genocide_framing,Gauche radicale,100.0
+POST_CIJ,genocide_framing,Gauche moderee,100.0
+POST_CIJ,genocide_framing,Centre / Majorite,100.0
+POST_CIJ,genocide_framing,Droite,100.0
+RAFAH,rafah_reaction,Gauche radicale,100.0
+RAFAH,rafah_reaction,Gauche moderee,100.0
+RAFAH,rafah_reaction,Centre / Majorite,100.0
+RAFAH,rafah_reaction,Droite,100.0
+RAFAH,icc_mention,Gauche radicale,29.4
+RAFAH,icc_mention,Gauche moderee,20.8
+RAFAH,icc_mention,Centre / Majorite,9.2
+RAFAH,icc_mention,Droite,1.4
+RAFAH,genocide_framing,Gauche radicale,100.0
+RAFAH,genocide_framing,Gauche moderee,100.0
+RAFAH,genocide_framing,Centre / Majorite,100.0
+RAFAH,genocide_framing,Droite,100.0
+POST_SINWAR,sinwar_reaction,Gauche radicale,100.0
+POST_SINWAR,sinwar_reaction,Gauche moderee,100.0
+POST_SINWAR,sinwar_reaction,Centre / Majorite,100.0
+POST_SINWAR,sinwar_reaction,Droite,100.0
+POST_SINWAR,ethnic_cleansing_frame,Gauche radicale,52.6
+POST_SINWAR,ethnic_cleansing_frame,Gauche moderee,28.6
+POST_SINWAR,ethnic_cleansing_frame,Centre / Majorite,0.0
+POST_SINWAR,ethnic_cleansing_frame,Droite,0.0
+MANDATS_CPI,icc_warrants_position,Gauche radicale,100.0
+MANDATS_CPI,icc_warrants_position,Gauche moderee,100.0
+MANDATS_CPI,icc_warrants_position,Centre / Majorite,100.0
+MANDATS_CPI,icc_warrants_position,Droite,100.0
+MANDATS_CPI,genocide_framing,Gauche radicale,100.0
+MANDATS_CPI,genocide_framing,Gauche moderee,100.0
+MANDATS_CPI,genocide_framing,Centre / Majorite,100.0
+MANDATS_CPI,genocide_framing,Droite,100.0
+CEASEFIRE_BREACH,ceasefire_breach_blame,Gauche radicale,100.0
+CEASEFIRE_BREACH,ceasefire_breach_blame,Gauche moderee,100.0
+CEASEFIRE_BREACH,ceasefire_breach_blame,Centre / Majorite,100.0
+CEASEFIRE_BREACH,ceasefire_breach_blame,Droite,100.0
+CEASEFIRE_BREACH,two_state_mention,Gauche radicale,5.0
+CEASEFIRE_BREACH,two_state_mention,Gauche moderee,18.6
+CEASEFIRE_BREACH,two_state_mention,Centre / Majorite,6.1
+CEASEFIRE_BREACH,two_state_mention,Droite,0.9
+NEW_OFFENSIVE,transpartisan_convergence,Gauche radicale,6.9
+NEW_OFFENSIVE,transpartisan_convergence,Gauche moderee,35.5
+NEW_OFFENSIVE,transpartisan_convergence,Centre / Majorite,30.3
+NEW_OFFENSIVE,transpartisan_convergence,Droite,3.5
+NEW_OFFENSIVE,state_recognition_mention,Gauche radicale,8.2
+NEW_OFFENSIVE,state_recognition_mention,Gauche moderee,19.8
+NEW_OFFENSIVE,state_recognition_mention,Centre / Majorite,12.9
+NEW_OFFENSIVE,state_recognition_mention,Droite,5.5
+NEW_OFFENSIVE,conquest_framing,Gauche radicale,2.9
+NEW_OFFENSIVE,conquest_framing,Gauche moderee,4.1
+NEW_OFFENSIVE,conquest_framing,Centre / Majorite,2.3
+NEW_OFFENSIVE,conquest_framing,Droite,0.0

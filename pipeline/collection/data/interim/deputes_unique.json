@@ -1,0 +1,2464 @@
+{
+  "extracted_at": "2025-10-19T19:29:13.309521",
+  "total_interventions": 736,
+  "unique_speakers": 203,
+  "deputes": [
+    {
+      "name": "Élisa Martin",
+      "normalized_name": "elisa martin",
+      "group": "LFI",
+      "interventions_count": 17,
+      "priority_score": 100,
+      "top_keywords": {
+        "israël": 7,
+        "hamas": 5,
+        "gaza": 4
+      },
+      "first_intervention": "2023-10-03",
+      "last_intervention": "2024-06-05"
+    },
+    {
+      "name": "Jean-Noël Barrot",
+      "normalized_name": "jean-noel barrot",
+      "group": "MODEM",
+      "interventions_count": 61,
+      "priority_score": 100,
+      "top_keywords": {
+        "israël": 33,
+        "gaza": 26,
+        "otage": 19
+      },
+      "first_intervention": "2024-03-06",
+      "last_intervention": "2025-10-15"
+    },
+    {
+      "name": "Sabrina Sebaihi",
+      "normalized_name": "sabrina sebaihi",
+      "group": "ECO-NFP",
+      "interventions_count": 14,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 7,
+        "israël": 6,
+        "otage": 4
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Gabriel Attal",
+      "normalized_name": "gabriel attal",
+      "group": "EPR",
+      "interventions_count": 24,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 8,
+        "otage": 5,
+        "israël": 4
+      },
+      "first_intervention": "2024-01-30",
+      "last_intervention": "2025-10-14"
+    },
+    {
+      "name": "Cyrielle Chatelain",
+      "normalized_name": "cyrielle chatelain",
+      "group": "ECO-NFP",
+      "interventions_count": 15,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 8,
+        "israël": 7,
+        "palestine": 6
+      },
+      "first_intervention": "2023-06-07",
+      "last_intervention": "2025-09-08"
+    },
+    {
+      "name": "Stéphane Mazars",
+      "normalized_name": "stephane mazars",
+      "group": "REN",
+      "interventions_count": 10,
+      "priority_score": 100.0,
+      "top_keywords": {
+        "gaza": 4,
+        "hamas": 3,
+        "israël": 3
+      },
+      "first_intervention": "2024-01-17",
+      "last_intervention": "2024-05-21"
+    },
+    {
+      "name": "Benjamin Haddad",
+      "normalized_name": "benjamin haddad",
+      "group": "REN",
+      "interventions_count": 13,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 5,
+        "hamas": 5,
+        "otage": 4
+      },
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2025-05-14"
+    },
+    {
+      "name": "Mme Chrysoula Zacharopoulou",
+      "normalized_name": "mme chrysoula zacharopoulou",
+      "group": null,
+      "interventions_count": 15,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 8,
+        "israël": 7,
+        "hamas": 7
+      },
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2024-03-05"
+    },
+    {
+      "name": "François Cormier-Bouligeon",
+      "normalized_name": "francois cormier-bouligeon",
+      "group": "EPR",
+      "interventions_count": 10,
+      "priority_score": 100.0,
+      "top_keywords": {
+        "israël": 4,
+        "otage": 4,
+        "gaza": 3
+      },
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Jean-Paul Lecoq",
+      "normalized_name": "jean-paul lecoq",
+      "group": "GDR",
+      "interventions_count": 18,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 10,
+        "palestine": 8,
+        "israël": 6
+      },
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Catherine Couturier",
+      "normalized_name": "catherine couturier",
+      "group": "LFI",
+      "interventions_count": 24,
+      "priority_score": 100,
+      "top_keywords": {
+        "israël": 5,
+        "gaza": 3,
+        "otage": 2
+      },
+      "first_intervention": "2022-08-02",
+      "last_intervention": "2023-12-19"
+    },
+    {
+      "name": "Pieyre-Alexandre Anglade",
+      "normalized_name": "pieyre-alexandre anglade",
+      "group": "EPR",
+      "interventions_count": 13,
+      "priority_score": 100,
+      "top_keywords": {
+        "israël": 5,
+        "gaza": 4,
+        "hamas": 2
+      },
+      "first_intervention": "2022-08-02",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Mathilde Panot",
+      "normalized_name": "mathilde panot",
+      "group": "LFI-NFP",
+      "interventions_count": 27,
+      "priority_score": 100,
+      "top_keywords": {
+        "gaza": 8,
+        "hamas": 5,
+        "otage": 4
+      },
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Elsa Faucillon",
+      "normalized_name": "elsa faucillon",
+      "group": "GDR",
+      "interventions_count": 9,
+      "priority_score": 90.0,
+      "top_keywords": {
+        "gaza": 4,
+        "palestine": 3,
+        "israël": 2
+      },
+      "first_intervention": "2022-12-06",
+      "last_intervention": "2025-01-16"
+    },
+    {
+      "name": "Nathalie Oziol",
+      "normalized_name": "nathalie oziol",
+      "group": "LFI-NFP",
+      "interventions_count": 9,
+      "priority_score": 90.0,
+      "top_keywords": {
+        "gaza": 3,
+        "palestine": 2,
+        "hamas": 1
+      },
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2024-10-30"
+    },
+    {
+      "name": "Éric Coquerel",
+      "normalized_name": "eric coquerel",
+      "group": "LFI-NFP",
+      "interventions_count": 9,
+      "priority_score": 90.0,
+      "top_keywords": {
+        "gaza": 5,
+        "otage": 3,
+        "israël": 3
+      },
+      "first_intervention": "2023-11-07",
+      "last_intervention": "2025-01-28"
+    },
+    {
+      "name": "Laurence Maillart-Méhaignerie",
+      "normalized_name": "laurence maillart-mehaignerie",
+      "group": "REN",
+      "interventions_count": 9,
+      "priority_score": 90.0,
+      "top_keywords": {
+        "gaza": 4,
+        "hamas": 3,
+        "israël": 3
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2023-12-05"
+    },
+    {
+      "name": "Laurent Alexandre",
+      "normalized_name": "laurent alexandre",
+      "group": "LFI-NFP",
+      "interventions_count": 8,
+      "priority_score": 80.0,
+      "top_keywords": {
+        "gaza": 3,
+        "palestine": 3,
+        "israël": 1
+      },
+      "first_intervention": "2025-06-10",
+      "last_intervention": "2025-07-08"
+    },
+    {
+      "name": "Fabien Roussel",
+      "normalized_name": "fabien roussel",
+      "group": "GDR",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "gaza": 3,
+        "palestine": 3,
+        "israël": 2
+      },
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2024-03-12"
+    },
+    {
+      "name": "Marine Le Pen",
+      "normalized_name": "marine le pen",
+      "group": "RN",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "israël": 5,
+        "palestine": 3,
+        "hamas": 3
+      },
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Prisca Thevenot",
+      "normalized_name": "prisca thevenot",
+      "group": "REN",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "gaza": 3,
+        "israël": 2,
+        "hamas": 1
+      },
+      "first_intervention": "2024-01-16",
+      "last_intervention": "2024-02-06"
+    },
+    {
+      "name": "Frédéric Petit",
+      "normalized_name": "frederic petit",
+      "group": "DEM",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "israël": 2,
+        "hamas": 2,
+        "gaza": 2
+      },
+      "first_intervention": "2023-05-09",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Michèle Tabarot",
+      "normalized_name": "michele tabarot",
+      "group": "LR",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "otage": 3,
+        "gaza": 3,
+        "israël": 2
+      },
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Pr?sidence de s?ance",
+      "normalized_name": "pr?sidence de s?ance",
+      "group": "Pr?sidence",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "israël": 2,
+        "gaza": 2,
+        "otage": 2
+      },
+      "first_intervention": "2023-01-31",
+      "last_intervention": "2025-10-14"
+    },
+    {
+      "name": "Laurent Marcangeli",
+      "normalized_name": "laurent marcangeli",
+      "group": "HOR",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "hamas": 4,
+        "israël": 3,
+        "otage": 3
+      },
+      "first_intervention": "2023-10-10",
+      "last_intervention": "2024-10-01"
+    },
+    {
+      "name": "Constance Le Grip",
+      "normalized_name": "constance le grip",
+      "group": "EPR",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "israël": 1
+      },
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Sophie Blanc",
+      "normalized_name": "sophie blanc",
+      "group": "RN",
+      "interventions_count": 7,
+      "priority_score": 70.0,
+      "top_keywords": {
+        "gaza": 4,
+        "otage": 3,
+        "israël": 2
+      },
+      "first_intervention": "2024-10-30",
+      "last_intervention": "2024-12-03"
+    },
+    {
+      "name": "Aymeric Caron",
+      "normalized_name": "aymeric caron",
+      "group": "LFI-NFP",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "gaza": 3,
+        "israël": 3,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-24",
+      "last_intervention": "2025-04-08"
+    },
+    {
+      "name": "Sébastien Delogu",
+      "normalized_name": "sebastien delogu",
+      "group": "LFI",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "israël": 3
+      },
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2024-05-07"
+    },
+    {
+      "name": "Boris Vallaud",
+      "normalized_name": "boris vallaud",
+      "group": "SOC",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "gaza": 2,
+        "hamas": 2,
+        "palestine": 1
+      },
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2024-03-12"
+    },
+    {
+      "name": "Arnaud Le Gall",
+      "normalized_name": "arnaud le gall",
+      "group": "LFI-NFP",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "gaza": 2,
+        "hamas": 1,
+        "otage": 1
+      },
+      "first_intervention": "2023-10-10",
+      "last_intervention": "2024-10-08"
+    },
+    {
+      "name": "Aurélien Taché",
+      "normalized_name": "aurelien tache",
+      "group": "LFI-NFP",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "gaza": 2,
+        "hamas": 1,
+        "israël": 1
+      },
+      "first_intervention": "2022-10-11",
+      "last_intervention": "2025-01-15"
+    },
+    {
+      "name": "Ersilia Soudais",
+      "normalized_name": "ersilia soudais",
+      "group": "LFI",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {},
+      "first_intervention": "2023-05-09",
+      "last_intervention": "2023-11-29"
+    },
+    {
+      "name": "Olivier Becht",
+      "normalized_name": "olivier becht",
+      "group": "EPR",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "otage": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-24",
+      "last_intervention": "2023-11-28"
+    },
+    {
+      "name": "Jean-Louis Bourlanges",
+      "normalized_name": "jean-louis bourlanges",
+      "group": "MODEM",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "hamas": 3,
+        "israël": 3,
+        "gaza": 1
+      },
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2023-10-23"
+    },
+    {
+      "name": "Michel Barnier",
+      "normalized_name": "michel barnier",
+      "group": "LR",
+      "interventions_count": 6,
+      "priority_score": 60.0,
+      "top_keywords": {
+        "israël": 4,
+        "otage": 3,
+        "gaza": 2
+      },
+      "first_intervention": "2024-10-01",
+      "last_intervention": "2025-10-15"
+    },
+    {
+      "name": "Benjamin Saint-Huile",
+      "normalized_name": "benjamin saint-huile",
+      "group": "LIOT",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "gaza": 4,
+        "palestine": 3,
+        "israël": 3
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2024-06-04"
+    },
+    {
+      "name": "Olivier Faure",
+      "normalized_name": "olivier faure",
+      "group": "PS-NFP",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "gaza": 2,
+        "israël": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2025-06-03"
+    },
+    {
+      "name": "André Chassaigne",
+      "normalized_name": "andre chassaigne",
+      "group": "GDR",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "gaza": 3,
+        "otage": 2,
+        "palestine": 2
+      },
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2024-10-01"
+    },
+    {
+      "name": "Bertrand Pancher",
+      "normalized_name": "bertrand pancher",
+      "group": "LIOT",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {},
+      "first_intervention": "2023-03-28",
+      "last_intervention": "2024-03-12"
+    },
+    {
+      "name": "Marcellin Nadeau",
+      "normalized_name": "marcellin nadeau",
+      "group": "GDR",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "israël": 1,
+        "hamas": 1,
+        "gaza": 1
+      },
+      "first_intervention": "2023-11-07",
+      "last_intervention": "2023-11-07"
+    },
+    {
+      "name": "Aurore Bergé",
+      "normalized_name": "aurore berge",
+      "group": "REN",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "israël": 1
+      },
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2023-05-04"
+    },
+    {
+      "name": "Bruno Fuchs",
+      "normalized_name": "bruno fuchs",
+      "group": "DEM",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2025-01-14",
+      "last_intervention": "2025-05-05"
+    },
+    {
+      "name": "Mohamed Laqhila",
+      "normalized_name": "mohamed laqhila",
+      "group": "MODEM",
+      "interventions_count": 5,
+      "priority_score": 50.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2025-01-21",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Alma Dufour",
+      "normalized_name": "alma dufour",
+      "group": "LFI-NFP",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "israël": 2,
+        "gaza": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-12-05",
+      "last_intervention": "2025-01-21"
+    },
+    {
+      "name": "Sophia Chikirou",
+      "normalized_name": "sophia chikirou",
+      "group": "LFI-NFP",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-05-14",
+      "last_intervention": "2025-06-10"
+    },
+    {
+      "name": "Carlos Martens Bilongo",
+      "normalized_name": "carlos martens bilongo",
+      "group": "LFI",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "gaza": 2,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-11-21",
+      "last_intervention": "2024-04-29"
+    },
+    {
+      "name": "Antoine Léaument",
+      "normalized_name": "antoine leaument",
+      "group": "LFI",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "palestine": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-12",
+      "last_intervention": "2024-03-27"
+    },
+    {
+      "name": "David Habib",
+      "normalized_name": "david habib",
+      "group": "NI",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "israël": 4,
+        "palestine": 1,
+        "gaza": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2024-03-06"
+    },
+    {
+      "name": "Thomas Portes",
+      "normalized_name": "thomas portes",
+      "group": "LFI-NFP",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "gaza": 4,
+        "israël": 4,
+        "hamas": 1
+      },
+      "first_intervention": "2024-03-05",
+      "last_intervention": "2025-01-14"
+    },
+    {
+      "name": "Emmanuelle Ménard",
+      "normalized_name": "emmanuelle menard",
+      "group": "NI",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "hamas": 2,
+        "gaza": 1,
+        "palestine": 1
+      },
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2024-01-16"
+    },
+    {
+      "name": "Jean-Louis Thiériot",
+      "normalized_name": "jean-louis thieriot",
+      "group": "LR",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "israël": 2,
+        "hamas": 2
+      },
+      "first_intervention": "2023-11-07",
+      "last_intervention": "2024-10-02"
+    },
+    {
+      "name": "Isabelle Santiago",
+      "normalized_name": "isabelle santiago",
+      "group": "SOC",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2023-06-13"
+    },
+    {
+      "name": "Stéphanie Kochert",
+      "normalized_name": "stephanie kochert",
+      "group": "HOR",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "israël": 2,
+        "gaza": 1,
+        "palestine": 1
+      },
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2023-05-09"
+    },
+    {
+      "name": "Laurent Mazaury",
+      "normalized_name": "laurent mazaury",
+      "group": "LIOT",
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "gaza": 1,
+        "hamas": 1,
+        "otage": 1
+      },
+      "first_intervention": "2025-03-03",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Mme Insaf Rezagui",
+      "normalized_name": "mme insaf rezagui",
+      "group": null,
+      "interventions_count": 4,
+      "priority_score": 40.0,
+      "top_keywords": {
+        "palestine": 2,
+        "israël": 2,
+        "gaza": 1
+      },
+      "first_intervention": "2025-01-14",
+      "last_intervention": "2025-01-14"
+    },
+    {
+      "name": "Stéphane Peu",
+      "normalized_name": "stephane peu",
+      "group": "GDR",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "palestine": 1
+      },
+      "first_intervention": "2024-04-29",
+      "last_intervention": "2025-06-24"
+    },
+    {
+      "name": "Éric Poulliat",
+      "normalized_name": "eric poulliat",
+      "group": "REN",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-07-06",
+      "last_intervention": "2024-03-06"
+    },
+    {
+      "name": "Julien Odoul",
+      "normalized_name": "julien odoul",
+      "group": "RN",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "hamas": 2,
+        "israël": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2024-03-06"
+    },
+    {
+      "name": "Sébastien Chenu",
+      "normalized_name": "sebastien chenu",
+      "group": "RN",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {},
+      "first_intervention": "2024-03-06",
+      "last_intervention": "2025-10-15"
+    },
+    {
+      "name": "Pierre Dharréville",
+      "normalized_name": "pierre dharreville",
+      "group": "GDR",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 2,
+        "palestine": 2,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-31",
+      "last_intervention": "2024-02-14"
+    },
+    {
+      "name": "Soumya Bourouaha",
+      "normalized_name": "soumya bourouaha",
+      "group": "GDR",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 3,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-02-07",
+      "last_intervention": "2025-06-11"
+    },
+    {
+      "name": "Andrée Taurinya",
+      "normalized_name": "andree taurinya",
+      "group": "LFI-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 2,
+        "israël": 2,
+        "palestine": 1
+      },
+      "first_intervention": "2022-12-01",
+      "last_intervention": "2025-05-14"
+    },
+    {
+      "name": "François Ruffin",
+      "normalized_name": "francois ruffin",
+      "group": "ECO-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "palestine": 2,
+        "gaza": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2024-01-16",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Jérôme Guedj",
+      "normalized_name": "jerome guedj",
+      "group": "SOC",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "hamas": 2,
+        "israël": 2,
+        "otage": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2023-11-04"
+    },
+    {
+      "name": "Jérôme Legavre",
+      "normalized_name": "jerome legavre",
+      "group": "LFI-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2023-10-31",
+      "last_intervention": "2025-03-26"
+    },
+    {
+      "name": "Caroline Yadan",
+      "normalized_name": "caroline yadan",
+      "group": "EPR",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "palestine": 1
+      },
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2025-05-06"
+    },
+    {
+      "name": "Éric Ciotti",
+      "normalized_name": "eric ciotti",
+      "group": "UDR",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-10",
+      "last_intervention": "2025-03-03"
+    },
+    {
+      "name": "Hubert Julien-Laferrière",
+      "normalized_name": "hubert julien-laferriere",
+      "group": "NI",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {},
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2023-07-06"
+    },
+    {
+      "name": "Julien Bayou",
+      "normalized_name": "julien bayou",
+      "group": "NI",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {},
+      "first_intervention": "2023-05-09",
+      "last_intervention": "2023-05-26"
+    },
+    {
+      "name": "Bastien Lachaud",
+      "normalized_name": "bastien lachaud",
+      "group": "LFI-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {},
+      "first_intervention": "2023-05-26",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Dieynaba Diop",
+      "normalized_name": "dieynaba diop",
+      "group": "PS-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 3,
+        "palestine": 2,
+        "hamas": 2
+      },
+      "first_intervention": "2025-06-25",
+      "last_intervention": "2025-10-15"
+    },
+    {
+      "name": "Clémence Guetté",
+      "normalized_name": "clemence guette",
+      "group": "LFI-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "israël": 2,
+        "palestine": 1,
+        "gaza": 1
+      },
+      "first_intervention": "2025-01-15",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Marianne Maximi",
+      "normalized_name": "marianne maximi",
+      "group": "LFI-NFP",
+      "interventions_count": 3,
+      "priority_score": 30.0,
+      "top_keywords": {
+        "gaza": 2,
+        "hamas": 1
+      },
+      "first_intervention": "2024-12-03",
+      "last_intervention": "2024-12-03"
+    },
+    {
+      "name": "Matthias Tavel",
+      "normalized_name": "matthias tavel",
+      "group": "LFI",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-06-03",
+      "last_intervention": "2024-06-03"
+    },
+    {
+      "name": "Jean-Paul Mattei",
+      "normalized_name": "jean-paul mattei",
+      "group": "MODEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "hamas": 1,
+        "otage": 1
+      },
+      "first_intervention": "2023-10-10",
+      "last_intervention": "2024-06-03"
+    },
+    {
+      "name": "Dominique Potier",
+      "normalized_name": "dominique potier",
+      "group": "SOC",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2023-10-17",
+      "last_intervention": "2024-05-17"
+    },
+    {
+      "name": "Philippe Dunoyer",
+      "normalized_name": "philippe dunoyer",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2024-03-18",
+      "last_intervention": "2024-05-14"
+    },
+    {
+      "name": "Frédéric Mathieu",
+      "normalized_name": "frederic mathieu",
+      "group": "LFI",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-04-10",
+      "last_intervention": "2024-04-10"
+    },
+    {
+      "name": "Florian Chauche",
+      "normalized_name": "florian chauche",
+      "group": "LFI",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 2,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-03-26",
+      "last_intervention": "2024-03-26"
+    },
+    {
+      "name": "Farida Amrani",
+      "normalized_name": "farida amrani",
+      "group": "LFI",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-03-12",
+      "last_intervention": "2024-03-12"
+    },
+    {
+      "name": "Jean-Charles Larsonneur",
+      "normalized_name": "jean-charles larsonneur",
+      "group": "NI",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2023-05-31",
+      "last_intervention": "2024-03-12"
+    },
+    {
+      "name": "Danielle Simonnet",
+      "normalized_name": "danielle simonnet",
+      "group": "ECO-NFP",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2024-03-06",
+      "last_intervention": "2025-02-04"
+    },
+    {
+      "name": "Christophe Marion",
+      "normalized_name": "christophe marion",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "otage": 1
+      },
+      "first_intervention": "2024-01-16",
+      "last_intervention": "2024-03-05"
+    },
+    {
+      "name": "Manuel Bompard",
+      "normalized_name": "manuel bompard",
+      "group": "LFI-NFP",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 2
+      },
+      "first_intervention": "2024-02-05",
+      "last_intervention": "2025-05-06"
+    },
+    {
+      "name": "Clémentine Autain",
+      "normalized_name": "clementine autain",
+      "group": "LFI",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 1,
+        "gaza": 1
+      },
+      "first_intervention": "2023-12-12",
+      "last_intervention": "2023-12-12"
+    },
+    {
+      "name": "Hadrien Ghomi",
+      "normalized_name": "hadrien ghomi",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-05-09",
+      "last_intervention": "2023-12-04"
+    },
+    {
+      "name": "Hadrien Clouet",
+      "normalized_name": "hadrien clouet",
+      "group": "LFI-NFP",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2023-11-29",
+      "last_intervention": "2025-05-07"
+    },
+    {
+      "name": "Nicolas Turquois",
+      "normalized_name": "nicolas turquois",
+      "group": "MODEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "hamas": 2,
+        "israël": 1,
+        "otage": 1
+      },
+      "first_intervention": "2023-11-22",
+      "last_intervention": "2023-11-22"
+    },
+    {
+      "name": "Christophe Blanchet",
+      "normalized_name": "christophe blanchet",
+      "group": "MODEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2023-11-09",
+      "last_intervention": "2023-11-09"
+    },
+    {
+      "name": "Anne Genetet",
+      "normalized_name": "anne genetet",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2023-03-28",
+      "last_intervention": "2023-11-07"
+    },
+    {
+      "name": "Sandrine Rousseau",
+      "normalized_name": "sandrine rousseau",
+      "group": "ECO",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "otage": 1
+      },
+      "first_intervention": "2023-10-31",
+      "last_intervention": "2023-10-31"
+    },
+    {
+      "name": "Jérémie Patrier-Leitus",
+      "normalized_name": "jeremie patrier-leitus",
+      "group": "HOR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 2,
+        "gaza": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-24",
+      "last_intervention": "2024-10-08"
+    },
+    {
+      "name": "Mathieu Lefèvre",
+      "normalized_name": "mathieu lefevre",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 2,
+        "otage": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2023-10-23"
+    },
+    {
+      "name": "Bruno Le Maire",
+      "normalized_name": "bruno le maire",
+      "group": "Gouvernement",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2023-10-17",
+      "last_intervention": "2023-10-18"
+    },
+    {
+      "name": "Didier Paris",
+      "normalized_name": "didier paris",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 1
+      },
+      "first_intervention": "2023-07-06",
+      "last_intervention": "2023-10-10"
+    },
+    {
+      "name": "Sarah Tanzilli",
+      "normalized_name": "sarah tanzilli",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2023-10-10"
+    },
+    {
+      "name": "Bertrand Bouyx",
+      "normalized_name": "bertrand bouyx",
+      "group": "HOR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2023-07-18",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Guillaume Gouffier Valente",
+      "normalized_name": "guillaume gouffier valente",
+      "group": "REN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2023-07-06",
+      "last_intervention": "2023-07-06"
+    },
+    {
+      "name": "Emmanuel Mandon",
+      "normalized_name": "emmanuel mandon",
+      "group": "MODEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "otage": 1
+      },
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2023-06-06"
+    },
+    {
+      "name": "Hélène Laporte",
+      "normalized_name": "helene laporte",
+      "group": "RN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "palestine": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2023-05-04"
+    },
+    {
+      "name": "Frédéric Zgainski",
+      "normalized_name": "frederic zgainski",
+      "group": "MODEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "palestine": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2023-05-04"
+    },
+    {
+      "name": "Annie Genevard",
+      "normalized_name": "annie genevard",
+      "group": "LR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2023-05-04",
+      "last_intervention": "2023-05-04"
+    },
+    {
+      "name": "Alain David",
+      "normalized_name": "alain david",
+      "group": "SOC",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-12-08"
+    },
+    {
+      "name": "Alexandre Portier",
+      "normalized_name": "alexandre portier",
+      "group": "LR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2025-07-02",
+      "last_intervention": "2025-07-02"
+    },
+    {
+      "name": "Geneviève Darrieussecq",
+      "normalized_name": "genevieve darrieussecq",
+      "group": "DEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "otage": 1
+      },
+      "first_intervention": "2025-03-03",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Marie-Agnès Poussier-Winsback",
+      "normalized_name": "marie-agnes poussier-winsback",
+      "group": "HOR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 2,
+        "hamas": 2,
+        "gaza": 1
+      },
+      "first_intervention": "2025-06-25",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Catherine Hervieu",
+      "normalized_name": "catherine hervieu",
+      "group": "ECO-NFP",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 2
+      },
+      "first_intervention": "2025-01-14",
+      "last_intervention": "2025-06-23"
+    },
+    {
+      "name": "Jean-Claude Raux",
+      "normalized_name": "jean-claude raux",
+      "group": "ECO-NFP",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 2,
+        "israël": 2,
+        "palestine": 1
+      },
+      "first_intervention": "2025-01-14",
+      "last_intervention": "2025-05-14"
+    },
+    {
+      "name": "Richard Ramos",
+      "normalized_name": "richard ramos",
+      "group": "DEM",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 2,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2025-05-06",
+      "last_intervention": "2025-05-06"
+    },
+    {
+      "name": "Amélia Lakrafi",
+      "normalized_name": "amelia lakrafi",
+      "group": "EPR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "israël": 1,
+        "hamas": 1,
+        "otage": 1
+      },
+      "first_intervention": "2024-10-22",
+      "last_intervention": "2025-03-26"
+    },
+    {
+      "name": "Marie Mesmeur",
+      "normalized_name": "marie mesmeur",
+      "group": "LFI-NFP",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2025-03-18",
+      "last_intervention": "2025-03-18"
+    },
+    {
+      "name": "Patrick Hetzel",
+      "normalized_name": "patrick hetzel",
+      "group": "LR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-12",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Vincent Trébuchet",
+      "normalized_name": "vincent trebuchet",
+      "group": "UDR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {},
+      "first_intervention": "2025-02-19",
+      "last_intervention": "2025-03-11"
+    },
+    {
+      "name": "Michel Herbillon",
+      "normalized_name": "michel herbillon",
+      "group": "LR",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2024-10-08",
+      "last_intervention": "2025-03-03"
+    },
+    {
+      "name": "Bruno Bilde",
+      "normalized_name": "bruno bilde",
+      "group": "RN",
+      "interventions_count": 2,
+      "priority_score": 20.0,
+      "top_keywords": {
+        "gaza": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2024-10-08",
+      "last_intervention": "2024-12-03"
+    },
+    {
+      "name": "Franck Riester",
+      "normalized_name": "franck riester",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-05-28",
+      "last_intervention": "2024-05-28"
+    },
+    {
+      "name": "Emmanuel Fernandes",
+      "normalized_name": "emmanuel fernandes",
+      "group": "LFI",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-05-07",
+      "last_intervention": "2024-05-07"
+    },
+    {
+      "name": "Olivier Marleix",
+      "normalized_name": "olivier marleix",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-03-12",
+      "last_intervention": "2024-03-12"
+    },
+    {
+      "name": "Éric Pauget",
+      "normalized_name": "eric pauget",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-03-06",
+      "last_intervention": "2024-03-06"
+    },
+    {
+      "name": "Raphaël Gérard",
+      "normalized_name": "raphael gerard",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-03-06",
+      "last_intervention": "2024-03-06"
+    },
+    {
+      "name": "Olivia Grégoire",
+      "normalized_name": "olivia gregoire",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-02-13",
+      "last_intervention": "2024-02-13"
+    },
+    {
+      "name": "François Piquemal",
+      "normalized_name": "francois piquemal",
+      "group": "LFI",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-02-13",
+      "last_intervention": "2024-02-13"
+    },
+    {
+      "name": "Charles de Courson",
+      "normalized_name": "charles de courson",
+      "group": "LIOT",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-02-06",
+      "last_intervention": "2024-02-06"
+    },
+    {
+      "name": "Antoine Vermorel-Marques",
+      "normalized_name": "antoine vermorel-marques",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2024-01-16",
+      "last_intervention": "2024-01-16"
+    },
+    {
+      "name": "Belkhir Belhaddad",
+      "normalized_name": "belkhir belhaddad",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "otage": 1
+      },
+      "first_intervention": "2024-01-16",
+      "last_intervention": "2024-01-16"
+    },
+    {
+      "name": "Pierre-Henri Dumont",
+      "normalized_name": "pierre-henri dumont",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-01-16",
+      "last_intervention": "2024-01-16"
+    },
+    {
+      "name": "Florent Boudié",
+      "normalized_name": "florent boudie",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-12-11",
+      "last_intervention": "2023-12-11"
+    },
+    {
+      "name": "Frank Giletti",
+      "normalized_name": "frank giletti",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-12-05",
+      "last_intervention": "2023-12-05"
+    },
+    {
+      "name": "Xavier Breton",
+      "normalized_name": "xavier breton",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "hamas": 1
+      },
+      "first_intervention": "2023-12-04",
+      "last_intervention": "2023-12-04"
+    },
+    {
+      "name": "Paul-André Colombani",
+      "normalized_name": "paul-andre colombani",
+      "group": "LIOT",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "hamas": 1
+      },
+      "first_intervention": "2023-12-04",
+      "last_intervention": "2023-12-04"
+    },
+    {
+      "name": "Frédéric Valletoux",
+      "normalized_name": "frederic valletoux",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-11-29",
+      "last_intervention": "2023-11-29"
+    },
+    {
+      "name": "Gabriel Amard",
+      "normalized_name": "gabriel amard",
+      "group": "LFI",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-11-28",
+      "last_intervention": "2023-11-28"
+    },
+    {
+      "name": "Aurélien Saintoul",
+      "normalized_name": "aurelien saintoul",
+      "group": "LFI",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "israël": 1
+      },
+      "first_intervention": "2023-11-26",
+      "last_intervention": "2023-11-26"
+    },
+    {
+      "name": "Francesca Pasquini",
+      "normalized_name": "francesca pasquini",
+      "group": "ECO",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1
+      },
+      "first_intervention": "2023-11-14",
+      "last_intervention": "2023-11-14"
+    },
+    {
+      "name": "Didier Martin",
+      "normalized_name": "didier martin",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-10-23",
+      "last_intervention": "2023-10-23"
+    },
+    {
+      "name": "Olivier Falorni",
+      "normalized_name": "olivier falorni",
+      "group": "MODEM",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-10-17",
+      "last_intervention": "2023-10-17"
+    },
+    {
+      "name": "David Guiraud",
+      "normalized_name": "david guiraud",
+      "group": "LFI",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2023-10-17",
+      "last_intervention": "2023-10-17"
+    },
+    {
+      "name": "Alexandre Sabatou",
+      "normalized_name": "alexandre sabatou",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-17",
+      "last_intervention": "2023-10-17"
+    },
+    {
+      "name": "Sylvain Maillard",
+      "normalized_name": "sylvain maillard",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2023-10-10",
+      "last_intervention": "2023-10-10"
+    },
+    {
+      "name": "Marie Guévenoux",
+      "normalized_name": "marie guevenoux",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-10-09",
+      "last_intervention": "2023-10-09"
+    },
+    {
+      "name": "Emmanuelle Anthoine",
+      "normalized_name": "emmanuelle anthoine",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-09-26",
+      "last_intervention": "2023-09-26"
+    },
+    {
+      "name": "Caroline Abadie",
+      "normalized_name": "caroline abadie",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-07-18",
+      "last_intervention": "2023-07-18"
+    },
+    {
+      "name": "Cécile Untermaier",
+      "normalized_name": "cecile untermaier",
+      "group": "SOC",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-07-06",
+      "last_intervention": "2023-07-06"
+    },
+    {
+      "name": "Jérémie Iordanoff",
+      "normalized_name": "jeremie iordanoff",
+      "group": "ECO",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-07-06",
+      "last_intervention": "2023-07-06"
+    },
+    {
+      "name": "Jérôme Buisson",
+      "normalized_name": "jerome buisson",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-05-09",
+      "last_intervention": "2023-05-09"
+    },
+    {
+      "name": "François Gernigon",
+      "normalized_name": "francois gernigon",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-04-03",
+      "last_intervention": "2023-04-03"
+    },
+    {
+      "name": "Caroline Parmentier",
+      "normalized_name": "caroline parmentier",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-03-21",
+      "last_intervention": "2023-03-21"
+    },
+    {
+      "name": "Mme Rima Abdul-Malak",
+      "normalized_name": "mme rima abdul-malak",
+      "group": null,
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-03-21",
+      "last_intervention": "2023-03-21"
+    },
+    {
+      "name": "Chantal Jourdan",
+      "normalized_name": "chantal jourdan",
+      "group": "SOC",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-03-16",
+      "last_intervention": "2023-03-16"
+    },
+    {
+      "name": "M. Rouslan Stefantchouk",
+      "normalized_name": "m. rouslan stefantchouk",
+      "group": null,
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-01-31",
+      "last_intervention": "2023-01-31"
+    },
+    {
+      "name": "Marine Hamelet",
+      "normalized_name": "marine hamelet",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2023-01-11",
+      "last_intervention": "2023-01-11"
+    },
+    {
+      "name": "Christopher Weissberg",
+      "normalized_name": "christopher weissberg",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2022-12-08"
+    },
+    {
+      "name": "Kévin Pfeffer",
+      "normalized_name": "kevin pfeffer",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2022-12-08"
+    },
+    {
+      "name": "Jean-François Portarrieu",
+      "normalized_name": "jean-francois portarrieu",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2022-12-08"
+    },
+    {
+      "name": "Karine Lebon",
+      "normalized_name": "karine lebon",
+      "group": "GDR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1
+      },
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2022-12-08"
+    },
+    {
+      "name": "Paul Molac",
+      "normalized_name": "paul molac",
+      "group": "LIOT",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-12-08",
+      "last_intervention": "2022-12-08"
+    },
+    {
+      "name": "Anne-Laurence Petel",
+      "normalized_name": "anne-laurence petel",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Franck Allisio",
+      "normalized_name": "franck allisio",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Alexandra Martin",
+      "normalized_name": "alexandra martin",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Christophe Plassard",
+      "normalized_name": "christophe plassard",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Michel Castellani",
+      "normalized_name": "michel castellani",
+      "group": "LIOT",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Laurence Robert-Dehault",
+      "normalized_name": "laurence robert-dehault",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Maud Gatel",
+      "normalized_name": "maud gatel",
+      "group": "MODEM",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Jean-Louis Bricout",
+      "normalized_name": "jean-louis bricout",
+      "group": "LIOT",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-30",
+      "last_intervention": "2022-11-30"
+    },
+    {
+      "name": "Philippe Vigier",
+      "normalized_name": "philippe vigier",
+      "group": "DEM",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-11-28",
+      "last_intervention": "2022-11-28"
+    },
+    {
+      "name": "Gérard Leseul",
+      "normalized_name": "gerard leseul",
+      "group": "SOC",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-10-31",
+      "last_intervention": "2022-10-31"
+    },
+    {
+      "name": "Valérie Rabault",
+      "normalized_name": "valerie rabault",
+      "group": "SOC",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2022-10-03",
+      "last_intervention": "2022-10-03"
+    },
+    {
+      "name": "Nicolas Sansu",
+      "normalized_name": "nicolas sansu",
+      "group": "GDR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2025-07-02",
+      "last_intervention": "2025-07-02"
+    },
+    {
+      "name": "Ségolène Amiot",
+      "normalized_name": "segolene amiot",
+      "group": "LFI-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2025-06-26",
+      "last_intervention": "2025-06-26"
+    },
+    {
+      "name": "Brigitte Klinkert",
+      "normalized_name": "brigitte klinkert",
+      "group": "EPR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2025-06-25",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Ayda Hadizadeh",
+      "normalized_name": "ayda hadizadeh",
+      "group": "PS-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-06-25",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Charles Sitzenstuhl",
+      "normalized_name": "charles sitzenstuhl",
+      "group": "EPR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2025-06-25",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Emmanuelle Hoffman",
+      "normalized_name": "emmanuelle hoffman",
+      "group": "EPR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2025-06-25",
+      "last_intervention": "2025-06-25"
+    },
+    {
+      "name": "Marc Ferracci",
+      "normalized_name": "marc ferracci",
+      "group": "REN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-06-24",
+      "last_intervention": "2025-06-24"
+    },
+    {
+      "name": "Stéphane Hablot",
+      "normalized_name": "stephane hablot",
+      "group": "PS-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-06-23",
+      "last_intervention": "2025-06-23"
+    },
+    {
+      "name": "Pierre Pribetich",
+      "normalized_name": "pierre pribetich",
+      "group": "PS-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2025-06-17",
+      "last_intervention": "2025-06-17"
+    },
+    {
+      "name": "Henri Alfandari",
+      "normalized_name": "henri alfandari",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-06-16",
+      "last_intervention": "2025-06-16"
+    },
+    {
+      "name": "Béatrice Bellay",
+      "normalized_name": "beatrice bellay",
+      "group": "PS-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-06-05",
+      "last_intervention": "2025-06-05"
+    },
+    {
+      "name": "Sarah Legrain",
+      "normalized_name": "sarah legrain",
+      "group": "LFI-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-05-14",
+      "last_intervention": "2025-05-14"
+    },
+    {
+      "name": "Sandra Regol",
+      "normalized_name": "sandra regol",
+      "group": "ECO-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "israël": 1
+      },
+      "first_intervention": "2025-05-06",
+      "last_intervention": "2025-05-06"
+    },
+    {
+      "name": "Jean-Pierre Taite",
+      "normalized_name": "jean-pierre taite",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-25",
+      "last_intervention": "2025-03-25"
+    },
+    {
+      "name": "Vincent Jeanbrun",
+      "normalized_name": "vincent jeanbrun",
+      "group": "LR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-12",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Maxime Michelet",
+      "normalized_name": "maxime michelet",
+      "group": "UDR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-12",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Thierry Sother",
+      "normalized_name": "thierry sother",
+      "group": "PS-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-12",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Léa Balage El Mariky",
+      "normalized_name": "lea balage el mariky",
+      "group": "ECO-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-12",
+      "last_intervention": "2025-03-12"
+    },
+    {
+      "name": "Valérie Rossi",
+      "normalized_name": "valerie rossi",
+      "group": "PS-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-04",
+      "last_intervention": "2025-03-04"
+    },
+    {
+      "name": "Paul Christophe",
+      "normalized_name": "paul christophe",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-03",
+      "last_intervention": "2025-03-03"
+    },
+    {
+      "name": "Philippe Bonnecarrère",
+      "normalized_name": "philippe bonnecarrere",
+      "group": "NI",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-03-03",
+      "last_intervention": "2025-03-03"
+    },
+    {
+      "name": "Matthieu Bloch",
+      "normalized_name": "matthieu bloch",
+      "group": "UDR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-02-18",
+      "last_intervention": "2025-02-18"
+    },
+    {
+      "name": "Nadège Abomangoli",
+      "normalized_name": "nadege abomangoli",
+      "group": "LFI-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "palestine": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2025-01-15",
+      "last_intervention": "2025-01-15"
+    },
+    {
+      "name": "Monique Griseti",
+      "normalized_name": "monique griseti",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1
+      },
+      "first_intervention": "2025-01-14",
+      "last_intervention": "2025-01-14"
+    },
+    {
+      "name": "Eléonore Caroit",
+      "normalized_name": "eleonore caroit",
+      "group": "EPR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2025-01-14",
+      "last_intervention": "2025-01-14"
+    },
+    {
+      "name": "Delphine Batho",
+      "normalized_name": "delphine batho",
+      "group": "ECO-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-12-02",
+      "last_intervention": "2024-12-02"
+    },
+    {
+      "name": "Nicolas Dragon",
+      "normalized_name": "nicolas dragon",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "palestine": 1
+      },
+      "first_intervention": "2024-11-26",
+      "last_intervention": "2024-11-26"
+    },
+    {
+      "name": "Danièle Obono",
+      "normalized_name": "daniele obono",
+      "group": "LFI-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1,
+        "hamas": 1
+      },
+      "first_intervention": "2024-11-26",
+      "last_intervention": "2024-11-26"
+    },
+    {
+      "name": "René Lioret",
+      "normalized_name": "rene lioret",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "israël": 1
+      },
+      "first_intervention": "2024-11-12",
+      "last_intervention": "2024-11-12"
+    },
+    {
+      "name": "Éric Martineau",
+      "normalized_name": "eric martineau",
+      "group": "DEM",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-11-06",
+      "last_intervention": "2024-11-06"
+    },
+    {
+      "name": "Jean Moulliere",
+      "normalized_name": "jean moulliere",
+      "group": "HOR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-11-06",
+      "last_intervention": "2024-11-06"
+    },
+    {
+      "name": "Laurent Jacobelli",
+      "normalized_name": "laurent jacobelli",
+      "group": "RN",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-10-22",
+      "last_intervention": "2024-10-22"
+    },
+    {
+      "name": "Émeline K/Bidi",
+      "normalized_name": "emeline k/bidi",
+      "group": "GDR",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1
+      },
+      "first_intervention": "2024-10-08",
+      "last_intervention": "2024-10-08"
+    },
+    {
+      "name": "Pierre-Yves Cadalen",
+      "normalized_name": "pierre-yves cadalen",
+      "group": "LFI-NFP",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {
+        "gaza": 1,
+        "palestine": 1,
+        "israël": 1
+      },
+      "first_intervention": "2024-10-02",
+      "last_intervention": "2024-10-02"
+    },
+    {
+      "name": "Marc Fesneau",
+      "normalized_name": "marc fesneau",
+      "group": "DEM",
+      "interventions_count": 1,
+      "priority_score": 10.0,
+      "top_keywords": {},
+      "first_intervention": "2024-10-01",
+      "last_intervention": "2024-10-01"
+    }
+  ]
+}

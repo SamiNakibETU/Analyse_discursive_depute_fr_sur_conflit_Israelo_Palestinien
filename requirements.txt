@@ -1,0 +1,29 @@
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+selenium==4.15.0
+undetected-chromedriver==3.5.4
+
+# Data processing
+pandas==2.1.0
+numpy==1.25.2
+
+# NLP
+nltk==3.8.1
+spacy==3.7.2
+
+# Visualisation
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.18.0
+
+# Progress bar
+tqdm==4.66.1
+
+# Utilitaires
+python-dateutil==2.8.2
+faker==20.0.0
+
+# PDF generation
+reportlab>=4.4.0

@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-10-17T00:00:00",
+  "entries": [
+    {
+      "label": "Pr?sidence de s?ance",
+      "groupe": "Pr?sidence",
+      "groupe_long": "Pr?sidence de l'Assembl?e nationale",
+      "patterns": [
+        "mme la pr?sidente",
+        "m. le pr?sident",
+        "mme la vice-pr?sidente",
+        "m. le vice-pr?sident",
+        "pr?sidence de s?ance"
+      ]
+    },
+    {
+      "label": "Gouvernement",
+      "groupe": "Gouvernement",
+      "groupe_long": "Gouvernement",
+      "patterns": [
+        "m. gabriel attal",
+        "gabriel attal",
+        "m. le premier ministre",
+        "mme la premi?re ministre",
+        "premier ministre"
+      ]
+    },
+    {
+      "label": "Bruno Le Maire",
+      "groupe": "Gouvernement",
+      "groupe_long": "Gouvernement",
+      "patterns": [
+        "bruno le maire",
+        "m. bruno le maire"
+      ]
+    },
+    {
+      "label": "G?rald Darmanin",
+      "groupe": "Gouvernement",
+      "groupe_long": "Gouvernement",
+      "patterns": [
+        "g?rald darmanin",
+        "gerald darmanin",
+        "m. g?rald darmanin",
+        "ministre de l'int?rieur"
+      ]
+    },
+    {
+      "label": "Olivier V?ran",
+      "groupe": "Gouvernement",
+      "groupe_long": "Gouvernement",
+      "patterns": [
+        "olivier v?ran",
+        "olivier veran",
+        "m. olivier v?ran"
+      ]
+    },
+    {
+      "label": "Ya?l Braun-Pivet",
+      "groupe": "Pr?sidence",
+      "groupe_long": "Pr?sidence de l'Assembl?e nationale",
+      "patterns": [
+        "ya?l braun-pivet",
+        "yael braun-pivet",
+        "mme ya?l braun-pivet"
+      ]
+    },
+    {
+      "label": "Rapporteur ext?rieur",
+      "groupe": "Experts invit?",
+      "groupe_long": "Experts ou invit?s ext?rieurs",
+      "patterns": [
+        "rapporteur g?n?ral",
+        "rapporteur",
+        "pr?sident de commission"
+      ]
+    },
+    {
+      "label": "Membres du Gouvernement",
+      "groupe": "Gouvernement",
+      "groupe_long": "Gouvernement",
+      "patterns": [
+        "ministre",
+        "secr?taire d'?tat",
+        "secretaire d'etat",
+        "porte-parole du gouvernement"
+      ]
+    }
+  ]
+}

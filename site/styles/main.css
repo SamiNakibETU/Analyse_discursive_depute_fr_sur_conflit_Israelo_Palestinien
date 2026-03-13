@@ -1,0 +1,291 @@
+/* ═══════════════════════════════════════════════════════════════════
+   main.css — Système visuel des planches éditoriales
+   Grille : 1040px utile · margin-left 180px · fond #F1EFEA
+   Aucune expressivité décorative. Structure et densité organisée.
+═══════════════════════════════════════════════════════════════════ */
+
+/* ── Google Fonts ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Condensed:wght@400;700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* ── Variables ───────────────────────────────────────────────── */
+:root {
+  --bg:          #F1EFEA;
+  --ink:         #111111;
+  --struct:      #908A80;
+  --rule:        #D8D1C7;
+  --rule-heavy:  #6A6460;
+
+  --font-title:  'IBM Plex Sans Condensed', sans-serif;
+  --font-body:   'IBM Plex Sans', sans-serif;
+  --font-mono:   'IBM Plex Mono', monospace;
+
+  --content-w:   1040px;
+  --margin-l:    180px;
+  --rail-w:      72px;
+  --gutter:      24px;
+  --between:     96px;
+
+  --rhy-code-title: 12px;
+  --rhy-title-tech: 10px;
+  --rhy-tech-chart: 22px;
+  --rhy-chart-foot: 14px;
+}
+
+/* ── Reset ────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Base ─────────────────────────────────────────────────────── */
+html { font-size: 16px; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Conteneur principal ─────────────────────────────────────── */
+.page-wrap {
+  margin-left: var(--margin-l);
+  max-width: var(--content-w);
+  padding-bottom: 120px;
+}
+
+/* ── TÊTE D'ARTICLE ──────────────────────────────────────────── */
+.article-head {
+  padding: 56px 0 52px;
+  border-top: 2px solid var(--ink);
+}
+
+.head-index {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--struct);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.head-title {
+  font-family: var(--font-title);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: .90;
+  letter-spacing: -.025em;
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+.head-subtitle {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--ink);
+  max-width: 600px;
+  margin-bottom: 32px;
+}
+
+.head-meta {
+  display: flex;
+  gap: 0;
+  border-top: .5px solid var(--rule-heavy);
+  padding-top: 16px;
+  flex-wrap: wrap;
+}
+
+.head-meta-item {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--struct);
+  padding-right: 24px;
+  margin-right: 24px;
+  border-right: .5px solid var(--rule);
+  line-height: 2;
+}
+.head-meta-item:last-child { border-right: none; }
+
+.head-meta-val {
+  display: block;
+  font-size: 22px;
+  font-family: var(--font-title);
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -.01em;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.head-families {
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  letter-spacing: .14em;
+  color: var(--rule-heavy);
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-top: .5px solid var(--rule);
+  padding-top: 12px;
+}
+
+/* ── PLANCHE ─────────────────────────────────────────────────── */
+.planche {
+  display: grid;
+  grid-template-columns: var(--rail-w) var(--gutter) 1fr;
+  margin-bottom: var(--between);
+  padding-top: 0;
+}
+
+/* ── Rail gauche ─────────────────────────────────────────────── */
+.planche-rail {
+  grid-column: 1;
+  padding-top: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 0;
+}
+
+.planche-code {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: .08em;
+  color: var(--struct);
+  line-height: 1;
+}
+
+.planche-kicker {
+  font-family: var(--font-mono);
+  font-size: 6.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--rule-heavy);
+  margin-top: 6px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  line-height: 1;
+}
+
+/* ── Zone principale ─────────────────────────────────────────── */
+.planche-main {
+  grid-column: 3;
+  border-top: 2px solid var(--ink);
+  padding-top: var(--rhy-code-title);
+}
+
+/* ── Titre ───────────────────────────────────────────────────── */
+.planche-title {
+  font-family: var(--font-title);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -.018em;
+  color: var(--ink);
+  margin-bottom: var(--rhy-title-tech);
+}
+
+/* ── Ligne technique ─────────────────────────────────────────── */
+.planche-tech {
+  font-family: var(--font-mono);
+  font-size: 8.5px;
+  line-height: 1.6;
+  letter-spacing: .02em;
+  color: var(--struct);
+  margin-bottom: var(--rhy-tech-chart);
+}
+
+/* ── Conteneur de chart ──────────────────────────────────────── */
+.chart-container {
+  width: 100%;
+  margin-bottom: var(--rhy-chart-foot);
+}
+
+.chart-svg {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
+/* ── Ligne basse (footer) ────────────────────────────────────── */
+.planche-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-top: .5px solid var(--rule);
+  padding-top: 8px;
+}
+
+.foot-source {
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  font-style: italic;
+  color: var(--rule-heavy);
+  flex-shrink: 0;
+}
+
+.foot-note {
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  color: var(--struct);
+  line-height: 1.5;
+  max-width: 560px;
+}
+
+/* ── Erreur de chargement ────────────────────────────────────── */
+.load-error {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: #B53030;
+  padding: 16px 0;
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────────────── */
+
+/* Tablette (< 1280px) */
+@media (max-width: 1280px) {
+  :root {
+    --margin-l: 80px;
+  }
+  .head-title { font-size: 48px; }
+}
+
+/* Mobile (< 768px) : suppression du rail, layout linéaire */
+@media (max-width: 768px) {
+  :root {
+    --margin-l: 20px;
+    --between:  60px;
+  }
+
+  .page-wrap { max-width: 100%; }
+
+  .planche {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .planche-rail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .planche-kicker {
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+
+  .planche-main { grid-column: 1; }
+
+  .head-title { font-size: 36px; }
+  .planche-title { font-size: 20px; }
+
+  .head-meta { gap: 12px; }
+  .head-meta-item { border-right: none; padding-right: 0; margin-right: 0; }
+}

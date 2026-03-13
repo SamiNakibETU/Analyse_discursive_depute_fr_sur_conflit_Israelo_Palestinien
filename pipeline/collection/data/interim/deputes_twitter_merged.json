@@ -1,0 +1,2676 @@
+{
+  "generated_at": "2026-01-05T20:11:32.444613",
+  "sources": [
+    "D:\\Users\\Proprietaire\\Desktop\\Projet_perso\\Projets\\Revirement_politique_fr_gaza\\twitter_account_deputés_2023_2024.txt",
+    "D:\\Users\\Proprietaire\\Desktop\\Projet_perso\\Projets\\Revirement_politique_fr_gaza\\députés_twitter accout_2024-now.txt"
+  ],
+  "total_deputes": 333,
+  "with_twitter": 222,
+  "without_twitter": 97,
+  "deputes": [
+    {
+      "depute_name": "Jean-Noël Barrot",
+      "normalized_name": "jean-noel barrot",
+      "group": "MODEM",
+      "intervention_count": 110,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Mathilde Panot",
+      "normalized_name": "mathilde panot",
+      "group": "LFI-NFP",
+      "intervention_count": 66,
+      "twitter_handle": "mathildepanot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "François Cormier-Bouligeon",
+      "normalized_name": "francois cormier-bouligeon",
+      "group": "EPR",
+      "intervention_count": 45,
+      "twitter_handle": "fcbdeputeducher",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Caroline Yadan",
+      "normalized_name": "caroline yadan",
+      "group": "EPR",
+      "intervention_count": 45,
+      "twitter_handle": "carolineyadan",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "David Habib",
+      "normalized_name": "david habib",
+      "group": "LIOT",
+      "intervention_count": 42,
+      "twitter_handle": "daviddhabib",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-Paul Lecoq",
+      "normalized_name": "jean-paul lecoq",
+      "group": "GDR",
+      "intervention_count": 41,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Élisa Martin",
+      "normalized_name": "elisa martin",
+      "group": "LFI-NFP",
+      "intervention_count": 40,
+      "twitter_handle": "elisamartin_nfp",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Julien Odoul",
+      "normalized_name": "julien odoul",
+      "group": "RN",
+      "intervention_count": 40,
+      "twitter_handle": "julienodoul",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Stéphane Mazars",
+      "normalized_name": "stephane mazars",
+      "group": "REN",
+      "intervention_count": 33,
+      "twitter_handle": "s_mazars",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Catherine Couturier",
+      "normalized_name": "catherine couturier",
+      "group": "LFI",
+      "intervention_count": 33,
+      "twitter_handle": "couturiercathy",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Cyrielle Chatelain",
+      "normalized_name": "cyrielle chatelain",
+      "group": "ECO-NFP",
+      "intervention_count": 31,
+      "twitter_handle": "cyrielle_chtl",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Elsa Faucillon",
+      "normalized_name": "elsa faucillon",
+      "group": "GDR",
+      "intervention_count": 29,
+      "twitter_handle": "elsafaucillon",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Pr?sidence de s?ance",
+      "normalized_name": "pr?sidence de s?ance",
+      "group": "Pr?sidence",
+      "intervention_count": 27,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Sabrina Sebaihi",
+      "normalized_name": "sabrina sebaihi",
+      "group": "ECO-NFP",
+      "intervention_count": 27,
+      "twitter_handle": "sabrinasebaihi",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Jean-Louis Bourlanges",
+      "normalized_name": "jean-louis bourlanges",
+      "group": "MODEM",
+      "intervention_count": 27,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Gabriel Attal",
+      "normalized_name": "gabriel attal",
+      "group": "EPR",
+      "intervention_count": 25,
+      "twitter_handle": "gabrielattal",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Aurore Bergé",
+      "normalized_name": "aurore berge",
+      "group": "REN",
+      "intervention_count": 25,
+      "twitter_handle": "auroreberge",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Michèle Tabarot",
+      "normalized_name": "michele tabarot",
+      "group": "LR",
+      "intervention_count": 23,
+      "twitter_handle": "mtabarot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sébastien Chenu",
+      "normalized_name": "sebastien chenu",
+      "group": "RN",
+      "intervention_count": 22,
+      "twitter_handle": "sebchenu",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Constance Le Grip",
+      "normalized_name": "constance le grip",
+      "group": "EPR",
+      "intervention_count": 22,
+      "twitter_handle": "constancelegrip",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurence Maillart-Méhaignerie",
+      "normalized_name": "laurence maillart-mehaignerie",
+      "group": "REN",
+      "intervention_count": 22,
+      "twitter_handle": "lmaillart",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Aymeric Caron",
+      "normalized_name": "aymeric caron",
+      "group": "LFI-NFP",
+      "intervention_count": 21,
+      "twitter_handle": "caronaymericoff",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mme Chrysoula Zacharopoulou",
+      "normalized_name": "chrysoula zacharopoulou",
+      "group": null,
+      "intervention_count": 20,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Jérémie Patrier-Leitus",
+      "normalized_name": "jeremie patrier-leitus",
+      "group": "HOR",
+      "intervention_count": 20,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Gabrielle Cathala",
+      "normalized_name": "gabrielle cathala",
+      "group": "LFI-NFP",
+      "intervention_count": 18,
+      "twitter_handle": "gabriellecthl",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Emmanuelle Ménard",
+      "normalized_name": "emmanuelle menard",
+      "group": "NI",
+      "intervention_count": 17,
+      "twitter_handle": "emenard34",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sébastien Delogu",
+      "normalized_name": "sebastien delogu",
+      "group": "LFI-NFP",
+      "intervention_count": 16,
+      "twitter_handle": "sebastiendelogu",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Éric Coquerel",
+      "normalized_name": "eric coquerel",
+      "group": "LFI-NFP",
+      "intervention_count": 16,
+      "twitter_handle": "ericcoquerel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Louis Boyard",
+      "normalized_name": "louis boyard",
+      "group": "LFI-NFP",
+      "intervention_count": 16,
+      "twitter_handle": "louisboyard",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurent Alexandre",
+      "normalized_name": "laurent alexandre",
+      "group": "LFI-NFP",
+      "intervention_count": 16,
+      "twitter_handle": "laualexandre12",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sophie Blanc",
+      "normalized_name": "sophie blanc",
+      "group": "RN",
+      "intervention_count": 16,
+      "twitter_handle": "sblanc66000",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Alma Dufour",
+      "normalized_name": "alma dufour",
+      "group": "LFI-NFP",
+      "intervention_count": 15,
+      "twitter_handle": "alma_dufour",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nathalie Oziol",
+      "normalized_name": "nathalie oziol",
+      "group": "LFI-NFP",
+      "intervention_count": 15,
+      "twitter_handle": "nathalieoziol",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Thomas Portes",
+      "normalized_name": "thomas portes",
+      "group": "LFI-NFP",
+      "intervention_count": 15,
+      "twitter_handle": "portes_thomas",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marine Le Pen",
+      "normalized_name": "marine le pen",
+      "group": "RN",
+      "intervention_count": 15,
+      "twitter_handle": "mlp_officiel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mathieu Lefèvre",
+      "normalized_name": "mathieu lefevre",
+      "group": "EPR",
+      "intervention_count": 15,
+      "twitter_handle": "mathieulefevre_",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Prisca Thevenot",
+      "normalized_name": "prisca thevenot",
+      "group": "REN",
+      "intervention_count": 15,
+      "twitter_handle": "priscathevenot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Benjamin Haddad",
+      "normalized_name": "benjamin haddad",
+      "group": "REN",
+      "intervention_count": 14,
+      "twitter_handle": "benjaminhaddad",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Aurélien Saintoul",
+      "normalized_name": "aurelien saintoul",
+      "group": "LFI-NFP",
+      "intervention_count": 13,
+      "twitter_handle": "a_saintoul",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Olivier Faure",
+      "normalized_name": "olivier faure",
+      "group": "PS-NFP",
+      "intervention_count": 13,
+      "twitter_handle": "faureolivier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bruno Bilde",
+      "normalized_name": "bruno bilde",
+      "group": "RN",
+      "intervention_count": 13,
+      "twitter_handle": "brunobilde",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Arnaud Le Gall",
+      "normalized_name": "arnaud le gall",
+      "group": "LFI-NFP",
+      "intervention_count": 13,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Michel Barnier",
+      "normalized_name": "michel barnier",
+      "group": "LR",
+      "intervention_count": 12,
+      "twitter_handle": "michelbarnier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Boris Vallaud",
+      "normalized_name": "boris vallaud",
+      "group": "SOC",
+      "intervention_count": 11,
+      "twitter_handle": "borisvallaud",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jérôme Guedj",
+      "normalized_name": "jerome guedj",
+      "group": "PS-NFP",
+      "intervention_count": 11,
+      "twitter_handle": "jeromeguedj",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurent Jacobelli",
+      "normalized_name": "laurent jacobelli",
+      "group": "RN",
+      "intervention_count": 11,
+      "twitter_handle": "ljacobelli",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Benjamin Saint-Huile",
+      "normalized_name": "benjamin saint-huile",
+      "group": "LIOT",
+      "intervention_count": 10,
+      "twitter_handle": "bsainthuile",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Antoine Léaument",
+      "normalized_name": "antoine leaument",
+      "group": "LFI-NFP",
+      "intervention_count": 10,
+      "twitter_handle": "aleaument",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "André Chassaigne",
+      "normalized_name": "andre chassaigne",
+      "group": "GDR",
+      "intervention_count": 10,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "David Guiraud",
+      "normalized_name": "david guiraud",
+      "group": "LFI-NFP",
+      "intervention_count": 10,
+      "twitter_handle": "guiraudind",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Olivier Becht",
+      "normalized_name": "olivier becht",
+      "group": "EPR",
+      "intervention_count": 10,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Pieyre-Alexandre Anglade",
+      "normalized_name": "pieyre-alexandre anglade",
+      "group": "EPR",
+      "intervention_count": 10,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Sylvain Maillard",
+      "normalized_name": "sylvain maillard",
+      "group": "EPR",
+      "intervention_count": 9,
+      "twitter_handle": "sylvainmaillard",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Éric Poulliat",
+      "normalized_name": "eric poulliat",
+      "group": "REN",
+      "intervention_count": 9,
+      "twitter_handle": "epoulliat",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Soumya Bourouaha",
+      "normalized_name": "soumya bourouaha",
+      "group": "GDR",
+      "intervention_count": 9,
+      "twitter_handle": "s_bourouaha",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Fabien Roussel",
+      "normalized_name": "fabien roussel",
+      "group": "GDR",
+      "intervention_count": 9,
+      "twitter_handle": "fabien_roussel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Danièle Obono",
+      "normalized_name": "daniele obono",
+      "group": "LFI-NFP",
+      "intervention_count": 9,
+      "twitter_handle": "deputee_obono",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Frédéric Petit",
+      "normalized_name": "frederic petit",
+      "group": "DEM",
+      "intervention_count": 9,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Aurélien Taché",
+      "normalized_name": "aurelien tache",
+      "group": "LFI-NFP",
+      "intervention_count": 8,
+      "twitter_handle": "aurelientache",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nicolas Sansu",
+      "normalized_name": "nicolas sansu",
+      "group": "GDR",
+      "intervention_count": 8,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Jérôme Legavre",
+      "normalized_name": "jerome legavre",
+      "group": "LFI-NFP",
+      "intervention_count": 8,
+      "twitter_handle": "legavrejerome",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurent Marcangeli",
+      "normalized_name": "laurent marcangeli",
+      "group": "HOR",
+      "intervention_count": 8,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Pierre-Yves Cadalen",
+      "normalized_name": "pierre-yves cadalen",
+      "group": "LFI-NFP",
+      "intervention_count": 8,
+      "twitter_handle": "pycadalen",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marie Mesmeur",
+      "normalized_name": "marie mesmeur",
+      "group": "LFI-NFP",
+      "intervention_count": 8,
+      "twitter_handle": "mariemesmeur",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Gérald Darmanin",
+      "normalized_name": "gerald darmanin",
+      "group": "REN",
+      "intervention_count": 7,
+      "twitter_handle": "gdarmanin",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Roger Chudeau",
+      "normalized_name": "roger chudeau",
+      "group": "RN",
+      "intervention_count": 7,
+      "twitter_handle": "chudeaur",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-François Coulomme",
+      "normalized_name": "jean-francois coulomme",
+      "group": "LFI-NFP",
+      "intervention_count": 7,
+      "twitter_handle": "jfcoulomme",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nicolas Turquois",
+      "normalized_name": "nicolas turquois",
+      "group": "DEM",
+      "intervention_count": 7,
+      "twitter_handle": "turquoisnicolas",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bastien Lachaud",
+      "normalized_name": "bastien lachaud",
+      "group": "LFI-NFP",
+      "intervention_count": 7,
+      "twitter_handle": "lachaudb",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Elie Califer",
+      "normalized_name": "elie califer",
+      "group": "PS-NFP",
+      "intervention_count": 7,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Mme Insaf Rezagui",
+      "normalized_name": "insaf rezagui",
+      "group": null,
+      "intervention_count": 7,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Manuel Bompard",
+      "normalized_name": "manuel bompard",
+      "group": "LFI-NFP",
+      "intervention_count": 6,
+      "twitter_handle": "mbompard",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Stéphane Peu",
+      "normalized_name": "stephane peu",
+      "group": "GDR",
+      "intervention_count": 6,
+      "twitter_handle": "stephane1peu",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Frank Giletti",
+      "normalized_name": "frank giletti",
+      "group": "RN",
+      "intervention_count": 6,
+      "twitter_handle": "frankgiletti",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Andrée Taurinya",
+      "normalized_name": "andree taurinya",
+      "group": "LFI-NFP",
+      "intervention_count": 6,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Jean-Louis Thiériot",
+      "normalized_name": "jean-louis thieriot",
+      "group": "LR",
+      "intervention_count": 6,
+      "twitter_handle": "jl_thieriot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Éric Ciotti",
+      "normalized_name": "eric ciotti",
+      "group": "UDR",
+      "intervention_count": 6,
+      "twitter_handle": "eciotti",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Frédéric Zgainski",
+      "normalized_name": "frederic zgainski",
+      "group": "MODEM",
+      "intervention_count": 6,
+      "twitter_handle": null,
+      "twitter_source": "no_twitter_confirmed"
+    },
+    {
+      "depute_name": "Vincent Jeanbrun",
+      "normalized_name": "vincent jeanbrun",
+      "group": "LR",
+      "intervention_count": 6,
+      "twitter_handle": "vincentjeanbrun",
+      "twitter_source": "manual_correction"
+    },
+    {
+      "depute_name": "Sabrina Agresti-Roubache",
+      "normalized_name": "sabrina agresti-roubache",
+      "group": "REN",
+      "intervention_count": 5,
+      "twitter_handle": "sabrinaroubache",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Franck Riester",
+      "normalized_name": "franck riester",
+      "group": "REN",
+      "intervention_count": 5,
+      "twitter_handle": "franckriester",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Paul Vannier",
+      "normalized_name": "paul vannier",
+      "group": "LFI",
+      "intervention_count": 5,
+      "twitter_handle": "paulvannierfi",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Pierre-Henri Dumont",
+      "normalized_name": "pierre-henri dumont",
+      "group": "LR",
+      "intervention_count": 5,
+      "twitter_handle": "phdumont",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Hélène Laporte",
+      "normalized_name": "helene laporte",
+      "group": "RN",
+      "intervention_count": 5,
+      "twitter_handle": "helenelaportern",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marcellin Nadeau",
+      "normalized_name": "marcellin nadeau",
+      "group": "GDR",
+      "intervention_count": 5,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Sandrine Rousseau",
+      "normalized_name": "sandrine rousseau",
+      "group": "ECO",
+      "intervention_count": 5,
+      "twitter_handle": "sandrousseau",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nadège Abomangoli",
+      "normalized_name": "nadege abomangoli",
+      "group": "LFI-NFP",
+      "intervention_count": 5,
+      "twitter_handle": "abomangoli",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Annie Genevard",
+      "normalized_name": "annie genevard",
+      "group": "LR",
+      "intervention_count": 5,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Eva Sas",
+      "normalized_name": "eva sas",
+      "group": "ECO-NFP",
+      "intervention_count": 5,
+      "twitter_handle": "_evasas",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sophia Chikirou",
+      "normalized_name": "sophia chikirou",
+      "group": "LFI-NFP",
+      "intervention_count": 5,
+      "twitter_handle": "sochik75",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bruno Fuchs",
+      "normalized_name": "bruno fuchs",
+      "group": "DEM",
+      "intervention_count": 5,
+      "twitter_handle": "bruno_fuchs",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nicolas Forissier",
+      "normalized_name": "nicolas forissier",
+      "group": "LR",
+      "intervention_count": 5,
+      "twitter_handle": "n_forissier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Alexandre Portier",
+      "normalized_name": "alexandre portier",
+      "group": "LR",
+      "intervention_count": 5,
+      "twitter_handle": "portier_a_",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Hendrik Davi",
+      "normalized_name": "hendrik davi",
+      "group": "ECO-NFP",
+      "intervention_count": 5,
+      "twitter_handle": "hendrik_davi",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Benjamin Lucas-Lundy",
+      "normalized_name": "benjamin lucas-lundy",
+      "group": "ECO-NFP",
+      "intervention_count": 5,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Ayda Hadizadeh",
+      "normalized_name": "ayda hadizadeh",
+      "group": "PS-NFP",
+      "intervention_count": 5,
+      "twitter_handle": "aydahadi",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Raphaël Arnault",
+      "normalized_name": "raphael arnault",
+      "group": "LFI-NFP",
+      "intervention_count": 5,
+      "twitter_handle": "arnaultraphael",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mohamed Laqhila",
+      "normalized_name": "mohamed laqhila",
+      "group": "MODEM",
+      "intervention_count": 5,
+      "twitter_handle": "laqhila",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Monique Griseti",
+      "normalized_name": "monique griseti",
+      "group": "RN",
+      "intervention_count": 5,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Philippe Latombe",
+      "normalized_name": "philippe latombe",
+      "group": "DEM",
+      "intervention_count": 4,
+      "twitter_handle": "platombe",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Matthias Tavel",
+      "normalized_name": "matthias tavel",
+      "group": "LFI-NFP",
+      "intervention_count": 4,
+      "twitter_handle": "matthiastavel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Patricia Mirallès",
+      "normalized_name": "patricia miralles",
+      "group": "REN",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Frédéric Mathieu",
+      "normalized_name": "frederic mathieu",
+      "group": "LFI",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Fatiha Keloua Hachi",
+      "normalized_name": "fatiha keloua hachi",
+      "group": "SOC",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Farida Amrani",
+      "normalized_name": "farida amrani",
+      "group": "LFI",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Pierre Dharréville",
+      "normalized_name": "pierre dharreville",
+      "group": "GDR",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Mme Rima Abdul-Malak",
+      "normalized_name": "rima abdul-malak",
+      "group": null,
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Ersilia Soudais",
+      "normalized_name": "ersilia soudais",
+      "group": "LFI-NFP",
+      "intervention_count": 4,
+      "twitter_handle": "ersiliasoudais",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-Philippe Tanguy",
+      "normalized_name": "jean-philippe tanguy",
+      "group": "RN",
+      "intervention_count": 4,
+      "twitter_handle": "jphtanguy",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Stéphanie Kochert",
+      "normalized_name": "stephanie kochert",
+      "group": "HOR",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Ségolène Amiot",
+      "normalized_name": "segolene amiot",
+      "group": "LFI-NFP",
+      "intervention_count": 4,
+      "twitter_handle": "segoleneamiot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marianne Maximi",
+      "normalized_name": "marianne maximi",
+      "group": "LFI-NFP",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Olivier Fayssat",
+      "normalized_name": "olivier fayssat",
+      "group": "UDR",
+      "intervention_count": 4,
+      "twitter_handle": "olivierfayssat",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Clémence Guetté",
+      "normalized_name": "clemence guette",
+      "group": "LFI-NFP",
+      "intervention_count": 4,
+      "twitter_handle": "clemence_guette",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Catherine Hervieu",
+      "normalized_name": "catherine hervieu",
+      "group": "ECO-NFP",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Charles Sitzenstuhl",
+      "normalized_name": "charles sitzenstuhl",
+      "group": "EPR",
+      "intervention_count": 4,
+      "twitter_handle": "csitzenstuhl",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bernard Chaix",
+      "normalized_name": "bernard chaix",
+      "group": "UDR",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Éric Michoux",
+      "normalized_name": "eric michoux",
+      "group": "UDR",
+      "intervention_count": 4,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Jean-Pierre Taite",
+      "normalized_name": "jean-pierre taite",
+      "group": "LR",
+      "intervention_count": 4,
+      "twitter_handle": "jpierre_taite",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-Marc Tellier",
+      "normalized_name": "jean-marc tellier",
+      "group": "GDR",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Pascale Martin",
+      "normalized_name": "pascale martin",
+      "group": "LFI",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Carlos Martens Bilongo",
+      "normalized_name": "carlos martens bilongo",
+      "group": "LFI",
+      "intervention_count": 3,
+      "twitter_handle": "bilongocarlos",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Dominique Faure",
+      "normalized_name": "dominique faure",
+      "group": "REN",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Danielle Simonnet",
+      "normalized_name": "danielle simonnet",
+      "group": "ECO-NFP",
+      "intervention_count": 3,
+      "twitter_handle": "simonnetdeputee",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "François Ruffin",
+      "normalized_name": "francois ruffin",
+      "group": "ECO-NFP",
+      "intervention_count": 3,
+      "twitter_handle": "francois_ruffin",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Clémentine Autain",
+      "normalized_name": "clementine autain",
+      "group": "LFI",
+      "intervention_count": 3,
+      "twitter_handle": "clem_autain",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Claudia Rouaux",
+      "normalized_name": "claudia rouaux",
+      "group": "SOC",
+      "intervention_count": 3,
+      "twitter_handle": "claudia_rouaux",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Pascale Bordes",
+      "normalized_name": "pascale bordes",
+      "group": "RN",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Francesca Pasquini",
+      "normalized_name": "francesca pasquini",
+      "group": "ECO",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Patrick Hetzel",
+      "normalized_name": "patrick hetzel",
+      "group": "LR",
+      "intervention_count": 3,
+      "twitter_handle": "patrickhetzel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-Paul Mattei",
+      "normalized_name": "jean-paul mattei",
+      "group": "MODEM",
+      "intervention_count": 3,
+      "twitter_handle": "jp_mattei",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Didier Martin",
+      "normalized_name": "didier martin",
+      "group": "REN",
+      "intervention_count": 3,
+      "twitter_handle": "dmartindijon",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mme Alice Rufo",
+      "normalized_name": "alice rufo",
+      "group": null,
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Brigitte Klinkert",
+      "normalized_name": "brigitte klinkert",
+      "group": "EPR",
+      "intervention_count": 3,
+      "twitter_handle": "klinkertbrigitt",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Dieynaba Diop",
+      "normalized_name": "dieynaba diop",
+      "group": "PS-NFP",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Joël Bruneau",
+      "normalized_name": "joel bruneau",
+      "group": "LIOT",
+      "intervention_count": 3,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Géraldine Bannier",
+      "normalized_name": "geraldine bannier",
+      "group": "DEM",
+      "intervention_count": 3,
+      "twitter_handle": "bannier_g",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Geneviève Darrieussecq",
+      "normalized_name": "genevieve darrieussecq",
+      "group": "DEM",
+      "intervention_count": 3,
+      "twitter_handle": "darrieussecq",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-Claude Raux",
+      "normalized_name": "jean-claude raux",
+      "group": "ECO-NFP",
+      "intervention_count": 3,
+      "twitter_handle": "jeanclauderaux",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "M. Volodymyr Zelensky",
+      "normalized_name": "volodymyr zelensky",
+      "group": null,
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Alain David",
+      "normalized_name": "alain david",
+      "group": "SOC",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Violette Spillebout",
+      "normalized_name": "violette spillebout",
+      "group": "REN",
+      "intervention_count": 2,
+      "twitter_handle": "vspillebout",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "René Pilato",
+      "normalized_name": "rene pilato",
+      "group": "LFI-NFP",
+      "intervention_count": 2,
+      "twitter_handle": "pilatorene",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Lise Magnier",
+      "normalized_name": "lise magnier",
+      "group": "HOR",
+      "intervention_count": 2,
+      "twitter_handle": "lise_magnier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Florian Chauche",
+      "normalized_name": "florian chauche",
+      "group": "LFI",
+      "intervention_count": 2,
+      "twitter_handle": "florianchauche9",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Florence Goulet",
+      "normalized_name": "florence goulet",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Jean-Charles Larsonneur",
+      "normalized_name": "jean-charles larsonneur",
+      "group": "NI",
+      "intervention_count": 2,
+      "twitter_handle": "jclarsonneur",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sarah Legrain",
+      "normalized_name": "sarah legrain",
+      "group": "LFI-NFP",
+      "intervention_count": 2,
+      "twitter_handle": "s_legrain",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Éric Pauget",
+      "normalized_name": "eric pauget",
+      "group": "LR",
+      "intervention_count": 2,
+      "twitter_handle": "ericpauget1",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Cécile Rilhac",
+      "normalized_name": "cecile rilhac",
+      "group": "REN",
+      "intervention_count": 2,
+      "twitter_handle": "cecile_rilhac",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "François Piquemal",
+      "normalized_name": "francois piquemal",
+      "group": "LFI",
+      "intervention_count": 2,
+      "twitter_handle": "frapiquemal",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean Terlier",
+      "normalized_name": "jean terlier",
+      "group": "REN",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Frédéric Maillot",
+      "normalized_name": "frederic maillot",
+      "group": "GDR",
+      "intervention_count": 2,
+      "twitter_handle": "frdric_maillot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Julie Laernoes",
+      "normalized_name": "julie laernoes",
+      "group": "ECO",
+      "intervention_count": 2,
+      "twitter_handle": "laernoes",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Arthur Delaporte",
+      "normalized_name": "arthur delaporte",
+      "group": "PS-NFP",
+      "intervention_count": 2,
+      "twitter_handle": "arthurdelaporte",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "David Taupiac",
+      "normalized_name": "david taupiac",
+      "group": "LIOT",
+      "intervention_count": 2,
+      "twitter_handle": "davidtaupiac",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Thomas Ménagé",
+      "normalized_name": "thomas menage",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "thomas_mng",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Olivier V?ran",
+      "normalized_name": "olivier v?ran",
+      "group": "Gouvernement",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Loïc Kervran",
+      "normalized_name": "loic kervran",
+      "group": "HOR",
+      "intervention_count": 2,
+      "twitter_handle": "loickervran18",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Hervé de Lépinau",
+      "normalized_name": "herve de lepinau",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "h2lepinau",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Philippe Ballard",
+      "normalized_name": "philippe ballard",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "ballardphilippe",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Pierre Meurin",
+      "normalized_name": "pierre meurin",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "meurin_p",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Natalia Pouzyreff",
+      "normalized_name": "natalia pouzyreff",
+      "group": "EPR",
+      "intervention_count": 2,
+      "twitter_handle": "npouzyreff78",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Alexandre Sabatou",
+      "normalized_name": "alexandre sabatou",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "asabatou",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laure Lavalette",
+      "normalized_name": "laure lavalette",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Erwan Balanant",
+      "normalized_name": "erwan balanant",
+      "group": "DEM",
+      "intervention_count": 2,
+      "twitter_handle": "erwanbalanant",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sébastien Jumel",
+      "normalized_name": "sebastien jumel",
+      "group": "GDR",
+      "intervention_count": 2,
+      "twitter_handle": "sebastienjumel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Yoann Gillet",
+      "normalized_name": "yoann gillet",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "yoanngillet30",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Guillaume Kasbarian",
+      "normalized_name": "guillaume kasbarian",
+      "group": "EPR",
+      "intervention_count": 2,
+      "twitter_handle": "guillaumekasba",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Emmanuel Pellerin",
+      "normalized_name": "emmanuel pellerin",
+      "group": "REN",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Isabelle Santiago",
+      "normalized_name": "isabelle santiago",
+      "group": "SOC",
+      "intervention_count": 2,
+      "twitter_handle": "isasantiago_94",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nicolas Dupont-Aignan",
+      "normalized_name": "nicolas dupont-aignan",
+      "group": "NI",
+      "intervention_count": 2,
+      "twitter_handle": "dupontaignan",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Emeric Salmon",
+      "normalized_name": "emeric salmon",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "emericsalmon",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Eléonore Caroit",
+      "normalized_name": "eleonore caroit",
+      "group": "EPR",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Matthias Renault",
+      "normalized_name": "matthias renault",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "matthiasrn",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Philippe Juvin",
+      "normalized_name": "philippe juvin",
+      "group": "LR",
+      "intervention_count": 2,
+      "twitter_handle": "philippejuvin",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Guillaume Bigot",
+      "normalized_name": "guillaume bigot",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "guillaume_bigot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Pierre Henriet",
+      "normalized_name": "pierre henriet",
+      "group": "HOR",
+      "intervention_count": 2,
+      "twitter_handle": "henrietpierre",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Céline Calvez",
+      "normalized_name": "celine calvez",
+      "group": "EPR",
+      "intervention_count": 2,
+      "twitter_handle": "celinecalvez",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marie-Agnès Poussier-Winsback",
+      "normalized_name": "marie-agnes poussier-winsback",
+      "group": "HOR",
+      "intervention_count": 2,
+      "twitter_handle": "mapoussier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurent Mazaury",
+      "normalized_name": "laurent mazaury",
+      "group": "LIOT",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Richard Ramos",
+      "normalized_name": "richard ramos",
+      "group": "DEM",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Céline Hervieu",
+      "normalized_name": "celine hervieu",
+      "group": "PS-NFP",
+      "intervention_count": 2,
+      "twitter_handle": "celine_hervieu",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sandra Regol",
+      "normalized_name": "sandra regol",
+      "group": "ECO-NFP",
+      "intervention_count": 2,
+      "twitter_handle": "sandraregol",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Thierry Perez",
+      "normalized_name": "thierry perez",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "thierryperez43",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Fabrice Brun",
+      "normalized_name": "fabrice brun",
+      "group": "LR",
+      "intervention_count": 2,
+      "twitter_handle": "fabricebrun",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Kévin Mauvieux",
+      "normalized_name": "kevin mauvieux",
+      "group": "RN",
+      "intervention_count": 2,
+      "twitter_handle": "mauvieuxkevin",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Xavier Albertini",
+      "normalized_name": "xavier albertini",
+      "group": "HOR",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Amélia Lakrafi",
+      "normalized_name": "amelia lakrafi",
+      "group": "EPR",
+      "intervention_count": 2,
+      "twitter_handle": "amelia_lkf",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Peio Dufau",
+      "normalized_name": "peio dufau",
+      "group": "PS-NFP",
+      "intervention_count": 2,
+      "twitter_handle": "peioizate",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurent Wauquiez",
+      "normalized_name": "laurent wauquiez",
+      "group": "LR",
+      "intervention_count": 2,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Marietta Karamanli",
+      "normalized_name": "marietta karamanli",
+      "group": "SOC",
+      "intervention_count": 1,
+      "twitter_handle": "mkaramanli72",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Karine Lebon",
+      "normalized_name": "karine lebon",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": "karinelebon",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Virginie Duby-Muller",
+      "normalized_name": "virginie duby-muller",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "dubymuller",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Frédéric Valletoux",
+      "normalized_name": "frederic valletoux",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": "fredvalletoux",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Hervé Berville",
+      "normalized_name": "herve berville",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "herveberville",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Grégoire de Fournas",
+      "normalized_name": "gregoire de fournas",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "gdefournas",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Emmanuel Taché de la Pagerie",
+      "normalized_name": "emmanuel tache de la pagerie",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Julie Delpech",
+      "normalized_name": "julie delpech",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "juliedelpech72",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Max Mathiasin",
+      "normalized_name": "max mathiasin",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Éric Martineau",
+      "normalized_name": "eric martineau",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Cécile Untermaier",
+      "normalized_name": "cecile untermaier",
+      "group": "SOC",
+      "intervention_count": 1,
+      "twitter_handle": "ceciluntermaier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Davy Rimane",
+      "normalized_name": "davy rimane",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Paul Molac",
+      "normalized_name": "paul molac",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": "paul_molac",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Christophe Marion",
+      "normalized_name": "christophe marion",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "mariondepute41",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Charles de Courson",
+      "normalized_name": "charles de courson",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Olivier Marleix",
+      "normalized_name": "olivier marleix",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Thibaut François",
+      "normalized_name": "thibaut francois",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Marie Lebec",
+      "normalized_name": "marie lebec",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "marielebec78",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Édouard Bénard",
+      "normalized_name": "edouard benard",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Antoine Vermorel-Marques",
+      "normalized_name": "antoine vermorel-marques",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "antoinevermorel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Belkhir Belhaddad",
+      "normalized_name": "belkhir belhaddad",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "b_belhaddad",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mickaël Bouloux",
+      "normalized_name": "mickael bouloux",
+      "group": "SOC",
+      "intervention_count": 1,
+      "twitter_handle": "mickaelbouloux",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marine Hamelet",
+      "normalized_name": "marine hamelet",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "marine_hamelet",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sophie Taillé-Polian",
+      "normalized_name": "sophie taille-polian",
+      "group": "ECO",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Caroline Parmentier",
+      "normalized_name": "caroline parmentier",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "parmentier_rn",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Hadrien Ghomi",
+      "normalized_name": "hadrien ghomi",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Xavier Breton",
+      "normalized_name": "xavier breton",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "bretonxavier",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Maud Gatel",
+      "normalized_name": "maud gatel",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": "maudgatel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Paul-André Colombani",
+      "normalized_name": "paul-andre colombani",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": "pacolombani",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jérôme Buisson",
+      "normalized_name": "jerome buisson",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "jerome_buisson",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mme Bérangère Couillard",
+      "normalized_name": "berangere couillard",
+      "group": null,
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Lisa Belluco",
+      "normalized_name": "lisa belluco",
+      "group": "ECO",
+      "intervention_count": 1,
+      "twitter_handle": "lisabelluco",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Gabriel Amard",
+      "normalized_name": "gabriel amard",
+      "group": "LFI",
+      "intervention_count": 1,
+      "twitter_handle": "gabrielamard",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bertrand Sorre",
+      "normalized_name": "bertrand sorre",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "bertrandsorre",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Christine Decodts",
+      "normalized_name": "christine decodts",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Alexis Jolly",
+      "normalized_name": "alexis jolly",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "alexisjollyrn",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Caroline Colombier",
+      "normalized_name": "caroline colombier",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "ccolombier_rn",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Luc Geismar",
+      "normalized_name": "luc geismar",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Mereana Reid Arbelot",
+      "normalized_name": "mereana reid arbelot",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Antoine Armand",
+      "normalized_name": "antoine armand",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "William Martinet",
+      "normalized_name": "william martinet",
+      "group": "LFI",
+      "intervention_count": 1,
+      "twitter_handle": "williammartinet",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Tematai Le Gayic",
+      "normalized_name": "tematai le gayic",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Olivier Falorni",
+      "normalized_name": "olivier falorni",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": "olivierfalorni",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Dominique Potier",
+      "normalized_name": "dominique potier",
+      "group": "SOC",
+      "intervention_count": 1,
+      "twitter_handle": "potierdominique",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bryan Masson",
+      "normalized_name": "bryan masson",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "massonbryan",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Adrien Quatennens",
+      "normalized_name": "adrien quatennens",
+      "group": "LFI",
+      "intervention_count": 1,
+      "twitter_handle": "aquatennens",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laurent Croizier",
+      "normalized_name": "laurent croizier",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": "croizierlaurent",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bertrand Pancher",
+      "normalized_name": "bertrand pancher",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": "bertrandpancher",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Henri Alfandari",
+      "normalized_name": "henri alfandari",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Philippe Vigier",
+      "normalized_name": "philippe vigier",
+      "group": "DEM",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Caroline Abadie",
+      "normalized_name": "caroline abadie",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "abadiecaroline",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Didier Paris",
+      "normalized_name": "didier paris",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "didierparis",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Éric Bothorel",
+      "normalized_name": "eric bothorel",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "ebothorel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Delphine Batho",
+      "normalized_name": "delphine batho",
+      "group": "ECO",
+      "intervention_count": 1,
+      "twitter_handle": "delphinebatho",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Olivia Grégoire",
+      "normalized_name": "olivia gregoire",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "oliviagregoire",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Aurélien Lopez-Liguori",
+      "normalized_name": "aurelien lopez-liguori",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "lopezliguori",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Paul Christophe",
+      "normalized_name": "paul christophe",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": "christophe_p",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Stéphane Viry",
+      "normalized_name": "stephane viry",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Martine Etienne",
+      "normalized_name": "martine etienne",
+      "group": "LFI",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Emmanuelle Anthoine",
+      "normalized_name": "emmanuelle anthoine",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Bruno Millienne",
+      "normalized_name": "bruno millienne",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": "brunomillienne",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Philippe Guillemard",
+      "normalized_name": "philippe guillemard",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Stéphane Lenormand",
+      "normalized_name": "stephane lenormand",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Sophie Mette",
+      "normalized_name": "sophie mette",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Gisèle Lelouis",
+      "normalized_name": "gisele lelouis",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "gisele_lelouis",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Vincent Bru",
+      "normalized_name": "vincent bru",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": "bru_vincent",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Christopher Weissberg",
+      "normalized_name": "christopher weissberg",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Matthieu Marchio",
+      "normalized_name": "matthieu marchio",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "marchiomatthieu",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Roland Lescure",
+      "normalized_name": "roland lescure",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Maud Bregeon",
+      "normalized_name": "maud bregeon",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Mme Sonia Backès",
+      "normalized_name": "sonia backes",
+      "group": null,
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Frantz Gumbs",
+      "normalized_name": "frantz gumbs",
+      "group": "MODEM",
+      "intervention_count": 1,
+      "twitter_handle": "frantzgumbs",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laetitia Saint-Paul",
+      "normalized_name": "laetitia saint-paul",
+      "group": "REN",
+      "intervention_count": 1,
+      "twitter_handle": "l_saintpaul",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Élise Leboucher",
+      "normalized_name": "elise leboucher",
+      "group": "LFI",
+      "intervention_count": 1,
+      "twitter_handle": "leboucher_elise",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Estelle Youssouffa",
+      "normalized_name": "estelle youssouffa",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": "deputeeestelle",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Ian Boucard",
+      "normalized_name": "ian boucard",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "ianboucard",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Agnès Firmin Le Bodo",
+      "normalized_name": "agnes firmin le bodo",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": "agnesfirmin",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Andy Kerbrat",
+      "normalized_name": "andy kerbrat",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Emmanuel Grégoire",
+      "normalized_name": "emmanuel gregoire",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Philippe Brun",
+      "normalized_name": "philippe brun",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "p_brun",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Romain Baubry",
+      "normalized_name": "romain baubry",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Sébastien Martin",
+      "normalized_name": "sebastien martin",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Anna Pic",
+      "normalized_name": "anna pic",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Gérault Verny",
+      "normalized_name": "gerault verny",
+      "group": "UDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Pascale Got",
+      "normalized_name": "pascale got",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Karim Ben Cheikh",
+      "normalized_name": "karim ben cheikh",
+      "group": "ECO-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Hadrien Clouet",
+      "normalized_name": "hadrien clouet",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "hadrienclouet",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Damien Maudet",
+      "normalized_name": "damien maudet",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "damienmaudt",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Laure Miller",
+      "normalized_name": "laure miller",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "laure_miller",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sylvie Josserand",
+      "normalized_name": "sylvie josserand",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Maxime Laisney",
+      "normalized_name": "maxime laisney",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Daniel Labaronne",
+      "normalized_name": "daniel labaronne",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "labaronnedaniel",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Félicie Gérard",
+      "normalized_name": "felicie gerard",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Stéphanie Rist",
+      "normalized_name": "stephanie rist",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "stephanie_rist",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Louise Morel",
+      "normalized_name": "louise morel",
+      "group": "DEM",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Claire Lejeune",
+      "normalized_name": "claire lejeune",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "clairemlejeune",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Romain Eskenazi",
+      "normalized_name": "romain eskenazi",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "romain",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Charles Rodwell",
+      "normalized_name": "charles rodwell",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Ugo Bernalicis",
+      "normalized_name": "ugo bernalicis",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "ugobernalicis",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sandrine Nosbé",
+      "normalized_name": "sandrine nosbe",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Philippe Schreck",
+      "normalized_name": "philippe schreck",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "ph_schreck",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Philippe Gosselin",
+      "normalized_name": "philippe gosselin",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "phgosselin",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Emmanuelle Hoffman",
+      "normalized_name": "emmanuelle hoffman",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Marc de Fleurian",
+      "normalized_name": "marc de fleurian",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "marcdefleurian",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Élisabeth de Maistre",
+      "normalized_name": "elisabeth de maistre",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "emaistre",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Yannick Favennec-Bécot",
+      "normalized_name": "yannick favennec-becot",
+      "group": "LIOT",
+      "intervention_count": 1,
+      "twitter_handle": "yfavennec",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Christine Arrighi",
+      "normalized_name": "christine arrighi",
+      "group": "ECO-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Pierre Pribetich",
+      "normalized_name": "pierre pribetich",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Un député du groupe Dem",
+      "normalized_name": "un depute du groupe dem",
+      "group": null,
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Anne-Cécile Violland",
+      "normalized_name": "anne-cecile violland",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": "annececilevio",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Julien Brugerolles",
+      "normalized_name": "julien brugerolles",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Marie Pochon",
+      "normalized_name": "marie pochon",
+      "group": "ECO-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "mariepochon",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Brigitte Liso",
+      "normalized_name": "brigitte liso",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "brigitte_liso",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sandrine Dogor-Such",
+      "normalized_name": "sandrine dogor-such",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Sylvie Bonnet",
+      "normalized_name": "sylvie bonnet",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "sylviebonnet_42",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Steevy Gustave",
+      "normalized_name": "steevy gustave",
+      "group": "ECO-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Théo Bernhardt",
+      "normalized_name": "theo bernhardt",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "th_bnrdt",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Pouria Amirshahi",
+      "normalized_name": "pouria amirshahi",
+      "group": "ECO-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "pouriaamirshahi",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Maxime Michelet",
+      "normalized_name": "maxime michelet",
+      "group": "UDR",
+      "intervention_count": 1,
+      "twitter_handle": "maxime_michelet",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Philippe Naillet",
+      "normalized_name": "philippe naillet",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Anne Sicard",
+      "normalized_name": "anne sicard",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "annesicard1",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Jean-Marie Fiévet",
+      "normalized_name": "jean-marie fievet",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Philippe Bonnecarrère",
+      "normalized_name": "philippe bonnecarrere",
+      "group": "NI",
+      "intervention_count": 1,
+      "twitter_handle": "pbonnecarrere81",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Bertrand Bouyx",
+      "normalized_name": "bertrand bouyx",
+      "group": "HOR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Michel Guiniot",
+      "normalized_name": "michel guiniot",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "michelguiniot",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Sophie Ricourt Vaginay",
+      "normalized_name": "sophie ricourt vaginay",
+      "group": "UDR",
+      "intervention_count": 1,
+      "twitter_handle": "sophievaginay",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Hanane Mansouri",
+      "normalized_name": "hanane mansouri",
+      "group": "UDR",
+      "intervention_count": 1,
+      "twitter_handle": "hanane_mnsr",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Antoine Villedieu",
+      "normalized_name": "antoine villedieu",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "villedieu_a",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Mélanie Thomin",
+      "normalized_name": "melanie thomin",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "mel_thomin",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Nicolas Dragon",
+      "normalized_name": "nicolas dragon",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Ludovic Mendes",
+      "normalized_name": "ludovic mendes",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "ludovicmds",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marie-José Allemand",
+      "normalized_name": "marie-jose allemand",
+      "group": "PS-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Emmanuel Fernandes",
+      "normalized_name": "emmanuel fernandes",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": "emmanfernandes",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "René Lioret",
+      "normalized_name": "rene lioret",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Jean-Philippe Nilor",
+      "normalized_name": "jean-philippe nilor",
+      "group": "LFI-NFP",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Edwige Diaz",
+      "normalized_name": "edwige diaz",
+      "group": "RN",
+      "intervention_count": 1,
+      "twitter_handle": "diaz_edwige",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Yannick Monnet",
+      "normalized_name": "yannick monnet",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Jean-René Cazeneuve",
+      "normalized_name": "jean-rene cazeneuve",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "jrcazeneuve",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Marc Fesneau",
+      "normalized_name": "marc fesneau",
+      "group": "DEM",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Michel Herbillon",
+      "normalized_name": "michel herbillon",
+      "group": "LR",
+      "intervention_count": 1,
+      "twitter_handle": "michelherbillon",
+      "twitter_source": "csv_exact"
+    },
+    {
+      "depute_name": "Émeline K/Bidi",
+      "normalized_name": "emeline k/bidi",
+      "group": "GDR",
+      "intervention_count": 1,
+      "twitter_handle": null,
+      "twitter_source": "not_found"
+    },
+    {
+      "depute_name": "Pierre Cazeneuve",
+      "normalized_name": "pierre cazeneuve",
+      "group": "EPR",
+      "intervention_count": 1,
+      "twitter_handle": "pierrecazeneuve",
+      "twitter_source": "csv_exact"
+    }
+  ]
+}

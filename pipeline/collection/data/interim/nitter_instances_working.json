@@ -1,0 +1,13 @@
+{
+  "tested_at": "2025-10-20T19:18:08.159Z",
+  "total_tested": 17,
+  "functional_count": 1,
+  "functional_instances": [
+    {
+      "url": "https://nitter.net",
+      "score": 44,
+      "latency": 7105,
+      "tweet_count": 20
+    }
+  ]
+}

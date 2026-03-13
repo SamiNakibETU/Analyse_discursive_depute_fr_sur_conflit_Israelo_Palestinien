@@ -1,0 +1,24 @@
+{
+  "version": "4.0",
+  "project": "AN-Gaza Analysis",
+  "generated_at": "2025-10-17T08:50:06.043641",
+  "scraping": {
+    "base_urls": [
+      "https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance",
+      "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance"
+    ],
+    "start_date": "2023-10-07",
+    "timeout": 30,
+    "max_workers": 8
+  },
+  "filtering": {
+    "min_text_length": 50,
+    "relevance_threshold": 0.3
+  },
+  "paths": {
+    "raw_data": "data/raw/assemblee_nationale",
+    "processed_data": "data/processed",
+    "analysis": "data/analysis",
+    "logs": "logs"
+  }
+}

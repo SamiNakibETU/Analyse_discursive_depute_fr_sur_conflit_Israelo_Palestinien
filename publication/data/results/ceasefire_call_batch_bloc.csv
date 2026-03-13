@@ -1,0 +1,29 @@
+batch,bloc,n_textes,n_ceasefire,pct_ceasefire
+CHOC,Gauche radicale,789,289,36.63
+CHOC,Gauche moderee,182,76,41.76
+CHOC,Centre / Majorite,287,10,3.48
+CHOC,Droite,352,2,0.57
+POST_CIJ,Gauche radicale,217,76,35.02
+POST_CIJ,Gauche moderee,46,24,52.17
+POST_CIJ,Centre / Majorite,55,6,10.91
+POST_CIJ,Droite,32,1,3.12
+RAFAH,Gauche radicale,670,107,15.97
+RAFAH,Gauche moderee,106,19,17.92
+RAFAH,Centre / Majorite,130,19,14.62
+RAFAH,Droite,71,3,4.23
+POST_SINWAR,Gauche radicale,154,17,11.04
+POST_SINWAR,Gauche moderee,7,0,0
+POST_SINWAR,Centre / Majorite,33,5,15.15
+POST_SINWAR,Droite,43,1,2.33
+MANDATS_CPI,Gauche radicale,226,13,5.75
+MANDATS_CPI,Gauche moderee,31,3,9.68
+MANDATS_CPI,Centre / Majorite,16,2,12.5
+MANDATS_CPI,Droite,36,4,11.11
+CEASEFIRE_BREACH,Gauche radicale,443,54,12.19
+CEASEFIRE_BREACH,Gauche moderee,59,7,11.86
+CEASEFIRE_BREACH,Centre / Majorite,132,14,10.61
+CEASEFIRE_BREACH,Droite,117,0,0
+NEW_OFFENSIVE,Gauche radicale,1087,83,7.64
+NEW_OFFENSIVE,Gauche moderee,121,15,12.4
+NEW_OFFENSIVE,Centre / Majorite,264,30,11.36
+NEW_OFFENSIVE,Droite,199,0,0

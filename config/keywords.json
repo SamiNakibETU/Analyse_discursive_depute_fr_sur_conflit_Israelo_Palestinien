@@ -1,0 +1,60 @@
+{
+  "version": "1.1",
+  "last_updated": "2025-10-17T08:50:06.042634",
+  "keywords": {
+    "locations": [
+      "gaza",
+      "palestine",
+      "israël",
+      "israel",
+      "cisjordanie",
+      "tel aviv",
+      "jérusalem",
+      "rafah",
+      "khan younis",
+      "bande de gaza"
+    ],
+    "actors": [
+      "hamas",
+      "hezbollah",
+      "netanyahu",
+      "netanyahou",
+      "tsahal",
+      "fdi",
+      "palestinien",
+      "palestiniens",
+      "palestinienne",
+      "palestiniennes",
+      "israélien",
+      "israélienne",
+      "forces de défense",
+      "autorité palestinienne"
+    ],
+    "concepts": [
+      "génocide",
+      "massacre",
+      "crimes de guerre",
+      "otage",
+      "otages",
+      "colonisation",
+      "blocus",
+      "siège",
+      "cessez-le-feu",
+      "deux états",
+      "solution à deux états",
+      "solution politique",
+      "solution au conflit",
+      "conflit israélo-palestinien",
+      "proche-orient"
+    ],
+    "qualifiers": [
+      "antisémitisme",
+      "antisémite",
+      "antisémites",
+      "islamophobie",
+      "sionisme",
+      "antisionisme",
+      "apartheid"
+    ]
+  }
+}

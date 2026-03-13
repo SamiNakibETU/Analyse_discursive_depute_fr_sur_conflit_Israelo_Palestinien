@@ -1,0 +1,169 @@
+month,bloc1,bloc2,pair,cosine_dist,month_ts
+2023-10,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.6463575635427405,2023-10-01
+2023-10,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.6629240359417277,2023-10-01
+2023-10,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.6902662348414097,2023-10-01
+2023-10,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.6787412089246926,2023-10-01
+2023-10,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.7078100542878101,2023-10-01
+2023-10,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.6416136354867616,2023-10-01
+2023-11,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8234485301664116,2023-11-01
+2023-11,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8422415681131478,2023-11-01
+2023-11,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8508915850066141,2023-11-01
+2023-11,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8658560586176642,2023-11-01
+2023-11,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.883519193293965,2023-11-01
+2023-11,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8110965615805357,2023-11-01
+2023-12,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8491806624681023,2023-12-01
+2023-12,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8858028007955089,2023-12-01
+2023-12,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8958089015585216,2023-12-01
+2023-12,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9067716236835345,2023-12-01
+2023-12,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9311153882485701,2023-12-01
+2023-12,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9301176797929664,2023-12-01
+2024-01,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8177754840626437,2024-01-01
+2024-01,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8372626217486405,2024-01-01
+2024-01,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8909466079067798,2024-01-01
+2024-01,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8675584686529191,2024-01-01
+2024-01,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9087876300239158,2024-01-01
+2024-01,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8394426982558192,2024-01-01
+2024-02,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.7979866231045952,2024-02-01
+2024-02,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8368078541027766,2024-02-01
+2024-02,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8921713521536765,2024-02-01
+2024-02,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8714824737641288,2024-02-01
+2024-02,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9126786369286067,2024-02-01
+2024-02,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8385409861627342,2024-02-01
+2024-03,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.7902557439764152,2024-03-01
+2024-03,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8414755022117963,2024-03-01
+2024-03,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8575883149153054,2024-03-01
+2024-03,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.884459466200528,2024-03-01
+2024-03,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9067092957077324,2024-03-01
+2024-03,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8404578591034768,2024-03-01
+2024-04,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8225355736258474,2024-04-01
+2024-04,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8540984305116471,2024-04-01
+2024-04,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8733622774256276,2024-04-01
+2024-04,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8782100347723454,2024-04-01
+2024-04,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9052587473271132,2024-04-01
+2024-04,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8654835894707468,2024-04-01
+2024-05,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.7329401780271544,2024-05-01
+2024-05,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8015938423932117,2024-05-01
+2024-05,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.853405465786512,2024-05-01
+2024-05,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8183527054954651,2024-05-01
+2024-05,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8607786882433468,2024-05-01
+2024-05,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8378236531815052,2024-05-01
+2024-06,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.826985693096445,2024-06-01
+2024-06,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8544842114455459,2024-06-01
+2024-06,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9067401262514012,2024-06-01
+2024-06,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8654061281148971,2024-06-01
+2024-06,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9303134074286212,2024-06-01
+2024-06,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.881587251440793,2024-06-01
+2024-07,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8826565636327146,2024-07-01
+2024-07,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8732397500697503,2024-07-01
+2024-07,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8870993939071691,2024-07-01
+2024-07,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9366885402737869,2024-07-01
+2024-07,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9414873068510088,2024-07-01
+2024-07,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8682009503722574,2024-07-01
+2024-08,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8790884133450604,2024-08-01
+2024-08,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8808469209792151,2024-08-01
+2024-08,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9137807323259092,2024-08-01
+2024-08,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9199274416967756,2024-08-01
+2024-08,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9211674993892116,2024-08-01
+2024-08,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8834463359431635,2024-08-01
+2024-09,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8517974529443126,2024-09-01
+2024-09,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8856559523254289,2024-09-01
+2024-09,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9103530230651055,2024-09-01
+2024-09,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.936305820821539,2024-09-01
+2024-09,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9487028820641954,2024-09-01
+2024-09,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9234660194302975,2024-09-01
+2024-10,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8533943912625441,2024-10-01
+2024-10,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8118712754077286,2024-10-01
+2024-10,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8280809626439626,2024-10-01
+2024-10,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8745432654809333,2024-10-01
+2024-10,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8778508402551893,2024-10-01
+2024-10,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.7812116513134386,2024-10-01
+2024-11,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8228704012607643,2024-11-01
+2024-11,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8577460389330441,2024-11-01
+2024-11,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8439239415155823,2024-11-01
+2024-11,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8972161260074586,2024-11-01
+2024-11,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8876795105869987,2024-11-01
+2024-11,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8604743216717469,2024-11-01
+2024-12,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8820405524656026,2024-12-01
+2024-12,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.947958531877864,2024-12-01
+2024-12,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9052589784303271,2024-12-01
+2024-12,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9698929695214936,2024-12-01
+2024-12,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9437183915262283,2024-12-01
+2024-12,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9525093948668174,2024-12-01
+2025-01,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8212612137923938,2025-01-01
+2025-01,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.7968390189720189,2025-01-01
+2025-01,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8669641633936271,2025-01-01
+2025-01,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8176047068745499,2025-01-01
+2025-01,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8825631820498265,2025-01-01
+2025-01,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8533642192797436,2025-01-01
+2025-02,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.9044582367448861,2025-02-01
+2025-02,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8781540976103858,2025-02-01
+2025-02,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9041590249504894,2025-02-01
+2025-02,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9445351978649769,2025-02-01
+2025-02,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9482799921265033,2025-02-01
+2025-02,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8392697693522881,2025-02-01
+2025-03,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8527504048891492,2025-03-01
+2025-03,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8412223032836005,2025-03-01
+2025-03,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8892816509148448,2025-03-01
+2025-03,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8841132874105548,2025-03-01
+2025-03,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.925466328106598,2025-03-01
+2025-03,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.860748439156141,2025-03-01
+2025-04,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8763670762297984,2025-04-01
+2025-04,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8578042944804724,2025-04-01
+2025-04,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9020816196528392,2025-04-01
+2025-04,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8973167418901764,2025-04-01
+2025-04,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9273398030179139,2025-04-01
+2025-04,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9197530146171642,2025-04-01
+2025-05,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.7920309817151454,2025-05-01
+2025-05,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.7909502791943579,2025-05-01
+2025-05,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8246282465147194,2025-05-01
+2025-05,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8341413594056458,2025-05-01
+2025-05,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8629949577153919,2025-05-01
+2025-05,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8027918313968123,2025-05-01
+2025-06,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.7346605337368812,2025-06-01
+2025-06,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.7351103885092409,2025-06-01
+2025-06,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.7858502203512672,2025-06-01
+2025-06,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.7342201839368457,2025-06-01
+2025-06,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.792173782119715,2025-06-01
+2025-06,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.7254485275217446,2025-06-01
+2025-07,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8243466245193964,2025-07-01
+2025-07,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8719382148531316,2025-07-01
+2025-07,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8577785010371277,2025-07-01
+2025-07,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9008019772572561,2025-07-01
+2025-07,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9008897324306202,2025-07-01
+2025-07,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8617632180510241,2025-07-01
+2025-08,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8884661443462897,2025-08-01
+2025-08,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.9120097499450688,2025-08-01
+2025-08,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9113334085665117,2025-08-01
+2025-08,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.939654987312722,2025-08-01
+2025-08,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9472945529571519,2025-08-01
+2025-08,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9145757068783432,2025-08-01
+2025-09,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.796345733112761,2025-09-01
+2025-09,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.904277423274227,2025-09-01
+2025-09,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8848601170054806,2025-09-01
+2025-09,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.868941326029841,2025-09-01
+2025-09,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8735667816834395,2025-09-01
+2025-09,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8923480001094937,2025-09-01
+2025-10,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.9062117726823566,2025-10-01
+2025-10,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.8444565410496769,2025-10-01
+2025-10,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.8620700207046619,2025-10-01
+2025-10,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8593675327531156,2025-10-01
+2025-10,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.8693013366309994,2025-10-01
+2025-10,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.8046265597430711,2025-10-01
+2025-11,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8709773869024713,2025-11-01
+2025-11,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.9017535895384915,2025-11-01
+2025-11,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9026120950015346,2025-11-01
+2025-11,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.8979004869758952,2025-11-01
+2025-11,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9241432178987329,2025-11-01
+2025-11,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9440382496211841,2025-11-01
+2025-12,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.8932171905313617,2025-12-01
+2025-12,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.914134066602988,2025-12-01
+2025-12,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9194536847697763,2025-12-01
+2025-12,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9275204682852597,2025-12-01
+2025-12,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9349244836215074,2025-12-01
+2025-12,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.928718604569726,2025-12-01
+2026-01,Gauche radicale,Gauche moderee,Gauche radicale ↔ Gauche moderee,0.9846035813462353,2026-01-01
+2026-01,Gauche radicale,Centre / Majorite,Gauche radicale ↔ Centre / Majorite,0.9690968418414497,2026-01-01
+2026-01,Gauche radicale,Droite,Gauche radicale ↔ Droite,0.9217705548444151,2026-01-01
+2026-01,Gauche moderee,Centre / Majorite,Gauche moderee ↔ Centre / Majorite,0.9797273212041201,2026-01-01
+2026-01,Gauche moderee,Droite,Gauche moderee ↔ Droite,0.9901672010729836,2026-01-01
+2026-01,Centre / Majorite,Droite,Centre / Majorite ↔ Droite,0.9715924796164509,2026-01-01

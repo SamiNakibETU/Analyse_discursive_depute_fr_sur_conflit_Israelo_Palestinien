@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "description": "Marqueurs linguistiques indiquant une position pro-israélienne",
+  
+  "explicit_support": {
+    "description": "Expressions de soutien explicite",
+    "terms": [
+      "solidarite avec israel",
+      "soutien a israel",
+      "aux cotes d'israel",
+      "ami d'israel",
+      "etat hebreu",
+      "seule democratie du moyen-orient",
+      "droit d'israel a exister",
+      "securite d'israel"
+    ]
+  },
+  
+  "security_framing": {
+    "description": "Cadrage sécuritaire",
+    "terms": [
+      "droit de se defendre",
+      "legitime defense",
+      "autodefense",
+      "droit a la securite",
+      "menace existentielle",
+      "roquettes du hamas",
+      "tunnels terroristes",
+      "bouclier humain",
+      "boucliers humains"
+    ]
+  },
+  
+  "hamas_criticism": {
+    "description": "Critiques du Hamas/groupes palestiniens",
+    "strong": [
+      "terroristes du hamas",
+      "organisation terroriste",
+      "barbarie du hamas",
+      "pogrom du 7 octobre",
+      "massacre du 7 octobre",
+      "atrocites du hamas",
+      "crimes du hamas"
+    ],
+    "moderate": [
+      "prise d'otages",
+      "otages israeliens",
+      "liberation des otages",
+      "attaque du 7 octobre",
+      "victimes israeliennes"
+    ]
+  },
+  
+  "framing": {
+    "description": "Cadrages typiquement pro-israéliens",
+    "terms": [
+      "democratie israelienne",
+      "etat de droit israelien",
+      "ennemis d'israel",
+      "guerre contre le terrorisme",
+      "eradiquer le hamas",
+      "detruire le hamas",
+      "capacites du hamas"
+    ]
+  },
+  
+  "relativization": {
+    "description": "Termes de relativisation des critiques",
+    "terms": [
+      "israel a le droit",
+      "tout etat aurait",
+      "reaction legitime",
+      "riposte proportionnee",
+      "mesures necessaires",
+      "effort pour eviter les civils"
+    ]
+  },
+  
+  "antisemitism_framing": {
+    "description": "Cadrage lié à l'antisémitisme",
+    "terms": [
+      "antisemitisme deguise",
+      "nouvel antisemitisme",
+      "haine d'israel",
+      "diabolisation d'israel",
+      "deux poids deux mesures"
+    ]
+  }
+}
+
+

@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "description": "Marqueurs linguistiques indiquant une position pro-palestinienne",
+  
+  "explicit_support": {
+    "description": "Expressions de soutien explicite",
+    "terms": [
+      "solidarite avec gaza",
+      "solidarite avec la palestine",
+      "free palestine",
+      "palestine libre",
+      "vive la palestine",
+      "peuple palestinien",
+      "cause palestinienne",
+      "resistance palestinienne",
+      "resistance legitime"
+    ]
+  },
+  
+  "israel_criticism": {
+    "description": "Critiques d'Israël",
+    "strong": [
+      "genocide",
+      "genocidaire",
+      "nettoyage ethnique",
+      "epuration ethnique",
+      "apartheid",
+      "etat voyou",
+      "crimes de guerre israeliens",
+      "crimes de netanyahu",
+      "regime d'occupation",
+      "occupation illegale",
+      "colonisation illegale"
+    ],
+    "moderate": [
+      "violations du droit international",
+      "punition collective",
+      "blocus illegal",
+      "siege illegal",
+      "bombardements aveugles",
+      "victimes civiles",
+      "disproportionne",
+      "frappes sur les civils"
+    ]
+  },
+  
+  "framing": {
+    "description": "Cadrages typiquement pro-palestiniens",
+    "terms": [
+      "occupant",
+      "forces d'occupation",
+      "territoires occupes",
+      "nakba",
+      "droit au retour",
+      "autodetermination du peuple palestinien",
+      "peuple colonise",
+      "prison a ciel ouvert"
+    ]
+  },
+  
+  "calls_to_action": {
+    "description": "Appels à l'action typiques",
+    "terms": [
+      "reconnaissance de l'etat palestinien",
+      "reconnaitre la palestine",
+      "embargo sur les armes",
+      "arret des livraisons d'armes",
+      "suspendre les ventes d'armes",
+      "sanctions contre israel",
+      "boycott",
+      "bds"
+    ]
+  },
+  
+  "institutional_references": {
+    "description": "Références à des institutions/décisions favorables",
+    "terms": [
+      "cij genocide",
+      "ordonnance de la cij",
+      "mandat cpi netanyahu",
+      "droit international humanitaire",
+      "convention de geneve"
+    ]
+  }
+}
+
+

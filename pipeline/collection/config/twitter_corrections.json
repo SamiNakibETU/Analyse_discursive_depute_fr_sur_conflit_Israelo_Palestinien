@@ -1,0 +1,44 @@
+{
+  "description": "Corrections manuelles pour les comptes Twitter des députés clés sur Gaza",
+  "last_updated": "2026-01-05",
+  "corrections": {
+    "jean-noel barrot": null,
+    "caroline yadan": "CarolineYadan",
+    "catherine couturier": "couturiercathy",
+    "cyrielle chatelain": "cyrielle_chtl",
+    "sabrina sebaihi": "sabrinasebaihi",
+    "elisa martin": "elisamartin_nfp",
+    "benjamin haddad": "benjaminhaddad",
+    "chrysoula zacharopoulou": null,
+    "presidence de seance": null,
+    "andre chassaigne": null,
+    "jean-louis bourlanges": null,
+    "arnaud le gall": null,
+    "gerald darmanin": "GDarmanin",
+    "andree taurinya": null,
+    "pieyre-alexandre anglade": null,
+    "olivier becht": null,
+    "jeremie patrier-leitus": null,
+    "mathieu lefevre": "MathieuLefevre_",
+    "nicolas sansu": null,
+    "laurent marcangeli": null,
+    "elie califer": null,
+    "insaf rezagui": null,
+    "frederic zgainski": null,
+    "vincent jeanbrun": "vincentjeanbrun"
+  },
+  "notes": {
+    "jean-noel barrot": "Ministre, pas de compte député actif",
+    "chrysoula zacharopoulou": "Secrétaire d'État, pas de compte trouvé",
+    "andre chassaigne": "Pas de compte Twitter",
+    "jean-louis bourlanges": "Ancien député, pas de compte actif"
+  }
+}
+
+
+
+
+
+
+
+

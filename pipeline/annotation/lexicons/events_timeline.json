@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "description": "Événements-clés pour l'analyse temporelle (définis a priori)",
+  
+  "events": [
+    {
+      "id": "E01",
+      "date": "2023-10-07",
+      "name": "Attaque Hamas / 7 octobre",
+      "type": "trigger",
+      "description": "Attaque du Hamas en Israël, ~1200 morts, prises d'otages",
+      "expected_impact": "Explosion du volume, polarisation initiale"
+    },
+    {
+      "id": "E02", 
+      "date": "2023-10-09",
+      "name": "Déclaration de guerre Israël",
+      "type": "escalation",
+      "description": "Israël déclare l'état de guerre, début des frappes sur Gaza"
+    },
+    {
+      "id": "E03",
+      "date": "2023-10-17",
+      "name": "Frappe hôpital Al-Ahli",
+      "type": "controversy",
+      "description": "Explosion à l'hôpital Al-Ahli, attribution contestée",
+      "expected_impact": "Pic de critiques, questions sur proportionnalité"
+    },
+    {
+      "id": "E04",
+      "date": "2023-10-27",
+      "name": "Début offensive terrestre",
+      "type": "escalation",
+      "description": "Israël lance l'offensive terrestre à Gaza"
+    },
+    {
+      "id": "E05",
+      "date": "2023-11-24",
+      "name": "Première trêve",
+      "type": "pause",
+      "description": "Trêve de 4 jours, échanges otages/prisonniers"
+    },
+    {
+      "id": "E06",
+      "date": "2023-12-12",
+      "name": "Vote AG ONU cessez-le-feu",
+      "type": "diplomatic",
+      "description": "AG ONU vote pour cessez-le-feu (153 pour, 10 contre)"
+    },
+    {
+      "id": "E07",
+      "date": "2024-01-26",
+      "name": "Ordonnance CIJ",
+      "type": "legal",
+      "description": "CIJ ordonne à Israël de prévenir le génocide",
+      "expected_impact": "Légitimation du terme 'génocide' dans le débat"
+    },
+    {
+      "id": "E08",
+      "date": "2024-02-29",
+      "name": "Massacre de la farine",
+      "type": "controversy",
+      "description": "Tirs sur civils attendant aide humanitaire, ~100 morts"
+    },
+    {
+      "id": "E09",
+      "date": "2024-04-01",
+      "name": "Frappe consulat iranien",
+      "type": "escalation",
+      "description": "Israël frappe le consulat iranien à Damas"
+    },
+    {
+      "id": "E10",
+      "date": "2024-05-06",
+      "name": "Début offensive Rafah",
+      "type": "escalation",
+      "description": "Israël lance l'opération sur Rafah malgré avertissements",
+      "expected_impact": "Critiques internationales accrues"
+    },
+    {
+      "id": "E11",
+      "date": "2024-05-20",
+      "name": "Mandat d'arrêt CPI demandé",
+      "type": "legal",
+      "description": "Procureur CPI demande mandats contre Netanyahu et chefs Hamas"
+    },
+    {
+      "id": "E12",
+      "date": "2024-05-28",
+      "name": "Reconnaissance Palestine",
+      "type": "diplomatic",
+      "description": "Espagne, Irlande, Norvège reconnaissent État palestinien",
+      "expected_impact": "Débat français sur reconnaissance"
+    },
+    {
+      "id": "E13",
+      "date": "2024-07-19",
+      "name": "Avis CIJ occupation illégale",
+      "type": "legal",
+      "description": "CIJ déclare l'occupation de la Cisjordanie illégale"
+    },
+    {
+      "id": "E14",
+      "date": "2024-09-17",
+      "name": "Attaque bipeurs Liban",
+      "type": "escalation",
+      "description": "Explosion coordonnée de bipeurs au Liban"
+    },
+    {
+      "id": "E15",
+      "date": "2024-10-01",
+      "name": "Offensive Liban",
+      "type": "escalation",
+      "description": "Israël lance offensive terrestre au sud-Liban"
+    },
+    {
+      "id": "E16",
+      "date": "2024-11-21",
+      "name": "Mandats CPI émis",
+      "type": "legal",
+      "description": "CPI émet mandats d'arrêt contre Netanyahu et Gallant",
+      "expected_impact": "Forte polarisation, débat sur exécution en France"
+    },
+    {
+      "id": "E17",
+      "date": "2025-01-15",
+      "name": "Cessez-le-feu Gaza",
+      "type": "ceasefire",
+      "description": "Accord de cessez-le-feu à Gaza",
+      "expected_impact": "Potentiel apaisement du débat"
+    }
+  ],
+  
+  "periods": {
+    "description": "Découpage en périodes pour analyse stratifiée",
+    "periods": [
+      {
+        "id": "P0",
+        "name": "Pré-7 octobre",
+        "start": "2023-01-01",
+        "end": "2023-10-06",
+        "description": "Baseline - avant l'attaque"
+      },
+      {
+        "id": "P1",
+        "name": "Choc initial",
+        "start": "2023-10-07",
+        "end": "2023-10-31",
+        "description": "Réactions immédiates, solidarité initiale avec Israël"
+      },
+      {
+        "id": "P2",
+        "name": "Offensive et débat humanitaire",
+        "start": "2023-11-01",
+        "end": "2024-01-25",
+        "description": "Montée des critiques, débat sur proportionnalité"
+      },
+      {
+        "id": "P3",
+        "name": "Post-CIJ",
+        "start": "2024-01-26",
+        "end": "2024-05-05",
+        "description": "Légitimation juridique des critiques"
+      },
+      {
+        "id": "P4",
+        "name": "Rafah et reconnaissance",
+        "start": "2024-05-06",
+        "end": "2024-09-30",
+        "description": "Offensive Rafah, débat reconnaissance Palestine"
+      },
+      {
+        "id": "P5",
+        "name": "Escalade régionale",
+        "start": "2024-10-01",
+        "end": "2024-11-20",
+        "description": "Extension au Liban, tensions régionales"
+      },
+      {
+        "id": "P6",
+        "name": "Post-mandats CPI",
+        "start": "2024-11-21",
+        "end": "2025-01-14",
+        "description": "Débat sur mandats CPI en France"
+      },
+      {
+        "id": "P7",
+        "name": "Cessez-le-feu",
+        "start": "2025-01-15",
+        "end": "2026-01-31",
+        "description": "Période post-cessez-le-feu"
+      }
+    ]
+  }
+}
+
+

@@ -1,0 +1,592 @@
+# PLAN D'ANALYSE EXHAUSTIF - Discours des députés français sur Gaza
+## 7 Notebooks Jupyter · corpus_v3 (10 774 textes) + corpus_v4 (5 905 textes)
+
+---
+
+## Architecture des données
+
+| Corpus | Textes | Couverture | Variables clés |
+|--------|--------|-----------|----------------|
+| **v3** | 10 774 | Oct 2023 – Jan 2026 (continu) | stance_v3, frame, target, engagement |
+| **v4** | 5 905 | 7 fenêtres événementielles | stance_v4, ceasefire_call, conditionality, emotional_register, + vars spécifiques par batch |
+
+**Règle d'or** : v3 pour toute analyse temporelle continue (couvre 100% de la période). v4 pour toute analyse fine sur les fenêtres pivot (variables enrichies). Les deux se joignent par `text_hash`.
+
+---
+
+# NOTEBOOK 0 - Setup, nettoyage, ingénierie de variables
+**But** : Préparer les deux corpus, corriger les problèmes connus, créer les variables dérivées nécessaires à tous les notebooks suivants.
+
+### 0.1 Chargement et inspection
+- Charger `corpus_v3.parquet` et `corpus_v4.parquet`
+- Vérifier types, missing values, distributions de chaque colonne
+- Confirmer que `text_hash` permet bien la jointure v3↔v4
+- Vérifier les doublons potentiels (même texte, deux dates)
+
+### 0.2 Nettoyage de `key_demands` (v4)
+- Le champ est actuellement mal formaté : `["['ceasefire']"]` au lieu de `["ceasefire"]`
+- Parser proprement en vraies listes Python
+- Créer des colonnes binaires one-hot : `demand_ceasefire`, `demand_hostage_release`, `demand_arms_embargo`, `demand_sanctions`, `demand_state_recognition`, `demand_icc_compliance`, `demand_humanitarian_access`, `demand_war_crimes_investigation`, `demand_two_state_solution`
+
+### 0.3 Nettoyage de `target_primary` (v4)
+- Standardiser les valeurs hétérogènes (ex: `GOUVERNEMENT_FRANCAIS` vs `FR_GOV` vs `FRANCE_GOV`)
+- Mapper vers un dictionnaire contrôlé : ISRAEL_GOV, ISRAEL_ARMY, NETANYAHU, HAMAS, FRANCE_GOV, UN, ICC, ICJ, CIVILIANS_PAL, CIVILIANS_ISR, USA, OTHER
+
+### 0.4 Ingénierie de variables dérivées
+
+```
+Variables temporelles :
+- period : catégoriel ordonné ["PRE", "CHOC", "INTER_1", "POST_CIJ", "INTER_2", "RAFAH", "INTER_3", "RECONFIG", "POST_SINWAR", "INTER_4", "MANDATS_CPI", "INTER_5", "CEASEFIRE_BREACH", "INTER_6", "NEW_OFFENSIVE"]
+  → couvrir TOUT le timeline, pas seulement les 7 batchs v4
+- month_num : int (0 = oct 2023, 1 = nov 2023, ...) pour les régressions
+- quarter : "2023-Q4", "2024-Q1", etc.
+- days_since_oct7 : int, nombre de jours depuis le 7 oct 2023
+
+Variables d'activité :
+- n_texts_month : nombre de textes par député × mois (pour le panel fixe)
+- is_active_continuous : bool, True si le député a ≥ 1 texte/mois pendant ≥ 12 mois (panel fixe B4)
+
+Variables de cessez-le-feu lexical (sur v3 complet) :
+- ceasefire_lexical : bool, True si text_clean contient cessez-le-feu|ceasefire|trêve|trève|cessation des hostilités
+  → regex insensible à la casse et aux accents
+- ceasefire_first_month : par député, le premier mois où ceasefire_lexical = True
+
+Variables textuelles (pour NLP) :
+- n_words : nombre de mots du texte
+- text_lemmatized : texte lemmatisé (spaCy fr_core_news_sm)
+  → nécessaire pour Fightin' Words et FEEL
+```
+
+### 0.5 Classification politique étendue
+
+```python
+BLOCS = {
+    "Gauche radicale": ["LFI-NFP", "LFI", "GDR"],
+    "Gauche moderee": ["SOC", "PS-NFP", "ECO", "ECO-NFP"],
+    "Centre / Majorite": ["REN", "MODEM", "HOR", "EPR", "DEM"],
+    "Droite": ["LR", "UDR"],
+    "Extreme droite": ["RN"],  # ← séparer du reste de la Droite ?
+}
+# Décision à prendre : RN et LR dans le même bloc "Droite" ou séparés ?
+# LR et RN ont des positions TRÈS différentes sur le conflit (LR = atlantiste, RN = variable)
+# Recommandation : garder 4 blocs pour les graphiques principaux, mais ajouter
+# un bloc_5 à 5 catégories pour les analyses où la distinction RN/LR compte
+```
+
+### 0.6 Charte graphique (centralisée)
+
+```python
+COLORS_4 = {
+    "Gauche radicale": "#c0392b",
+    "Gauche moderee": "#e74c3c",
+    "Centre / Majorite": "#f39c12",
+    "Droite": "#2c3e50",
+}
+COLORS_5 = {**COLORS_4, "Extreme droite": "#7f8c8d"}  # si séparation RN
+
+EVENTS = {  # lignes verticales sur les graphiques temporels
+    "2023-10-07": "7 oct.",
+    "2024-01-26": "CIJ",
+    "2024-05-20": "CPI (req.)",
+    "2024-05-28": "Rafah",
+    "2024-06-09": "Dissolution",
+    "2024-10-16": "Sinwar ✝",
+    "2024-11-21": "CPI (mandats)",
+    "2025-01-19": "Cessez-le-feu",
+    "2025-03-15": "Rupture CLF",
+    "2025-05-06": "Barrot AN",
+}
+
+# Style matplotlib uniforme
+plt.rcParams.update({
+    'figure.figsize': (14, 7),
+    'figure.dpi': 150,
+    'axes.spines.top': False,
+    'axes.spines.right': False,
+    'font.family': 'serif',
+    'axes.grid': True,
+    'grid.alpha': 0.3,
+})
+```
+
+### 0.7 Export
+- Sauvegarder `corpus_v3_clean.parquet` et `corpus_v4_clean.parquet`
+- Sauvegarder `config.py` (couleurs, blocs, events, paths) importable par les autres NB
+
+---
+
+# NOTEBOOK 1 - Portrait du corpus & statistiques descriptives
+**But** : Cartographier le corpus avant toute analyse causale. Répondre à : qui parle, combien, quand, sur quoi.
+
+### 1.1 Vue d'ensemble
+- Tableau de synthèse : n textes, n députés, n tweets/AN par bloc
+- Distribution temporelle : barplot mensuel empilé par bloc (montre les pics d'activité)
+- Ratio tweets/interventions AN par bloc et par période
+
+### 1.2 La surreprésentation LFI - quantifier et documenter
+- LFI = 63.5% des textes mais ~15% des sièges AN
+- Comparer intensité discursive (textes/député) par groupe
+- Barplot : nombre moyen de textes/député/mois par groupe
+- Implication : toute moyenne non pondérée sera dominée par LFI → justifier la stratification systématique
+
+### 1.3 Distributions des annotations v3
+- Histogram de stance_v3 global + par bloc (montrer l'asymétrie)
+- Matrice de confusion : stance_v3 × bloc (heatmap normalisée par ligne)
+- Distribution de confidence_v3 par bloc (y a-t-il des blocs plus "difficiles" à annoter ?)
+- Distribution des frames (HUM/SEC/LEG/DIP/MOR) par bloc - stacked bar
+- Distribution des targets par bloc - qui parle de qui ?
+
+### 1.4 Distributions des annotations v4
+- Même analyse que 1.3 sur stance_v4
+- Matrice de confusion stance_v3 × stance_v4 (le cœur de la validation)
+- Distribution de ceasefire_call par bloc × batch
+- Distribution de conditionality par bloc (→ documenter le problème du 1% "conditional")
+- Distribution de emotional_register par bloc
+- Heatmap : frame_primary (v4) × bloc
+
+### 1.5 Engagement
+- Distribution de l'engagement (retweets+likes) par stance → les positions extrêmes engagent-elles plus ?
+- Engagement moyen par bloc × période - qui capte l'attention ?
+- Top 20 textes les plus engageants - quels sont-ils ? (exploration qualitative)
+
+### 1.6 Réseau d'activité
+- Heatmap : députés (lignes) × mois (colonnes) → cellule colorée si ≥ 1 texte
+- Filtrer aux top 50 députés les plus actifs
+- Montrer l'attrition : combien de députés actifs par mois ?
+- Identifier le "panel fixe" (actifs en continu) vs "éphémères"
+
+**Livrables** : ~15 figures, 1 tableau récapitulatif exporté en CSV
+
+---
+
+# NOTEBOOK 2 - Validation méthodologique
+**But** : Évaluer la qualité des annotations, corriger les failles connues, établir la confiance dans les données avant analyse.
+
+### 2.1 Comparaison v3 ↔ v4 (n=5 905 textes joints)
+- Corrélation Spearman stance_v3 × stance_v4 (attendu : ρ > 0.7)
+- Matrice de confusion complète 5×5 avec effectifs et %
+- Identifier les cas de **divergence systématique** :
+  - Combien de textes stance_v3=0 → stance_v4 ≠ 0 ? (reclassification des "neutres")
+  - Combien de textes stance_v3=2 → stance_v4=1 ? (déclassement des "forts")
+  - Combien de textes stance_v3=1 → stance_v4=0 ? (reclassification vers le neutre)
+- Analyser les divergences par bloc : le modèle change-t-il plus d'avis pour certains blocs ?
+- Cas d'étude : tirer 5 exemples de divergence v3≠v4, afficher le texte + les deux reasonings → interpréter
+
+### 2.2 Les "movers cachés" - signal central
+- Identifier les textes où stance_v3 = 0 (neutre v3) MAIS ceasefire_call = True (v4)
+- Combien sont-ils ? De quel bloc ? À quelle période ?
+- Même exercice : stance_v3 = -1 (pro-ISR modéré) MAIS ceasefire_call = True
+- → Ces cas sont le cœur de l'hypothèse de convergence
+
+### 2.3 Fix A1 - Circularité du lexical score
+**Contexte** : La validation croisée lexical score ↔ stance_v3 était circulaire (le lexical score utilisait stance_v3 comme filtre d'ancrage).
+
+**Correction** :
+```
+# ANCIEN (circulaire) : ancres = blocs filtrés par stance ≥ 1 ou ≤ -1
+# NOUVEAU : ancres = blocs entiers (aucun filtre par stance)
+ancres_pro_pal = v3[v3.bloc == "Gauche radicale"]["text_lemmatized"]
+ancres_pro_isr = v3[v3.bloc == "Droite"]["text_lemmatized"]
+```
+- Recalculer le TF-IDF par député
+- Cosine similarity de chaque député avec ancre pro-PAL vs ancre pro-ISR
+- Lexical score = sim(pro_PAL) − sim(pro_ISR), normalisé [-1, +1]
+- Corrélation avec stance_v3 moyen par député : Spearman ρ
+- Comparer avec l'ancien ρ = 0.947 → si le nouveau ρ reste > 0.85, la validation tient
+
+### 2.4 Fix B4 - Panel fixe pour la polarisation
+**Contexte** : La polarisation lexicale croissante (τ = +0.376) peut être un artefact d'attrition.
+
+**Correction** :
+- Identifier les députés du "panel fixe" : ≥ 1 texte/mois pendant ≥ 18 mois de la période POST
+- Recalculer la cosine distance inter-blocs mensuelle UNIQUEMENT sur ce panel
+- Mann-Kendall τ sur la nouvelle série
+- Comparer : τ_all_deputies vs τ_panel_fixe
+- Si τ_panel ≈ 0 → la polarisation est un artefact de composition
+- Si τ_panel reste > 0 → la polarisation est réelle
+
+### 2.5 Cohérence interne v4
+- Taux de flags d'incohérence (ceasefire_call=True + stance=-2, etc.)
+- Vérifier : ceasefire_type non-null implique ceasefire_call=True
+- Vérifier : emotional_register="neutral" corrèle avec conditionality="balanced"
+- Comparer frame_primary v3 vs frame_primary v4 : corrélation ? divergences ?
+
+**Livrables** : Matrice de confusion, ρ corrigé, τ corrigé, tableau des movers cachés
+
+---
+
+# NOTEBOOK 3 - Dynamique temporelle & Event Studies
+**But** : Tester l'hypothèse centrale (convergence par accumulation d'événements) à travers des séries temporelles et des analyses avant/après.
+
+### 3.1 Évolution du stance moyen par bloc (v3, mensuel)
+- Line chart : stance_v3 moyen mensuel par bloc
+  → 4 lignes, IC à 95% (bootstrap), événements en lignes verticales
+- Régression linéaire par segment : pente du stance par bloc par période (CHOC, INTL, RECONFIG, RESOL)
+- Tableau : Δstance par bloc entre oct. 2023 et jan. 2026
+- **Test Mann-Kendall** par bloc : y a-t-il une tendance monotone ?
+- Même graphique sur le **panel fixe** (B4 corrigé)
+
+### 3.2 🎯 Courbe d'adoption du cessez-le-feu - LE GRAPHIQUE CENTRAL
+**Double version** :
+
+**Version lexicale (v3, couverture totale)** :
+- % textes contenant "cessez-le-feu" par bloc × mois
+- Couvre oct. 2023 → jan. 2026 sans discontinuité
+- Signal brut mais robuste
+
+**Version annotée (v4, fenêtres pivot uniquement)** :
+- % textes avec ceasefire_call=True par bloc × batch
+- Plus précis (le LLM distingue cessez-le-feu explicite vs implicite)
+- Mais discontinu (gaps entre fenêtres)
+
+**Superposition** : les deux courbes sur le même graphique, v3 en trait plein, v4 en points
+- Montrer la concordance (validation) et les divergences
+
+**Test de l'hypothèse** : Le Centre passe-t-il de ~0% (oct. 2023) à un % significatif (2025) ?
+
+### 3.3 Distribution du ceasefire_type par bloc × batch (v4)
+- Stacked bar : pour chaque batch × bloc, proportion de unconditional / conditional_hostages / humanitarian_pause
+- **Hypothèse testable** : Le Centre commence avec "humanitarian_pause" (oct. 2023), passe à "conditional_hostages" (2024), puis "unconditional" (2025) ?
+
+### 3.4 Event studies - avant/après chaque événement pivot
+Pour CHAQUE événement pivot, comparer la fenêtre [-14j, +14j] :
+
+| Événement | Date | Variable star | Question |
+|-----------|------|---------------|----------|
+| Ordonnance CIJ | 26 jan. 2024 | genocide_framing, frame=LEG | Le frame juridique explose-t-il ? |
+| Offensive Rafah | Mai 2024 | ceasefire_call, rafah_reaction | Le Centre adopte-t-il le cessez-le-feu ? |
+| Mort Sinwar | 16 oct. 2024 | sinwar_reaction | Droite célèbre, Gauche dit "non pertinent" ? |
+| Mandats CPI | 21 nov. 2024 | icc_warrants_position | Qui soutient / s'oppose ? |
+| Rupture cessez-le-feu | Mars 2025 | ceasefire_breach_blame | Qui blâme qui ? |
+| Discours Barrot | 6 mai 2025 | transpartisan_convergence | Signal réel de convergence ? |
+
+**Format par événement** :
+- Grille 4×4 : Bloc (lignes) × Signal (stance, ceasefire, frame, target) (colonnes)
+- Heatmap colorée par direction du changement (vert/rouge/gris)
+- OU : bar chart groupé avant/après par bloc
+
+### 3.5 Interrupted Time Series - CausalImpact bayésien
+- Pour les 2-3 événements les plus importants (CIJ, Rafah, CPI mandats), estimer l'impact causal sur :
+  - stance_v3 moyen hebdomadaire (Centre uniquement)
+  - proportion ceasefire_lexical hebdomadaire (Centre uniquement)
+- Utiliser `pycausalimpact` ou `causalpy`
+- Contrôle : la série de la Gauche radicale (supposée non-affectée par l'événement car déjà au plafond)
+- **Attention** : conditions fortes d'application. Documenter honnêtement les limites.
+
+### 3.6 Volume et engagement par période
+- Le volume de tweets sur Gaza augmente-t-il ou diminue-t-il par bloc ?
+- L'engagement moyen par tweet augmente-t-il ? (signe de radicalisation ou de "preaching to the choir")
+- Rapport engagement/tweet par bloc × période - line chart
+
+**Livrables** : ~12-15 figures dont la courbe cessez-le-feu (figure centrale du projet)
+
+---
+
+# NOTEBOOK 4 - Polarisation lexicale
+**But** : Mesurer la divergence ou convergence linguistique entre blocs au fil du temps, indépendamment des annotations LLM.
+
+### 4.1 Cosine distance inter-blocs mensuelle (v3)
+**Méthode** :
+- Pour chaque mois, construire un vecteur TF-IDF agrégé par bloc (tous les textes du bloc concaténés)
+- Calculer la cosine distance entre chaque paire de blocs
+- Série temporelle : 6 paires × ~27 mois
+
+**Visualisation** :
+- 6 line charts (ou facet grid) : une par paire de blocs
+- Focus sur les paires clés : Gauche_rad ↔ Droite (distance maximale ?), Centre ↔ Gauche_mod (convergence ?)
+- Mann-Kendall τ par paire
+
+### 4.2 Cosine distance sur le panel fixe (correction B4)
+- Même calcul que 4.1 mais uniquement sur les députés du panel fixe
+- Comparer les τ : panel complet vs panel fixe
+- Si τ_fixe < τ_complet → l'attrition explique une partie de la polarisation
+
+### 4.3 PCA sur les profils discursifs des députés
+**Alternative à Wordfish** (plus adapté au corpus mixte tweets/AN) :
+
+Pour chaque député, calculer un vecteur de features :
+- Proportions de frames (HUM, SEC, LEG, DIP, MOR) - v3 ou v4
+- Proportion ceasefire_lexical
+- Proportion de targets (ISRAEL_GOV, HAMAS, FRANCE, UN, etc.)
+- Stance moyen
+- Engagement moyen
+
+PCA sur ce vecteur → projeter les députés dans un espace 2D
+- Colorer par bloc → les blocs se séparent-ils ?
+- Comparer : PCA_CHOC vs PCA_NEW_OFFENSIVE → les clusters bougent-ils ?
+- Les députés du Centre se rapprochent-ils de la Gauche au fil du temps ?
+
+### 4.4 Wordfish (optionnel, avec caveats)
+- Appliquer Wordfish (via `umanlp/SemScale` en Python) sur les interventions AN uniquement
+  → les interventions AN sont plus homogènes en longueur et en registre que les tweets
+- Fixer : direction avec LFI (θ bas) et RN (θ haut)
+- Estimer θ par député → comparer avec stance_v3 moyen
+- **Si** corrélation élevée → Wordfish valide le stance LLM de manière non-supervisée
+- **Si** corrélation faible → documenter pourquoi (topic vs position, cf. Proksch & Slapin)
+- **Caveat documenté** : unidimensionnalité forte, corpus mixte, LFI surreprésenté
+
+### 4.5 Indice de polarisation agrégé
+- Calculer un indice unique de polarisation par mois :
+  - Variance inter-blocs du stance moyen (Esteban-Ray ou variance simple)
+  - Cosine distance moyenne entre les 4 blocs (4.1)
+- Line chart : indice de polarisation × mois, avec événements
+- **Question** : La polarisation augmente-t-elle linéairement ou par paliers (event-driven) ?
+
+**Livrables** : ~8-10 figures, PCA biplots, indice de polarisation temporel
+
+---
+
+# NOTEBOOK 5 - Fightin' Words & Contagion lexicale
+**But** : Identifier les mots qui distinguent les camps et tracer la propagation des termes-clés.
+
+### 5.1 Fightin' Words - snapshot par période
+**Méthode** : Monroe et al. 2008, weighted log-odds ratio avec prior Dirichlet informatif
+**Implémentation** : `jmhessel/FightingWords` ou `Wigder/fightin_words` (Python 3)
+
+**Comparaisons** (chaque fois : z-score plot avec les top 20 mots par côté) :
+
+| Comparaison | Corpus 1 | Corpus 2 | Question |
+|------------|----------|----------|----------|
+| Gauche vs Droite - CHOC | Gauche rad+mod, oct-nov 2023 | Droite, oct-nov 2023 | Quels mots distinguent les camps au début ? |
+| Gauche vs Droite - RESOL | Gauche rad+mod, 2025 | Droite, 2025 | Les mêmes mots ? Ou reframing ? |
+| Centre CHOC vs Centre RESOL | Centre, oct-nov 2023 | Centre, 2025 | Le Centre a-t-il changé de vocabulaire ? |
+| Gauche CHOC vs Gauche RESOL | Gauche, oct-nov 2023 | Gauche, 2025 | De "bombardements" à "génocide" à "CPI" ? |
+| Droite CHOC vs Droite RESOL | Droite, oct-nov 2023 | Droite, 2025 | Cristallisation ou évolution ? |
+
+**Interprétation clé** : Si les mots distinctifs CHANGENT entre CHOC et RESOL → reframing dynamique. Si les MÊMES mots restent → cristallisation lexicale.
+
+### 5.2 Fightin' Words temporels - sliding window
+- Pour chaque paire Gauche/Droite, calculer Fightin' Words par trimestre
+- Suivre le z-score de mots-clés spécifiques au cours du temps :
+  - "génocide" : z-score par trimestre → quand devient-il distinctif de la Gauche ?
+  - "terrorisme" : distinctif de la Droite, stable ou décroissant ?
+  - "cessez-le-feu" : passe-t-il de distinctif-Gauche à partagé ?
+  - "CPI", "CIJ", "mandats" : apparition et appropriation
+
+### 5.3 Contagion lexicale du cessez-le-feu
+- Pour chaque bloc × mois : proportion de textes contenant "cessez-le-feu" (et variantes)
+- Line chart : 4 lignes, événements marqués
+- **Timing d'adoption attendu** :
+  - Gauche radicale : immédiat (oct. 2023)
+  - Gauche modérée : ~déc. 2023
+  - Centre : ~mai-juin 2024 (post-Rafah) ?
+  - Droite : jamais ? ou très tard ?
+- Calculer le "lag d'adoption" : pour chaque bloc, le premier mois où > 10% des textes contiennent le terme
+- Même exercice avec "génocide", "embargo", "reconnaissance de l'État de Palestine"
+
+### 5.4 N-grams distinctifs par période
+- Pour chaque batch v4, extraire les top-20 bigrammes les plus fréquents par bloc
+- Tableau synthétique montrant l'évolution du vocabulaire dominant
+- Quels bigrammes apparaissent ? Disparaissent ? Se propagent entre blocs ?
+
+### 5.5 Lexical Dispersion Plot (optionnel, visuel)
+- Pour 5-6 mots-clés (cessez-le-feu, génocide, terrorisme, otages, CPI, embargo), plot de dispersion :
+  - Axe X = temps (oct. 2023 → jan. 2026)
+  - Chaque occurrence = un point coloré par bloc
+- Montre visuellement les vagues d'apparition et la propagation inter-blocs
+
+**Livrables** : ~10-12 figures, z-score plots, courbes de contagion
+
+---
+
+# NOTEBOOK 6 - Analyse émotionnelle
+**But** : Tracer l'évolution du registre émotionnel du discours par camp.
+
+### 6.1 FEEL - Lexique français d'émotions (approche dictionnaire)
+**Outil** : pyFeel (Abdaoui et al. 2017) - lexique FEEL de ~14 000 mots français
+- 6 émotions : joy, anger, sadness, fear, surprise, disgust
+- 2 polarités : positive, negative
+
+**Méthode** :
+- Pour chaque texte du v3, calculer les proportions de mots associés à chaque émotion
+- Agréger par bloc × mois → 6 séries temporelles par bloc
+- **Normaliser** par la longueur du texte (proportion, pas count)
+
+**Visualisations** :
+- Heatmap : bloc (Y) × mois (X) × émotion dominante (couleur)
+- Line charts par émotion : anger par bloc au fil du temps, fear par bloc au fil du temps
+- Stacked area chart : composition émotionnelle d'un bloc au fil du temps
+
+**Hypothèses testables** :
+- Gauche dominée par anger (indignation) → stable ou croissant ?
+- Droite dominée par fear (menace sécuritaire) → stable ?
+- Centre commence par neutral → shift vers grief/anger en 2024-2025 ?
+
+### 6.2 Emotional register (v4) - approche LLM
+- Exploiter directement la variable `emotional_register` du v4
+- Distribution par bloc × batch : stacked bar chart
+- Comparer avec FEEL : les deux approches convergent-elles ?
+  → FEEL = approche dictionnaire (bag-of-words), emotional_register = compréhension contextuelle LLM
+  → Si concordance → validation mutuelle
+  → Si divergence → documenter pourquoi (le dictionnaire ne capte pas l'ironie, le LLM ne connaît pas le contexte)
+
+### 6.3 Triangulation FEEL × emotional_register
+- Pour les 5 905 textes v4 qui ont les deux mesures :
+  - Corrélation entre FEEL-anger et emotional_register="anger"/"indignation"
+  - Corrélation entre FEEL-fear et emotional_register="fear"
+  - Matrice de confusion : émotion FEEL dominante × emotional_register
+- Rapport de concordance → argument méthodologique (multi-méthode)
+
+### 6.4 Émotions et engagement
+- Les textes émotionnels (anger, indignation) sont-ils plus engageants (likes, retweets) ?
+- Scatter plot : proportion emotion × engagement moyen, coloré par bloc
+- Régression : engagement ~ emotion + bloc + period (contrôle)
+
+**Livrables** : ~8-10 figures, tableau de concordance FEEL/LLM
+
+---
+
+# NOTEBOOK 7 - Analyses par période & Variables spécifiques
+**But** : Exploiter les richesses uniques de chaque batch v4 (variables spécifiques que seul ce corpus possède).
+
+### 7.1 CHOC (n=1 610) - Oct-Nov 2023
+
+**7.1.1 La condamnation du Hamas comme marqueur**
+- `condemns_hamas_attack` = 33% True → 2/3 ne condamnent pas explicitement
+- Crosstab : condemns × bloc → qui condamne, qui ne condamne pas ?
+- Crosstab : condemns × stance → la condamnation explicite corrèle-t-elle avec le stance ?
+- Évolution dans le temps (7-10 oct. vs 15 oct.+) : la condamnation disparaît-elle après la polarisation ?
+
+**7.1.2 "Droit de se défendre" - la phrase qui disparaît**
+- `self_defense_mention` = 9% seulement
+- Par bloc : qui l'utilise ? (attendu : Centre + Droite early, puis ça disparaît)
+- Temporel : est-ce concentré sur les premiers jours ?
+
+**7.1.3 Proportionnalité et déplacement**
+- `proportionality_issue` = 19%, `displacement_mention` = 18%
+- Crosstab avec bloc : qui introduit ces critiques ?
+- → Marqueurs précoces de la future divergence
+
+### 7.2 POST_CIJ (n=350) - Jan-Fév 2024
+
+**7.2.1 La CIJ comme tournant juridique**
+- `icj_reference` = 26% → 3/4 ignorent la CIJ
+- Qui mentionne la CIJ ? Crosstab avec bloc
+- `genocide_framing` : uses_term=23%, quotes_icj=6%, absent=71%
+- Crosstab genocide_framing × bloc → qui dit "génocide" ?
+- → Le terme se propage-t-il au-delà de LFI ?
+
+### 7.3 RAFAH (n=977) - Mai-Juin 2024
+
+**7.3.1 Test de convergence #1 : Rafah**
+- `rafah_reaction` : condemns_offensive=40%, absent=53%, supports=2%
+- Crosstab avec bloc → le Centre condamne-t-il ?
+- `genocide_framing` monte à uses_term=42% (vs 23% en POST_CIJ)
+- `icc_mention` = 24% (vs 3% en POST_CIJ) → forte montée
+- Crosstab icc_mention × bloc → qui mentionne la CPI ?
+
+### 7.4 POST_SINWAR (n=237) - Oct 2024
+
+**7.4.1 Sinwar comme test de clivage**
+- `sinwar_reaction` : absent=62%, irrelevant_for_peace=25%, celebrates=9%
+- Crosstab sinwar_reaction × bloc (attendu : célèbre = Droite, irrelevant = Gauche)
+- `ethnic_cleansing_frame` = 35% → très élevé
+- Qui utilise ce terme ? Crosstab avec bloc
+
+### 7.5 MANDATS_CPI (n=309) - Nov-Déc 2024
+
+**7.5.1 Position sur les mandats CPI**
+- `icc_warrants_position` : absent=65%, support=24%, neutral=9%, oppose=3%
+- Crosstab icc_warrants_position × bloc → qui soutient l'exécution des mandats ?
+- Le Centre soutient-il ? (hypothèse : oui, partiellement)
+- Comparer avec genocide_framing (uses_term=37%) → le terme se normalise ?
+
+### 7.6 CEASEFIRE_BREACH (n=751) - Jan-Mars 2025
+
+**7.6.1 Qui blâme qui pour la rupture ?**
+- `ceasefire_breach_blame` : absent=79%, blames_israel=14%, blames_hamas=5%
+- Crosstab blame × bloc → discrimination parfaite ?
+- `two_state_mention` = 6% → faible mais émergent
+
+### 7.7 NEW_OFFENSIVE (n=1 671) - Avr-Juin 2025
+
+**7.7.1 Test de convergence #2 : Barrot et la transpartisanité**
+- `transpartisan_convergence` = 12% → signal le plus fort
+- Crosstab transpartisan × bloc → qui participe à la convergence ?
+- `state_recognition_mention` = 9% → la reconnaissance de l'État de Palestine émerge
+- `conquest_framing` = 3% → rare mais significatif
+
+### 7.8 Synthèse transversale des variables spécifiques
+- **Tableau de synthèse** : pour chaque variable spécifique, la proportion True/active par bloc
+- **"Arc narratif"** par bloc : comment le discours évolue-t-il à travers les 7 fenêtres ?
+  - Gauche radicale : condamnation HMS → cessez-le-feu → génocide → CPI → blâme Israël → convergence
+  - Centre : solidarité Israël → pause humanitaire → cessez-le-feu conditionnel → mandats CPI → transpartisanité ?
+  - Droite : terrorisme → droit de se défendre → silences → Sinwar → opposition CPI → ?
+
+### 7.9 Heatmap de synthèse multi-batch
+- Axe X : les 7 batchs chronologiques
+- Axe Y : les indicateurs-clés (ceasefire_call%, genocide_framing%, icc_mention%, stance moyen)
+- Couleur : valeur de l'indicateur
+- Un facet par bloc → 4 heatmaps côte à côte
+- C'est le "dashboard" visuel de l'évolution discursive
+
+**Livrables** : ~15-20 figures, tableau de synthèse transversal
+
+---
+
+# RÉSUMÉ DES DÉPENDANCES
+
+| Notebook | Corpus | Dépend de | Packages clés |
+|----------|--------|-----------|---------------|
+| NB0 | v3 + v4 | - | pandas, spacy, re |
+| NB1 | v3 + v4 | NB0 | matplotlib, seaborn |
+| NB2 | v3 + v4 | NB0 | scipy, sklearn (TF-IDF) |
+| NB3 | v3 + v4 | NB0, NB2 (panel fixe) | pymannkendall, pycausalimpact (optionnel) |
+| NB4 | v3 | NB0 | sklearn (TF-IDF, PCA, cosine), SemScale (optionnel) |
+| NB5 | v3 + v4 | NB0 | fightin_words, sklearn (CountVectorizer) |
+| NB6 | v3 + v4 | NB0 | pyFeel, nltk |
+| NB7 | v4 uniquement | NB0 | pandas, seaborn |
+
+## Packages à installer
+
+```bash
+pip install pandas numpy matplotlib seaborn scipy scikit-learn pymannkendall
+pip install spacy && python -m spacy download fr_core_news_sm
+pip install git+https://github.com/AdilZouitine/pyFeel --upgrade
+pip install git+https://github.com/Wigder/fightin_words
+pip install nltk
+# Optionnels :
+pip install pycausalimpact  # ITS bayésien
+pip install wordcloud       # nuages de mots
+```
+
+## Estimation de temps
+
+| Notebook | Temps estimé | Difficulté |
+|----------|-------------|------------|
+| NB0 | 2h | ★★☆ |
+| NB1 | 2h | ★☆☆ |
+| NB2 | 3h | ★★★ |
+| NB3 | 4h | ★★★ |
+| NB4 | 3h | ★★★ |
+| NB5 | 3h | ★★☆ |
+| NB6 | 2h | ★★☆ |
+| NB7 | 3h | ★★☆ |
+| **Total** | **~22h** | |
+
+---
+
+## HIÉRARCHIE DES RÉSULTATS (du plus important au moins)
+
+1. 🎯 **Courbe d'adoption du cessez-le-feu** (NB3.2) - test direct de l'hypothèse
+2. **Event studies** (NB3.4) - impact causal des événements sur le discours
+3. **Fightin' Words temporel** (NB5.1-5.2) - reframing vs cristallisation
+4. **Variables spécifiques par batch** (NB7) - originalité du projet
+5. **Polarisation lexicale** (NB4) - divergence/convergence indépendante du LLM
+6. **Émotions** (NB6) - dimension complémentaire, impressionnante visuellement
+7. **Validation méthodologique** (NB2) - fondation nécessaire mais pas le "headline"
+8. **Wordfish/PCA** (NB4.3-4.4) - intéressant mais optionnel
+
+---
+
+## CE QUI DISTINGUE CE PROJET
+
+Pour un recruteur intelligence/défense, les points saillants sont :
+
+1. **OSINT-anchored** : Chaque analyse est ancrée dans des événements réels et datés. Ce n'est pas du NLP dans le vide - c'est de l'analyse de l'impact discursif d'événements géopolitiques concrets.
+
+2. **Multi-méthode** : LLM annotation (v3/v4) + NLP dictionnaire (FEEL, Fightin' Words) + statistiques (ITS, Mann-Kendall) + scaling non-supervisé (PCA/Wordfish). La triangulation des méthodes est LA marque d'un bon analyste.
+
+3. **Honnêteté méthodologique** : Les corrections A1/B4 montrent que tu identifies et corriges les biais de ton propre pipeline. Les caveats sur Wordfish montrent que tu comprends les limites des outils.
+
+4. **Variables originales** : `ceasefire_call`, `genocide_framing`, `icc_warrants_position`, `ceasefire_breach_blame` - ces variables n'existent dans aucun autre corpus. C'est du travail de conception d'instrument de mesure, pas juste de l'application de packages.

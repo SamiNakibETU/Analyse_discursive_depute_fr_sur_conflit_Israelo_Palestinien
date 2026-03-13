@@ -1,0 +1,178 @@
+{
+  "tested_at": "2026-01-05T17:29:19.931Z",
+  "results": [
+    {
+      "instance": "https://nitter.privacyredirect.com",
+      "working": true,
+      "avg_response_ms": 2492,
+      "tests": [
+        {
+          "username": "mathildepanot",
+          "success": false,
+          "response_ms": 2708,
+          "tweet_count": 0,
+          "error": "Execution context was destroyed, most likely becau"
+        },
+        {
+          "username": "gabrielattal",
+          "success": true,
+          "response_ms": 2304,
+          "tweet_count": 17,
+          "error": null
+        },
+        {
+          "username": "ericcoquerel",
+          "success": true,
+          "response_ms": 2464,
+          "tweet_count": 20,
+          "error": null
+        }
+      ],
+      "rate_limited": false,
+      "success_rate": "2/3",
+      "search_test": {
+        "search_working": true,
+        "response_ms": 2188,
+        "error": null,
+        "tweet_count": 20
+      }
+    },
+    {
+      "instance": "https://nitter.tiekoetter.com",
+      "working": true,
+      "avg_response_ms": 3550,
+      "tests": [
+        {
+          "username": "mathildepanot",
+          "success": false,
+          "response_ms": 2214,
+          "tweet_count": 0,
+          "error": "Execution context was destroyed, most likely becau"
+        },
+        {
+          "username": "gabrielattal",
+          "success": true,
+          "response_ms": 5018,
+          "tweet_count": 17,
+          "error": null
+        },
+        {
+          "username": "ericcoquerel",
+          "success": true,
+          "response_ms": 3418,
+          "tweet_count": 17,
+          "error": null
+        }
+      ],
+      "rate_limited": false,
+      "success_rate": "2/3",
+      "search_test": {
+        "search_working": true,
+        "response_ms": 3649,
+        "error": null,
+        "tweet_count": 20
+      }
+    },
+    {
+      "instance": "https://nuku.trabun.org",
+      "working": false,
+      "avg_response_ms": 14498,
+      "tests": [
+        {
+          "username": "mathildepanot",
+          "success": false,
+          "response_ms": 14902,
+          "tweet_count": 0,
+          "error": "NO_TWEETS"
+        },
+        {
+          "username": "gabrielattal",
+          "success": false,
+          "response_ms": 14364,
+          "tweet_count": 0,
+          "error": "NO_TWEETS"
+        },
+        {
+          "username": "ericcoquerel",
+          "success": false,
+          "response_ms": 14229,
+          "tweet_count": 0,
+          "error": "NO_TWEETS"
+        }
+      ],
+      "rate_limited": false,
+      "success_rate": "0/3"
+    },
+    {
+      "instance": "https://lightbrd.com",
+      "working": false,
+      "avg_response_ms": 14349,
+      "tests": [
+        {
+          "username": "mathildepanot",
+          "success": false,
+          "response_ms": 14194,
+          "tweet_count": 0,
+          "error": "NO_TWEETS"
+        },
+        {
+          "username": "gabrielattal",
+          "success": false,
+          "response_ms": 14797,
+          "tweet_count": 0,
+          "error": "NO_TWEETS"
+        },
+        {
+          "username": "ericcoquerel",
+          "success": false,
+          "response_ms": 14056,
+          "tweet_count": 0,
+          "error": "NO_TWEETS"
+        }
+      ],
+      "rate_limited": false,
+      "success_rate": "0/3"
+    },
+    {
+      "instance": "https://nitter.net",
+      "working": true,
+      "avg_response_ms": 2095,
+      "tests": [
+        {
+          "username": "mathildepanot",
+          "success": true,
+          "response_ms": 2095,
+          "tweet_count": 21,
+          "error": null
+        },
+        {
+          "username": "gabrielattal",
+          "success": true,
+          "response_ms": 2093,
+          "tweet_count": 17,
+          "error": null
+        },
+        {
+          "username": "ericcoquerel",
+          "success": true,
+          "response_ms": 2098,
+          "tweet_count": 18,
+          "error": null
+        }
+      ],
+      "rate_limited": false,
+      "success_rate": "3/3",
+      "search_test": {
+        "search_working": true,
+        "response_ms": 2831,
+        "error": null,
+        "tweet_count": 20
+      }
+    }
+  ],
+  "recommendation": {
+    "best_instance": "https://nitter.net",
+    "avg_response_ms": 2095,
+    "recommended_delay_ms": 4095
+  }
+}

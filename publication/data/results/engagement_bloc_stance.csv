@@ -1,0 +1,21 @@
+bloc,stance_v3,n,engagement_median,engagement_mean,engagement_p90
+Gauche radicale,-2,90,379,426.7,999.2
+Gauche radicale,-1,166,284.5,397.2,888.5
+Gauche radicale,0,116,201.5,340,923
+Gauche radicale,1,1212,250,411.7,1044
+Gauche radicale,2,4643,411,512.9,1138
+Gauche moderee,-2,9,711,684,1171
+Gauche moderee,-1,89,102,315.1,982.2
+Gauche moderee,0,66,156.5,260.9,708.5
+Gauche moderee,1,441,82,274.8,820
+Gauche moderee,2,209,137,353.9,1075.4
+Centre / Majorite,-2,193,142,400.1,1093
+Centre / Majorite,-1,560,70.5,280.8,916.4
+Centre / Majorite,0,105,20,196.1,854
+Centre / Majorite,1,79,18,190.2,685.8
+Centre / Majorite,2,7,26,197.7,568.4
+Droite,-2,563,98,311.9,947.4
+Droite,-1,542,50,239.1,856.7
+Droite,0,29,32,239.8,984.4
+Droite,1,15,11,158.9,656
+Droite,2,1,153,153,153

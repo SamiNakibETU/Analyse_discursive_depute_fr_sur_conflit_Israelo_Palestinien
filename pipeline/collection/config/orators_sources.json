@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "name": "assemblee_leg17",
+      "type": "local_json",
+      "path": "../config/deputes_groupes_17e.json",
+      "legislature": 17,
+      "id_field": "id"
+    },
+    {
+      "name": "nosdeputes_leg16",
+      "type": "remote_json",
+      "url": "https://www.nosdeputes.fr/deputes/json",
+      "legislature": 16
+    },
+    {
+      "name": "external_speakers",
+      "type": "local_json",
+      "path": "../config/orateurs_exterieurs.json"
+    }
+  ],
+  "normalization": {
+    "strip_titles": ["mme", "m.", "m", "monsieur", "madame", "president", "presidente", "ministre", "rapporteur", "rapporteure", "premier ministre", "premiere ministre"],
+    "remove_suffixes": ["(applaudissements)", "(sourires)", "(protestations)", "(exclamations)"]
+  }
+}

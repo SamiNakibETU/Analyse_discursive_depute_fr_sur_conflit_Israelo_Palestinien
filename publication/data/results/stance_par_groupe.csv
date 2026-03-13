@@ -1,0 +1,17 @@
+groupe_politique,bloc,n_textes,pct_corpus,stance_mean,stance_std,n_deputes
+LFI-NFP,Gauche radicale,5611,52.1,1.60,0.84,115
+LFI,Gauche radicale,832,7.7,1.52,0.86,25
+GDR,Gauche radicale,395,3.7,1.54,0.88,18
+PS-NFP,Gauche moderee,318,3.0,0.98,0.92,22
+ECO-NFP,Gauche moderee,483,4.5,0.92,0.94,28
+SOC,Gauche moderee,79,0.7,0.75,1.02,8
+ECO,Gauche moderee,91,0.8,0.88,0.98,9
+EPR,Centre / Majorite,706,6.6,-0.82,0.92,72
+REN,Centre / Majorite,480,4.5,-0.68,0.98,45
+MODEM,Centre / Majorite,182,1.7,-0.92,0.88,18
+HOR,Centre / Majorite,68,0.6,-0.65,1.05,12
+DEM,Centre / Majorite,53,0.5,-0.71,0.92,8
+RN,Droite,987,9.2,-1.42,0.69,78
+LR,Droite,320,3.0,-1.25,0.82,28
+UDR,Droite,87,0.8,-1.35,0.71,9
+NI,Droite,82,0.8,-1.28,0.78,9

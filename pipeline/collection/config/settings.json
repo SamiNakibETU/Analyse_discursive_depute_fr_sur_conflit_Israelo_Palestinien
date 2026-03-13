@@ -1,0 +1,31 @@
+﻿{
+  "project": "AN Gaza Analysis",
+  "scraping": {
+    "start_date": "2022-01-01",
+    "base_urls": [
+      {
+        "legislature": 16,
+        "url": "https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance",
+        "pages_hint": 25
+      },
+      {
+        "legislature": 17,
+        "url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance",
+        "pages_hint": 10
+      }
+    ],
+    "timeout": 30,
+    "max_workers": 6,
+    "rate_limit_delay": 1.5,
+    "user_agent": "Mozilla/5.0 (compatible; AN-Gaza-Scraper/1.0; +https://example.org)"
+  },
+  "filtering": {
+    "min_text_length": 60,
+    "relevance_threshold": 0.3
+  },
+  "paths": {
+    "raw": "FINAL/data/raw",
+    "processed": "FINAL/data/processed",
+    "logs": "FINAL/logs"
+  }
+}

@@ -1,0 +1,43 @@
+batch,bloc,ceasefire_type,n
+CEASEFIRE_BREACH,Centre / Majorite,conditional_other,2
+CEASEFIRE_BREACH,Centre / Majorite,unconditional,12
+CEASEFIRE_BREACH,Gauche moderee,unconditional,7
+CEASEFIRE_BREACH,Gauche radicale,conditional_other,3
+CEASEFIRE_BREACH,Gauche radicale,unconditional,50
+CHOC,Centre / Majorite,humanitarian_pause,8
+CHOC,Centre / Majorite,unconditional,2
+CHOC,Droite,conditional_other,1
+CHOC,Droite,unconditional,1
+CHOC,Gauche moderee,humanitarian_pause,6
+CHOC,Gauche moderee,unconditional,70
+CHOC,Gauche radicale,conditional_hostages,1
+CHOC,Gauche radicale,humanitarian_pause,8
+CHOC,Gauche radicale,unconditional,280
+MANDATS_CPI,Centre / Majorite,unconditional,2
+MANDATS_CPI,Droite,unconditional,4
+MANDATS_CPI,Gauche moderee,unconditional,3
+MANDATS_CPI,Gauche radicale,unconditional,13
+NEW_OFFENSIVE,Centre / Majorite,conditional_other,3
+NEW_OFFENSIVE,Centre / Majorite,humanitarian_pause,3
+NEW_OFFENSIVE,Centre / Majorite,unconditional,23
+NEW_OFFENSIVE,Gauche moderee,unconditional,15
+NEW_OFFENSIVE,Gauche radicale,conditional_other,1
+NEW_OFFENSIVE,Gauche radicale,humanitarian_pause,1
+NEW_OFFENSIVE,Gauche radicale,unconditional,76
+POST_CIJ,Centre / Majorite,unconditional,6
+POST_CIJ,Droite,conditional_other,1
+POST_CIJ,Gauche moderee,unconditional,24
+POST_CIJ,Gauche radicale,unconditional,76
+POST_SINWAR,Centre / Majorite,conditional_hostages,1
+POST_SINWAR,Centre / Majorite,conditional_other,1
+POST_SINWAR,Centre / Majorite,unconditional,3
+POST_SINWAR,Droite,unconditional,1
+POST_SINWAR,Gauche radicale,unconditional,17
+RAFAH,Centre / Majorite,conditional_hostages,2
+RAFAH,Centre / Majorite,humanitarian_pause,1
+RAFAH,Centre / Majorite,unconditional,16
+RAFAH,Droite,conditional_hostages,1
+RAFAH,Droite,unconditional,2
+RAFAH,Gauche moderee,unconditional,19
+RAFAH,Gauche radicale,conditional_other,1
+RAFAH,Gauche radicale,unconditional,106

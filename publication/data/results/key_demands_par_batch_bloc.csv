@@ -1,0 +1,1271 @@
+bloc,batch,demand,n,total,pct
+Centre / Majorite,CEASEFIRE_BREACH,ceasefire,12,149,8.05
+Centre / Majorite,CEASEFIRE_BREACH,combat_antisémitisme,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,diplomatic_solution,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,disarm_hamas,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,event_prohibition,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,governance,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,heavy_condemnation,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,hostage_release,11,149,7.38
+Centre / Majorite,CEASEFIRE_BREACH,humanitarian_aid,2,149,1.34
+Centre / Majorite,CEASEFIRE_BREACH,international_humanitarian_action,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,none,105,149,70.47
+Centre / Majorite,CEASEFIRE_BREACH,reconstruction,2,149,1.34
+Centre / Majorite,CEASEFIRE_BREACH,respect_droit_international,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,sanctions,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,state_recognition,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,support_unrwa,1,149,0.67
+Centre / Majorite,CEASEFIRE_BREACH,two_state_solution,5,149,3.36
+Centre / Majorite,CEASEFIRE_BREACH,two_states,1,149,0.67
+Centre / Majorite,CHOC,"[""sanctionner l'apologie du terrorisme""
+ 'réponse ferme et rapide du gouvernement']",1,294,0.34
+Centre / Majorite,CHOC,['ceasefire'],1,294,0.34
+Centre / Majorite,CHOC,['hostage_release'],5,294,1.7
+Centre / Majorite,CHOC,['humanitarian_ceasefire'],1,294,0.34
+Centre / Majorite,CHOC,['self_defense' 'eradication_of_terrorists'],1,294,0.34
+Centre / Majorite,CHOC,[],86,294,29.25
+Centre / Majorite,CHOC,aid_increase,1,294,0.34
+Centre / Majorite,CHOC,authority_negotiation,1,294,0.34
+Centre / Majorite,CHOC,ceasefire,3,294,1.02
+Centre / Majorite,CHOC,end_colonization,1,294,0.34
+Centre / Majorite,CHOC,hostage_release,11,294,3.74
+Centre / Majorite,CHOC,hostage_support,1,294,0.34
+Centre / Majorite,CHOC,humanitarian_access,1,294,0.34
+Centre / Majorite,CHOC,humanitarian_aid,4,294,1.36
+Centre / Majorite,CHOC,humanitarian_ceasefire,1,294,0.34
+Centre / Majorite,CHOC,humanitarian_respect,1,294,0.34
+Centre / Majorite,CHOC,humanitarian_truce,4,294,1.36
+Centre / Majorite,CHOC,none,165,294,56.12
+Centre / Majorite,CHOC,peace,1,294,0.34
+Centre / Majorite,CHOC,peace_negotiation,1,294,0.34
+Centre / Majorite,CHOC,proportional_response,1,294,0.34
+Centre / Majorite,CHOC,security_guarantees,1,294,0.34
+Centre / Majorite,CHOC,state_rights,1,294,0.34
+Centre / Majorite,MANDATS_CPI,ceasefire,2,20,10.0
+Centre / Majorite,MANDATS_CPI,combat_antisemitism,1,20,5.0
+Centre / Majorite,MANDATS_CPI,hostage_release,6,20,30.0
+Centre / Majorite,MANDATS_CPI,humanitarian_aid,1,20,5.0
+Centre / Majorite,MANDATS_CPI,none,9,20,45.0
+Centre / Majorite,MANDATS_CPI,oppose_boycott,1,20,5.0
+Centre / Majorite,NEW_OFFENSIVE,antisemitism_legislation,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,ceasefire,22,308,7.14
+Centre / Majorite,NEW_OFFENSIVE,cessation_financement,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,citizen_repatriation,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,civil_protection,2,308,0.65
+Centre / Majorite,NEW_OFFENSIVE,condamnation,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,de-escalation,3,308,0.97
+Centre / Majorite,NEW_OFFENSIVE,dialogue,3,308,0.97
+Centre / Majorite,NEW_OFFENSIVE,diplomatic_framework,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,disarmament,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,end_of_force,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,end_of_violence,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,financement_terrorisme,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,hostage_release,22,308,7.14
+Centre / Majorite,NEW_OFFENSIVE,hostage_return,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,human_rights_violations,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,humanitarian_access,3,308,0.97
+Centre / Majorite,NEW_OFFENSIVE,humanitarian_aid,11,308,3.57
+Centre / Majorite,NEW_OFFENSIVE,humanitarian_aid_delivery,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,lift_blockade,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,military_operations_cessation,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,multilateral_solution,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,none,183,308,59.42
+Centre / Majorite,NEW_OFFENSIVE,normalization,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,palestinian_reform,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,peace,2,308,0.65
+Centre / Majorite,NEW_OFFENSIVE,peace_agreement,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,peace_initiatives,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,peace_process,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,peace_solution,2,308,0.65
+Centre / Majorite,NEW_OFFENSIVE,political_solution,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,pressure_on_Israel,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,recognition_of_state,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,recognition_of_two_states,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,regional_security,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,reinstatement_of_companies,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,release_hostages,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,reopening_stands,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,report,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,sanctions,2,308,0.65
+Centre / Majorite,NEW_OFFENSIVE,state_recognition,17,308,5.52
+Centre / Majorite,NEW_OFFENSIVE,support_plan,1,308,0.32
+Centre / Majorite,NEW_OFFENSIVE,two_state_solution,6,308,1.95
+Centre / Majorite,POST_CIJ,anti_semitism_combating,1,59,1.69
+Centre / Majorite,POST_CIJ,ceasefire,6,59,10.17
+Centre / Majorite,POST_CIJ,freedom_of_speech,1,59,1.69
+Centre / Majorite,POST_CIJ,hostage_release,5,59,8.47
+Centre / Majorite,POST_CIJ,humanitarian_aid,2,59,3.39
+Centre / Majorite,POST_CIJ,none,41,59,69.49
+Centre / Majorite,POST_CIJ,resignation,2,59,3.39
+Centre / Majorite,POST_CIJ,sanctions,1,59,1.69
+Centre / Majorite,POST_SINWAR,allow_israeli_companies,1,40,2.5
+Centre / Majorite,POST_SINWAR,ceasefire,4,40,10.0
+Centre / Majorite,POST_SINWAR,hostage_release,2,40,5.0
+Centre / Majorite,POST_SINWAR,humanitarian_aid,5,40,12.5
+Centre / Majorite,POST_SINWAR,humanitarian_response,1,40,2.5
+Centre / Majorite,POST_SINWAR,humanitarian_support,1,40,2.5
+Centre / Majorite,POST_SINWAR,immediate_resignation,1,40,2.5
+Centre / Majorite,POST_SINWAR,institutional_recovery,1,40,2.5
+Centre / Majorite,POST_SINWAR,investigation,1,40,2.5
+Centre / Majorite,POST_SINWAR,none,21,40,52.5
+Centre / Majorite,POST_SINWAR,removal_UN_staff,1,40,2.5
+Centre / Majorite,POST_SINWAR,respect_international_law,1,40,2.5
+Centre / Majorite,RAFAH,ceasefire,19,144,13.19
+Centre / Majorite,RAFAH,hostage_release,12,144,8.33
+Centre / Majorite,RAFAH,humanitarian_access,1,144,0.69
+Centre / Majorite,RAFAH,humanitarian_aid,4,144,2.78
+Centre / Majorite,RAFAH,humanitarian_needs,1,144,0.69
+Centre / Majorite,RAFAH,none,101,144,70.14
+Centre / Majorite,RAFAH,peace_conditions,1,144,0.69
+Centre / Majorite,RAFAH,peace_solution,1,144,0.69
+Centre / Majorite,RAFAH,sanctions,1,144,0.69
+Centre / Majorite,RAFAH,state_recognition,1,144,0.69
+Centre / Majorite,RAFAH,two_state_solution,2,144,1.39
+Droite,CEASEFIRE_BREACH,cooperation_against_terror,1,118,0.85
+Droite,CEASEFIRE_BREACH,dissolution_urgence_pal,1,118,0.85
+Droite,CEASEFIRE_BREACH,hostage_release,2,118,1.69
+Droite,CEASEFIRE_BREACH,infrastructure_funding,1,118,0.85
+Droite,CEASEFIRE_BREACH,none,108,118,91.53
+Droite,CEASEFIRE_BREACH,release_hostages,1,118,0.85
+Droite,CEASEFIRE_BREACH,sanctions,2,118,1.69
+Droite,CEASEFIRE_BREACH,state_recognition,1,118,0.85
+Droite,CEASEFIRE_BREACH,terrorist_organization_listing,1,118,0.85
+Droite,CHOC,UN_investigation,1,356,0.28
+Droite,CHOC,['ceasefire'],1,356,0.28
+Droite,CHOC,['cut_aid'],1,356,0.28
+Droite,CHOC,['cut_funding'],1,356,0.28
+Droite,CHOC,['end_tax_convention'],1,356,0.28
+Droite,CHOC,['hostage_release'],4,356,1.12
+Droite,CHOC,['manifestation_interdiction'],1,356,0.28
+Droite,CHOC,[],42,356,11.8
+Droite,CHOC,accountability_for_hostages,1,356,0.28
+Droite,CHOC,aid_suspension,1,356,0.28
+Droite,CHOC,combat_antisemitism,1,356,0.28
+Droite,CHOC,destruction_Hamas,1,356,0.28
+Droite,CHOC,disarmament,1,356,0.28
+Droite,CHOC,end_aid_to_palestinians,1,356,0.28
+Droite,CHOC,hamas_leadership_judgment,1,356,0.28
+Droite,CHOC,hostage_release,5,356,1.4
+Droite,CHOC,international_law,1,356,0.28
+Droite,CHOC,legislative_means_against_islamism,1,356,0.28
+Droite,CHOC,none,279,356,78.37
+Droite,CHOC,recognition_of_Palestine,1,356,0.28
+Droite,CHOC,sanctions_against_hamas,1,356,0.28
+Droite,CHOC,security_for_Israel,1,356,0.28
+Droite,CHOC,state_recognition,2,356,0.56
+Droite,CHOC,stop_aid_to_terrorist_funding,1,356,0.28
+Droite,CHOC,support_israel,3,356,0.84
+Droite,CHOC,suspension_aide_publique,1,356,0.28
+Droite,CHOC,two_state_solution,1,356,0.28
+Droite,MANDATS_CPI,ban_video_game,2,41,4.88
+Droite,MANDATS_CPI,ceasefire,4,41,9.76
+Droite,MANDATS_CPI,hostage_release,3,41,7.32
+Droite,MANDATS_CPI,humanitarian_aid,1,41,2.44
+Droite,MANDATS_CPI,none,29,41,70.73
+Droite,MANDATS_CPI,two_state_solution,2,41,4.88
+Droite,NEW_OFFENSIVE,anti_semitism_law,1,205,0.49
+Droite,NEW_OFFENSIVE,defense_of_democracies,1,205,0.49
+Droite,NEW_OFFENSIVE,disarm_hamas,1,205,0.49
+Droite,NEW_OFFENSIVE,government_resignation,1,205,0.49
+Droite,NEW_OFFENSIVE,hospitality,1,205,0.49
+Droite,NEW_OFFENSIVE,hostage_release,4,205,1.95
+Droite,NEW_OFFENSIVE,humanitarian_aid,2,205,0.98
+Droite,NEW_OFFENSIVE,minister_audition,1,205,0.49
+Droite,NEW_OFFENSIVE,none,181,205,88.29
+Droite,NEW_OFFENSIVE,nuclear_non_proliferation,1,205,0.49
+Droite,NEW_OFFENSIVE,oppose_iran,1,205,0.49
+Droite,NEW_OFFENSIVE,protection_of_Jews,1,205,0.49
+Droite,NEW_OFFENSIVE,protection_of_citizens,1,205,0.49
+Droite,NEW_OFFENSIVE,release_hostages,1,205,0.49
+Droite,NEW_OFFENSIVE,repatriation,1,205,0.49
+Droite,NEW_OFFENSIVE,sanctions,2,205,0.98
+Droite,NEW_OFFENSIVE,support_community,1,205,0.49
+Droite,NEW_OFFENSIVE,support_for_israel,1,205,0.49
+Droite,NEW_OFFENSIVE,support_israel,1,205,0.49
+Droite,NEW_OFFENSIVE,support_usa,1,205,0.49
+Droite,POST_CIJ,ceasefire,1,32,3.12
+Droite,POST_CIJ,cut_funds,1,32,3.12
+Droite,POST_CIJ,hostage_release,1,32,3.12
+Droite,POST_CIJ,none,29,32,90.62
+Droite,POST_SINWAR,ceasefire,1,45,2.22
+Droite,POST_SINWAR,end_boycott,1,45,2.22
+Droite,POST_SINWAR,hostage_release,1,45,2.22
+Droite,POST_SINWAR,humanitarian_aid,1,45,2.22
+Droite,POST_SINWAR,none,41,45,91.11
+Droite,RAFAH,ceasefire,2,73,2.74
+Droite,RAFAH,hostage_release,4,73,5.48
+Droite,RAFAH,none,66,73,90.41
+Droite,RAFAH,support_for_france_flag,1,73,1.37
+Gauche moderee,CEASEFIRE_BREACH,UNRWA_support,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,accountability,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,arms_export_control,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,ceasefire,4,76,5.26
+Gauche moderee,CEASEFIRE_BREACH,ceasefire_extension,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,condemnation,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,diplomatic_action,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,human_rights,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,humanitarian_aid,2,76,2.63
+Gauche moderee,CEASEFIRE_BREACH,immediate_release,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,international_law,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,international_pressure,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,journalistic_integrity,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,legal_accountability,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,maintain_aid,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,none,33,76,43.42
+Gauche moderee,CEASEFIRE_BREACH,oppose_humanitarian_aid_cut,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,peace,2,76,2.63
+Gauche moderee,CEASEFIRE_BREACH,political_solution,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,protect_refugees,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,protection_minorities,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,recognize_state_of_palestine,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,reconstruction,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,refugees_welcome,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,research_support,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,sanctions,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,sanctions_colonization,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,state_formation,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,state_recognition,5,76,6.58
+Gauche moderee,CEASEFIRE_BREACH,support_UNRWA,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,suspend_EU_agreement,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,suspend_agreement_with_israel,1,76,1.32
+Gauche moderee,CEASEFIRE_BREACH,two_state_solution,3,76,3.95
+Gauche moderee,CHOC,['ceasefire' 'hostage_release'],1,214,0.47
+Gauche moderee,CHOC,['ceasefire' 'peace'],1,214,0.47
+Gauche moderee,CHOC,['ceasefire'],8,214,3.74
+Gauche moderee,CHOC,['peace_talks'],1,214,0.47
+Gauche moderee,CHOC,['urgent_action'],1,214,0.47
+Gauche moderee,CHOC,[],6,214,2.8
+Gauche moderee,CHOC,border_opening,1,214,0.47
+Gauche moderee,CHOC,ceasefire,58,214,27.1
+Gauche moderee,CHOC,children_assistance,1,214,0.47
+Gauche moderee,CHOC,civil_protection,1,214,0.47
+Gauche moderee,CHOC,condemn_hamas,1,214,0.47
+Gauche moderee,CHOC,condemn_hamas_attack,1,214,0.47
+Gauche moderee,CHOC,diplomatic_solution,1,214,0.47
+Gauche moderee,CHOC,end_apartheid,1,214,0.47
+Gauche moderee,CHOC,end_blockade,1,214,0.47
+Gauche moderee,CHOC,end_of_colonization,1,214,0.47
+Gauche moderee,CHOC,hostage_release,8,214,3.74
+Gauche moderee,CHOC,humanitarian_access,1,214,0.47
+Gauche moderee,CHOC,humanitarian_ceasefire,2,214,0.93
+Gauche moderee,CHOC,humanitarian_corridor,1,214,0.47
+Gauche moderee,CHOC,humanitarian_corridors,2,214,0.93
+Gauche moderee,CHOC,humanitarian_pause,3,214,1.4
+Gauche moderee,CHOC,humanitarian_respect,1,214,0.47
+Gauche moderee,CHOC,humanitarian_truce,1,214,0.47
+Gauche moderee,CHOC,liberation,1,214,0.47
+Gauche moderee,CHOC,lift_blockade,3,214,1.4
+Gauche moderee,CHOC,lift_siege,1,214,0.47
+Gauche moderee,CHOC,none,89,214,41.59
+Gauche moderee,CHOC,peace,1,214,0.47
+Gauche moderee,CHOC,peace_process,4,214,1.87
+Gauche moderee,CHOC,peace_solution,1,214,0.47
+Gauche moderee,CHOC,political_solution,1,214,0.47
+Gauche moderee,CHOC,protection_civilians,1,214,0.47
+Gauche moderee,CHOC,protection_of_civilians,1,214,0.47
+Gauche moderee,CHOC,recognition_rights,1,214,0.47
+Gauche moderee,CHOC,sanctions,2,214,0.93
+Gauche moderee,CHOC,state_sovereignty,1,214,0.47
+Gauche moderee,CHOC,two_state_solution,3,214,1.4
+Gauche moderee,MANDATS_CPI,BDS,1,38,2.63
+Gauche moderee,MANDATS_CPI,ceasefire,3,38,7.89
+Gauche moderee,MANDATS_CPI,end_arms_deliveries,1,38,2.63
+Gauche moderee,MANDATS_CPI,end_association_agreement,1,38,2.63
+Gauche moderee,MANDATS_CPI,end_of_massacre,1,38,2.63
+Gauche moderee,MANDATS_CPI,halt_arms_shipments,1,38,2.63
+Gauche moderee,MANDATS_CPI,humanitarian_aid,2,38,5.26
+Gauche moderee,MANDATS_CPI,icc_support,1,38,2.63
+Gauche moderee,MANDATS_CPI,international_action,1,38,2.63
+Gauche moderee,MANDATS_CPI,justice_for_victims,1,38,2.63
+Gauche moderee,MANDATS_CPI,none,14,38,36.84
+Gauche moderee,MANDATS_CPI,open_gaza,1,38,2.63
+Gauche moderee,MANDATS_CPI,pressure_on_israel,1,38,2.63
+Gauche moderee,MANDATS_CPI,prevent_application,1,38,2.63
+Gauche moderee,MANDATS_CPI,respect_international_law,1,38,2.63
+Gauche moderee,MANDATS_CPI,sanctions,1,38,2.63
+Gauche moderee,MANDATS_CPI,state_recognition,2,38,5.26
+Gauche moderee,MANDATS_CPI,stop_crimes,1,38,2.63
+Gauche moderee,MANDATS_CPI,stop_genocide,1,38,2.63
+Gauche moderee,MANDATS_CPI,support_humanitarian_action,1,38,2.63
+Gauche moderee,MANDATS_CPI,suspend_ue_israel_agreement,1,38,2.63
+Gauche moderee,NEW_OFFENSIVE,EU_sanctions,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,accessibility,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,arms_embargo,8,160,5.0
+Gauche moderee,NEW_OFFENSIVE,cease_imports_from_settlements,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,ceasefire,13,160,8.12
+Gauche moderee,NEW_OFFENSIVE,civil_support,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,crew_release,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,defend_human_rights,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,defend_international_law,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,denounce_genocide,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,diplomatic_negotiations,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,embargo,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,end_blockade,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,genocide_denunciation,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,hostage_release,6,160,3.75
+Gauche moderee,NEW_OFFENSIVE,human_rights,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,humanitarian_aid,5,160,3.12
+Gauche moderee,NEW_OFFENSIVE,humanitarian_corridors,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,justice,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,none,68,160,42.5
+Gauche moderee,NEW_OFFENSIVE,peace,2,160,1.25
+Gauche moderee,NEW_OFFENSIVE,prevent_genocide,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,product_embargo,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,protection_civilians,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,respect_international_law,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,sanctions,8,160,5.0
+Gauche moderee,NEW_OFFENSIVE,sanctions_against_Israel,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,state_recognition,17,160,10.62
+Gauche moderee,NEW_OFFENSIVE,stop_genocide,2,160,1.25
+Gauche moderee,NEW_OFFENSIVE,stop_support,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,student_support,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,support_palestinian_freedom,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,suspend_EU_agreement,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,suspend_agreement,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,suspension_agreement,2,160,1.25
+Gauche moderee,NEW_OFFENSIVE,suspension_cooperation,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,trade_embargo,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,two_state_solution,1,160,0.62
+Gauche moderee,NEW_OFFENSIVE,visa_refusal,1,160,0.62
+Gauche moderee,POST_CIJ,CPI_investigation,3,62,4.84
+Gauche moderee,POST_CIJ,CPI_involvement,1,62,1.61
+Gauche moderee,POST_CIJ,arms_embargo,1,62,1.61
+Gauche moderee,POST_CIJ,arms_stoppage,1,62,1.61
+Gauche moderee,POST_CIJ,ceasefire,23,62,37.1
+Gauche moderee,POST_CIJ,de-escalation,1,62,1.61
+Gauche moderee,POST_CIJ,funding,1,62,1.61
+Gauche moderee,POST_CIJ,hostage_release,2,62,3.23
+Gauche moderee,POST_CIJ,humanitarian_aid,4,62,6.45
+Gauche moderee,POST_CIJ,humanitarian_aid_increase,1,62,1.61
+Gauche moderee,POST_CIJ,icc_action,1,62,1.61
+Gauche moderee,POST_CIJ,international_law,1,62,1.61
+Gauche moderee,POST_CIJ,justice,1,62,1.61
+Gauche moderee,POST_CIJ,lift_blockade,1,62,1.61
+Gauche moderee,POST_CIJ,lifting_blockade,1,62,1.61
+Gauche moderee,POST_CIJ,none,14,62,22.58
+Gauche moderee,POST_CIJ,recognition_state,1,62,1.61
+Gauche moderee,POST_CIJ,return_of_hostages,1,62,1.61
+Gauche moderee,POST_CIJ,state_recognition,1,62,1.61
+Gauche moderee,POST_CIJ,stop_arms_delivery,1,62,1.61
+Gauche moderee,POST_CIJ,two_state_solution,1,62,1.61
+Gauche moderee,POST_SINWAR,arms_delivery,1,8,12.5
+Gauche moderee,POST_SINWAR,international_pressure,2,8,25.0
+Gauche moderee,POST_SINWAR,media_accountability,1,8,12.5
+Gauche moderee,POST_SINWAR,none,2,8,25.0
+Gauche moderee,POST_SINWAR,sanctions,1,8,12.5
+Gauche moderee,POST_SINWAR,state_recognition,1,8,12.5
+Gauche moderee,RAFAH,ICC_action,1,130,0.77
+Gauche moderee,RAFAH,UNRWA_recognition,1,130,0.77
+Gauche moderee,RAFAH,arms_embargo,1,130,0.77
+Gauche moderee,RAFAH,boycott,2,130,1.54
+Gauche moderee,RAFAH,ceasefire,19,130,14.62
+Gauche moderee,RAFAH,criminal_prosecution,1,130,0.77
+Gauche moderee,RAFAH,diplomatic_sanctions,1,130,0.77
+Gauche moderee,RAFAH,economic_sanctions,1,130,0.77
+Gauche moderee,RAFAH,end_genocide,1,130,0.77
+Gauche moderee,RAFAH,end_violence,1,130,0.77
+Gauche moderee,RAFAH,eu_agreement_denunciation,1,130,0.77
+Gauche moderee,RAFAH,genocide_denunciation,1,130,0.77
+Gauche moderee,RAFAH,genocide_investigation,1,130,0.77
+Gauche moderee,RAFAH,genocide_recognition,1,130,0.77
+Gauche moderee,RAFAH,hostage_release,4,130,3.08
+Gauche moderee,RAFAH,icc_arrest_warrants,1,130,0.77
+Gauche moderee,RAFAH,international_trials,1,130,0.77
+Gauche moderee,RAFAH,journalist_protection,1,130,0.77
+Gauche moderee,RAFAH,none,48,130,36.92
+Gauche moderee,RAFAH,product_ban,1,130,0.77
+Gauche moderee,RAFAH,sanctions,7,130,5.38
+Gauche moderee,RAFAH,solidarity,2,130,1.54
+Gauche moderee,RAFAH,solidarity_action,1,130,0.77
+Gauche moderee,RAFAH,state_recognition,26,130,20.0
+Gauche moderee,RAFAH,support,1,130,0.77
+Gauche moderee,RAFAH,support_for_palestine,1,130,0.77
+Gauche moderee,RAFAH,support_for_palestinians,1,130,0.77
+Gauche moderee,RAFAH,war_crimes_prosecution,1,130,0.77
+Gauche moderee,RAFAH,war_criminals_prosecution,1,130,0.77
+Gauche radicale,CEASEFIRE_BREACH, Palestinian_return,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,EU_agreement_suspension,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,French_contribution,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,International_Court_competence,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,UNRWA_support,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,UN_meeting,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,access_to_healthcare,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,accountability,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,action_against_israel,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,action_france,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,ambassador_expulsion,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,application_of_law,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,apply_arrest_warrants,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,apply_international_law,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,arms_embargo,4,544,0.74
+Gauche radicale,CEASEFIRE_BREACH,arrest_warrant,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,awareness,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,balanced_media_coverage,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,ban_on_propaganda,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,boycott,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,boycott_RMC,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,boycott_book,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,boycott_decriminalization,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,boycott_israel,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,cease_massacre,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,ceasefire,27,544,4.96
+Gauche radicale,CEASEFIRE_BREACH,child_repatriation,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,consultation_with_public,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,continuation_of_fight,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,defense_of_rights,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,defense_rights_palestinians,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,denounce_genocide,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,denunciation_genocide,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,denunciation_of_genocide,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,dignity,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,diplomacy,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,diplomatic_action,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,diplomatic_sanctions,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,director_resignation,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,doctor_release,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,donation_collective,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,economic_sanctions,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,education_on_palestine,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,educational_reform,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,embargo,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,end_apartheid,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,end_blockade,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,end_colonization,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,end_ethnic_cleansing,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,end_genocide,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,end_impunity,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,end_occupation,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,end_support_for_israel,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,end_to_genocide,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,end_war_crimes,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,enforce_international_law,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,evacuation_injured,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,financial_aid,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,freedom,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,freedom_of_choice,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,freedom_of_expression,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,freedom_to_protest,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,genocide_recognition,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,genocide_stop,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,hold_netanyahu_accountable,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,hostage_release,11,544,2.02
+Gauche radicale,CEASEFIRE_BREACH,housing_support,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,humanitarian_aid,9,544,1.65
+Gauche radicale,CEASEFIRE_BREACH,humanitarian_help,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,humanitarian_support,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,immediate_ceasefire,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,immediate_release,4,544,0.74
+Gauche radicale,CEASEFIRE_BREACH,increase_financing,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,independence,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,international_law,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,international_support,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,isolation_israel,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,join_hague_group,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,journalist_release,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,justice,7,544,1.29
+Gauche radicale,CEASEFIRE_BREACH,justice_for_war_criminals,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,justice_international,3,544,0.55
+Gauche radicale,CEASEFIRE_BREACH,maintain_ceasefire,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,mass_humanitarian_aid,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,match_annulment,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,media_accountability,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,media_ban,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,mental_health_priority,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,mobilization,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,none,268,544,49.26
+Gauche radicale,CEASEFIRE_BREACH,opposition_project,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,opposition_to_ethnic_cleansing,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,peace,6,544,1.1
+Gauche radicale,CEASEFIRE_BREACH,peace_and_stability,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,peace_conditions,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,permanent_ceasefire,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,political_prisoner_release,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,prisoner_release,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,protection_palestinians,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,public_mobilization,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,recognition_apartheid,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,recognition_of_crimes,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,recognition_of_genocide,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,recognition_of_state_of_palestine,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,recognition_state_palestine,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,recognize_genocide,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,reconstruction,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,release,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,release_all_hostages,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,release_arrested,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,release_hamdan_ballal,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,release_humanitarian,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,release_of_healthcare_workers,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,release_of_political_prisoners,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,respect_ceasefire,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,respect_international_law,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,return_of_evacuated,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,return_of_palestinians,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,return_of_refugees,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,right_to_self_determination,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,sanctions,9,544,1.65
+Gauche radicale,CEASEFIRE_BREACH,sanctions_against_israel,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,self_determination,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,social_justice,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,solidarity,4,544,0.74
+Gauche radicale,CEASEFIRE_BREACH,solidarity_with_palestinians,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,solidarity_with_people,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,state_recognition,13,544,2.39
+Gauche radicale,CEASEFIRE_BREACH,statehood,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_actions,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_arms_delivery,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_arms_sales,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_bombing,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_colonization,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_deportation,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,stop_genocide,8,544,1.47
+Gauche radicale,CEASEFIRE_BREACH,stop_repression,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,student_support,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_UNRWA,4,544,0.74
+Gauche radicale,CEASEFIRE_BREACH,support_artist,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_artists,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_decolonial_struggles,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_for_palestine,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_for_palestinians,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_for_peace,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_humanitarian,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_palestinians,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,support_students,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,suspend_agreement,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,suspension_economic_agreements,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,suspension_group,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,sustainable_peace,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,total_ceasefire,2,544,0.37
+Gauche radicale,CEASEFIRE_BREACH,troop_withdrawal,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,truce,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,two_state_solution,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,unconditional_ceasefire,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,war_crime_accountability,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,war_criminals_judged,1,544,0.18
+Gauche radicale,CEASEFIRE_BREACH,withdrawal,1,544,0.18
+Gauche radicale,CHOC,['ICC_judgment_of_war_crimes' 'universal_accountability'],1,872,0.11
+Gauche radicale,CHOC,['UN_NotATarget_support' 'end_civilian_killings_by_Israel'],1,872,0.11
+Gauche radicale,CHOC,['aide_humaine_pour_les_civils' 'protection_des_civils_gaza'],1,872,0.11
+Gauche radicale,CHOC,['boycott'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'end_blockade'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'end_bombing' 'lift_blockade'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'end_colonization'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'end_massacre'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'hostage_release' 'lift_siege'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'hostage_release' 'state_recognition'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'hostage_release'],4,872,0.46
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_access'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_aid' 'hostage_release'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_corridor'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_truce' 'colonization_recognition'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_truce' 'peace_talks' 'two_state_solution'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_truce' 'recognition_state_palestine'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'humanitarian_truce'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'peace'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire' 'two_state_solution'],1,872,0.11
+Gauche radicale,CHOC,['ceasefire'],62,872,7.11
+Gauche radicale,CHOC,"['cessez-le-feu' 'protection des populations civiles palestiniennes'
+ 'libération des otages du Hamas'
+ 'diplomatie active pour le retour d’un processus de paix']",1,872,0.11
+Gauche radicale,CHOC,"['cessez-le-feu' 'respect_du_droit_international_humanitaire'
+ 'protection_des_civils' 'protection_des_otages']",1,872,0.11
+Gauche radicale,CHOC,['cessez-le-feu'],1,872,0.11
+Gauche radicale,CHOC,['condemn_antisemitism' 'stand_with_pivet_against_antisemitism'],1,872,0.11
+Gauche radicale,CHOC,"['condemn_hamas_attack'
+ 'condemn_israeli_actions_exceeding_international_law']",1,872,0.11
+Gauche radicale,CHOC,['condemn_justifications_of_war_crimes'],1,872,0.11
+Gauche radicale,CHOC,['condemnation_colonization'],1,872,0.11
+Gauche radicale,CHOC,['end_blockade' 'unblocked_humanitarian_access' 'protection_of_civilians'],1,872,0.11
+Gauche radicale,CHOC,['end_colonialism'],1,872,0.11
+Gauche radicale,CHOC,['end_occupation' 'end_apartheid'],1,872,0.11
+Gauche radicale,CHOC,['hostage_release'],1,872,0.11
+Gauche radicale,CHOC,['humanitarian_aid'],1,872,0.11
+Gauche radicale,CHOC,['humanitarian_ceasefire'],1,872,0.11
+Gauche radicale,CHOC,['humanitarian_pause'],1,872,0.11
+Gauche radicale,CHOC,['humanitarian_truce'],1,872,0.11
+Gauche radicale,CHOC,['justice' 'peace'],1,872,0.11
+Gauche radicale,CHOC,['justice'],1,872,0.11
+Gauche radicale,CHOC,['moratoire_sur_les_idioties'],1,872,0.11
+Gauche radicale,CHOC,"['oppose_blank_check_proclamation' 'protection_of_civilians'
+ 'respect_for_international_law']",1,872,0.11
+Gauche radicale,CHOC,['palestinian_freedom'],1,872,0.11
+Gauche radicale,CHOC,['palestinian_rights'],1,872,0.11
+Gauche radicale,CHOC,['pausehumanitaire'],1,872,0.11
+Gauche radicale,CHOC,['peace'],1,872,0.11
+Gauche radicale,CHOC,['peace_call'],2,872,0.23
+Gauche radicale,CHOC,['political_solution'],1,872,0.11
+Gauche radicale,CHOC,['prevent_genocide'],1,872,0.11
+Gauche radicale,CHOC,['protect_right_to_protest' 'freedom_of_expression'],1,872,0.11
+Gauche radicale,CHOC,['solidarity_with_gaza'],1,872,0.11
+Gauche radicale,CHOC,['solidarity_with_palestine' 'solidarity_with_kurdistan'],1,872,0.11
+Gauche radicale,CHOC,['solidarity_with_palestinians'],1,872,0.11
+Gauche radicale,CHOC,['support_demonstrations'],1,872,0.11
+Gauche radicale,CHOC,[],143,872,16.4
+Gauche radicale,CHOC,ceasefire,181,872,20.76
+Gauche radicale,CHOC,cessation_massacre,1,872,0.11
+Gauche radicale,CHOC,civil_protection,2,872,0.23
+Gauche radicale,CHOC,development_aid,1,872,0.11
+Gauche radicale,CHOC,diplomatic_initiative,1,872,0.11
+Gauche radicale,CHOC,end_apartheid,1,872,0.11
+Gauche radicale,CHOC,end_blockade,8,872,0.92
+Gauche radicale,CHOC,end_bombardments,1,872,0.11
+Gauche radicale,CHOC,end_colonial_policy,1,872,0.11
+Gauche radicale,CHOC,end_colonization,6,872,0.69
+Gauche radicale,CHOC,end_of_ethnic_cleaning,1,872,0.11
+Gauche radicale,CHOC,end_siege,1,872,0.11
+Gauche radicale,CHOC,ethnic_cleaning_stopping,1,872,0.11
+Gauche radicale,CHOC,fight_against_antisemitism,1,872,0.11
+Gauche radicale,CHOC,flag_half_mast,1,872,0.11
+Gauche radicale,CHOC,france_action,1,872,0.11
+Gauche radicale,CHOC,freedom,1,872,0.11
+Gauche radicale,CHOC,hostage_release,15,872,1.72
+Gauche radicale,CHOC,human_rights,2,872,0.23
+Gauche radicale,CHOC,humanitarian_access,3,872,0.34
+Gauche radicale,CHOC,humanitarian_aid,15,872,1.72
+Gauche radicale,CHOC,humanitarian_ceasefire,2,872,0.23
+Gauche radicale,CHOC,humanitarian_corridor,2,872,0.23
+Gauche radicale,CHOC,humanitarian_corridors,1,872,0.11
+Gauche radicale,CHOC,humanitarian_truce,2,872,0.23
+Gauche radicale,CHOC,immediate_action,1,872,0.11
+Gauche radicale,CHOC,immediate_ceasefire,1,872,0.11
+Gauche radicale,CHOC,international_law,2,872,0.23
+Gauche radicale,CHOC,international_reaction,1,872,0.11
+Gauche radicale,CHOC,justice,4,872,0.46
+Gauche radicale,CHOC,lift_blockade,1,872,0.11
+Gauche radicale,CHOC,lift_siege,1,872,0.11
+Gauche radicale,CHOC,lifting_of_blockade,1,872,0.11
+Gauche radicale,CHOC,none,301,872,34.52
+Gauche radicale,CHOC,palestinian_rights,1,872,0.11
+Gauche radicale,CHOC,peace,8,872,0.92
+Gauche radicale,CHOC,peace_in_palestine,2,872,0.23
+Gauche radicale,CHOC,peace_negotiation,1,872,0.11
+Gauche radicale,CHOC,peace_process,2,872,0.23
+Gauche radicale,CHOC,peace_voice,1,872,0.11
+Gauche radicale,CHOC,political_perspective,1,872,0.11
+Gauche radicale,CHOC,political_solution,2,872,0.23
+Gauche radicale,CHOC,release_prisoners,1,872,0.11
+Gauche radicale,CHOC,respect_UN_resolutions,2,872,0.23
+Gauche radicale,CHOC,respect_for_rights,1,872,0.11
+Gauche radicale,CHOC,respect_international_law,3,872,0.34
+Gauche radicale,CHOC,security_guarantees,1,872,0.11
+Gauche radicale,CHOC,self_determination,2,872,0.23
+Gauche radicale,CHOC,solidarity_with_palestinians,2,872,0.23
+Gauche radicale,CHOC,state_recognition,5,872,0.57
+Gauche radicale,CHOC,statehood,1,872,0.11
+Gauche radicale,CHOC,stop_bombing,1,872,0.11
+Gauche radicale,CHOC,support_civilians,1,872,0.11
+Gauche radicale,CHOC,support_for_palestinians,1,872,0.11
+Gauche radicale,CHOC,two_state_solution,7,872,0.8
+Gauche radicale,CHOC,war_crime_condemnation,1,872,0.11
+Gauche radicale,MANDATS_CPI,UN_decisions,1,253,0.4
+Gauche radicale,MANDATS_CPI,abandon_prosecutions,1,253,0.4
+Gauche radicale,MANDATS_CPI,abrogation_law,1,253,0.4
+Gauche radicale,MANDATS_CPI,accountability,4,253,1.58
+Gauche radicale,MANDATS_CPI,action_from_france,1,253,0.4
+Gauche radicale,MANDATS_CPI,apply_icc_warrants,1,253,0.4
+Gauche radicale,MANDATS_CPI,arrest,1,253,0.4
+Gauche radicale,MANDATS_CPI,arrest_netanyahu,1,253,0.4
+Gauche radicale,MANDATS_CPI,arrest_warrants,1,253,0.4
+Gauche radicale,MANDATS_CPI,arrestation,1,253,0.4
+Gauche radicale,MANDATS_CPI,boycott,1,253,0.4
+Gauche radicale,MANDATS_CPI,cease_genocide,1,253,0.4
+Gauche radicale,MANDATS_CPI,cease_immunity,1,253,0.4
+Gauche radicale,MANDATS_CPI,ceasefire,12,253,4.74
+Gauche radicale,MANDATS_CPI,condemn_crimes,1,253,0.4
+Gauche radicale,MANDATS_CPI,cpi_trial,1,253,0.4
+Gauche radicale,MANDATS_CPI,denounce_genocide,1,253,0.4
+Gauche radicale,MANDATS_CPI,denounce_israel_crimes,1,253,0.4
+Gauche radicale,MANDATS_CPI,denunciation_genocide,1,253,0.4
+Gauche radicale,MANDATS_CPI,drop_charges,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_colonization,3,253,1.19
+Gauche radicale,MANDATS_CPI,end_cooperation,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_genocide,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_impunity,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_massacres,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_military_supplies,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_occupation,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_partnership,1,253,0.4
+Gauche radicale,MANDATS_CPI,end_threats,1,253,0.4
+Gauche radicale,MANDATS_CPI,freedom_of_expression,1,253,0.4
+Gauche radicale,MANDATS_CPI,genocide_accusation,1,253,0.4
+Gauche radicale,MANDATS_CPI,genocide_recognition,1,253,0.4
+Gauche radicale,MANDATS_CPI,government_resignation,2,253,0.79
+Gauche radicale,MANDATS_CPI,hostage_release,1,253,0.4
+Gauche radicale,MANDATS_CPI,humanitarian_aid_access,1,253,0.4
+Gauche radicale,MANDATS_CPI,icc_arrest_warrant,1,253,0.4
+Gauche radicale,MANDATS_CPI,icc_enforcement,3,253,1.19
+Gauche radicale,MANDATS_CPI,immediate_release,2,253,0.79
+Gauche radicale,MANDATS_CPI,international_arrest_warrant,1,253,0.4
+Gauche radicale,MANDATS_CPI,justice,2,253,0.79
+Gauche radicale,MANDATS_CPI,justice_for_Palestinians,1,253,0.4
+Gauche radicale,MANDATS_CPI,no_immunity,1,253,0.4
+Gauche radicale,MANDATS_CPI,none,161,253,63.64
+Gauche radicale,MANDATS_CPI,peace,3,253,1.19
+Gauche radicale,MANDATS_CPI,peace_policy,1,253,0.4
+Gauche radicale,MANDATS_CPI,political_sanctions,1,253,0.4
+Gauche radicale,MANDATS_CPI,protection,1,253,0.4
+Gauche radicale,MANDATS_CPI,pursuit_warrants,1,253,0.4
+Gauche radicale,MANDATS_CPI,recognize_genocide,1,253,0.4
+Gauche radicale,MANDATS_CPI,release_medical_staff,1,253,0.4
+Gauche radicale,MANDATS_CPI,release_medics,1,253,0.4
+Gauche radicale,MANDATS_CPI,release_of_hostages,1,253,0.4
+Gauche radicale,MANDATS_CPI,release_prisoners,1,253,0.4
+Gauche radicale,MANDATS_CPI,respect_droit_international,1,253,0.4
+Gauche radicale,MANDATS_CPI,respect_international_law,2,253,0.79
+Gauche radicale,MANDATS_CPI,sanctions,1,253,0.4
+Gauche radicale,MANDATS_CPI,save_abusafiya,1,253,0.4
+Gauche radicale,MANDATS_CPI,state_recognition,5,253,1.98
+Gauche radicale,MANDATS_CPI,stop_atrocities,1,253,0.4
+Gauche radicale,MANDATS_CPI,stop_genocide,2,253,0.79
+Gauche radicale,MANDATS_CPI,support_for_palestinians,1,253,0.4
+Gauche radicale,MANDATS_CPI,support_independence,1,253,0.4
+Gauche radicale,MANDATS_CPI,support_palestine,1,253,0.4
+Gauche radicale,MANDATS_CPI,trial,1,253,0.4
+Gauche radicale,NEW_OFFENSIVE,FreePalestine,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,ICC_reference,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,UN_involvement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,abolition_apologie_terrorisme,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,accountability,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,accountability_CPI,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,action_against_blockade,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,action_against_genocide,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,activist_release,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,aid,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,aid_for_palestinians,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,ambassador_expulsion,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,arms_ban,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,arms_condemnation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,arms_embargo,29,1324,2.19
+Gauche radicale,NEW_OFFENSIVE,arms_stop,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,arrest_war_criminals,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,arrest_warrant,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,arrest_warrants,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,audience_with_president,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,ban_artist,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,block_arms_deliveries,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,boycott,5,1324,0.38
+Gauche radicale,NEW_OFFENSIVE,break_alliance_EU_Israel,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,break_blockade,6,1324,0.45
+Gauche radicale,NEW_OFFENSIVE,cancel_sanction,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,cease_blockade,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,cease_genocide,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,ceasefire,66,1324,4.98
+Gauche radicale,NEW_OFFENSIVE,censorship,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,cessation ventes militaires,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,cessation échanges commerciaux,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,cessation_massacres,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,cessation_of_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,collaboration CPI,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,concert_interdiction,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,condemnation,4,1324,0.3
+Gauche radicale,NEW_OFFENSIVE,condemnation_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,condemnation_of_israel,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,condemnation_war_crimes,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,confront_Netanyahu,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,consequences_for_Israel,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,crew_release,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,cultural_boycott,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,debate_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,decriminalization_of_supporters,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,defend_peace,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,defense_right,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,demonstration_support,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,denounce_crimes,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,denounce_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,denunciation_of_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,dialogue,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,diplomacy,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,diplomatic_action,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,diplomatic_boycott,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,diplomatic_discussions,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,diplomatic_efforts,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,divestment,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,economic_boycott,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,economic_sanctions,4,1324,0.3
+Gauche radicale,NEW_OFFENSIVE,embargo,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,embassy_closure,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,emergency_debate,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_EU_Israel_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_arms_deliveries,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_arms_delivery,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_arms_sales,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_arms_shipments,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_association_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_atrocities,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_blockade,23,1324,1.74
+Gauche radicale,NEW_OFFENSIVE,end_blocus,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_cleaning_plan,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_complicity,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_cooperation_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_criminalization,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_eu_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_eu_israel_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_genocide,20,1324,1.51
+Gauche radicale,NEW_OFFENSIVE,end_imperialism,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_impunity,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,end_israeli_military_actions,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_massacres,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,end_occupation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_of_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_of_blockade,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_relationship_with_Israel,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_repression,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_siege,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_to_blockade,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_to_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,end_war_crimes,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,evacuation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,exclusion_from_Eurovision,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,financial_stop,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,firm_condemnation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,flag_display,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,free_Palestine,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,free_flotilla,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,free_gaza,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,free_humanitarian_aid,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,free_palestine,5,1324,0.38
+Gauche radicale,NEW_OFFENSIVE,free_passage,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,freedom,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,freedom_flotilla,4,1324,0.3
+Gauche radicale,NEW_OFFENSIVE,freedom_flotilla_access,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,freedom_flotilla_release,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,freedom_flottilla,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,freedom_for_prisoners,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,freedom_of_expression,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,genocide_accusation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,genocide_charge,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,genocide_denouncement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,genocide_education,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,genocide_prevention,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,genocide_recognition,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,government_action,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,government_intervention,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,government_responsibility,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,halt_arms_trade,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,homage_victims,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,hostage_release,10,1324,0.76
+Gauche radicale,NEW_OFFENSIVE,human_rights,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,humanitarian_access,5,1324,0.38
+Gauche radicale,NEW_OFFENSIVE,humanitarian_aid,29,1324,2.19
+Gauche radicale,NEW_OFFENSIVE,humanitarian_corridor,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,humanitarian_intervention,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,humanitarian_pass,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,humanitarian_passage,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,humanitarian_support,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,humanity,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,humanity_support,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,immediate_action,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,immediate_release,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,international_crowdfunding,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,international_law,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,international_law_enforcement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,international_law_respect,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,investigation,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,investigation_ELNET,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,israel_exclusion,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,journalist_release,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,justice,8,1324,0.6
+Gauche radicale,NEW_OFFENSIVE,justice_for_Gaza,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,justice_for_palestinians,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,liberation,4,1324,0.3
+Gauche radicale,NEW_OFFENSIVE,liberation_of_gaza,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,liberation_of_palestine,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,lift_blockade,7,1324,0.53
+Gauche radicale,NEW_OFFENSIVE,lift_sanction,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,lifting_blockade,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,march_to_Gaza,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,massive collective response,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,memorial,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,memorial_creation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,military_collaboration_cessation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,mobilisation,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,mobilisation_peuples,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,mobilization,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,mobilization_against_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,negotiations,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,no_armament_exhibition,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,no_participation_Eurovision,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,none,605,1324,45.69
+Gauche radicale,NEW_OFFENSIVE,nuclear_disarmament,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,nuclear_negotiations,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,oppose_legislation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,oppose_shipment,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,opposition_to_repression,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,palestinian_rights,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,peace,6,1324,0.45
+Gauche radicale,NEW_OFFENSIVE,peace_mobilization,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,peace_rally,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,peace_through_UN,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,political_action,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,political_boycott,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,political_isolation,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,prisoner_release,5,1324,0.38
+Gauche radicale,NEW_OFFENSIVE,protect_flotilla,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,protect_minorities,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,protection,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,protection_citizens,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,protection_of_antifascist_voices,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,recognition,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,recognition_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,recognition_of_genocide,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,recognition_state_of_palestine,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,recognize_genocide,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,recognize_state,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,refusal_of_war,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,refusal_participation_ISRAEL,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,release_anasse_kazib,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_captives,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_crew,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_crewmembers,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_detained,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_georges_abdallah,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_hostage,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_hostages,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,release_imprisoned,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_of_detained_members,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_of_hostage,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_of_hostages,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,release_of_prisoners,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,release_prisoners,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,resignation,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,respect_CPI,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,respect_international_law,4,1324,0.3
+Gauche radicale,NEW_OFFENSIVE,restore_international_law,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,return_boat,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,return_to_negotiations,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,review_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,safe_passage,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,sanctions,42,1324,3.17
+Gauche radicale,NEW_OFFENSIVE,sanctions_against_israel,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,secure_passage,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,security,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,solidarity,11,1324,0.83
+Gauche radicale,NEW_OFFENSIVE,solidarity_with_Palestine,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,solidarity_with_palestine,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,solidarity_with_palestinians,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,solidarity_with_protesters,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,state_recognition,75,1324,5.66
+Gauche radicale,NEW_OFFENSIVE,stop_actions,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,stop_arms_deliveries,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,stop_arms_delivery,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,stop_censorship,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,stop_genocide,36,1324,2.72
+Gauche radicale,NEW_OFFENSIVE,stop_islamophobia,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,stop_massacre,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,stop_massacres,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,stop_persecution,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,stop_subsidizing,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,strong_action,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,strong_measures,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_Urgence_Palestine,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_activists,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_flotilla,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,support_for_Palestinians,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_for_Rima_Hassan,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_for_flotilla,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_for_palestine,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,support_for_palestinian_rights,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_for_palestinians,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,support_meeting,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_mobilization,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_movement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_voix_engagement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,support_youth,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspend_EU_israel_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspend_agreement,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspend_agreements,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,suspend_convention,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspend_jumelage,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspend_twinning,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspend_twinnings,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspension_agreement,2,1324,0.15
+Gauche radicale,NEW_OFFENSIVE,suspension_agreements,3,1324,0.23
+Gauche radicale,NEW_OFFENSIVE,suspension_jumelage,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,suspension_of_agreements,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,total_boycott,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,two_state_solution,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,unconditional_release,6,1324,0.45
+Gauche radicale,NEW_OFFENSIVE,urgent_action,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,urgent_debate,1,1324,0.08
+Gauche radicale,NEW_OFFENSIVE,war_crimes_investigation,1,1324,0.08
+Gauche radicale,POST_CIJ,CPI_investigation,1,257,0.39
+Gauche radicale,POST_CIJ,UNRWA_commitment,1,257,0.39
+Gauche radicale,POST_CIJ,UN_resolution,1,257,0.39
+Gauche radicale,POST_CIJ,act_against_genocide,1,257,0.39
+Gauche radicale,POST_CIJ,action_UN,1,257,0.39
+Gauche radicale,POST_CIJ,action_against_israel,1,257,0.39
+Gauche radicale,POST_CIJ,action_france,1,257,0.39
+Gauche radicale,POST_CIJ,aid_unrwa,1,257,0.39
+Gauche radicale,POST_CIJ,apply_icj_decision,1,257,0.39
+Gauche radicale,POST_CIJ,arms_embargo,5,257,1.95
+Gauche radicale,POST_CIJ,arms_stop,2,257,0.78
+Gauche radicale,POST_CIJ,cease_arms_deliveries,1,257,0.39
+Gauche radicale,POST_CIJ,cease_ethnic_cleaning,1,257,0.39
+Gauche radicale,POST_CIJ,cease_war_crimes,1,257,0.39
+Gauche radicale,POST_CIJ,ceasefire,72,257,28.02
+Gauche radicale,POST_CIJ,ci_declaration,1,257,0.39
+Gauche radicale,POST_CIJ,civil_protection,1,257,0.39
+Gauche radicale,POST_CIJ,denounce_massacre,1,257,0.39
+Gauche radicale,POST_CIJ,economic_sanctions,2,257,0.78
+Gauche radicale,POST_CIJ,end_genocide,1,257,0.39
+Gauche radicale,POST_CIJ,end_humanitarian_crisis,1,257,0.39
+Gauche radicale,POST_CIJ,end_war,1,257,0.39
+Gauche radicale,POST_CIJ,enforce_CIJ_decision,1,257,0.39
+Gauche radicale,POST_CIJ,facilitate_humanitarian_aid,1,257,0.39
+Gauche radicale,POST_CIJ,financial_support,1,257,0.39
+Gauche radicale,POST_CIJ,freedom_for_palestinians,1,257,0.39
+Gauche radicale,POST_CIJ,funding_support,1,257,0.39
+Gauche radicale,POST_CIJ,halt_UNRWA_funding,1,257,0.39
+Gauche radicale,POST_CIJ,hostage_release,6,257,2.33
+Gauche radicale,POST_CIJ,humanitarian_access,1,257,0.39
+Gauche radicale,POST_CIJ,humanitarian_action,1,257,0.39
+Gauche radicale,POST_CIJ,humanitarian_aid,3,257,1.17
+Gauche radicale,POST_CIJ,icc_involvement,1,257,0.39
+Gauche radicale,POST_CIJ,increase_aid,1,257,0.39
+Gauche radicale,POST_CIJ,international_law,2,257,0.78
+Gauche radicale,POST_CIJ,investigate_war_crimes,1,257,0.39
+Gauche radicale,POST_CIJ,justice_international,1,257,0.39
+Gauche radicale,POST_CIJ,none,99,257,38.52
+Gauche radicale,POST_CIJ,peace,1,257,0.39
+Gauche radicale,POST_CIJ,prevent_genocide,2,257,0.78
+Gauche radicale,POST_CIJ,protect_palestinians,2,257,0.78
+Gauche radicale,POST_CIJ,protection_civilians,1,257,0.39
+Gauche radicale,POST_CIJ,protection_of_civilians,2,257,0.78
+Gauche radicale,POST_CIJ,recognition_of_rights,1,257,0.39
+Gauche radicale,POST_CIJ,recognition_state_palestine,1,257,0.39
+Gauche radicale,POST_CIJ,recognize_rights,1,257,0.39
+Gauche radicale,POST_CIJ,respect_CIJ,1,257,0.39
+Gauche radicale,POST_CIJ,respect_international_law,1,257,0.39
+Gauche radicale,POST_CIJ,respect_measures,1,257,0.39
+Gauche radicale,POST_CIJ,sanction_israel,1,257,0.39
+Gauche radicale,POST_CIJ,sanction_perpetrators,1,257,0.39
+Gauche radicale,POST_CIJ,sanctions,3,257,1.17
+Gauche radicale,POST_CIJ,sanctions_against_Israel,1,257,0.39
+Gauche radicale,POST_CIJ,state_recognition,3,257,1.17
+Gauche radicale,POST_CIJ,stop_arms_delivery,1,257,0.39
+Gauche radicale,POST_CIJ,stop_carnage,1,257,0.39
+Gauche radicale,POST_CIJ,stop_genocide,1,257,0.39
+Gauche radicale,POST_CIJ,stop_massacre,1,257,0.39
+Gauche radicale,POST_CIJ,stop_operations,1,257,0.39
+Gauche radicale,POST_CIJ,support_CIJ_judgment,1,257,0.39
+Gauche radicale,POST_CIJ,support_for_South_Africa,1,257,0.39
+Gauche radicale,POST_CIJ,support_for_palestinians,1,257,0.39
+Gauche radicale,POST_CIJ,support_unrwa,1,257,0.39
+Gauche radicale,POST_CIJ,suspend_arms_deliveries,1,257,0.39
+Gauche radicale,POST_CIJ,two_state_solution,1,257,0.39
+Gauche radicale,POST_CIJ,unrwa_support,1,257,0.39
+Gauche radicale,POST_CIJ,urgent_action,1,257,0.39
+Gauche radicale,POST_SINWAR,accountability,2,189,1.06
+Gauche radicale,POST_SINWAR,action_against_genocide,1,189,0.53
+Gauche radicale,POST_SINWAR,action_against_israeli_companies,1,189,0.53
+Gauche radicale,POST_SINWAR,action_france,1,189,0.53
+Gauche radicale,POST_SINWAR,arms_embargo,7,189,3.7
+Gauche radicale,POST_SINWAR,arms_supply,1,189,0.53
+Gauche radicale,POST_SINWAR,audit_pluralism,1,189,0.53
+Gauche radicale,POST_SINWAR,ban_on_israel,1,189,0.53
+Gauche radicale,POST_SINWAR,boycott,3,189,1.59
+Gauche radicale,POST_SINWAR,cancel_agreements,1,189,0.53
+Gauche radicale,POST_SINWAR,ceasefire,15,189,7.94
+Gauche radicale,POST_SINWAR,cooperation_suspension,1,189,0.53
+Gauche radicale,POST_SINWAR,defense_of_international_law,1,189,0.53
+Gauche radicale,POST_SINWAR,defense_of_palestinians,1,189,0.53
+Gauche radicale,POST_SINWAR,denounce_crime,1,189,0.53
+Gauche radicale,POST_SINWAR,diplomatic_action,1,189,0.53
+Gauche radicale,POST_SINWAR,dismantle_Tsahal,1,189,0.53
+Gauche radicale,POST_SINWAR,dissolution_CRIF,1,189,0.53
+Gauche radicale,POST_SINWAR,economic_boycott,1,189,0.53
+Gauche radicale,POST_SINWAR,economic_sanctions,1,189,0.53
+Gauche radicale,POST_SINWAR,end_arms_exports,1,189,0.53
+Gauche radicale,POST_SINWAR,end_complicity,1,189,0.53
+Gauche radicale,POST_SINWAR,end_ethnic_cleansing,1,189,0.53
+Gauche radicale,POST_SINWAR,end_genocidal_policy,1,189,0.53
+Gauche radicale,POST_SINWAR,end_genocide,1,189,0.53
+Gauche radicale,POST_SINWAR,end_of_occupation,1,189,0.53
+Gauche radicale,POST_SINWAR,end_support_israeli_crimes,1,189,0.53
+Gauche radicale,POST_SINWAR,freedom_of_expression,1,189,0.53
+Gauche radicale,POST_SINWAR,freedom_of_manifestation,1,189,0.53
+Gauche radicale,POST_SINWAR,genocide_resolution,1,189,0.53
+Gauche radicale,POST_SINWAR,halt_funding,1,189,0.53
+Gauche radicale,POST_SINWAR,human_dignity,1,189,0.53
+Gauche radicale,POST_SINWAR,humanitarian_aid,3,189,1.59
+Gauche radicale,POST_SINWAR,international_action,1,189,0.53
+Gauche radicale,POST_SINWAR,isolation_international,1,189,0.53
+Gauche radicale,POST_SINWAR,judgment_netanyahu,1,189,0.53
+Gauche radicale,POST_SINWAR,justice,1,189,0.53
+Gauche radicale,POST_SINWAR,justice_for_palestinians,1,189,0.53
+Gauche radicale,POST_SINWAR,media_accountability,1,189,0.53
+Gauche radicale,POST_SINWAR,military_ban,1,189,0.53
+Gauche radicale,POST_SINWAR,mobilization,1,189,0.53
+Gauche radicale,POST_SINWAR,none,90,189,47.62
+Gauche radicale,POST_SINWAR,peace,1,189,0.53
+Gauche radicale,POST_SINWAR,political_sanctions,1,189,0.53
+Gauche radicale,POST_SINWAR,recognition_genocide,3,189,1.59
+Gauche radicale,POST_SINWAR,recognition_of_genocide,2,189,1.06
+Gauche radicale,POST_SINWAR,recognition_state_palestine,1,189,0.53
+Gauche radicale,POST_SINWAR,renaming_event,1,189,0.53
+Gauche radicale,POST_SINWAR,sanctions,7,189,3.7
+Gauche radicale,POST_SINWAR,sanctions_israel,1,189,0.53
+Gauche radicale,POST_SINWAR,self_determination,1,189,0.53
+Gauche radicale,POST_SINWAR,signature_petition,1,189,0.53
+Gauche radicale,POST_SINWAR,solidarity_with_victims,1,189,0.53
+Gauche radicale,POST_SINWAR,state_recognition,4,189,2.12
+Gauche radicale,POST_SINWAR,stop_arms_deliveries,1,189,0.53
+Gauche radicale,POST_SINWAR,stop_fascism,1,189,0.53
+Gauche radicale,POST_SINWAR,stop_genocide,3,189,1.59
+Gauche radicale,POST_SINWAR,support_for_displaced,1,189,0.53
+Gauche radicale,POST_SINWAR,support_for_film,1,189,0.53
+Gauche radicale,POST_SINWAR,support_for_palestinian_rights,1,189,0.53
+Gauche radicale,POST_SINWAR,suspension_eu_agreement,1,189,0.53
+Gauche radicale,RAFAH,CEDH_intervention,1,804,0.12
+Gauche radicale,RAFAH,UN_intervention,3,804,0.37
+Gauche radicale,RAFAH,accountability,6,804,0.75
+Gauche radicale,RAFAH,action_against_Netanyahu,1,804,0.12
+Gauche radicale,RAFAH,action_against_genocide,2,804,0.25
+Gauche radicale,RAFAH,action_against_israel,2,804,0.25
+Gauche radicale,RAFAH,action_france,4,804,0.5
+Gauche radicale,RAFAH,action_multiplication,1,804,0.12
+Gauche radicale,RAFAH,aid_delivery,1,804,0.12
+Gauche radicale,RAFAH,anti-colonialism,1,804,0.12
+Gauche radicale,RAFAH,apply_icj_decision,1,804,0.12
+Gauche radicale,RAFAH,arms_embargo,30,804,3.73
+Gauche radicale,RAFAH,arms_export_stop,1,804,0.12
+Gauche radicale,RAFAH,arms_sales_stoppage,1,804,0.12
+Gauche radicale,RAFAH,arms_sanctions,1,804,0.12
+Gauche radicale,RAFAH,arms_stop,2,804,0.25
+Gauche radicale,RAFAH,arms_trade_stoppage,1,804,0.12
+Gauche radicale,RAFAH,ban,1,804,0.12
+Gauche radicale,RAFAH,ban_arms_sale,1,804,0.12
+Gauche radicale,RAFAH,block_intervention,1,804,0.12
+Gauche radicale,RAFAH,boycott,2,804,0.25
+Gauche radicale,RAFAH,boycott_TF1,1,804,0.12
+Gauche radicale,RAFAH,boycott_media,1,804,0.12
+Gauche radicale,RAFAH,boycott_products,1,804,0.12
+Gauche radicale,RAFAH,cancel_exhibitors,1,804,0.12
+Gauche radicale,RAFAH,cease_arms_supply,1,804,0.12
+Gauche radicale,RAFAH,cease_stop_genocide,1,804,0.12
+Gauche radicale,RAFAH,ceasefire,97,804,12.06
+Gauche radicale,RAFAH,condamnation_agressions,1,804,0.12
+Gauche radicale,RAFAH,condemn_genocide,2,804,0.25
+Gauche radicale,RAFAH,condemnation,1,804,0.12
+Gauche radicale,RAFAH,criminal_investigation,1,804,0.12
+Gauche radicale,RAFAH,denunciation_of_genocide,1,804,0.12
+Gauche radicale,RAFAH,diplomatic_sanctions,1,804,0.12
+Gauche radicale,RAFAH,economic_boycott,1,804,0.12
+Gauche radicale,RAFAH,economic_sanctions,8,804,1.0
+Gauche radicale,RAFAH,embargo,1,804,0.12
+Gauche radicale,RAFAH,end_apartheid,1,804,0.12
+Gauche radicale,RAFAH,end_arms_contracts,1,804,0.12
+Gauche radicale,RAFAH,end_arms_deliveries,2,804,0.25
+Gauche radicale,RAFAH,end_arms_delivery,1,804,0.12
+Gauche radicale,RAFAH,end_colonization,3,804,0.37
+Gauche radicale,RAFAH,end_complicity,2,804,0.25
+Gauche radicale,RAFAH,end_conflict,1,804,0.12
+Gauche radicale,RAFAH,end_cooperation,1,804,0.12
+Gauche radicale,RAFAH,end_criminalization,1,804,0.12
+Gauche radicale,RAFAH,end_genocide,10,804,1.24
+Gauche radicale,RAFAH,end_massacres,1,804,0.12
+Gauche radicale,RAFAH,end_occupation,1,804,0.12
+Gauche radicale,RAFAH,end_of_prosecutions,1,804,0.12
+Gauche radicale,RAFAH,end_repression,1,804,0.12
+Gauche radicale,RAFAH,end_support,1,804,0.12
+Gauche radicale,RAFAH,end_to_genocide,1,804,0.12
+Gauche radicale,RAFAH,end_weapons_deliveries,1,804,0.12
+Gauche radicale,RAFAH,examine_partnerships,1,804,0.12
+Gauche radicale,RAFAH,exclusion_israel_eurovision,1,804,0.12
+Gauche radicale,RAFAH,fight_genocide,1,804,0.12
+Gauche radicale,RAFAH,free_palestine,2,804,0.25
+Gauche radicale,RAFAH,free_speech_support,1,804,0.12
+Gauche radicale,RAFAH,genocide_denunciation,2,804,0.25
+Gauche radicale,RAFAH,genocide_recognition,1,804,0.12
+Gauche radicale,RAFAH,genocide_stopping,1,804,0.12
+Gauche radicale,RAFAH,government_action,1,804,0.12
+Gauche radicale,RAFAH,group_friendship,1,804,0.12
+Gauche radicale,RAFAH,halt_arms_deliveries,1,804,0.12
+Gauche radicale,RAFAH,halt_bombing,1,804,0.12
+Gauche radicale,RAFAH,hold_accountable,1,804,0.12
+Gauche radicale,RAFAH,hostage_release,10,804,1.24
+Gauche radicale,RAFAH,humanitarian_aid,1,804,0.12
+Gauche radicale,RAFAH,icc_accountability,1,804,0.12
+Gauche radicale,RAFAH,icc_action,3,804,0.37
+Gauche radicale,RAFAH,icc_mandate,1,804,0.12
+Gauche radicale,RAFAH,imprisonment,1,804,0.12
+Gauche radicale,RAFAH,information_free_speech,1,804,0.12
+Gauche radicale,RAFAH,international_coalition,1,804,0.12
+Gauche radicale,RAFAH,international_law,1,804,0.12
+Gauche radicale,RAFAH,international_mobilization,1,804,0.12
+Gauche radicale,RAFAH,international_pressure,1,804,0.12
+Gauche radicale,RAFAH,investigation,1,804,0.12
+Gauche radicale,RAFAH,isolation,1,804,0.12
+Gauche radicale,RAFAH,isolation_israel,2,804,0.25
+Gauche radicale,RAFAH,isolation_of_Israel,1,804,0.12
+Gauche radicale,RAFAH,judgment_international,1,804,0.12
+Gauche radicale,RAFAH,justice,2,804,0.25
+Gauche radicale,RAFAH,justice_for_complicity,1,804,0.12
+Gauche radicale,RAFAH,justice_for_war_crimes,1,804,0.12
+Gauche radicale,RAFAH,liberation_of_palestinians,1,804,0.12
+Gauche radicale,RAFAH,lift_blockade,1,804,0.12
+Gauche radicale,RAFAH,none,351,804,43.66
+Gauche radicale,RAFAH,peace,5,804,0.62
+Gauche radicale,RAFAH,peace_defense,1,804,0.12
+Gauche radicale,RAFAH,peace_process,1,804,0.12
+Gauche radicale,RAFAH,peace_support,1,804,0.12
+Gauche radicale,RAFAH,petition_support,1,804,0.12
+Gauche radicale,RAFAH,political_prisoners_release,1,804,0.12
+Gauche radicale,RAFAH,protests,1,804,0.12
+Gauche radicale,RAFAH,recognition_genocide,1,804,0.12
+Gauche radicale,RAFAH,recognition_of_Palestine,1,804,0.12
+Gauche radicale,RAFAH,recognition_of_palestine,1,804,0.12
+Gauche radicale,RAFAH,recognition_of_rights,1,804,0.12
+Gauche radicale,RAFAH,recognition_of_state,1,804,0.12
+Gauche radicale,RAFAH,recognition_state,2,804,0.25
+Gauche radicale,RAFAH,release_students,2,804,0.25
+Gauche radicale,RAFAH,reparation,1,804,0.12
+Gauche radicale,RAFAH,resistance,1,804,0.12
+Gauche radicale,RAFAH,respect_for_international_law,1,804,0.12
+Gauche radicale,RAFAH,responsibility,1,804,0.12
+Gauche radicale,RAFAH,sanctions,28,804,3.48
+Gauche radicale,RAFAH,sanctions_Bouygues,1,804,0.12
+Gauche radicale,RAFAH,sanctions_against_israel,2,804,0.25
+Gauche radicale,RAFAH,security,1,804,0.12
+Gauche radicale,RAFAH,solidarity,3,804,0.37
+Gauche radicale,RAFAH,solidarity_with_palestine,1,804,0.12
+Gauche radicale,RAFAH,state_creation,1,804,0.12
+Gauche radicale,RAFAH,state_recognition,78,804,9.7
+Gauche radicale,RAFAH,stop_arming,1,804,0.12
+Gauche radicale,RAFAH,stop_arms_deliveries,1,804,0.12
+Gauche radicale,RAFAH,stop_arms_supplies,1,804,0.12
+Gauche radicale,RAFAH,stop_attacks,1,804,0.12
+Gauche radicale,RAFAH,stop_broadcast,1,804,0.12
+Gauche radicale,RAFAH,stop_colonization,1,804,0.12
+Gauche radicale,RAFAH,stop_ethnic_cleaning,1,804,0.12
+Gauche radicale,RAFAH,stop_genocide,16,804,1.99
+Gauche radicale,RAFAH,stop_massacre,1,804,0.12
+Gauche radicale,RAFAH,stop_massacres,1,804,0.12
+Gauche radicale,RAFAH,stop_offensive,1,804,0.12
+Gauche radicale,RAFAH,stop_operations,1,804,0.12
+Gauche radicale,RAFAH,stop_support,1,804,0.12
+Gauche radicale,RAFAH,strong_action,1,804,0.12
+Gauche radicale,RAFAH,strong_action_against_genocide,1,804,0.12
+Gauche radicale,RAFAH,student_release,1,804,0.12
+Gauche radicale,RAFAH,support_for_GMeurice,1,804,0.12
+Gauche radicale,RAFAH,support_for_Gaza,1,804,0.12
+Gauche radicale,RAFAH,support_for_candidate,1,804,0.12
+Gauche radicale,RAFAH,support_for_palestinian_people,1,804,0.12
+Gauche radicale,RAFAH,support_international_law,1,804,0.12
+Gauche radicale,RAFAH,support_self_determination,1,804,0.12
+Gauche radicale,RAFAH,suspend_agreements,1,804,0.12
+Gauche radicale,RAFAH,suspend_trading_agreement,1,804,0.12
+Gauche radicale,RAFAH,suspension_agreement,1,804,0.12
+Gauche radicale,RAFAH,suspension_cooperation,1,804,0.12
+Gauche radicale,RAFAH,symbolic_honor,1,804,0.12
+Gauche radicale,RAFAH,testimony_access,1,804,0.12
+Gauche radicale,RAFAH,un_protection_force,1,804,0.12
+Gauche radicale,RAFAH,vote_union_populaire,1,804,0.12
+Gauche radicale,RAFAH,war_crime_condemnation,1,804,0.12
+Gauche radicale,RAFAH,war_crime_punishment,1,804,0.12
+Gauche radicale,RAFAH,war_criminals_judged,1,804,0.12
+Gauche radicale,RAFAH,war_criminals_sanctions,1,804,0.12
+Gauche radicale,RAFAH,welcome_testimony,1,804,0.12
+Gauche radicale,RAFAH,youth_mobilization,1,804,0.12

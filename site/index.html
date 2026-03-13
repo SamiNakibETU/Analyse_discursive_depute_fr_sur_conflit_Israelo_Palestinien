@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anatomie d'un désaccord français</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<style>
+:root{--ink:#111;--bg:#fff;--rule:#D4D0CA;--mute:#888;--accent:#E8413C}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Barlow',sans-serif;-webkit-font-smoothing:antialiased}
+.page{max-width:880px;margin:0 auto;padding:140px 0 200px}
+.hd{padding-bottom:80px;position:relative}
+.hd-code{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--ink);margin-bottom:24px}
+.hd-page{position:absolute;top:0;right:0;font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:600;letter-spacing:.06em;color:var(--mute)}
+.hd-title{font-family:'Barlow Condensed',sans-serif;font-size:48px;font-weight:700;line-height:.95;letter-spacing:-.02em;margin-bottom:20px}
+.hd-sub{font-size:13px;font-weight:400;line-height:1.6;max-width:560px;margin-bottom:28px;color:var(--ink)}
+.hd-meta{font-size:9px;font-weight:400;letter-spacing:.03em;color:var(--mute);margin-bottom:28px}
+.bandeau{margin-top:0;display:flex;gap:36px;flex-wrap:wrap}
+.bandeau-item{font-size:9px;color:var(--mute);letter-spacing:.02em}
+.bandeau-item::before{content:'\25A0';font-size:6px;vertical-align:middle;margin-right:6px;color:var(--ink)}
+.bandeau-item strong{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;color:var(--ink);margin-right:4px;letter-spacing:.06em}
+.pl{margin-top:180px}
+.pl-hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+.pl-code{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--accent)}
+.pl-sec{font-size:7.5px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.pl-title{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.015em;line-height:1.15;margin-bottom:5px}
+.pl-tech{font-size:10px;color:var(--mute);line-height:1.7;margin-bottom:36px;letter-spacing:.01em}
+.chart{width:100%}.chart svg{display:block;width:100%;overflow:visible}
+.pl-ft{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-top:20px}
+.ft-src{font-size:7.5px;font-style:italic;color:var(--mute);flex-shrink:0}
+.ft-note{font-family:'Courier Prime',monospace;font-size:7px;color:var(--mute);line-height:1.6;text-align:right}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="hd">
+  <span class="hd-page">452</span>
+  <div class="hd-code">FR-AN</div>
+  <h1 class="hd-title">Anatomie d'un d&eacute;saccord fran&ccedil;ais</h1>
+  <p class="hd-sub">Le corpus parlementaire et num&eacute;rique observ&eacute; fait appara&icirc;tre quatre blocs politiques, quatre grilles de lecture et des dynamiques de r&eacute;activit&eacute; in&eacute;gales selon les s&eacute;quences du conflit. Analyse descriptive de 10&thinsp;774 textes produits entre octobre 2023 et janvier 2026.</p>
+  <div class="hd-meta">Corpus 459 d&eacute;put&eacute;s &middot; 28 mois &middot; 10&thinsp;774 textes (interventions et tweets) &middot; 4 blocs &middot; 6 cadres &middot; 7 registres</div>
+  <div class="bandeau">
+    <span class="bandeau-item"><strong>G.RAD</strong>LFI, GDR</span>
+    <span class="bandeau-item"><strong>G.MOD</strong>PS, ECO</span>
+    <span class="bandeau-item"><strong>CTR</strong>EPR, Renaissance, MoDem, Horizons, Dem</span>
+    <span class="bandeau-item"><strong>DRT</strong>LR, RN, UDR, NI</span>
+  </div>
+</header>
+
+<article class="pl"><div class="pl-hd"><span class="pl-code">01</span><span class="pl-sec">Cadres discursifs</span></div>
+  <h2 class="pl-title">La gauche radicale parle souffrance. La droite parle s&eacute;curit&eacute;.</h2>
+  <p class="pl-tech">Chaque barre = 100 % du corpus d'un bloc &middot; 6 registres th&eacute;matiques &middot; lecture : G.RAD consacre 77 % de ses textes au cadre humanitaire, contre 11 % pour DRT</p>
+  <div class="chart" id="c01"></div>
+  <footer class="pl-ft"><span class="ft-src">frames_par_bloc.csv &middot; v3</span><span class="ft-note">Classification GPT-4o-mini &middot; accord inter-version v3/v4 &rho; = 0,86</span></footer>
+</article>
+
+<article class="pl"><div class="pl-hd"><span class="pl-code">02</span><span class="pl-sec">Intensit&eacute; de production</span></div>
+  <h2 class="pl-title">G.RAD monopolise le sujet : 4&times; plus de textes, 6&times; plus de tweets</h2>
+  <p class="pl-tech">Nombre moyen de textes parlementaires produits par &eacute;lu &middot; ratio entre publications X (ex-Twitter) et interventions en s&eacute;ance &middot; cercle = volume relatif au maximum</p>
+  <div class="chart" id="c02"></div>
+  <footer class="pl-ft"><span class="ft-src">vue_ensemble.csv &middot; twitter_vs_an.csv</span><span class="ft-note">Textes = h&eacute;micycle + questions &eacute;crites + rapports &middot; Tweets = publications X mentionnant le conflit</span></footer>
+</article>
+
+<article class="pl"><div class="pl-hd"><span class="pl-code">03</span><span class="pl-sec">Trajectoires sur 26 mois</span></div>
+  <h2 class="pl-title">Les extr&ecirc;mes restent plus stables. Le Centre varie davantage.</h2>
+  <p class="pl-tech">Score de positionnement mensuel &middot; au-dessus de z&eacute;ro = pro-palestinien (rouge) &middot; en dessous = pro-isra&eacute;lien (noir) &middot; bandes jaunes = &eacute;v&eacute;nements-cl&eacute;s &middot; points = extremums</p>
+  <div class="chart" id="c03"></div>
+  <footer class="pl-ft"><span class="ft-src">stance_mensuel.csv &middot; oct. 2023 &ndash; nov. 2025</span><span class="ft-note">Stance = moyenne pond&eacute;r&eacute;e des positions textuelles &middot; tendance Mann-Kendall p > 0,16 &middot; aucune d&eacute;rive significative</span></footer>
+</article>
+
+<article class="pl"><div class="pl-hd"><span class="pl-code">04</span><span class="pl-sec">R&eacute;activit&eacute; aux chocs</span></div>
+  <h2 class="pl-title">Le Centre r&eacute;agit le plus souvent. D'autres shifts existent aussi.</h2>
+  <p class="pl-tech">Variation descriptive du score de positionnement apr&egrave;s chaque &eacute;v&eacute;nement &middot; barre rouge vers le haut = d&eacute;placement pro-palestinien &middot; barre noire vers le bas = d&eacute;placement pro-isra&eacute;lien &middot; hachures = pas d'effet significatif</p>
+  <div class="chart" id="c04"></div>
+  <footer class="pl-ft"><span class="ft-src">event_impact_diff_in_diff.csv</span><span class="ft-note">Comparaison avant/apr&egrave;s &plusmn;30 jours par bloc &middot; pas de groupe contr&ocirc;le &middot; * p &lt; 0,05 &middot; ** p &lt; 0,01 (Mann-Whitney)</span></footer>
+</article>
+
+<article class="pl"><div class="pl-hd"><span class="pl-code">05</span><span class="pl-sec">Registres &eacute;motionnels</span></div>
+  <h2 class="pl-title">L'indignation domine partout, sauf au Centre o&ugrave; la neutralit&eacute; pr&eacute;vaut</h2>
+  <p class="pl-tech">Part de chaque registre &eacute;motionnel dans le corpus de chaque bloc &middot; barre pleine = registre dominant du bloc &middot; barre att&eacute;nu&eacute;e = pr&eacute;sent mais secondaire &middot; &times; = non d&eacute;tect&eacute;</p>
+  <div class="chart" id="c05"></div>
+  <footer class="pl-ft"><span class="ft-src">emotional_register.csv &middot; corpus v3</span><span class="ft-note">D&eacute;tection GPT-4o-mini &middot; 7 registres &middot; distribution descriptive par bloc</span></footer>
+</article>
+
+</div>
+
+<script>
+const C={ink:'#111',bg:'#fff',rule:'#D4D0CA',mute:'#888',accent:'#E8413C',cross:'#E8413C',rose:'#F2B5B0',yellow:'#F5D54F',
+  fc:'"Barlow Condensed",sans-serif',fb:'"Barlow",sans-serif',fd:'"Courier Prime",monospace',W:880};
+
+const BLOCS=['G.RAD','G.MOD','CTR','DRT'];
+const BLOC_FULL=['Gauche radicale','Gauche mod\u00e9r\u00e9e','Centre','Droite'];
+const FRAMES=['HUM','SEC','MOR','LEG','DIP','OTH'];
+const FRAME_LABELS={HUM:'Humanitaire',SEC:'S\u00e9curitaire',MOR:'Moral',LEG:'L\u00e9gal',DIP:'Diplomatique',OTH:'Autre'};
+const FRAME_COL={HUM:'#E8413C',SEC:'#222',MOR:'#888',LEG:'#AAA',DIP:'#CCC',OTH:'#E5E2DD'};
+const FRAME_LIGHT={HUM:false,SEC:false,MOR:true,LEG:true,DIP:true,OTH:true};
+const FDATA=[[77,32,29,11],[2,19,31,45],[11,26,21,28],[6,14,10,9],[3,6,8,4],[1,3,1,3]];
+const VOLUME=[[49.6,10.2],[14.5,4.1],[11.5,1.7],[11.9,3.9]];
+const STANCE=[
+  ['2023-10',1.477,0.812,-0.773,-1.333],['2023-11',1.562,0.789,-0.889,-1.250],
+  ['2023-12',1.715,0.890,-0.893,-1.237],['2024-01',1.476,0.956,-0.936,-1.133],
+  ['2024-02',1.591,0.853,-0.764,-1.189],['2024-03',1.587,0.861,-0.850,-1.342],
+  ['2024-04',1.498,0.872,-0.882,-1.294],['2024-05',1.727,1.217,-0.615,-1.524],
+  ['2024-06',1.460,0.875,-0.712,-1.560],['2024-07',1.675,1.000,-0.741,-1.650],
+  ['2024-08',1.616,0.438,-1.314,-1.412],['2024-09',1.542,1.095,-1.200,-1.263],
+  ['2024-10',1.708,1.130,-0.871,-1.065],['2024-11',1.598,1.132,-0.933,-1.209],
+  ['2024-12',1.796,1.100,-0.833,-0.600],['2025-01',1.505,0.862,-0.390,-0.903],
+  ['2025-02',1.405,0.583,-1.023,-1.600],['2025-03',1.404,1.056,-0.723,-1.390],
+  ['2025-04',1.665,0.857,-0.538,-1.542],['2025-05',1.570,0.880,-0.475,-1.500],
+  ['2025-06',1.635,0.895,-0.560,-1.386],['2025-07',1.669,1.400,-0.677,-1.494],
+  ['2025-08',1.772,1.100,-1.143,-1.727],['2025-09',1.714,1.070,-0.143,-1.277],
+  ['2025-10',1.646,-0.100,-1.088,-1.100],['2025-11',1.683,0.684,-0.400,-1.471]];
+const EVENTS=[
+  {ev:'Ordonnance CIJ',code:'E1',date:'26 jan. 2024',cells:[{d:-0.077,s:''},{d:0.132,s:''},{d:-0.436,s:'*'},{d:0.224,s:''}]},
+  {ev:'Offensive Rafah',code:'E2',date:'6 mai 2024',cells:[{d:0.205,s:'**'},{d:0.075,s:''},{d:0.404,s:'**'},{d:-0.424,s:''}]},
+  {ev:'Mort de Sinwar',code:'E3',date:'17 oct. 2024',cells:[{d:0.125,s:''},{d:0.300,s:''},{d:-0.055,s:''},{d:-0.028,s:''}]},
+  {ev:'Mandats CPI',code:'E4',date:'21 nov. 2024',cells:[{d:-0.080,s:''},{d:0.025,s:''},{d:0.032,s:''},{d:0.389,s:''}]},
+  {ev:'Cessez-le-feu',code:'E5',date:'15 jan. 2025',cells:[{d:0.094,s:''},{d:-0.760,s:''},{d:-0.670,s:'**'},{d:-1.104,s:'*'}]},
+  {ev:'Rupture du CLF',code:'E6',date:'23 f\u00e9v. 2025',cells:[{d:0.084,s:''},{d:-0.200,s:''},{d:-0.917,s:'**'},{d:-0.234,s:''}]}];
+const EMOTIONS=[
+  {label:'Indignation',vals:[63.66,37.14,26.72,36.47]},
+  {label:'Neutralit\u00e9',vals:[11.38,29.89,43.95,11.53]},
+  {label:'D\u00e9fiance',vals:[null,null,9.38,41.18]},
+  {label:'Solidarit\u00e9',vals:[12.47,13.41,5.45,null]},
+  {label:'Deuil',vals:[7.36,17.75,10.91,2.94]},
+  {label:'Col\u00e8re',vals:[4.13,1.09,null,null]},
+  {label:'Peur',vals:[null,null,null,3.76]}];
+
+function mkSVG(id,W,H){
+  const svg=d3.select('#'+id).append('svg').attr('viewBox',`0 0 ${W} ${H}`)
+    .style('display','block').style('width','100%').style('overflow','visible');
+  const defs=svg.append('defs');
+  defs.append('pattern').attr('id','hatch-'+id).attr('width',5).attr('height',5)
+    .attr('patternUnits','userSpaceOnUse').attr('patternTransform','rotate(45)')
+    .append('line').attr('x1',0).attr('y1',0).attr('x2',0).attr('y2',5)
+    .attr('stroke',C.rule).attr('stroke-width',0.6);
+  return svg;
+}
+function hr(s,x1,x2,y,w,c){s.append('line').attr('x1',x1).attr('x2',x2).attr('y1',y).attr('y2',y).attr('stroke',c||C.rule).attr('stroke-width',w||0.5)}
+function vr(s,x,y1,y2,c){s.append('line').attr('x1',x).attr('x2',x).attr('y1',y1).attr('y2',y2).attr('stroke',c||C.rule).attr('stroke-width',0.5)}
+function label(s,x,y,t,o){o=o||{};return s.append('text').attr('x',x).attr('y',y).attr('text-anchor',o.a||'start').attr('font-family',o.f||C.fb).attr('font-size',o.s||10).attr('font-weight',o.b?700:(o.w||400)).attr('fill',o.c||C.ink).attr('letter-spacing',o.ls||0).text(t)}
+function val(s,x,y,t,o){o=o||{};return s.append('text').attr('x',x).attr('y',y).attr('text-anchor',o.a||'start').attr('font-family',C.fd).attr('font-size',o.s||12).attr('font-weight',o.b?700:400).attr('fill',o.c||C.ink).attr('letter-spacing',o.ls||0).text(t)}
+
+function picto(svg,x,y,type,sz,col){
+  const g=svg.append('g').attr('transform',`translate(${x},${y}) scale(${sz/14})`).attr('fill','none').attr('stroke',col||C.ink).attr('stroke-width',1.2).attr('stroke-linecap','round').attr('stroke-linejoin','round');
+  if(type==='doc'){g.append('path').attr('d','M3 1h6l4 4v8H3V1z');g.append('polyline').attr('points','9,1 9,5 13,5');g.append('line').attr('x1',5).attr('y1',7).attr('x2',11).attr('y2',7);g.append('line').attr('x1',5).attr('y1',9.5).attr('x2',11).attr('y2',9.5);g.append('line').attr('x1',5).attr('y1',12).attr('x2',9).attr('y2',12);}
+  if(type==='tweet'){g.append('path').attr('d','M1 3h12v7H7l-3 2.5V10H1V3z');g.append('line').attr('x1',3.5).attr('y1',5.5).attr('x2',10.5).attr('y2',5.5);g.append('line').attr('x1',3.5).attr('y1',8).attr('x2',8).attr('y2',8);}
+  if(type==='timeline'){g.append('line').attr('x1',1).attr('y1',7).attr('x2',13).attr('y2',7);g.append('polyline').attr('points','1,11 4,4 7,9 10,3 13,6');g.append('circle').attr('cx',4).attr('cy',4).attr('r',1.2).attr('fill',col||C.ink);g.append('circle').attr('cx',10).attr('cy',3).attr('r',1.2).attr('fill',col||C.ink);}
+  if(type==='impact'){g.append('path').attr('d','M8 1L4 6h3L5 13l7-7H9l2-5z').attr('fill',col||C.ink).attr('stroke','none');}
+  if(type==='emotion'){g.append('circle').attr('cx',7).attr('cy',7).attr('r',6);g.append('line').attr('x1',4.5).attr('y1',5.5).attr('x2',5.5).attr('y2',5.5);g.append('line').attr('x1',8.5).attr('y1',5.5).attr('x2',9.5).attr('y2',5.5);g.append('path').attr('d','M4.5 9.5Q7 12 9.5 9.5').attr('fill','none');}
+  if(type==='grid'){for(let r=0;r<3;r++)for(let c=0;c<3;c++){g.append('rect').attr('x',1+c*4.2).attr('y',1+r*4.2).attr('width',3.5).attr('height',3.5).attr('fill',r===0&&c===0?(col||C.ink):'none').attr('stroke',col||C.ink).attr('stroke-width',0.8);}}
+  return g;
+}
+
+
+(function chart01(){
+  const W=C.W,LBLW=72,GAPX=8,BAR_W=W-LBLW-GAPX-36;
+  const BAR_H=34,ROW_GAP=12;
+  const LEG_H=14,T=LEG_H+22,B=20;
+  const chartH=4*BAR_H+3*ROW_GAP;
+  const H=T+chartH+B;
+  const svg=mkSVG('c01',W,H);
+  const g=svg.append('g').attr('transform',`translate(${LBLW+GAPX},${T})`);
+
+  picto(svg,LBLW+GAPX-1,0,'grid',12,C.mute);
+  let lx=LBLW+GAPX+16;
+  FRAMES.forEach(fr=>{
+    svg.append('rect').attr('x',lx).attr('y',3).attr('width',8).attr('height',8).attr('fill',FRAME_COL[fr]);
+    label(svg,lx+12,11,FRAME_LABELS[fr],{s:8.5,c:C.mute});
+    lx+=12+FRAME_LABELS[fr].length*5.2+12;
+  });
+
+  [25,50,75].forEach(p=>{
+    const x=BAR_W*p/100;
+    g.append('line').attr('x1',x).attr('x2',x).attr('y1',-1).attr('y2',chartH).attr('stroke',C.rule).attr('stroke-width',0.3).attr('stroke-dasharray','2,3');
+    val(g,x,chartH+13,p+'%',{a:'middle',s:7,c:C.rule});
+  });
+  hr(g,0,BAR_W,-1,0.5,C.ink);
+  hr(g,0,BAR_W,chartH,0.5,C.rule);
+
+  BLOCS.forEach((bloc,bi)=>{
+    const y=bi*(BAR_H+ROW_GAP);
+    label(svg,LBLW-4,T+y+BAR_H/2+4,bloc,{a:'end',s:12,b:true,f:C.fc,ls:'.04em'});
+    label(svg,LBLW-4,T+y+BAR_H/2+16,BLOC_FULL[bi],{a:'end',s:7,c:C.rule});
+    const pcts=FRAMES.map((_,fi)=>FDATA[fi][bi]);
+    const domIdx=pcts.indexOf(Math.max(...pcts));
+    const pxArr=pcts.map(p=>Math.round(BAR_W*p/100));
+    pxArr[pxArr.length-1]=BAR_W-pxArr.slice(0,-1).reduce((a,b)=>a+b,0);
+    let cx=0;
+    FRAMES.forEach((fr,fi)=>{
+      const pw=pxArr[fi],pct=pcts[fi];
+      if(pw<=0){cx+=pw;return}
+      g.append('rect').attr('x',cx).attr('y',y).attr('width',pw).attr('height',BAR_H).attr('fill',FRAME_COL[fr]);
+      const light=FRAME_LIGHT[fr],tc=light?C.ink:'#fff';
+      if(pct>=19&&pw>=52){
+        val(g,cx+pw/2,y+BAR_H/2+5,pct+'%',{a:'middle',s:11,b:true,c:tc});
+      } else if(pct>=8&&pw>=24){
+        val(g,cx+pw/2,y+BAR_H/2+5,pct+'%',{a:'middle',s:9,b:true,c:tc});
+      } else if(pct>=1){
+        val(g,cx+pw/2,y-4,pct+'%',{a:'middle',s:7,c:C.mute});
+      }
+      cx+=pw;
+    });
+    val(svg,LBLW+GAPX+BAR_W+6,T+y+BAR_H/2+5,pcts[domIdx]+'%',{s:11,b:true,c:FRAME_COL[FRAMES[domIdx]]});
+    label(svg,LBLW+GAPX+BAR_W+6,T+y+BAR_H/2+16,FRAME_LABELS[FRAMES[domIdx]],{s:7,c:C.mute});
+  });
+})();
+
+
+(function chart02(){
+  const W=C.W,LBL=100,COL_W=(W-LBL)/4;
+  const R_MAX=28,HDR_H=52,ROW_H=76;
+  const METRICS=[
+    {label:'Textes par \u00e9lu',vals:VOLUME.map(v=>v[0]),max:49.6},
+    {label:'Tweets / intervention',vals:VOLUME.map(v=>v[1]),max:10.2}];
+  const H=HDR_H+METRICS.length*ROW_H+4;
+  const svg=mkSVG('c02',W,H);
+
+  picto(svg,6,HDR_H+ROW_H/2-8,'doc',14,C.ink);
+  picto(svg,6,HDR_H+ROW_H+ROW_H/2-8,'tweet',14,C.ink);
+
+  BLOCS.forEach((bloc,ci)=>{
+    const cx=LBL+ci*COL_W+COL_W/2;
+    label(svg,cx,18,bloc,{a:'middle',s:12,b:true,f:C.fc,ls:'0.06em'});
+    label(svg,cx,30,BLOC_FULL[ci],{a:'middle',s:7.5,c:C.rule});
+    if(ci>0) vr(svg,LBL+ci*COL_W,HDR_H,H-4);
+  });
+  hr(svg,LBL,W,HDR_H,0.5,C.ink);
+
+  METRICS.forEach((metric,mi)=>{
+    const y=HDR_H+mi*ROW_H,cy=y+ROW_H/2;
+    hr(svg,LBL,W,y,0.3,C.rule);
+    label(svg,24,cy+4,metric.label,{s:10,c:C.mute,w:600,ls:'0.02em'});
+    BLOCS.forEach((_,ci)=>{
+      const v=metric.vals[ci];
+      const colX=LBL+ci*COL_W,ccx=colX+COL_W/2;
+      svg.append('circle').attr('cx',ccx+6).attr('cy',cy).attr('r',R_MAX).attr('fill','#F5F0EB');
+      val(svg,ccx-28,cy+5,v.toFixed(1),{a:'end',s:14,b:true});
+      const r=v>0?Math.max(2,R_MAX*Math.sqrt(v/metric.max)):0;
+      if(r>0) svg.append('circle').attr('cx',ccx+6).attr('cy',cy).attr('r',r).attr('fill',C.accent);
+      if(ci>0){
+        const ratio=metric.vals[0]/v;
+        if(ratio>1.5) val(svg,ccx+6,cy+R_MAX+14,'\u00d7'+ratio.toFixed(1),{a:'middle',s:8,c:C.mute});
+      }
+    });
+  });
+})();
+
+
+(function chart03(){
+  const EV_MARKS=[
+    {m:'2024-01',code:'E1',lbl:'Ordonnance CIJ'},
+    {m:'2024-05',code:'E2',lbl:'Offensive Rafah'},
+    {m:'2024-10',code:'E3',lbl:'Mort de Sinwar'},
+    {m:'2025-01',code:'E5',lbl:'Cessez-le-feu'}];
+  const MONTHS=STANCE.map(d=>d[0]);
+  const W=C.W,LBL=52,VALR=68,iW=W-LBL-VALR;
+  const BAND_H=130,EV_TOP=32,B=32;
+  const totalH=4*BAND_H,H=EV_TOP+totalH+B;
+  const xS=d3.scalePoint().domain(MONTHS).range([0,iW]).padding(0.04);
+  const yS=d3.scaleLinear().domain([-2.4,2.4]).range([BAND_H,0]);
+  const svg=mkSVG('c03',W,H);
+  const gMain=svg.append('g').attr('transform',`translate(${LBL},${EV_TOP})`);
+
+  picto(svg,4,EV_TOP-16,'timeline',14,C.mute);
+
+  EV_MARKS.forEach(ev=>{
+    const x=xS(ev.m);
+    label(svg,LBL+x,EV_TOP-18,ev.code,{a:'middle',s:9,c:C.accent,w:700,f:C.fc,ls:'0.06em'});
+    label(svg,LBL+x,EV_TOP-7,ev.lbl,{a:'middle',s:7,c:C.mute});
+    gMain.append('rect').attr('x',x-8).attr('y',0).attr('width',16).attr('height',totalH)
+      .attr('fill',C.yellow).attr('opacity',0.15);
+  });
+  hr(gMain,0,iW,0,0.5,C.ink);
+
+  label(svg,LBL+iW+14,EV_TOP-4,'DERNIER',{a:'start',s:6,c:C.rule,w:600,ls:'0.08em'});
+
+  BLOCS.forEach((bloc,bi)=>{
+    const offY=bi*BAND_H;
+    const stData=STANCE.map(([m,...vs])=>({m,s:vs[bi]}));
+    const zeroY=offY+yS(0);
+
+    if(bi>0) hr(gMain,0,iW,offY,0.3,C.rule);
+    gMain.append('line').attr('x1',0).attr('x2',iW)
+      .attr('y1',zeroY).attr('y2',zeroY)
+      .attr('stroke',C.ink).attr('stroke-width',0.3);
+
+    [-1,1].forEach(v=>{
+      gMain.append('line').attr('x1',0).attr('x2',iW)
+        .attr('y1',offY+yS(v)).attr('y2',offY+yS(v))
+        .attr('stroke',C.rule).attr('stroke-width',0.3).attr('stroke-dasharray','2,4');
+    });
+
+    if(bi===0){
+      [-2,-1,0,1,2].forEach(v=>{
+        const txt=v===0?'0':v>0?'+'+v:'\u2212'+Math.abs(v);
+        val(gMain,-6,offY+yS(v)+4,txt,{a:'end',s:8,c:v===0?C.mute:C.rule});
+      });
+      label(gMain,-6,offY+yS(2)-8,'pro-pal.',{a:'end',s:6,c:C.accent,w:500});
+      label(gMain,-6,offY+yS(-2)+14,'pro-isr.',{a:'end',s:6,c:C.ink,w:500});
+    }
+
+    const areaPos=d3.area().x(d=>xS(d.m)).y0(zeroY).y1(d=>offY+yS(Math.max(0,d.s))).curve(d3.curveMonotoneX);
+    gMain.append('path').datum(stData).attr('d',areaPos).attr('fill',C.accent).attr('opacity',0.08);
+
+    const areaNeg=d3.area().x(d=>xS(d.m)).y0(zeroY).y1(d=>offY+yS(Math.min(0,d.s))).curve(d3.curveMonotoneX);
+    gMain.append('path').datum(stData).attr('d',areaNeg).attr('fill',C.ink).attr('opacity',0.05);
+
+    const line=d3.line().x(d=>xS(d.m)).y(d=>offY+yS(d.s)).curve(d3.curveMonotoneX);
+    gMain.append('path').datum(stData).attr('d',line).attr('fill','none').attr('stroke',C.ink).attr('stroke-width',1.4);
+
+    let maxI=0,minI=0;
+    stData.forEach((d,i)=>{if(d.s>stData[maxI].s)maxI=i;if(d.s<stData[minI].s)minI=i;});
+    [maxI,minI].forEach(idx=>{
+      const d=stData[idx];
+      const col=d.s>0?C.accent:C.ink;
+      gMain.append('circle').attr('cx',xS(d.m)).attr('cy',offY+yS(d.s)).attr('r',3.5).attr('fill',col);
+      const above=d.s>0;
+      val(gMain,xS(d.m)+6,offY+yS(d.s)+(above?-5:13),(d.s>0?'+':'')+d.s.toFixed(2),{s:8,b:true,c:col});
+    });
+
+    label(svg,LBL-8,EV_TOP+offY+BAND_H/2-2,bloc,{a:'end',s:12,b:true,f:C.fc,ls:'.04em'});
+    label(svg,LBL-8,EV_TOP+offY+BAND_H/2+12,BLOC_FULL[bi],{a:'end',s:7,c:C.rule});
+    const last=stData[stData.length-1];
+    val(svg,LBL+iW+14,EV_TOP+offY+yS(last.s)+4,(last.s>0?'+':'')+last.s.toFixed(2),{s:12,b:true,c:last.s>0?C.accent:C.ink});
+
+    const mean=d3.mean(stData,d=>d.s);
+    gMain.append('line').attr('x1',0).attr('x2',iW)
+      .attr('y1',offY+yS(mean)).attr('y2',offY+yS(mean))
+      .attr('stroke',C.mute).attr('stroke-width',0.4).attr('stroke-dasharray','1,3');
+  });
+
+  MONTHS.filter((_,i)=>i%3===0).forEach(m=>{
+    gMain.append('line').attr('x1',xS(m)).attr('x2',xS(m)).attr('y1',totalH).attr('y2',totalH+4).attr('stroke',C.mute).attr('stroke-width',0.5);
+    const parts=m.split('-');
+    label(gMain,xS(m),totalH+14,['J','F','M','A','M','J','J','A','S','O','N','D'][+parts[1]-1],{a:'middle',s:8,c:C.mute,w:600});
+    label(gMain,xS(m),totalH+24,parts[0].slice(2),{a:'middle',s:7,c:C.rule});
+  });
+
+  svg.append('circle').attr('cx',LBL+iW+10).attr('cy',EV_TOP+totalH+12).attr('r',2.5).attr('fill',C.accent);
+  label(svg,LBL+iW+16,EV_TOP+totalH+15,'pro-palestinien',{s:7,c:C.accent,w:500});
+  svg.append('circle').attr('cx',LBL+iW+10).attr('cy',EV_TOP+totalH+24).attr('r',2.5).attr('fill',C.ink);
+  label(svg,LBL+iW+16,EV_TOP+totalH+27,'pro-isra\u00e9lien',{s:7,c:C.ink,w:500});
+})();
+
+
+(function chart04(){
+  const W=C.W,LBLW=130,COL_W=(W-LBLW)/4;
+  const ROW_H=74,HDR_H=48,BAR_MAX=28,BAR_W=12,H=HDR_H+EVENTS.length*ROW_H;
+  const maxAbs=Math.max(...EVENTS.flatMap(e=>e.cells.map(c=>Math.abs(c.d))));
+  const svg=mkSVG('c04',W,H);
+
+  picto(svg,4,4,'impact',14,C.accent);
+
+  BLOCS.forEach((bloc,ci)=>{
+    const cx=LBLW+ci*COL_W+COL_W/2;
+    if(ci>0) vr(svg,LBLW+ci*COL_W,0,H);
+    label(svg,cx,16,bloc,{a:'middle',s:12,b:true,f:C.fc,ls:'0.06em'});
+    const nSig=EVENTS.filter(e=>e.cells[ci].s!=='').length;
+    val(svg,cx-12,32,nSig,{a:'end',s:10,b:true,c:nSig>0?C.accent:C.rule});
+    label(svg,cx-8,32,'/6 significatifs',{s:7.5,c:C.rule});
+  });
+  vr(svg,LBLW,0,H,C.rule);
+  hr(svg,0,W,HDR_H,0.5,C.ink);
+
+  EVENTS.forEach((ev,ei)=>{
+    const y=HDR_H+ei*ROW_H,cy=y+ROW_H/2;
+    if(ei>0) hr(svg,0,W,y,0.3,C.rule);
+    label(svg,5,cy-8,ev.code,{s:12,b:true,f:C.fc,c:C.accent});
+    label(svg,5,cy+6,ev.ev,{s:10,w:500});
+    val(svg,5,cy+18,ev.date,{s:8,c:C.mute});
+    ev.cells.forEach(({d,s},ci)=>{
+      const cellX=LBLW+ci*COL_W,cx=cellX+COL_W/2;
+      svg.append('line').attr('x1',cellX+4).attr('x2',cellX+COL_W-4)
+        .attr('y1',cy).attr('y2',cy).attr('stroke',C.rule).attr('stroke-width',0.3);
+      if(s===''){
+        svg.append('rect').attr('x',cellX+1).attr('y',y+1).attr('width',COL_W-2).attr('height',ROW_H-2).attr('fill','url(#hatch-c04)');
+        val(svg,cx,cy+4,(d>0?'+':'')+d.toFixed(2),{a:'middle',s:8,c:C.rule});
+      } else {
+        const bh=BAR_MAX*(Math.abs(d)/maxAbs);
+        const col=d>0?C.accent:C.ink;
+        const barY=d>0?cy-bh:cy;
+        svg.append('rect').attr('x',cx-BAR_W/2-18).attr('y',barY).attr('width',BAR_W).attr('height',Math.max(bh,1)).attr('fill',col);
+        const arrow=d>0?'\u25B2':'\u25BC';
+        label(svg,cx-12,d>0?barY-5:barY+bh+12,arrow,{a:'middle',s:7,c:col});
+        const sign=d>0?'+':'\u2212',abs=Math.abs(d).toFixed(2);
+        val(svg,cx+4,cy+5,sign+abs,{a:'start',s:13,b:true});
+        if(s) val(svg,cx+4,cy-10,s,{a:'start',s:10,c:C.accent,b:true});
+        label(svg,cx+4,cy+18,d>0?'pro-pal.':'pro-isr.',{s:7,c:col});
+      }
+    });
+  });
+})();
+
+
+(function chart05(){
+  const W=C.W,LBL=110,COL_W=(W-LBL)/4;
+  const MAX_GLOBAL=63.66,BAR_MAX=COL_W-62,BAR_H=8;
+  const HDR_H=44,ROW_H=50,H=HDR_H+EMOTIONS.length*ROW_H+4;
+
+  const svg=mkSVG('c05',W,H);
+  picto(svg,4,4,'emotion',14,C.mute);
+
+  BLOCS.forEach((bloc,ci)=>{
+    const colX=LBL+ci*COL_W;
+    label(svg,colX+8,18,bloc,{s:12,b:true,f:C.fc,ls:'0.06em'});
+    label(svg,colX+8,30,BLOC_FULL[ci],{s:7,c:C.rule});
+    if(ci>0) vr(svg,colX,HDR_H,H-4);
+    [20,40,60].forEach(p=>{
+      const x=colX+8+BAR_MAX*(p/MAX_GLOBAL);
+      svg.append('line').attr('x1',x).attr('x2',x).attr('y1',HDR_H).attr('y2',H-4)
+        .attr('stroke',C.rule).attr('stroke-width',0.2).attr('stroke-dasharray','1,4');
+    });
+  });
+  hr(svg,0,W,HDR_H,0.5,C.ink);
+
+  const blocDom=BLOCS.map((_,ci)=>{
+    let maxR=-1,maxV=0;
+    EMOTIONS.forEach((em,ri)=>{if(em.vals[ci]!==null&&em.vals[ci]>maxV){maxV=em.vals[ci];maxR=ri;}});
+    return maxR;
+  });
+
+  EMOTIONS.forEach((em,ri)=>{
+    const y=HDR_H+ri*ROW_H,cy=y+ROW_H/2;
+    if(ri%2===1) svg.append('rect').attr('x',0).attr('y',y).attr('width',W).attr('height',ROW_H).attr('fill','#FAFAF8');
+    if(ri>0) hr(svg,0,LBL-4,y,0.3,C.rule);
+    const nonNull=em.vals.filter(v=>v!==null);
+    const maxV=nonNull.length?Math.max(...nonNull):0;
+    label(svg,4,cy+4,em.label,{s:11,w:500});
+    BLOCS.forEach((_,ci)=>{
+      const v=em.vals[ci],colX=LBL+ci*COL_W;
+      if(v===null){
+        label(svg,colX+8,cy+4,'\u00d7',{a:'start',s:13,c:C.rule});
+        label(svg,colX+22,cy+4,'absent',{s:7,c:C.rule});
+      } else {
+        const bw=BAR_MAX*(v/MAX_GLOBAL);
+        const isDom=blocDom[ci]===ri;
+        svg.append('rect').attr('x',colX+8).attr('y',cy-BAR_H/2).attr('width',bw).attr('height',BAR_H)
+          .attr('fill',C.accent).attr('opacity',isDom?1:0.35);
+        val(svg,colX+8+bw+5,cy+4,v.toFixed(1)+'%',{s:10,b:isDom,c:isDom?C.ink:C.mute});
+        if(isDom) label(svg,colX+8+bw+5,cy+14,'dominant',{s:6,c:C.accent,w:600,ls:'0.04em'});
+      }
+    });
+  });
+})();
+
+</script>
+</body>
+</html>

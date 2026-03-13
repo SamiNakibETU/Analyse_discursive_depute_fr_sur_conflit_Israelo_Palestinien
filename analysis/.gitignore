@@ -1,0 +1,13 @@
+data/processed/
+data/raw/
+*.parquet
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor/
+*.swp
+data/validation/*_ref.csv

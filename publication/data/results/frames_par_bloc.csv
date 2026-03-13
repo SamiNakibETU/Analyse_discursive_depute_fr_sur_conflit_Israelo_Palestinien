@@ -1,0 +1,85 @@
+﻿version,bloc,frame,pct
+v3,Gauche radicale,HUM,77.22
+v3,Gauche radicale,LEG,9.52
+v3,Gauche radicale,MOR,8.13
+v3,Gauche radicale,SEC,2.33
+v3,Gauche radicale,DIP,1.77
+v3,Gauche radicale,ECO,0.53
+v3,Gauche radicale,HIS,0.48
+v3,Gauche radicale,HUM+LEG,0.01
+v3,Gauche moderee,HUM,64.05
+v3,Gauche moderee,LEG,15.5
+v3,Gauche moderee,MOR,8.88
+v3,Gauche moderee,DIP,5.99
+v3,Gauche moderee,SEC,3.72
+v3,Gauche moderee,ECO,1.14
+v3,Gauche moderee,HIS,0.62
+v3,Gauche moderee,HUM+LEG,0.1
+v3,Centre / Majorite,SEC,30.58
+v3,Centre / Majorite,HUM,29.1
+v3,Centre / Majorite,MOR,20.9
+v3,Centre / Majorite,DIP,11.9
+v3,Centre / Majorite,LEG,4.03
+v3,Centre / Majorite,HIS,2.96
+v3,Centre / Majorite,ECO,0.4
+v3,Centre / Majorite,POL,0.07
+v3,Centre / Majorite,EDU,0.07
+v3,Droite,SEC,44.81
+v3,Droite,MOR,34.1
+v3,Droite,HUM,11.05
+v3,Droite,HIS,4.47
+v3,Droite,DIP,2.71
+v3,Droite,LEG,1.56
+v3,Droite,ECO,1.29
+v4,Gauche radicale,HUM,64.39
+v4,Gauche radicale,DIP,17.96
+v4,Gauche radicale,IND,10.82
+v4,Gauche radicale,SEC,1.76
+v4,Gauche radicale,SOL,1.62
+v4,Gauche radicale,LEG,1.56
+v4,Gauche radicale,SOLIDARITY,0.67
+v4,Gauche radicale,POL,0.39
+v4,Gauche radicale,SOC,0.39
+v4,Gauche radicale,NEUTRAL,0.17
+v4,Gauche radicale,DEF,0.08
+v4,Gauche radicale,CULT,0.06
+v4,Gauche radicale,MOR,0.03
+v4,Gauche radicale,SOC_POL,0.03
+v4,Gauche radicale,NEU,0.03
+v4,Gauche radicale,SOLID,0.03
+v4,Gauche radicale,INDIGNATION,0.03
+v4,Gauche moderee,HUM,54.71
+v4,Gauche moderee,DIP,34.24
+v4,Gauche moderee,IND,4.17
+v4,Gauche moderee,SEC,2.9
+v4,Gauche moderee,LEG,1.81
+v4,Gauche moderee,SOC,1.09
+v4,Gauche moderee,SOL,0.36
+v4,Gauche moderee,NEUTRAL,0.18
+v4,Gauche moderee,SOLIDARITY,0.18
+v4,Gauche moderee,MOR,0.18
+v4,Gauche moderee,CULT,0.18
+v4,Centre / Majorite,SEC,40.46
+v4,Centre / Majorite,DIP,39.37
+v4,Centre / Majorite,HUM,16.14
+v4,Centre / Majorite,IND,1.2
+v4,Centre / Majorite,SOC,1.09
+v4,Centre / Majorite,NEUTRAL,0.55
+v4,Centre / Majorite,POL,0.33
+v4,Centre / Majorite,SOL,0.22
+v4,Centre / Majorite,SOLIDARITY,0.22
+v4,Centre / Majorite,MOR,0.11
+v4,Centre / Majorite,NEU,0.11
+v4,Centre / Majorite,SUPPORT,0.11
+v4,Centre / Majorite,EDU,0.11
+v4,Droite,SEC,81.76
+v4,Droite,DIP,10.59
+v4,Droite,HUM,5.06
+v4,Droite,IND,1.06
+v4,Droite,POL,0.59
+v4,Droite,SOC,0.35
+v4,Droite,SOL,0.12
+v4,Droite,NEU,0.12
+v4,Droite,MEM,0.12
+v4,Droite,ETH,0.12
+v4,Droite,IDENTITY,0.12

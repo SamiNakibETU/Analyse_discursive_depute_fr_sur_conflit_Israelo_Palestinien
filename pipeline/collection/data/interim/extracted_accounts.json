@@ -1,0 +1,2274 @@
+{
+  "extracted_at": "2025-10-20T14:31:42.777Z",
+  "source": "twitter_account_deputé.html",
+  "validated_accounts": [
+    {
+      "depute_name": "Mme Nadège Abomangoli",
+      "validated_username": "abomangoli",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Laurent Alexandre",
+      "validated_username": "laualexandre12",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-José Allemand",
+      "validated_username": "franckallisio",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Franck Allisio",
+      "validated_username": "gabrielamard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Gabriel Amard",
+      "validated_username": "maximeamblard5",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Maxime Amblard",
+      "validated_username": "amiel_david_",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. David Amiel",
+      "validated_username": "segoleneamiot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Ségolène Amiot",
+      "validated_username": "pouriaamirshahi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pouria Amirshahi",
+      "validated_username": "arenasrodrigo_",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Rodrigo Arenas",
+      "validated_username": "arnaultraphael",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Raphaël Arnault",
+      "validated_username": "gabrielattal",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Gabriel Attal",
+      "validated_username": "clem_autain",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Clémentine Autain",
+      "validated_username": "javiragnet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Joël Aviragnet",
+      "validated_username": "erwanbalanant",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Erwan Balanant",
+      "validated_username": "ballardphilippe",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Ballard",
+      "validated_username": "bannier_g",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Géraldine Bannier",
+      "validated_username": "chrisbapt",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christian Baptiste",
+      "validated_username": "michelbarnier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Michel Barnier",
+      "validated_username": "fbarusseau",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Barthès",
+      "validated_username": "delphinebatho",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Fabrice Barusseau",
+      "validated_username": "thibault_bazin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Delphine Batho",
+      "validated_username": "beaurainjose",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-Noëlle Battistel",
+      "validated_username": "b_belhaddad",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thibault Bazin",
+      "validated_username": "beabellamy85",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Valérie Bazin-Malgras",
+      "validated_username": "lisabelluco",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. José Beaurain",
+      "validated_username": "belouassaanais",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Belkhir Belhaddad",
+      "validated_username": "benbrahim_k",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Béatrice Bellamy",
+      "validated_username": "thierrybenoit35",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Lisa Belluco",
+      "validated_username": "bentzchristophe",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Anaïs Belouassa-Cherifi",
+      "validated_username": "jd_berger",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Karim Benbrahim",
+      "validated_username": "ugobernalicis",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thierry Benoit",
+      "validated_username": "th_bnrdt",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Bentz",
+      "validated_username": "sy_berrios",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Didier Berger",
+      "validated_username": "herveberville",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Ugo Bernalicis",
+      "validated_username": "veroniquebesse",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Théo Bernhardt",
+      "validated_username": "christophebex",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sylvain Berrios",
+      "validated_username": "guillaume_bigot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Hervé Berville",
+      "validated_username": "brunobilde",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Véronique Besse",
+      "validated_username": "bilongocarlos",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Bex",
+      "validated_username": "blairyemmanuel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Guillaume Bigot",
+      "validated_username": "sblanc66000",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bruno Bilde",
+      "validated_username": "christoblanchet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Carlos Martens Bilongo",
+      "validated_username": "annelaureblin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Emmanuel Blairy",
+      "validated_username": "boccaletti83",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sophie Blanc",
+      "validated_username": "phbolo",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Blanchet",
+      "validated_username": "mbompard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Anne-Laure Blin",
+      "validated_username": "pbonnecarrere81",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Frédéric Boccaletti",
+      "validated_username": "nicolasbonnet63",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Bolo",
+      "validated_username": "sylviebonnet_42",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Manuel Bompard",
+      "validated_username": "bonnivarde",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Bonnecarrère",
+      "validated_username": "ebothorel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Nicolas Bonnet",
+      "validated_username": "ianboucard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sylvie Bonnet",
+      "validated_username": "antboulogne54",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Émilie Bonnivard",
+      "validated_username": "mickaelbouloux",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Éric Bothorel",
+      "validated_username": "manon_bouquin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Ian Boucard",
+      "validated_username": "s_bourouaha",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Anthony Boulogne",
+      "validated_username": "jorysb3",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Mickaël Bouloux",
+      "validated_username": "louisboyard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Manon Bouquin",
+      "validated_username": "yaelbraunpivet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Soumya Bourouaha",
+      "validated_username": "bretonxavier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bertrand Bouyx",
+      "validated_username": "bbrocard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jorys Bovet",
+      "validated_username": "dbrulebois",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Louis Boyard",
+      "validated_username": "fabricebrun",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Michel Brard",
+      "validated_username": "p_brun",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Yaël Braun-Pivet",
+      "validated_username": "stephanebuchou",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Xavier Breton",
+      "validated_username": "jerome_buisson",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Blandine Brocard",
+      "validated_username": "pycadalen",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Danielle Brulebois",
+      "validated_username": "celinecalvez",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Fabrice Brun",
+      "validated_username": "c_capdevielle",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Brun",
+      "validated_username": "caroiteleonore",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Stéphane Buchou",
+      "validated_username": "caronaymericoff",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jérôme Buisson",
+      "validated_username": "sylv20carriere",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pierre-Yves Cadalen",
+      "validated_username": "castellani_",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Céline Calvez",
+      "validated_username": "gabriellecthl",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Colette Capdevielle",
+      "validated_username": "vincent_caure",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Eléonore Caroit",
+      "validated_username": "deputecausse",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aymeric Caron",
+      "validated_username": "t_cazenave",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sylvain Carrière",
+      "validated_username": "jrcazeneuve",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Michel Castellani",
+      "validated_username": "pierrecazeneuve",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Gabrielle Cathala",
+      "validated_username": "slappy_w",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Vincent Caure",
+      "validated_username": "sebchenu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Lionel Causse",
+      "validated_username": "sochik75",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thomas Cazenave",
+      "validated_username": "christophe_p",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-René Cazeneuve",
+      "validated_username": "x.com",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pierre Cazeneuve",
+      "validated_username": "chudeaur",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bérenger Cernon",
+      "validated_username": "eciotti",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Cyrielle Chatelain",
+      "validated_username": "brunoclavet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sébastien Chenu",
+      "validated_username": "hadrienclouet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sophia Chikirou",
+      "validated_username": "nathcogg",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Paul Christophe",
+      "validated_username": "ncolin_oesterle",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Paul Christophle",
+      "validated_username": "pacolombani",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Roger Chudeau",
+      "validated_username": "ccolombier_rn",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Éric Ciotti",
+      "validated_username": "ericcoquerel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bruno Clavet",
+      "validated_username": "alexiscorbiere",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Hadrien Clouet",
+      "validated_username": "cordierpierre08",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nathalie Coggia",
+      "validated_username": "fcbdeputeducher",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nathalie Colin-Oesterlé",
+      "validated_username": "jfcoulomme",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Paul-André Colombani",
+      "validated_username": "pierrickcourbon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Caroline Colombier",
+      "validated_username": "croizierlaurent",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Éric Coquerel",
+      "validated_username": "c_dintorni",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Alexis Corbière",
+      "validated_username": "nathcarvalho91",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pierre Cordier",
+      "validated_username": "darrieussecq",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. François Cormier-Bouligeon",
+      "validated_username": "romaindaubie",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-François Coulomme",
+      "validated_username": "hendrik_davi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pierrick Courbon",
+      "validated_username": "arthurdelaporte",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Laurent Croizier",
+      "validated_username": "sdelautrette",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Christelle D'Intorni",
+      "validated_username": "sebastiendelogu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nathalie Da Conceicao Carvalho",
+      "validated_username": "juliedelpech72",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-Christine Dalloz",
+      "validated_username": "vincentdescoeur",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Geneviève Darrieussecq",
+      "validated_username": "jocelyndessigny",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Romain Daubié",
+      "validated_username": "fabiendifilippo",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Hendrik Davi",
+      "validated_username": "diaz_edwige",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Arthur Delaporte",
+      "validated_username": "alydiouara",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Stéphane Delautrette",
+      "validated_username": "benjamindirx",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sébastien Delogu",
+      "validated_username": "juliendive",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Julie Delpech",
+      "validated_username": "f_dombrecoste",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Vincent Descoeur",
+      "validated_username": "nicoledubre17",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jocelyn Dessigny",
+      "validated_username": "dubymuller",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Fabien Di Filippo",
+      "validated_username": "peioizate",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Edwige Diaz",
+      "validated_username": "alma_dufour",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aly Diouara",
+      "validated_username": "emmduplessy",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Benjamin Dirx",
+      "validated_username": "stelladupont",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Julien Dive",
+      "validated_username": "g_dussausaye",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Fanny Dombre Coste",
+      "validated_username": "a_dutremble",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Nicolas Dragon",
+      "validated_username": "inakiechaniz",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nicole Dubré-Chirat",
+      "validated_username": "karenerodi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Virginie Duby-Muller",
+      "validated_username": "romain eskenazi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Peio Dufau",
+      "validated_username": "au_evrard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Alma Dufour",
+      "validated_username": "olivierfalorni",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Emmanuel Duplessy",
+      "validated_username": "elsafaucillon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Stella Dupont",
+      "validated_username": "faureolivier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Gaëtan Dussausaye",
+      "validated_username": "yfavennec",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Dutremble",
+      "validated_username": "olivierfayssat",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Inaki Echaniz",
+      "validated_username": "emmanfernandes",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Karen Erodi",
+      "validated_username": "marina_ferrari",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Romain Eskenazi",
+      "validated_username": "ferrersylvie11",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Auguste Evrard",
+      "validated_username": "agnesfirmin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Olivier Falorni",
+      "validated_username": "marcdefleurian",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Elsa Faucillon",
+      "validated_username": "n_forissier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Olivier Faure",
+      "validated_username": "e_fouquart",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Yannick Favennec-Bécot",
+      "validated_username": "cfourniereelv",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Olivier Fayssat",
+      "validated_username": "thierry_frappe",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Emmanuel Fernandes",
+      "validated_username": "martinefrogeran",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marina Ferrari",
+      "validated_username": "bruno_fuchs",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sylvie Ferrer",
+      "validated_username": "jean_lucfugit",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Agnès Firmin Le Bodo",
+      "validated_username": "juliengabarron",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Marc de Fleurian",
+      "validated_username": "mc_garin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Nicolas Forissier",
+      "validated_username": "guillaumegarot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Emmanuel Fouquart",
+      "validated_username": "tgassilloud",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Charles Fournier",
+      "validated_username": "agenetet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thierry Frappé",
+      "validated_username": "f_gernigon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Martine Froger",
+      "validated_username": "jonathangery_an",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bruno Fuchs",
+      "validated_username": "frankgiletti",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Luc Fugit",
+      "validated_username": "yoanngillet30",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Julien Gabarron",
+      "validated_username": "olgagivernet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Camille Galliard-Minier",
+      "validated_username": "o_charretgodard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-Charlotte Garin",
+      "validated_username": "phgosselin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Guillaume Garot",
+      "validated_username": "g_gouffierval",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thomas Gassilloud",
+      "validated_username": "x@florencegoulet4",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Anne Genetet",
+      "validated_username": "perrinegoulet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. François Gernigon",
+      "validated_username": "grangierge",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jonathan Gery",
+      "validated_username": "oliviagregoire",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Frank Giletti",
+      "validated_username": "justinegruet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Yoann Gillet",
+      "validated_username": "jeromeguedj",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Olga Givernet",
+      "validated_username": "clemence_guette",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Océane Godard",
+      "validated_username": "michelguiniot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Julien Gokel",
+      "validated_username": "guiraudind",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. José Gonzalez",
+      "validated_username": "jordan_guitton",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Gosselin",
+      "validated_username": "frantzgumbs",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Guillaume Gouffier Valente",
+      "validated_username": "daviddhabib",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Florence Goulet",
+      "validated_username": "aydahadi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Perrine Goulet",
+      "validated_username": "zahiahamdane",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Géraldine Grangier",
+      "validated_username": "marine_hamelet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Olivia Grégoire",
+      "validated_username": "henrietpierre",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Carles Grelier",
+      "validated_username": "michelherbillon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Monique Griseti",
+      "validated_username": "fleautey",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Justine Gruet",
+      "validated_username": "cathervieu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jérôme Guedj",
+      "validated_username": "celine_hervieu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Clémence Guetté",
+      "validated_username": "patrickhetzel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Michel Guiniot",
+      "validated_username": "mathildehignet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. David Guiraud",
+      "validated_username": "sachahoulie",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jordan Guitton",
+      "validated_username": "t_houssin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Frantz Gumbs",
+      "validated_username": "seb_humbert",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. David Habib",
+      "validated_username": "sebastienhuyghe",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Stéphane Hablot",
+      "validated_username": "iordanoff",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Ayda Hadizadeh",
+      "validated_username": "cisaacsibille",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Zahia Hamdane",
+      "validated_username": "ljacobelli",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marine Hamelet",
+      "validated_username": "j_m_jacques",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pierre Henriet",
+      "validated_username": "fjolivet36",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Michel Herbillon",
+      "validated_username": "alexisjollyrn",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Florence Herouin-Léautey",
+      "validated_username": "tiffany_joncour",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Catherine Hervieu",
+      "validated_username": "sandrinejossoan",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Céline Hervieu",
+      "validated_username": "flo_joubert",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Patrick Hetzel",
+      "validated_username": "philippejuvin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Mathilde Hignet",
+      "validated_username": "mkaramanli72",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sacha Houlié",
+      "validated_username": "guillaumekasba",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Timothée Houssin",
+      "validated_username": "loickervran18",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sébastien Humbert",
+      "validated_username": "klinkertbrigitt",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sébastien Huyghe",
+      "validated_username": "labaronnedaniel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jérémie Iordanoff",
+      "validated_username": "lachaudb",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Cyrille Isaac-Sibille",
+      "validated_username": "laernoes",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Laurent Jacobelli",
+      "validated_username": "ak_lahmar",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Michel Jacques",
+      "validated_username": "amelia_lkf",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pascal Jenft",
+      "validated_username": "helenelaportern",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. François Jolivet",
+      "validated_username": "platombe",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Alexis Jolly",
+      "validated_username": "didierlegac",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Tiffany Joncour",
+      "validated_username": "constancelegrip",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sandrine Josso",
+      "validated_username": "alehenanff",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Florence Joubert",
+      "validated_username": "nicolelepeih",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Juvin",
+      "validated_username": "mlp_officiel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marietta Karamanli",
+      "validated_username": "aleaument",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Guillaume Kasbarian",
+      "validated_username": "marielebec78",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Loïc Kervran",
+      "validated_username": "karinelebon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Brigitte Klinkert",
+      "validated_username": "leboucher_elise",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Daniel Labaronne",
+      "validated_username": "lebourgeois7610",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bastien Lachaud",
+      "validated_username": "jlechanteux",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Julie Laernoes",
+      "validated_username": "nadinelechon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Abdelkader Lahmar",
+      "validated_username": "aurelien_le_coq",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Amélia Lakrafi",
+      "validated_username": "vincentledoux59",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Hélène Laporte",
+      "validated_username": "legavrejerome",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Latombe",
+      "validated_username": "s_legrain",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Didier Le Gac",
+      "validated_username": "clairemlejeune",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Constance Le Grip",
+      "validated_username": "gisele_lelouis",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Anne Le Hénanff",
+      "validated_username": "didier_lemaire_",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nicole Le Peih",
+      "validated_username": "guillaumelepers",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marine Le Pen",
+      "validated_username": "h2lepinau",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Antoine Léaument",
+      "validated_username": "rolandlescure",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie Lebec",
+      "validated_username": "leseulg",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Karine Lebon",
+      "validated_username": "laurentlhardit",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Élise Leboucher",
+      "validated_username": "julien_limongi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Robert Le Bourgeois",
+      "validated_username": "delphlingemann",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pascal Lecamp",
+      "validated_username": "brigitte_liso",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Julie Lechanteux",
+      "validated_username": "lopezliguori",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nadine Lechon",
+      "validated_username": "francelorho",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Le Coq",
+      "validated_username": "phlottiaux",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Paul Lecoq",
+      "validated_username": "alexandreloubet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Vincent Ledoux",
+      "validated_username": "lise_magnier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jérôme Legavre",
+      "validated_username": "sylvainmaillard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sarah Legrain",
+      "validated_username": "frdric_maillot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Claire Lejeune",
+      "validated_username": "emaistre",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Gisèle Lelouis",
+      "validated_username": "hanane_mnsr",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Didier Lemaire",
+      "validated_username": "marchiomatthieu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Guillaume Lepers",
+      "validated_username": "b_marchive",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Hervé de Lépinau",
+      "validated_username": "mariondepute41",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Roland Lescure",
+      "validated_username": "marsaudsandra",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Gérard Leseul",
+      "validated_username": "sbastien_martin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Katiana Levavasseur",
+      "validated_username": "michlemartinez3",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Laurent Lhardit",
+      "validated_username": "denis_masseglia",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Julien Limongi",
+      "validated_username": "massonbryan",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Delphine Lingemann",
+      "validated_username": "jp_mattei",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Brigitte Liso",
+      "validated_username": "damienmaudt",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Lopez-Liguori",
+      "validated_username": "emmanuelmaurel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-France Lorho",
+      "validated_username": "mauvieuxkevin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Lottiaux",
+      "validated_username": "s_mazars",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Alexandre Loubet",
+      "validated_username": "nmeizonnet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Lise Magnier",
+      "validated_username": "graziemelchior",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sylvain Maillard",
+      "validated_username": "joellemelinrn",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Frédéric Maillot",
+      "validated_username": "yaelmenache",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Élisabeth de Maistre",
+      "validated_username": "thomas_mng",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Hanane Mansouri",
+      "validated_username": "ludovicmds",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Matthieu Marchio",
+      "validated_username": "estellemercier2",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bastien Marchive",
+      "validated_username": "mariemesmeur",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Marion",
+      "validated_username": "nicolasmetzdorf",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sandra Marsaud",
+      "validated_username": "manonmeunier_up",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Sébastien Martin",
+      "validated_username": "meurin_p",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Éric Martineau",
+      "validated_username": "maxime_michelet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Michèle Martinez",
+      "validated_username": "midy_paul",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Denis Masséglia",
+      "validated_username": "laure_miller",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bryan Masson",
+      "validated_username": "paul_molac",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Paul Mattei",
+      "validated_username": "serge_muller24",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Damien Maudet",
+      "validated_username": "naegelenchris",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Emmanuel Maurel",
+      "validated_username": "jeromenury",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Kévin Mauvieux",
+      "validated_username": "deputee_obono",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Stéphane Mazars",
+      "validated_username": "julienodoul",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Nicolas Meizonnet",
+      "validated_username": "karlolive",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Graziella Melchior",
+      "validated_username": "hubertottalsace",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Joëlle Mélin",
+      "validated_username": "ozennejulie",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Yaël Ménaché",
+      "validated_username": "nathalieoziol",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thomas Ménagé",
+      "validated_username": "jimmypahun",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Ludovic Mendes",
+      "validated_username": "mathildepanot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Estelle Mercier",
+      "validated_username": "parmentier_rn",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie Mesmeur",
+      "validated_username": "ericpauget1",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Nicolas Metzdorf",
+      "validated_username": "marcpena_",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Manon Meunier",
+      "validated_username": "thierryperez43",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Pierre Meurin",
+      "validated_username": "maudpetit_an94",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Maxime Michelet",
+      "validated_username": "stephane1peu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Éric Michoux",
+      "validated_username": "k_pfeffer",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Paul Midy",
+      "validated_username": "pilatorene",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Laure Miller",
+      "validated_username": "frapiquemal",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Paul Molac",
+      "validated_username": "cpiresbeaune",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Louise Morel",
+      "validated_username": "beatricepiron",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Serge Muller",
+      "validated_username": "cplassard",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Naegelen",
+      "validated_username": "mariepochon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jérôme Nury",
+      "validated_username": "jfportarrieu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Danièle Obono",
+      "validated_username": "portes_thomas",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Julien Odoul",
+      "validated_username": "portier_a_",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Karl Olive",
+      "validated_username": "potierdominique",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Hubert Ott",
+      "validated_username": "josypoueyto",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Julie Ozenne",
+      "validated_username": "mapoussier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nathalie Oziol",
+      "validated_username": "npouzyreff78",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jimmy Pahun",
+      "validated_username": "aurelienpradie",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Laurent Panifous",
+      "validated_username": "chproenca",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sophie Panonacle",
+      "validated_username": "prudhommeloic",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Mathilde Panot",
+      "validated_username": "stephan1rambaud",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Caroline Parmentier",
+      "validated_username": "angelique_ranc",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Éric Pauget",
+      "validated_username": "j_rancoule",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Constance de Pélichy",
+      "validated_username": "deputeratenon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Marc Pena",
+      "validated_username": "jeanclauderaux",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thierry Perez",
+      "validated_username": "nicolasray03",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Christelle Petex",
+      "validated_username": "sandraregol",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Maud Petit",
+      "validated_username": "matthiasrn",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Stéphane Peu",
+      "validated_username": "sophievaginay",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Kévin Pfeffer",
+      "validated_username": "franckriester",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. René Pilato",
+      "validated_username": "cathrimbert84",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. François Piquemal",
+      "validated_username": "v_riotton",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Christine Pirès Beaune",
+      "validated_username": "stephanie_rist",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Béatrice Piron",
+      "validated_username": "rixainmp",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Plassard",
+      "validated_username": "xavierroseren",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie Pochon",
+      "validated_username": "claudia_rouaux",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-François Portarrieu",
+      "validated_username": "roullaudbeatric",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Thomas Portes",
+      "validated_username": "jlroumegas",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Alexandre Portier",
+      "validated_username": "aur_rousseau",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Dominique Potier",
+      "validated_username": "sandrousseau",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Josy Poueyto",
+      "validated_username": "rousselfabrice",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-Agnès Poussier-Winsback",
+      "validated_username": "francois_ruffin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Natalia Pouzyreff",
+      "validated_username": "sandrinerunel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Pradié",
+      "validated_username": "asabatou",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Christophe Proença",
+      "validated_username": "l_saintpaul",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Loïc Prud'homme",
+      "validated_username": "a_saintoul",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Stéphane Rambaud",
+      "validated_username": "emericsalmon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Angélique Ranc",
+      "validated_username": "isasantiago_94",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Julien Rancoule",
+      "validated_username": "_evasas",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Hugues Ratenon",
+      "validated_username": "hsaulignac",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Claude Raux",
+      "validated_username": "rscactu",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Nicolas Ray",
+      "validated_username": "ph_schreck",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sandra Regol",
+      "validated_username": "mikaeleseo",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Matthias Renault",
+      "validated_username": "sertinfreddy",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sophie Ricourt Vaginay",
+      "validated_username": "olivier_serva",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Franck Riester",
+      "validated_username": "arnosimion",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Catherine Rimbert",
+      "validated_username": "simonnetdeputee",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Véronique Riotton",
+      "validated_username": "csitzenstuhl",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Stéphanie Rist",
+      "validated_username": "bertrandsorre",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Joseph Rivière",
+      "validated_username": "ersiliasoudais",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Marie-Pierre Rixain",
+      "validated_username": "vspillebout",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Xavier Roseren",
+      "validated_username": "anne_stambach",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Valérie Rossi",
+      "validated_username": "mtabarot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Claudia Rouaux",
+      "validated_username": "aurelientache",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Béatrice Roullaud",
+      "validated_username": "jpierre_taite",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-Louis Roumégas",
+      "validated_username": "jphtanguy",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Rousseau",
+      "validated_username": "lilianatanguy",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sandrine Rousseau",
+      "validated_username": "davidtaupiac",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Fabrice Roussel",
+      "validated_username": "matthiastavel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Jean-François Rousset",
+      "validated_username": "tavernemichael",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. François Ruffin",
+      "validated_username": "boris_tavernier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Sandrine Runel",
+      "validated_username": "priscathevenot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Alexandre Sabatou",
+      "validated_username": "thiebaultceline",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Arnaud Saint-Martin",
+      "validated_username": "vincentthiebaut",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Laetitia Saint-Paul",
+      "validated_username": "jl_thieriot",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Saintoul",
+      "validated_username": "nthierry",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Emeric Salmon",
+      "validated_username": "sabinethillaye",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Nicole Sanquer",
+      "validated_username": "mel_thomin",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Isabelle Santiago",
+      "validated_username": "lionel_tivoli",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Eva Sas",
+      "validated_username": "sttravert",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Hervé Saulignac",
+      "validated_username": "vt_trebuchet",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Raphaël Schellenberger",
+      "validated_username": "trouveaurelie",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Philippe Schreck",
+      "validated_username": "turquoisnicolas",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Mikaele Seo",
+      "validated_username": "borisvallaud",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Freddy Sertin",
+      "validated_username": "fredvalletoux",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Olivier Serva",
+      "validated_username": "paulvannierfi",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Arnaud Simion",
+      "validated_username": "antoinevermorel",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Danielle Simonnet",
+      "validated_username": "vidal7602",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Charles Sitzenstuhl",
+      "validated_username": "j_pvigier",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Bertrand Sorre",
+      "validated_username": "corinnevignon",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Ersilia Soudais",
+      "validated_username": "villedieu_a",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Violette Spillebout",
+      "validated_username": "annececilevio",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Anne Stambach-Terrenoir",
+      "validated_username": "fredericvo79738",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "Mme Michèle Tabarot",
+      "validated_username": "ericwoerth",
+      "group": "Unknown",
+      "priority_score": 5
+    },
+    {
+      "depute_name": "M. Aurélien Taché",
+      "validated_username": "deputeeestelle",
+      "group": "Unknown",
+      "priority_score": 5
+    }
+  ]
+}

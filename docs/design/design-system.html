@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Editorial Dataviz Design System</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111;--bg:#fff;--rule:#D4D0CA;--mute:#888;--accent:#E8413C}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#fff;color:#111;font-family:'Barlow',sans-serif;-webkit-font-smoothing:antialiased}
+.page{max-width:960px;margin:0 auto;padding:80px 40px 200px}
+
+/* HEADER */
+.ds-header{padding-bottom:64px;border-bottom:0.5px solid #111}
+.ds-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--mute);margin-bottom:20px}
+.ds-title{font-family:'Barlow Condensed',sans-serif;font-size:56px;font-weight:700;line-height:.9;letter-spacing:-.025em;margin-bottom:20px}
+.ds-title span{color:var(--accent)}
+.ds-sub{font-size:11px;color:var(--mute);line-height:1.7;max-width:540px;margin-bottom:32px}
+.ds-meta{font-family:'Courier Prime',monospace;font-size:9px;color:var(--rule);letter-spacing:.04em}
+
+/* NAVIGATION */
+.ds-nav{display:flex;gap:0;margin-top:32px;border-top:0.3px solid var(--rule);padding-top:16px;flex-wrap:wrap}
+.ds-nav a{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--mute);text-decoration:none;margin-right:28px;text-transform:uppercase}
+.ds-nav a:hover{color:var(--ink)}
+
+/* SECTIONS */
+.section{margin-top:120px;padding-top:32px;border-top:0.5px solid var(--rule)}
+.section-num{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--accent);margin-bottom:8px}
+.section-title{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.015em;margin-bottom:6px}
+.section-desc{font-size:10px;color:var(--mute);line-height:1.7;max-width:620px;margin-bottom:40px}
+
+/* TABLES */
+table{width:100%;border-collapse:collapse;margin-top:16px}
+th{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);padding:8px 12px;border-bottom:0.5px solid var(--ink);text-align:left}
+td{font-size:10px;padding:8px 12px;border-bottom:0.3px solid var(--rule);vertical-align:top;line-height:1.5}
+td code{font-family:'Courier Prime',monospace;font-size:9px;background:#FAFAF8;padding:1px 4px}
+tr:hover td{background:#FAFAF8}
+
+/* SWATCHES */
+.swatch-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:24px}
+.swatch{display:flex;flex-direction:column}
+.swatch-color{height:56px;margin-bottom:8px}
+.swatch-name{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:.04em;margin-bottom:2px}
+.swatch-hex{font-family:'Courier Prime',monospace;font-size:8px;color:var(--mute)}
+.swatch-role{font-size:7px;color:var(--rule);margin-top:3px;line-height:1.4}
+
+/* CATEGORY RAMP */
+.ramp{display:flex;margin-top:20px;height:36px}
+.ramp-cell{flex:1;display:flex;align-items:center;justify-content:center;font-family:'Courier Prime',monospace;font-size:9px}
+
+/* TYPE SPECIMENS */
+.type-specimen{padding:20px 0;border-bottom:0.3px solid var(--rule);display:grid;grid-template-columns:160px 1fr 200px;align-items:baseline;gap:24px}
+.type-role{font-family:'Courier Prime',monospace;font-size:8px;color:var(--mute)}
+.type-spec{font-size:8px;color:var(--rule);line-height:1.5}
+
+/* LINE DEMOS */
+.line-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:24px}
+.line-demo{padding:16px 0 8px}
+.line-label{font-family:'Courier Prime',monospace;font-size:8px;color:var(--mute);margin-top:8px}
+
+/* CHART VOCAB */
+.vocab-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;margin-top:20px}
+.vocab-cell{background:#FAFAF8;padding:16px 12px;text-align:center;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.vocab-num{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.1em}
+.vocab-name{font-size:8px;color:var(--mute);line-height:1.4}
+.vocab-rule{font-size:7px;color:var(--rule);line-height:1.4;font-style:italic}
+
+/* RULES */
+.rule-block{margin-top:24px}
+.rule-item{display:grid;grid-template-columns:24px 1fr;gap:12px;padding:10px 0;border-bottom:0.3px solid var(--rule);font-size:10px;line-height:1.6}
+.rule-icon{color:var(--accent);font-size:6px;padding-top:5px;font-family:'Barlow Condensed',sans-serif}
+.rule-bad{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:20px}
+.rule-col{}
+.rule-col-title{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em;margin-bottom:12px}
+.rule-bad-item,.rule-good-item{font-size:9px;padding:8px 0;border-bottom:0.3px solid var(--rule);line-height:1.5}
+.rule-bad-item::before{content:'❌ ';font-size:8px}
+.rule-good-item::before{content:'✓ ';color:var(--accent)}
+
+/* PICTO SPECS */
+.picto-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:24px}
+.picto-cell{border:0.3px solid var(--rule);padding:16px 12px;text-align:center}
+.picto-area{height:48px;display:flex;align-items:center;justify-content:center;margin-bottom:8px}
+.picto-id{font-family:'Courier Prime',monospace;font-size:9px;color:var(--accent);margin-bottom:4px}
+.picto-desc{font-size:7px;color:var(--mute);line-height:1.4}
+
+/* PLANCHE ANATOMY */
+.planche-demo{border:0.5px solid var(--rule);margin-top:24px;font-size:9px}
+.planche-hd{display:flex;justify-content:space-between;align-items:baseline;padding:12px 16px;border-bottom:0.3px solid var(--rule)}
+.planche-num{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.1em}
+.planche-sec{font-size:7.5px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.planche-title{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;letter-spacing:-.015em;padding:10px 16px 4px}
+.planche-desc{font-size:9px;color:var(--mute);padding:0 16px 12px;line-height:1.6;border-bottom:0.3px solid var(--rule)}
+.planche-chart{background:#FAFAF8;padding:32px 16px;text-align:center;color:var(--rule);font-family:'Courier Prime',monospace;font-size:9px;border-bottom:0.3px solid var(--rule)}
+.planche-ft{display:flex;justify-content:space-between;padding:8px 16px;font-size:7.5px;color:var(--mute)}
+.planche-ft-src{font-style:italic}
+.planche-ft-note{font-family:'Courier Prime',monospace;font-size:7px;text-align:right}
+
+/* CHECKLIST */
+.checklist{margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:0}
+.check-item{display:flex;gap:10px;padding:9px 0;border-bottom:0.3px solid var(--rule);font-size:9px;line-height:1.5}
+.check-box{width:12px;height:12px;border:0.5px solid var(--rule);flex-shrink:0;margin-top:1px}
+
+/* CODE BLOCK */
+pre{background:#111;color:#F5F0EB;font-family:'Courier Prime',monospace;font-size:9px;line-height:1.7;padding:20px;margin-top:16px;overflow-x:auto}
+pre .c{color:#888}
+pre .s{color:#E8413C}
+pre .k{color:#D4D0CA}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- HEADER -->
+<header class="ds-header" id="top">
+  <div class="ds-eyebrow">DESIGN SYSTEM · DATAVIZ ÉDITORIALE</div>
+  <h1 class="ds-title">Style<br><span>Grootens</span><br>Swiss / Dutch</h1>
+  <p class="ds-sub">Un système graphique pour publications de dataviz éditoriale. Pas de dashboard, pas de rapport de consultant. Un objet qui se lit comme un livre, dessiné comme un atlas néerlandais.</p>
+  <div class="ds-meta">VERSION 1.0 · MARS 2026 · RÉFÉRENCES : JOOST GROOTENS, CATALOGTREE, CLEVER°FRANKE</div>
+  <nav class="ds-nav">
+    <a href="#palette">Palette</a>
+    <a href="#typo">Typographie</a>
+    <a href="#grille">Grille</a>
+    <a href="#elements">Éléments</a>
+    <a href="#lecture">Lecture</a>
+    <a href="#pictos">Pictogrammes</a>
+    <a href="#editorial">Éditorial</a>
+    <a href="#tokens">Tokens</a>
+    <a href="#checklist">Checklist</a>
+  </nav>
+</header>
+
+
+<!-- 1. PALETTE -->
+<section class="section" id="palette">
+  <div class="section-num">01</div>
+  <h2 class="section-title">Palette</h2>
+  <p class="section-desc">Quatre tokens structurels, invariants. Un seul accent par publication. Les fills de fond n'excèdent jamais 0.20 d'opacité. Pas d'arc-en-ciel.</p>
+
+  <div class="swatch-grid">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#111"></div>
+      <div class="swatch-name">INK</div>
+      <div class="swatch-hex">#111111</div>
+      <div class="swatch-role">Texte, lignes, structures</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#fff;border:1px solid #D4D0CA"></div>
+      <div class="swatch-name">BG</div>
+      <div class="swatch-hex">#FFFFFF</div>
+      <div class="swatch-role">Fond. Toujours blanc pur.</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#E8413C"></div>
+      <div class="swatch-name">ACCENT</div>
+      <div class="swatch-hex">#E8413C</div>
+      <div class="swatch-role">Une seule couleur vive. Données actives.</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#D4D0CA"></div>
+      <div class="swatch-name">RULE</div>
+      <div class="swatch-hex">#D4D0CA</div>
+      <div class="swatch-role">Filets, hachures, grille</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#888"></div>
+      <div class="swatch-name">MUTE</div>
+      <div class="swatch-hex">#888888</div>
+      <div class="swatch-role">Métadonnées, annotations 2°</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F5F0EB"></div>
+      <div class="swatch-name">REF</div>
+      <div class="swatch-hex">#F5F0EB</div>
+      <div class="swatch-role">Fond cercle de référence</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F2B5B0"></div>
+      <div class="swatch-name">FILL-A</div>
+      <div class="swatch-hex">#F2B5B0</div>
+      <div class="swatch-role">Fill léger pôle A (op. 0.10)</div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#F5D54F"></div>
+      <div class="swatch-name">FILL-B</div>
+      <div class="swatch-hex">#F5D54F</div>
+      <div class="swatch-role">Marqueurs événements (op. 0.15)</div>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;margin-top:48px;margin-bottom:8px;letter-spacing:.02em">Rampe catégorielle — rouge → gris</h3>
+  <p style="font-size:9px;color:var(--mute);margin-bottom:16px;line-height:1.6">Pour N catégories : dégradé monochrome depuis l'accent. Le rouge = catégorie la plus saillante analytiquement. Le gris = résiduel. Jamais un arc-en-ciel.</p>
+  <div class="ramp">
+    <div class="ramp-cell" style="background:#E8413C;color:#fff">Cat. 1</div>
+    <div class="ramp-cell" style="background:#222;color:#fff">Cat. 2</div>
+    <div class="ramp-cell" style="background:#888;color:#fff">Cat. 3</div>
+    <div class="ramp-cell" style="background:#AAA;color:#111">Cat. 4</div>
+    <div class="ramp-cell" style="background:#CCC;color:#111">Cat. 5</div>
+    <div class="ramp-cell" style="background:#E5E2DD;color:#111">Cat. 6+</div>
+  </div>
+  <p style="font-size:7.5px;color:var(--rule);margin-top:8px;font-family:'Courier Prime',monospace">Texte blanc sur fond foncé (cat. 1–2) · Texte noir sur fond clair (cat. 3+)</p>
+</section>
+
+
+<!-- 2. TYPOGRAPHIE -->
+<section class="section" id="typo">
+  <div class="section-num">02</div>
+  <h2 class="section-title">Typographie</h2>
+  <p class="section-desc">Trois fontes, trois rôles, aucune tolérance de substitution. Barlow Condensed = structure et autorité. Barlow = lisibilité. Courier Prime = données et verbatim.</p>
+
+  <div class="type-specimen" style="border-top:0.5px solid var(--ink)">
+    <span class="type-role">Titre principal</span>
+    <span style="font-family:'Barlow Condensed',sans-serif;font-size:44px;font-weight:700;line-height:.9;letter-spacing:-.02em">Titre de publication</span>
+    <span class="type-spec">Barlow Condensed 700<br>42–52px · −0.02em<br>Line-height 0.92</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Titre de planche</span>
+    <span style="font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:700;letter-spacing:-.015em">Titre analytique assertif</span>
+    <span class="type-spec">Barlow Condensed 700<br>26–32px · −0.015em</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Numéro de section</span>
+    <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;color:#E8413C">01</span>
+    <span class="type-spec">Barlow Condensed 700<br>11px · +0.10em · accent</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Label de catégorie</span>
+    <span style="font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:.06em">CAT-A</span>
+    <span class="type-spec">Barlow Condensed 700<br>11–13px · +0.06em</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Section uppercase</span>
+    <span style="font-size:7.5px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#888">NOM DE SECTION</span>
+    <span class="type-spec">Barlow 500 · 7.5px<br>+0.20em · mute</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Description méthode</span>
+    <span style="font-size:10px;color:#888;line-height:1.6">Chaque barre = 100 % · lecture : la valeur A représente 77 % contre 11 % pour B</span>
+    <span class="type-spec">Barlow 400 · 10px<br>mute · line-height 1.7</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Valeur principale</span>
+    <span style="font-family:'Courier Prime',monospace;font-size:14px;font-weight:700">+1.68</span>
+    <span class="type-spec">Courier Prime 700<br>12–14px · ink</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Valeur secondaire</span>
+    <span style="font-family:'Courier Prime',monospace;font-size:9px;color:#888">× 3.4 · p &lt; 0.01</span>
+    <span class="type-spec">Courier Prime 400<br>8–9px · mute</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Source / métadonnée</span>
+    <span style="font-size:7.5px;font-style:italic;color:#888">dataset.csv · v3 · 2026</span>
+    <span class="type-spec">Barlow italic 400<br>7–7.5px · mute</span>
+  </div>
+  <div class="type-specimen">
+    <span class="type-role">Note technique</span>
+    <span style="font-family:'Courier Prime',monospace;font-size:7px;color:#888">Méthode diff-in-diff ±30 j · * p &lt; 0.05 · ** p &lt; 0.01</span>
+    <span class="type-spec">Courier Prime 400<br>7px · mute</span>
+  </div>
+
+  <div style="margin-top:40px;padding:20px;background:#FAFAF8">
+    <p style="font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--accent);margin-bottom:12px">INTERDITS TYPOGRAPHIQUES</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+      <p style="font-size:9px;color:var(--mute);line-height:1.6;border-left:1px solid var(--accent);padding-left:12px">❌ IBM Plex Mono — connotation "outil dev"</p>
+      <p style="font-size:9px;color:var(--mute);line-height:1.6;border-left:1px solid var(--rule);padding-left:12px">❌ Inter / Roboto / Space Grotesk — générique IA</p>
+      <p style="font-size:9px;color:var(--mute);line-height:1.6;border-left:1px solid var(--rule);padding-left:12px">❌ Serif pour les données brutes</p>
+      <p style="font-size:9px;color:var(--mute);line-height:1.6;border-left:1px solid var(--rule);padding-left:12px">❌ Line-height > 1.6 dans les graphiques</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 3. GRILLE -->
+<section class="section" id="grille">
+  <div class="section-num">03</div>
+  <h2 class="section-title">Grille et anatomie d'une planche</h2>
+  <p class="section-desc">La planche est le module de base. Sa structure est invariante. L'ordre titre → description → graphique → footer ne se négocie pas.</p>
+
+  <div class="planche-demo">
+    <div class="planche-hd">
+      <span class="planche-num">01</span>
+      <span class="planche-sec">NOM DE SECTION</span>
+    </div>
+    <div class="planche-title">Titre analytique qui dit ce que la donnée prouve</div>
+    <div class="planche-desc">Description technique en langage clair · clé de lecture · pas de jargon sans explication · exemple : "chaque barre = 100 % du corpus d'une catégorie · la catégorie A représente 77 %"</div>
+    <div class="planche-chart">
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓<br>
+      ▓▓▓▓▓▓▓&nbsp;&nbsp;GRAPHIQUE SVG — pleine largeur&nbsp;&nbsp;▓▓▓▓▓▓▓<br>
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    </div>
+    <div class="planche-ft">
+      <span class="planche-ft-src">source.csv · version · année</span>
+      <span class="planche-ft-note">Note méthodologique · accord · p-value · méthode</span>
+    </div>
+  </div>
+
+  <table style="margin-top:32px">
+    <tr><th>Zone</th><th>CSS class</th><th>Espacement</th><th>Remarque</th></tr>
+    <tr><td>Numéro + section</td><td><code>.pl-hd</code></td><td>margin-bottom: 8px</td><td>Flex, space-between, align-items baseline</td></tr>
+    <tr><td>Titre de planche</td><td><code>.pl-title</code></td><td>margin-bottom: 5px</td><td>Barlow Condensed 700 28px</td></tr>
+    <tr><td>Description méthode</td><td><code>.pl-tech</code></td><td>margin-bottom: 36px</td><td>Barlow 400 10px mute</td></tr>
+    <tr><td>Graphique SVG</td><td><code>.chart</code></td><td>width: 100%</td><td>overflow: visible. Jamais comprimé.</td></tr>
+    <tr><td>Footer</td><td><code>.pl-ft</code></td><td>margin-top: 20px</td><td>Flex, space-between</td></tr>
+    <tr><td>Entre planches</td><td><code>.pl</code></td><td>margin-top: 180px</td><td>Espace blanc stratégique</td></tr>
+  </table>
+</section>
+
+
+<!-- 4. ELEMENTS -->
+<section class="section" id="elements">
+  <div class="section-num">04</div>
+  <h2 class="section-title">Éléments graphiques</h2>
+  <p class="section-desc">Chaque trait a une épaisseur précise. Chaque forme a une règle. Jamais plus de 3 épaisseurs dans un même graphique.</p>
+
+  <div class="line-grid">
+    <div class="line-demo">
+      <svg width="100%" height="1" viewBox="0 0 400 1"><line x1="0" y1="0.5" x2="400" y2="0.5" stroke="#111" stroke-width="0.5"/></svg>
+      <div class="line-label">Séparateur principal · ink · 0.5px · solide</div>
+    </div>
+    <div class="line-demo">
+      <svg width="100%" height="1" viewBox="0 0 400 1"><line x1="0" y1="0.5" x2="400" y2="0.5" stroke="#D4D0CA" stroke-width="0.3"/></svg>
+      <div class="line-label">Séparateur secondaire · rule · 0.3px · solide</div>
+    </div>
+    <div class="line-demo">
+      <svg width="100%" height="1" viewBox="0 0 400 1"><line x1="0" y1="0.5" x2="400" y2="0.5" stroke="#D4D0CA" stroke-width="0.3" stroke-dasharray="2,4"/></svg>
+      <div class="line-label">Référence / échelle · rule · 0.3px · dash 2,4</div>
+    </div>
+    <div class="line-demo">
+      <svg width="100%" height="1" viewBox="0 0 400 1"><line x1="0" y1="0.5" x2="400" y2="0.5" stroke="#888" stroke-width="0.4" stroke-dasharray="1,3"/></svg>
+      <div class="line-label">Tendance / moyenne µ · mute · 0.4px · dash 1,3</div>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;margin-top:48px;margin-bottom:20px">Formes et encodages visuels</h3>
+  <div class="vocab-grid">
+    <div class="vocab-cell">
+      <div class="vocab-num">A</div>
+      <svg width="80" height="28" viewBox="0 0 80 28"><rect x="0" y="4" width="56" height="20" fill="#E8413C"/><rect x="56" y="4" width="14" height="20" fill="#222"/><rect x="70" y="4" width="10" height="20" fill="#D4D0CA"/></svg>
+      <div class="vocab-name">Barres empilées 100%</div>
+      <div class="vocab-rule">Pas de border-radius · % dans le segment si ≥ 8px</div>
+    </div>
+    <div class="vocab-cell">
+      <div class="vocab-num">B</div>
+      <svg width="80" height="48" viewBox="0 0 80 48"><circle cx="24" cy="24" r="22" fill="#F5F0EB"/><circle cx="24" cy="24" r="22" fill="#E8413C"/><circle cx="62" cy="24" r="22" fill="#F5F0EB"/><circle cx="62" cy="24" r="10" fill="#E8413C"/></svg>
+      <div class="vocab-name">Cercles proportionnels</div>
+      <div class="vocab-rule">Fond beige = référence max · rouge = valeur · √ scaling</div>
+    </div>
+    <div class="vocab-cell">
+      <div class="vocab-num">C</div>
+      <svg width="80" height="48" viewBox="0 0 80 48"><rect x="0" y="0" width="80" height="24" fill="#E8413C" opacity="0.08"/><line x1="0" y1="24" x2="80" y2="24" stroke="#111" stroke-width="0.3"/><polyline points="0,12 20,8 40,18 60,4 80,10" fill="none" stroke="#111" stroke-width="1.4" stroke-linejoin="round"/><circle cx="60" cy="4" r="2.5" fill="#E8413C"/></svg>
+      <div class="vocab-name">Ligne + area</div>
+      <div class="vocab-rule">Ligne noire prime · area fill léger · point aux extremums</div>
+    </div>
+    <div class="vocab-cell">
+      <div class="vocab-num">D</div>
+      <svg width="80" height="48" viewBox="0 0 80 48"><defs><pattern id="h" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#D4D0CA" stroke-width="0.6"/></pattern></defs><line x1="0" y1="24" x2="80" y2="24" stroke="#D4D0CA" stroke-width="0.3"/><rect x="0" y="0" width="40" height="48" fill="url(#h)"/><rect x="52" y="4" width="10" height="20" fill="#E8413C"/><text x="57" y="2" text-anchor="middle" font-size="7" fill="#E8413C">▲</text><rect x="52" y="24" width="10" height="18" fill="#111"/><text x="57" y="48" text-anchor="middle" font-size="7" fill="#111">▼</text></svg>
+      <div class="vocab-name">Barres directionnelles</div>
+      <div class="vocab-rule">Rouge ▲ pôle positif · Noir ▼ pôle négatif · Hachures = non-significatif</div>
+    </div>
+    <div class="vocab-cell">
+      <div class="vocab-num">E</div>
+      <svg width="80" height="48" viewBox="0 0 80 48"><rect x="0" y="10" width="60" height="7" fill="#E8413C"/><rect x="0" y="26" width="36" height="7" fill="#E8413C" opacity="0.35"/><rect x="0" y="42" width="18" height="7" fill="#E8413C" opacity="0.35"/></svg>
+      <div class="vocab-name">Barres horizontales</div>
+      <div class="vocab-rule">Pleine = dominant · Atténuée (0.35) = secondaire</div>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;margin-top:48px;margin-bottom:16px">Marqueurs spéciaux</h3>
+  <table>
+    <tr><th>Marqueur</th><th>Unicode</th><th>Usage</th><th>Style</th></tr>
+    <tr><td>× Absence</td><td><code>U+00D7</code></td><td>Donnée non détectée / non applicable</td><td>Courier Prime 12px · rule · + "absent" en 7px</td></tr>
+    <tr><td>▲ Hausse</td><td><code>U+25B2</code></td><td>Valeur positive, déplacement vers le haut</td><td>6–8px · couleur de la barre · au bout de la barre</td></tr>
+    <tr><td>▼ Baisse</td><td><code>U+25BC</code></td><td>Valeur négative, déplacement vers le bas</td><td>6–8px · couleur de la barre · au bout de la barre</td></tr>
+    <tr><td>■ Catégorie</td><td><code>U+25A0</code></td><td>Marqueur dans un bandeau de légende</td><td>6px · couleur de la catégorie</td></tr>
+    <tr><td>µ Moyenne</td><td><code>U+03BC</code></td><td>Ligne de moyenne mobile dans un profil</td><td>Courier Prime 8px · rule · + valeur</td></tr>
+  </table>
+</section>
+
+
+<!-- 5. NIVEAUX DE LECTURE -->
+<section class="section" id="lecture">
+  <div class="section-num">05</div>
+  <h2 class="section-title">Niveaux de lecture</h2>
+  <p class="section-desc">Toute figure doit être lisible à 3 distances. Ce n'est pas optionnel : c'est la définition d'une bonne dataviz éditoriale.</p>
+
+  <table>
+    <tr><th>Distance</th><th>Ce que l'œil perçoit</th><th>Élément responsable</th></tr>
+    <tr><td><strong>Vue d'ensemble (2–3 m)</strong></td><td>La hiérarchie, la direction générale, le contraste</td><td>Grandes formes, couleur d'accent, composition SVG</td></tr>
+    <tr><td><strong>Lecture (40–60 cm)</strong></td><td>Les catégories, les tendances, les titres</td><td>Titres de planche, labels de blocs, lignes de force</td></tr>
+    <tr><td><strong>Étude (15–25 cm)</strong></td><td>Les valeurs exactes, la méthode, les nuances</td><td>Annotations Courier Prime, footer technique, ×, **, µ</td></tr>
+  </table>
+
+  <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;margin-top:40px;margin-bottom:16px">Annotations obligatoires par type</h3>
+  <table>
+    <tr><th>Type de graphique</th><th>Annotation minimum</th><th>Annotation expert</th></tr>
+    <tr><td>Barres empilées</td><td>% dans tout segment ≥ 8px · catégorie dominante à droite</td><td>% des petits segments au-dessus de la barre</td></tr>
+    <tr><td>Cercles proportionnels</td><td>Valeur numérique · multiplicateur ×N vs référence</td><td>Nombre d'éléments dans chaque groupe</td></tr>
+    <tr><td>Série temporelle</td><td>Valeur de fin (gras) · extremums (point + valeur)</td><td>Valeur de début (gris) · moyenne µ · étiquettes événements</td></tr>
+    <tr><td>Matrice de chocs</td><td>Valeur ± et significativité (* / **) · date</td><td>Valeur même si non-significatif (en gris dans hachures)</td></tr>
+    <tr><td>Barres horizontales</td><td>Valeur à droite · "dominant" sous la valeur max</td><td>× + "absent" pour les données manquantes</td></tr>
+  </table>
+</section>
+
+
+<!-- 6. PICTOGRAMMES -->
+<section class="section" id="pictos">
+  <div class="section-num">06</div>
+  <h2 class="section-title">Pictogrammes</h2>
+  <p class="section-desc">Les pictogrammes signalent le type de donnée, pas le sujet. Référence : silhouettes de bateaux et bâtiments dans Port City Atlas. Signalétique Aicher / Frutiger. Compris en 0.5 seconde.</p>
+
+  <table>
+    <tr><th>Règle</th><th>Valeur</th></tr>
+    <tr><td>Grille de dessin</td><td><code>14 × 14 unités</code> — viewBox 0 0 14 14</td></tr>
+    <tr><td>Taille d'affichage</td><td>12–16px selon contexte</td></tr>
+    <tr><td>Épaisseur de trait</td><td><code>stroke-width: 1.2</code> — jamais plus, jamais moins</td></tr>
+    <tr><td>Terminaison de trait</td><td><code>stroke-linecap: round · stroke-linejoin: round</code></td></tr>
+    <tr><td>Fill par défaut</td><td><code>none</code> — fill seulement pour éléments pleins intentionnels</td></tr>
+    <tr><td>Couleur</td><td><code>ink</code> (#111) ou <code>mute</code> (#888) — jamais accent</td></tr>
+    <tr><td>Cohérence de famille</td><td>Tous les pictogrammes d'une publication ont le même poids optique</td></tr>
+  </table>
+
+  <div class="picto-grid">
+    <div class="picto-cell">
+      <div class="picto-area">
+        <svg width="28" height="28" viewBox="0 0 14 14" fill="none" stroke="#111" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="1" width="3.5" height="3.5"/><rect x="5.25" y="1" width="3.5" height="3.5"/><rect x="9.5" y="1" width="3.5" height="3.5"/>
+          <rect x="1" y="5.25" width="3.5" height="3.5"/><rect x="5.25" y="5.25" width="3.5" height="3.5" fill="#111"/><rect x="9.5" y="5.25" width="3.5" height="3.5"/>
+          <rect x="1" y="9.5" width="3.5" height="3.5"/><rect x="5.25" y="9.5" width="3.5" height="3.5"/><rect x="9.5" y="9.5" width="3.5" height="3.5"/>
+        </svg>
+      </div>
+      <div class="picto-id">grid</div>
+      <div class="picto-desc">Matrice / classification thématique</div>
+    </div>
+    <div class="picto-cell">
+      <div class="picto-area">
+        <svg width="28" height="28" viewBox="0 0 14 14" fill="none" stroke="#111" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 1h6l3 3v9H3V1z"/><polyline points="9,1 9,4 12,4"/>
+          <line x1="5" y1="6.5" x2="10" y2="6.5"/><line x1="5" y1="8.5" x2="10" y2="8.5"/><line x1="5" y1="10.5" x2="8" y2="10.5"/>
+        </svg>
+      </div>
+      <div class="picto-id">doc</div>
+      <div class="picto-desc">Document / texte / rapport</div>
+    </div>
+    <div class="picto-cell">
+      <div class="picto-area">
+        <svg width="28" height="28" viewBox="0 0 14 14" fill="none" stroke="#111" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M1 2h12v8H7.5L5 13v-3H1V2z"/>
+          <line x1="3.5" y1="5" x2="10.5" y2="5"/><line x1="3.5" y1="7.5" x2="8" y2="7.5"/>
+        </svg>
+      </div>
+      <div class="picto-id">message</div>
+      <div class="picto-desc">Message / post / publication</div>
+    </div>
+    <div class="picto-cell">
+      <div class="picto-area">
+        <svg width="28" height="28" viewBox="0 0 14 14" fill="none" stroke="#111" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="1" y1="9" x2="13" y2="9"/>
+          <polyline points="1,7 3.5,4 6.5,8 9.5,2 13,5"/>
+          <circle cx="9.5" cy="2" r="1.2" fill="#111" stroke="none"/>
+          <circle cx="3.5" cy="4" r="1" stroke="#111"/>
+        </svg>
+      </div>
+      <div class="picto-id">timeline</div>
+      <div class="picto-desc">Trajectoire temporelle</div>
+    </div>
+    <div class="picto-cell">
+      <div class="picto-area">
+        <svg width="28" height="28" viewBox="0 0 14 14" fill="#111" stroke="none">
+          <path d="M8 1L4 6.5h3.2L5.5 13l6-7.5H8.5L10 1z"/>
+        </svg>
+      </div>
+      <div class="picto-id">impact</div>
+      <div class="picto-desc">Choc / événement / rupture</div>
+    </div>
+    <div class="picto-cell">
+      <div class="picto-area">
+        <svg width="28" height="28" viewBox="0 0 14 14" fill="none" stroke="#111" stroke-width="1.2" stroke-linecap="round">
+          <circle cx="7" cy="6.5" r="5.5"/>
+          <line x1="4.5" y1="5" x2="5.5" y2="5"/><line x1="8.5" y1="5" x2="9.5" y2="5"/>
+          <path d="M4.5 8.5Q7 11 9.5 8.5"/>
+        </svg>
+      </div>
+      <div class="picto-id">emotion</div>
+      <div class="picto-desc">Registre émotionnel / humain</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 7. EDITORIAL -->
+<section class="section" id="editorial">
+  <div class="section-num">07</div>
+  <h2 class="section-title">Règles éditoriales</h2>
+  <p class="section-desc">La rigueur graphique ne suffit pas. Le texte doit avoir la même autorité que les formes.</p>
+
+  <div class="rule-bad">
+    <div class="rule-col">
+      <div class="rule-col-title" style="color:var(--mute)">❌ À éviter</div>
+      <div class="rule-bad-item">Distribution des cadres discursifs par bloc politique</div>
+      <div class="rule-bad-item">Évolution temporelle du score de stance sur 26 mois</div>
+      <div class="rule-bad-item">Comparaison des volumes de production entre groupes</div>
+      <div class="rule-bad-item">Matrice des effets d'événements sur le positionnement</div>
+    </div>
+    <div class="rule-col">
+      <div class="rule-col-title" style="color:var(--accent)">✓ À viser</div>
+      <div class="rule-good-item">La gauche parle souffrance. La droite parle sécurité.</div>
+      <div class="rule-good-item">Les positions sont figées. Seul le Centre hésite.</div>
+      <div class="rule-good-item">Groupe A monopolise : 4× plus de textes, 6× plus de posts</div>
+      <div class="rule-good-item">Le Centre réagit à tout. Le Groupe B ne bouge pas.</div>
+    </div>
+  </div>
+
+  <div class="rule-block" style="margin-top:40px">
+    <div class="rule-item"><span class="rule-icon">■</span><span>Tout code court (G.RAD, E1, A, B…) est accompagné de son <strong>nom complet</strong> au moins une fois dans la figure.</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>Les événements portent toujours : <strong>code + nom complet + date</strong> (ex : E1 · Ordonnance CIJ · 26 jan. 2024).</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>Les données absentes sont signalées : <strong>× + "absent"</strong>. Jamais un blanc vide non expliqué.</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>L'absence est une information. Les cellules non-significatives restent visibles (hachures + valeur en gris).</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>La direction analytique est toujours annotée en texte. La couleur seule ne suffit pas.</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>La légende est <strong>intégrée au graphique</strong>. Pas de légende flottante séparée qui force un aller-retour oculaire.</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>Le bandeau de codage (légende globale) est défini <strong>une seule fois</strong> en haut de publication. Pas répété.</span></div>
+    <div class="rule-item"><span class="rule-icon">■</span><span>La description technique est une <strong>clé de lecture</strong>, pas une définition de variable.</span></div>
+  </div>
+</section>
+
+
+<!-- 8. TOKENS -->
+<section class="section" id="tokens">
+  <div class="section-num">08</div>
+  <h2 class="section-title">Tokens d'implémentation</h2>
+  <p class="section-desc">CSS et JavaScript. À adapter par projet (couleur d'accent, largeur, fills).</p>
+
+<pre><span class="c">/* CSS custom properties */</span>
+<span class="k">:root</span> {
+  <span class="s">--ink</span>:    #111111;  <span class="c">/* texte et structures */</span>
+  <span class="s">--bg</span>:     #FFFFFF;  <span class="c">/* fond, toujours blanc */</span>
+  <span class="s">--rule</span>:   #D4D0CA;  <span class="c">/* filets et grille */</span>
+  <span class="s">--mute</span>:   #888888;  <span class="c">/* annotations secondaires */</span>
+  <span class="s">--accent</span>: #E8413C;  <span class="c">/* adapter par projet */</span>
+}</pre>
+
+<pre><span class="c">/* D3.js — objet C (Color + Config) */</span>
+<span class="k">const</span> C = {
+  ink:    <span class="s">'#111'</span>,
+  bg:     <span class="s">'#fff'</span>,
+  rule:   <span class="s">'#D4D0CA'</span>,
+  mute:   <span class="s">'#888'</span>,
+  accent: <span class="s">'#E8413C'</span>,    <span class="c">// adapter par projet</span>
+  fill1:  <span class="s">'#F2B5B0'</span>,    <span class="c">// fill pôle A (opacity 0.08–0.12)</span>
+  fill2:  <span class="s">'#F5D54F'</span>,    <span class="c">// fill événements (opacity 0.15)</span>
+  ref:    <span class="s">'#F5F0EB'</span>,    <span class="c">// fond cercle de référence</span>
+  fc: <span class="s">'"Barlow Condensed", sans-serif'</span>,
+  fb: <span class="s">'"Barlow", sans-serif'</span>,
+  fd: <span class="s">'"Courier Prime", monospace'</span>,
+  W:  880                   <span class="c">// adapter au conteneur</span>
+};
+
+<span class="c">/* Fonctions utilitaires SVG */</span>
+<span class="k">function</span> hr(s, x1, x2, y, w, c)  <span class="c">// ligne horizontale</span>
+<span class="k">function</span> vr(s, x, y1, y2, c)     <span class="c">// ligne verticale</span>
+<span class="k">function</span> label(s, x, y, t, opts) <span class="c">// texte Barlow</span>
+<span class="k">function</span> val(s, x, y, t, opts)   <span class="c">// texte Courier Prime</span>
+<span class="k">function</span> picto(s, x, y, type, sz, col) <span class="c">// pictogramme SVG</span>
+<span class="k">function</span> mkSVG(id, W, H)         <span class="c">// SVG D3 + pattern hachures</span></pre>
+</section>
+
+
+<!-- 9. CHECKLIST -->
+<section class="section" id="checklist">
+  <div class="section-num">09</div>
+  <h2 class="section-title">Checklist de livraison</h2>
+  <p class="section-desc">À valider avant de considérer une planche terminée.</p>
+
+  <div class="checklist">
+    <div class="check-item"><span class="check-box"></span><span>Le titre dit ce que la donnée <strong>prouve</strong>, pas ce qu'elle montre</span></div>
+    <div class="check-item"><span class="check-box"></span><span>La description technique donne une clé de lecture immédiate</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Chaque code court est accompagné de son nom complet</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Les données absentes sont signalées (×, hachures, gris)</span></div>
+    <div class="check-item"><span class="check-box"></span><span>La légende est intégrée au graphique</span></div>
+    <div class="check-item"><span class="check-box"></span><span>La direction analytique est annotée en texte, pas seulement en couleur</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Les valeurs sont lisibles à 3 distances (vue, lecture, étude)</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Pas de border-radius sur les barres</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Pas de drop shadow ni d'animation</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Pas plus de 3 épaisseurs de trait dans un même graphique</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Fond blanc pur (#FFFFFF)</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Une seule couleur d'accent (pas deux)</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Pas d'arc-en-ciel de couleurs pour les catégories</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Chaque chart utilise un vocabulaire visuel distinct</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Les pictogrammes ont le même poids optique à 14px</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Pas de fonte par défaut (Inter, Roboto, system-ui)</span></div>
+  </div>
+</section>
+
+<footer style="margin-top:120px;padding-top:24px;border-top:0.5px solid var(--rule);display:flex;justify-content:space-between;align-items:baseline">
+  <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em">DESIGN SYSTEM · STYLE GROOTENS</span>
+  <span style="font-family:'Courier Prime',monospace;font-size:8px;color:var(--mute)">V1.0 · MARS 2026 · NON DÉFINITIF</span>
+</footer>
+
+</div>
+</body>
+</html>

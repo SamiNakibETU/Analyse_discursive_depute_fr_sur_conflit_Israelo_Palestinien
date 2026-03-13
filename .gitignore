@@ -1,0 +1,100 @@
+# ------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------------
+# Environments / secrets
+# ------------------------------------------------------------------
+.env
+.Env
+.venv/
+venv/
+
+# ------------------------------------------------------------------
+# Node / frontend
+# ------------------------------------------------------------------
+node_modules/
+dist/
+
+# ------------------------------------------------------------------
+# Generated caches / logs
+# ------------------------------------------------------------------
+.cache/
+.claude/
+logs/
+*.log
+pipeline/collection/logs/
+
+# ------------------------------------------------------------------
+# Large generated data (keep curated CSV/JSON tracked explicitly)
+# ------------------------------------------------------------------
+data/raw/
+data/interim/
+data/processed/
+data/analysis/
+figures/
+*.parquet
+*.feather
+
+pipeline/collection/data/raw/
+pipeline/collection/data/interim/
+pipeline/collection/data/processed/
+pipeline/annotation/data/raw/
+pipeline/annotation/data/consolidated/
+pipeline/annotation/data/filtered/
+pipeline/annotation/data/annotated/predictions/
+pipeline/annotation/outputs/bertopic_model
+pipeline/annotation/outputs/bertopic_model_v2/
+pipeline/annotation/outputs/*.jsonl
+site/data/raw/
+site/data/interim/
+site/data/processed/
+site/data/analysis/
+
+# Fonts lourdes (mattone, etc.)
+analysis/DATA_VIZ_Article/font/
+
+# ------------------------------------------------------------------
+# Legacy archives and local tooling
+# ------------------------------------------------------------------
+archive/
+
+# ------------------------------------------------------------------
+# AI / éditeur
+# ------------------------------------------------------------------
+.cursor/
+agent-transcripts/
+
+# ------------------------------------------------------------------
+# AI / Cursor (ne pas pousser sur GitHub)
+# ------------------------------------------------------------------
+AGENTS.md
+.cursor/
+
+# ------------------------------------------------------------------
+# Windows reserved names
+# ------------------------------------------------------------------
+**/nul
+**/nul.*
+**/CON
+**/PRN
+
+# ------------------------------------------------------------------
+# Windows reserved names
+# ------------------------------------------------------------------
+**/nul
+**/NUL
+
+# ------------------------------------------------------------------
+# IDE / OS
+# ------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

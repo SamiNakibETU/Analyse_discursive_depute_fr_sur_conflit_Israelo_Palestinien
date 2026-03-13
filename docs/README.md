@@ -1,0 +1,9 @@
+# Documentation
+
+| Dossier | Contenu |
+|---------|---------|
+| `migration/` | MIGRATION_PLAN, REPO_STRUCTURE_PROPOSED, FILES_TO_ARCHIVE, PATHS_TO_UPDATE |
+| `naming/` | NAMING_AUDIT, NAMING_CONVENTION, RENAME_MAPPING |
+| `traceability/` | PIPELINE_TRACEABILITY, FIGURE_TRACEABILITY_MATRIX |
+| `workspace/` | CANONICAL_ARTIFACTS, WORKSPACE_AUDIT, CLEANUP_REPORT, ARCHIVE_INDEX |
+| `design/` | design-system.html, PROMPT_PICTOGRAMMES |

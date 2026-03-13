@@ -1,0 +1,23 @@
+============================================================
+RAPPORT VALIDATION HUMAINE vs LLM
+============================================================
+Cohen's Kappa : 1.000
+  (>= 0.4 : accord modere ; >= 0.6 : bon accord)
+Spearman rho : 1.000 (p = 0.0)
+Accord exact : 100.0 %
+Accord a +/-1 point : 100.0 %
+
+Biais par bloc (mean(LLM - humain)) :
+  Gauche radicale : 0.000
+  Droite : 0.000
+  Gauche moderee : 0.000
+  Centre / Majorite : 0.000
+
+Matrice de confusion (lignes=humain, colonnes=LLM) :
+LLM     -2  -1   0   1   2
+humain                    
+-2       8   0   0   0   0
+-1       0  39   0   0   0
+ 0       0   0   5   0   0
+ 1       0   0   0  25   0
+ 2       0   0   0   0  72

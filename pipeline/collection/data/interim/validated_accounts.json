@@ -1,0 +1,109 @@
+{
+  "validated_at": "2025-10-19T22:42:45.069Z",
+  "progress": "20/89",
+  "validated_count": 0,
+  "failed_count": 20,
+  "validated_accounts": [],
+  "failed_searches": [
+    {
+      "depute_name": "Élisa Martin",
+      "group": "LFI",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Jean-Noël Barrot",
+      "group": "MODEM",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Sabrina Sebaihi",
+      "group": "ECO-NFP",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Benjamin Haddad",
+      "group": "REN",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Mme Chrysoula Zacharopoulou",
+      "group": null,
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Jean-Paul Lecoq",
+      "group": "GDR",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Catherine Couturier",
+      "group": "LFI",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Pieyre-Alexandre Anglade",
+      "group": "EPR",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Laurence Maillart-Méhaignerie",
+      "group": "REN",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Frédéric Petit",
+      "group": "DEM",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Pr?sidence de s?ance",
+      "group": "Pr?sidence",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Laurent Marcangeli",
+      "group": "HOR",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Arnaud Le Gall",
+      "group": "LFI-NFP",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Olivier Becht",
+      "group": "EPR",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Jean-Louis Bourlanges",
+      "group": "MODEM",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Benjamin Saint-Huile",
+      "group": "LIOT",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "André Chassaigne",
+      "group": "GDR",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Bertrand Pancher",
+      "group": "LIOT",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Marcellin Nadeau",
+      "group": "GDR",
+      "reason": "Aucun candidat trouvé"
+    },
+    {
+      "depute_name": "Aurore Bergé",
+      "group": "REN",
+      "reason": "Aucun candidat trouvé"
+    }
+  ]
+}

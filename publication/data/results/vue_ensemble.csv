@@ -1,0 +1,5 @@
+﻿bloc,n_textes,pct_corpus,n_deputes,textes_par_depute,n_twitter,n_an,ratio_tw_an,stance_v3_moyen,stance_v3_std,confidence_v3_moy,engagement_median_tw
+Gauche radicale,6838,63.47,138,49.6,6227,611,10.19,1.574,0.849,0.924,372.0
+Gauche moderee,971,9.01,67,14.5,814,157,5.18,0.926,0.95,0.88,113.5
+Centre / Majorite,1489,13.82,130,11.5,944,545,1.73,-0.769,0.95,0.868,61.5
+Droite,1476,13.7,124,11.9,1150,326,3.53,-1.378,0.73,0.897,63.0

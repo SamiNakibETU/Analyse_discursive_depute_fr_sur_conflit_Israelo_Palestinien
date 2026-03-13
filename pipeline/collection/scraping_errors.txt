@@ -1,0 +1,7 @@
+
+❌ ERREUR FATALE: ConnectionClosedError: Connection closed.
+    at Connection._rawSend (D:\Users\Proprietaire\Desktop\Projet_perso\Projets\Revirement_politique_fr_gaza\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:97:35)
+    at Connection.send (D:\Users\Proprietaire\Desktop\Projet_perso\Projets\Revirement_politique_fr_gaza\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Connection.js:90:21)
+    at CdpPage.close (D:\Users\Proprietaire\Desktop\Projet_perso\Projets\Revirement_politique_fr_gaza\node_modules\puppeteer-core\lib\cjs\puppeteer\cdp\Page.js:856:34)
+    at async scrapeMonthForDepute (D:\Users\Proprietaire\Desktop\Projet_perso\Projets\Revirement_politique_fr_gaza\final\scripts\scrape_nitter_search_monthly.js:234:15)
+    at async main (D:\Users\Proprietaire\Desktop\Projet_perso\Projets\Revirement_politique_fr_gaza\final\scripts\scrape_nitter_search_monthly.js:391:22)
