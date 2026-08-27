@@ -149,4 +149,124 @@ Angles d'articles entièrement couverts par ce qui reste :
 
 ---
 
+## 6. Rapport entre les deux dépôts
+
+**R2 n'est pas un autre projet : c'est `R1/publication/` extrait en dépôt autonome, plus les figures.**
+
+`diff -rq R1/publication/data/results R2/data/results` ne renvoie **rien** : les 39 CSV sont identiques octet pour octet.
+Seuls diffèrent quatre fichiers de documentation (`README.md`, `data/README.md`, `COMPTE_RENDU_RESULTATS.md`, `METHODOLOGIE.md`)
+et `src/config.py`. R2 contient en plus `figures/` (80 PNG) et `reports/figures/` (88 PNG) — précisément ce que R1 a perdu.
+
+Il existe en revanche **deux moteurs d'analyse distincts**, et c'est là que se joue la difficulté :
+
+| | Moteur `publication` (= R2) | Moteur `analysis` (R1) |
+|---|---|---|
+| Script | `src/analyses_supplementaires.py`, `build_analyses_extended.py` | `scripts/run_analysis.py` (1 600 l.) |
+| Notebooks | 4 (01–04) | 13 (01–13) |
+| Tables produites | 39 CSV | 39 CSV |
+| Figures | 88 PNG conservés | perdues, régénérables |
+| Spécialité | variables v4 (conditionality, targets, key_demands, ceasefire_type, trajectoires individuelles, arc narratif) | métriques avancées (Wasserstein, VAD, fondements moraux, polarisation entropique, dimensionnalité effective, PCA, NER, Mann-Kendall) |
+
+Ces deux jeux de 39 CSV **ne se recouvrent que sur 15 noms de fichiers**. Les 48 autres sont complémentaires,
+d'où les 63 tables uniques.
+
+---
+
+## 7. Concordance des 15 tables partagées
+
+Comparaison valeur à valeur (tolérance 0,01).
+
+### 7.1 Concordantes — 9 tables
+
+| Table | Valeurs comparées | Écarts |
+|---|---|---|
+| `stance_mensuel` | 112 | 0 |
+| `volume_mensuel` | 112 | 0 |
+| `attrition_mensuelle` | 28 | 0 |
+| `ceasefire_call_batch_bloc` | 28 | 0 |
+| `frames_par_bloc` | 4 blocs × frames | 0 |
+| `emotional_register` | 4 blocs × registres | 0 |
+| `stance_panel_vs_complet` | 4 | 0 |
+| `panel_b4` | 44 députés | ensembles identiques |
+| `emotional_register_v4` | — | identique octet pour octet |
+
+Les différences de `cmp` sur ces fichiers sont **de forme uniquement** : large vs long, arrondi vs pleine précision, BOM.
+
+### 7.2 Contradictoires — 6 tables
+
+Même nom de fichier, mesure différente. À ne pas citer sans préciser la source.
+
+| Table | Moteur `analysis` | Moteur `publication` | Nature de l'écart |
+|---|---|---|---|
+| `event_impact_diff_in_diff` | 3 événements, 1 variable, 12 lignes | 6 événements, 2 variables, 48 lignes | **Dates d'événement différentes** (Rafah 07/05 vs 28/05 ; cessez-le-feu 15/01 vs 19/01) et conclusions divergentes |
+| `cosine_distance_mensuelle` | plage 0,086–0,557 (moy. 0,257) | plage 0,642–0,990 (moy. 0,867) | Vectorisations différentes ; corrélation des deux séries Gauche radicale ↔ Droite : **r = 0,66** seulement |
+| `polarisation_index` | colonnes `dist`, `wd_mean` | colonnes `variance_inter_blocs`, `cosine_dist_mean` | Indices sans rapport |
+| `convergence_batch_bloc` | pct sur 7 batchs (Centre 79,5 % en CEASEFIRE_BREACH) | variable v4 `transpartisan_convergence`, NEW_OFFENSIVE seul (Centre 30,3 %) | Deux définitions de « convergence » |
+| `fighting_words` | log-odds global, 25 700 mots (`hamas` z = −34,9 ; `gaza` z = +25,5) | log-odds par batch, 18 611 lignes (`gaza` z = +5,66) | Scores z non comparables |
+| `variables_batch_specifiques` | stance moyen par batch (7 l.) | pct de variable par batch × bloc (72 l.) | Tables sans rapport |
+
+### 7.3 Le cas de l'ordonnance CIJ
+
+Illustration de ce que coûte le §7.2 :
+
+| Source | Δ stance Centre / Majorité | p | Verdict |
+|---|---|---|---|
+| `analysis` (coupure 2024-01-26) | −0,103 | 0,339 | non significatif |
+| `publication` (coupure 2024-01-26) | −0,436 | 0,018 | significatif * |
+
+Même événement, même date de coupure, même bloc — résultats opposés, donc fenêtres avant/après ou filtres différents.
+**Le claim « le Centre bascule à l'ordonnance CIJ » ne tient que dans une des deux spécifications.**
+Tant que la fenêtre n'est pas tranchée et documentée, il ne doit pas être publié.
+
+---
+
+## 8. Volume total des données disponibles
+
+| Catégorie | Volume |
+|---|---|
+| Tables de résultats | **78 fichiers, 74 796 lignes** (63 noms uniques ; les doublons de nom sont les 15 du §7) |
+| Figures PNG rendues | **88 uniques** (R2) + 60 embarquées dans les notebooks R1 |
+| Textes bruts uniques | **4 755** — voir détail ci-dessous |
+| Notebooks | 13 (R1 `analysis`) + 4 (publication) + ~15 (pipeline) |
+| Lexiques | NRC-VAD complet, MFD, marqueurs de stance pro-israélien / pro-palestinien |
+
+Détail des textes bruts survivants (dédoublonnés sur le texte normalisé) :
+
+| Source | Textes uniques |
+|---|---|
+| `interventions_gaza_final.csv` (AN, juil. 2022 – juin 2024) | 3 925 |
+| `corpus_to_annotate.csv` | 697 |
+| `tweets_to_annotate.csv` | 497 |
+| `annotation_v2.csv` / `annotation_corpus.csv` | 449 chacun |
+| `interventions_to_annotate.csv` | 200 |
+| `sample_150.csv` | 148 |
+| **Union dédoublonnée** | **4 755** |
+
+Attention : les 3 925 interventions AN sont un **sur-ensemble non filtré** (2022–2024), pas les 1 639 textes AN
+du corpus final. Le recouvrement avec le corpus publié est donc partiel.
+
+---
+
+## 9. Classement des résultats par solidité
+
+**Solides — deux moteurs indépendants, valeurs identiques.** Publiables tels quels.
+Composition du corpus (10 774 textes, 459 députés, répartition par bloc) · stance mensuel par bloc sur 28 mois ·
+attrition (211 → 34 députés actifs) · cadres discursifs (HUM 77,2 % à gauche radicale, SEC 44,8 % à droite) ·
+registres émotionnels (indignation 63,7 % / défiance 41,2 %) · appels au cessez-le-feu par batch ·
+biais du panel B4 (Centre −0,389).
+
+**Uniques mais non contredits.** Publiables en nommant la source et la spécification.
+Côté `analysis` : Wasserstein, VAD, fondements moraux, polarisation entropique, dimensionnalité effective, PCA,
+NER cibles, Mann-Kendall, lag d'adoption, régression delta stance, movers cachés, intensité délibérative.
+Côté `publication` : conditionnalité, cibles primaires, demandes clés, trajectoires individuelles,
+variance intra-bloc, cohérence Twitter/AN, arc narratif, régression Twitter vs AN, accord v3/v4 (ρ = 0,86).
+
+**Contredits — à trancher avant publication.**
+Diff-in-diff événementiel · distance cosinus et indice de polarisation · convergence transpartisane ·
+fighting words · variables par batch. Voir §7.2.
+
+**Invalide.** Validation humaine (κ = 1,000). Voir §3.1.
+
+---
+
 *Audit établi le 27 août 2026.*
