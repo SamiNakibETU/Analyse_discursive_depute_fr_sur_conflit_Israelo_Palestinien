@@ -1,0 +1,441 @@
+<title>Gaza dans l'hémicycle</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:ital,wght@0,400;0,500;1,400&family=Courier+Prime:wght@400;700&display=swap">
+<style>
+  :root{
+    --ink:#111111; --bg:#FFFFFF; --rule:#D4D0CA; --mute:#888888; --accent:#E8413C;
+    --accent-fill:rgba(232,65,60,0.12); --ink-soft:#222222; --grey:#AAAAAA; --grey-light:#CCCCCC; --beige:#E5E2DD;
+    --cond:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+    --body:"Barlow","Helvetica Neue",Arial,sans-serif;
+    --mono:"Courier Prime","Courier New",monospace;
+  }
+  html{color-scheme:light only}
+  body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0;-webkit-font-smoothing:antialiased}
+  .page{max-width:880px;margin:0 auto;padding:96px 24px 180px}
+  h1,h2,h3{font-family:var(--cond);font-weight:700;text-wrap:balance;margin:0}
+  h1{font-size:clamp(40px,7vw,60px);line-height:.98;letter-spacing:-.02em}
+  h2{font-size:30px;line-height:1.08;letter-spacing:-.015em}
+  p{margin:0;max-width:640px}
+  .eyebrow{font-family:var(--cond);font-weight:700;font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:var(--accent)}
+  .section{font-family:var(--body);font-weight:500;font-size:9px;letter-spacing:.20em;text-transform:uppercase;color:var(--mute)}
+  .kicker{font-family:var(--cond);font-weight:500;font-size:22px;line-height:1.25;letter-spacing:-.005em;max-width:720px;margin-top:22px}
+  .meta{font-family:var(--body);font-style:italic;font-size:11px;letter-spacing:.03em;color:var(--mute);margin-top:28px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:34px}
+  header .topline{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:22px}
+  .these{margin-top:56px;display:grid;grid-template-columns:1fr 2fr;gap:28px;align-items:start}
+  .these .label{font-family:var(--cond);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding-top:6px}
+  .these p{font-size:17px;line-height:1.5;max-width:none}
+  .these p + p{margin-top:14px}
+  .planche{margin-top:150px}
+  .planche .head{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--ink);padding-top:10px;margin-bottom:8px}
+  .planche h2{margin-bottom:6px}
+  .planche .method{font-size:12px;color:var(--mute);max-width:640px;line-height:1.45}
+  .planche .body{margin-top:26px;display:grid;gap:14px}
+  .planche .body p{max-width:640px}
+  figure{margin:34px 0 0}
+  figure svg{display:block;width:100%;height:auto;overflow:visible}
+  figcaption{display:flex;justify-content:space-between;gap:24px;margin-top:10px;font-size:10px;color:var(--mute);border-top:1px solid var(--rule);padding-top:8px}
+  figcaption .src{font-family:var(--mono);font-style:normal}
+  figcaption .note{font-style:italic;max-width:420px;text-align:right}
+  table{border-collapse:collapse;width:100%;max-width:640px;margin-top:18px;font-size:13px}
+  th{font-family:var(--cond);font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;text-align:left;color:var(--mute);border-bottom:1px solid var(--ink);padding:6px 10px 6px 0;vertical-align:bottom}
+  td{border-bottom:1px solid var(--rule);padding:7px 10px 7px 0;vertical-align:top}
+  td.n,th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+  td.n b{color:var(--accent);font-weight:700}
+  .tablewrap{overflow-x:auto}
+  .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .big{font-family:var(--mono);font-weight:700;color:var(--accent)}
+  .synth{margin-top:150px;border-top:2px solid var(--ink);padding-top:14px}
+  .synth ol{padding-left:22px;margin:22px 0 0;max-width:640px;display:grid;gap:10px}
+  .synth ol li::marker{font-family:var(--mono);color:var(--accent);font-weight:700}
+  .articles{margin-top:110px}
+  .articles .row{display:grid;grid-template-columns:36px 1fr 1.2fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  .articles .row:first-of-type{border-top:1px solid var(--ink)}
+  .articles .row .k{font-family:var(--mono);font-weight:700;color:var(--accent)}
+  .articles .row .t{font-family:var(--cond);font-weight:700;font-size:20px;letter-spacing:-.01em;line-height:1.1}
+  .articles .row .d{font-size:12.5px;color:var(--mute);line-height:1.4}
+  .limits{margin-top:110px;border-top:1px solid var(--ink);padding-top:14px}
+  .limits ul{margin:18px 0 0;padding-left:18px;max-width:640px;display:grid;gap:8px;font-size:13.5px}
+  footer{margin-top:120px;font-size:10px;color:var(--mute);font-style:italic;border-top:1px solid var(--rule);padding-top:10px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  .legend{display:flex;gap:18px;font-family:var(--cond);font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px}
+  .legend span::before{content:"";display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:7px;background:var(--ink)}
+  .legend span.a::before{background:var(--accent)}
+  .legend span.g::before{background:var(--grey)}
+  @media (max-width:640px){ .these{grid-template-columns:1fr} .articles .row{grid-template-columns:28px 1fr} .articles .row .d{grid-column:2} }
+  @media (prefers-reduced-motion:no-preference){ .planche{scroll-margin-top:24px} }
+</style>
+
+<div class="page">
+<header>
+  <div class="topline"><span class="eyebrow">Analyse discursive · Assemblée nationale et X · oct. 2023 – janv. 2026</span><span class="section">78 tables · 10 774 textes · 459 députés</span></div>
+  <h1>Gaza dans l'hémicycle : une polarisation sans dynamique</h1>
+  <p class="kicker">Vingt-huit mois de guerre, sept événements majeurs, et aucun des quatre blocs de l'Assemblée n'a changé de position. Ce qui a changé, ce sont les mots, le nombre de gens qui parlent, et l'usage intérieur du conflit.</p>
+  <p class="meta">Sami Nakib · septembre 2026 · lecture d'ensemble des résultats agrégés, à destination d'un lectorat non spécialiste</p>
+</header>
+
+<section class="these">
+  <div class="label">La thèse</div>
+  <div>
+    <p>Le 7 octobre n'a pas divisé l'Assemblée nationale. Il a révélé une division qui préexistait, et il l'a figée. Les positions de janvier 2026 sont celles d'octobre 2023, à un centième près.</p>
+    <p>Ce qui bouge, c'est autre chose : la gauche passe de la demande à la sentence, la droite convertit Gaza en argument électoral contre LFI, et un groupe de plus en plus réduit de députés occupe toute la scène, sous un mécanisme de récompense qui punit la nuance d'un facteur deux à sept.</p>
+  </div>
+</section>
+
+<!-- 01 -->
+<section class="planche" id="p1">
+  <div class="head"><span class="eyebrow">01</span><span class="section">Décomposition de variance</span></div>
+  <h2>La loi de l'étiquette : le bloc explique 61 %, le temps 1 %</h2>
+  <p class="method">Analyse de variance sur 5 905 textes annotés. Position de −2 (défense d'Israël) à +2 (soutien à la Palestine). Facteurs : bloc, fenêtre événementielle, arène, interaction bloc × fenêtre.</p>
+  <figure><svg id="f-anova" viewBox="0 0 880 150"></svg>
+    <figcaption><span class="src">anova_type2.csv · mann_kendall_bloc.csv</span><span class="note">Somme des carrés type II rapportée au total. Mann-Kendall par bloc sur 28 mois : aucune tendance, p entre 0,16 et 0,52.</span></figcaption></figure>
+  <div class="body">
+    <p>Pour prédire ce qu'un député dit de Gaza, il suffit de connaître son groupe. Deux ans d'histoire, avec l'ordonnance de la CIJ, Rafah, la mort de Sinwar, les mandats de la CPI, un cessez-le-feu et sa rupture, pèsent <span class="num">1,1 %</span>. Que le texte soit un tweet ou un discours en séance pèse <span class="num">0,08 %</span>.</p>
+    <p>Le test de tendance appliqué bloc par bloc ne détecte rien nulle part. Les positions d'octobre 2023 sont celles de janvier 2026.</p>
+  </div>
+</section>
+
+<!-- 02 -->
+<section class="planche" id="p2">
+  <div class="head"><span class="eyebrow">02</span><span class="section">Concentration de la parole</span></div>
+  <h2>L'Assemblée ne parle pas de Gaza. Vingt députés en parlent.</h2>
+  <p class="method">Part cumulée du corpus produite par les N députés les plus prolifiques, sur 501 auteurs. Coefficient de Gini de la distribution : 0,78.</p>
+  <figure><svg id="f-conc" viewBox="0 0 880 250"></svg>
+    <figcaption><span class="src">trajectoires_individuelles.csv</span><span class="note">Le député médian a produit 4 textes en 28 mois. 296 députés sur 501 en ont produit 5 ou moins.</span></figcaption></figure>
+  <div class="body">
+    <p>Un seul député, Aymeric Caron, signe <span class="num">7,4 %</span> de tout ce que l'Assemblée a dit de Gaza. Avec Thomas Portes, ils en signent <span class="num">13,4 %</span>. Les vingt premiers, près de la moitié.</p>
+    <p>Le panel retenu pour les analyses longitudinales le montre autrement : 42 députés de la gauche radicale y produisent 6 069 textes, soit <span class="num">56 %</span> du corpus. Ce que l'on appelle « le débat parlementaire sur Gaza » est l'activité d'un petit groupe de spécialistes-militants. Le reste de l'hémicycle se tait.</p>
+  </div>
+</section>
+
+<!-- 03 -->
+<section class="planche" id="p3">
+  <div class="head"><span class="eyebrow">03</span><span class="section">Visibilité et position</span></div>
+  <h2>Le silence a une couleur</h2>
+  <p class="method">Députés du panel classés en cinq quintiles de visibilité (engagement reçu). Position moyenne par quintile, de −2 à +2.</p>
+  <figure><svg id="f-vis" viewBox="0 0 880 200"></svg>
+    <figcaption><span class="src">visibility_paradox_quintiles.csv · activity_bias_by_bloc.csv</span><span class="note">Tweets par député actif : gauche radicale 122,1 ; gauche modérée 35,4 ; droite 19,8 ; centre 16,9.</span></figcaption></figure>
+  <div class="body">
+    <p>Ceux qu'on entend sont à gauche ; ceux qui se taisent sont au centre et à droite. Un député de la gauche radicale tweete sept fois plus sur le sujet qu'un député du Centre.</p>
+    <p>D'où un effet d'optique : <span class="num">63 %</span> des textes viennent de la gauche radicale, qui ne représente que <span class="num">30 %</span> des députés du corpus. L'impression d'une Assemblée pro-palestinienne est un effet de volume, pas de majorité.</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section class="planche" id="p4">
+  <div class="head"><span class="eyebrow">04</span><span class="section">Fighting words</span></div>
+  <h2>Deux noms propres : la gauche nomme un lieu, la droite nomme un coupable</h2>
+  <p class="method">Score log-odds mensuel distinguant le vocabulaire de gauche (positif) de celui de droite (négatif), pour les deux mots les plus discriminants du corpus. 27 mois.</p>
+  <figure>
+    <div class="legend"><span class="a">« gaza »</span><span>« hamas »</span></div>
+    <svg id="f-words" viewBox="0 0 880 300"></svg>
+    <figcaption><span class="src">fighting_words_temporal.csv</span><span class="note">Sans une seule exception sur 27 mois, « Hamas » est du côté droit et « Gaza » du côté gauche de la ligne zéro.</span></figcaption></figure>
+  <div class="body">
+    <p>Un lieu, donc des habitants, donc des victimes. Un acteur, donc un coupable. Ce n'est pas un désaccord sur la réponse à une question commune : c'est un désaccord sur la question posée.</p>
+    <p>Les cadres confirment. Le cadre humanitaire domine <span class="num">77 %</span> des textes de la gauche radicale ; le cadre sécuritaire, <span class="num">45 %</span> de ceux de la droite. Les cibles aussi : la gauche radicale vise Israël dans 61 % de ses textes et le Hamas dans 2 % ; la droite vise le Hamas dans 36 % et Israël dans 15 %. Le Centre est le seul bloc dont les cibles s'équilibrent (Hamas 32 %, Israël 22,5 %) : le seul qui essaie de répondre aux deux questions.</p>
+  </div>
+</section>
+
+<!-- 05 -->
+<section class="planche" id="p5">
+  <div class="head"><span class="eyebrow">05</span><span class="section">Trajectoires lexicales</span></div>
+  <h2>Le mot abandonné, le mot qui a changé de camp</h2>
+  <p class="method">Haut : part des textes de la gauche radicale contenant « cessez-le-feu », par mois. Bas : score log-odds mensuel de « génocide » (positif = gauche). 28 mois.</p>
+  <figure>
+    <svg id="f-lex" viewBox="0 0 880 420"></svg>
+    <figcaption><span class="src">ceasefire_lexical_v3.csv · fighting_words_temporal.csv</span><span class="note">Le sursaut de janvier 2025 correspond au cessez-le-feu réel. La droite, elle, est à 0 % ce mois-là.</span></figcaption></figure>
+  <div class="body">
+    <p>En octobre-novembre 2023, un texte de gauche radicale sur trois demande un cessez-le-feu. À partir de l'été 2024, le mot s'efface : 3 % en août 2024, 1,2 % en septembre 2025. La gauche a cessé de demander.</p>
+    <p>« Génocide » suit le chemin inverse : absent des mots discriminants jusqu'en décembre 2023, il apparaît avec l'ordonnance de la CIJ, culmine à Rafah puis à l'été 2025. De la revendication à la qualification : on ne demande plus, on nomme. Et « Israël » lui-même change de camp : mot de droite en 2023-2024 (on défend Israël), il devient mot de gauche à partir de mi-2025. L'adversaire n'est plus un gouvernement, c'est un État.</p>
+  </div>
+</section>
+
+<!-- 06 -->
+<section class="planche" id="p6">
+  <div class="head"><span class="eyebrow">06</span><span class="section">Demandes</span></div>
+  <h2>La droite ne demande rien</h2>
+  <p class="method">Demande clé relevée dans chaque texte par l'annotation v4 : cessez-le-feu, aide humanitaire, otages, sanctions, reconnaissance, etc. Part de textes sans aucune demande, par bloc.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Bloc</th><th class="n">Sans demande</th><th>Demandes les plus fréquentes ensuite</th></tr>
+    <tr><td>Droite</td><td class="n"><b>≈ 9 sur 10</b></td><td>interdiction d'un jeu vidéo 4,9 % · cessez-le-feu 4,5 % · deux États 2,6 %</td></tr>
+    <tr><td>Centre / Majorité</td><td class="n">6 sur 10</td><td>libération des otages 10 % · cessez-le-feu 8,5 % · lutte contre l'antisémitisme 5 %</td></tr>
+    <tr><td>Gauche radicale</td><td class="n">4,6 sur 10</td><td>cessez-le-feu 19 % · reconnaissance 3,4 % · embargo sur les armes 2,5 %</td></tr>
+    <tr><td>Gauche modérée</td><td class="n">3,6 sur 10</td><td>cessez-le-feu 16,7 % · pression internationale 13 % · livraisons d'armes 12,5 % · reconnaissance 9,4 %</td></tr>
+  </table></div>
+  <div class="body" style="margin-top:22px">
+    <p>Le discours de la droite sur Gaza est un discours de dénonciation, pas de politique. Même dans la fenêtre du 7 octobre, elle ne mobilise l'argument de la légitime défense d'Israël que dans <span class="num">12 %</span> de ses textes. Elle ne défend pas une position israélienne ; elle condamne un ennemi.</p>
+    <p>Le bloc programmatique, c'est la gauche modérée : la seule à formuler des demandes dans deux textes sur trois.</p>
+  </div>
+  <figcaption style="margin-top:22px"><span class="src">key_demands_par_batch_bloc.csv · variables_batch_specifiques.csv</span><span class="note">Moyennes des parts par fenêtre.</span></figcaption>
+</section>
+
+<!-- 07 -->
+<section class="planche" id="p7">
+  <div class="head"><span class="eyebrow">07</span><span class="section">Cibles intérieures</span></div>
+  <h2>Gaza comme arme intérieure : le pic électoral</h2>
+  <p class="method">Part des cibles primaires de la droite tournées vers la politique française (LFI, « extrême gauche », gouvernement, Macron), par fenêtre événementielle.</p>
+  <figure><svg id="f-dom" viewBox="0 0 880 260"></svg>
+    <figcaption><span class="src">target_primary_par_batch_bloc.csv</span><span class="note">La fenêtre RAFAH (7 mai – 15 oct. 2024) contient les européennes du 9 juin et les législatives des 30 juin et 7 juillet.</span></figcaption></figure>
+  <div class="body">
+    <p>Sur l'ensemble du corpus, près d'un texte de droite sur quatre parlant de Gaza vise en réalité un adversaire français ou le gouvernement. Le mot « lfi » est un mot discriminant de droite chaque mois, et son score culmine en mai 2024.</p>
+    <p>Quand la France vote, la droite parle de LFI en parlant de Gaza. Le miroir existe à gauche, plus discret : la gauche radicale vise le gouvernement français dans <span class="num">10,7 %</span> de ses textes.</p>
+  </div>
+</section>
+
+<!-- 08 -->
+<section class="planche" id="p8">
+  <div class="head"><span class="eyebrow">08</span><span class="section">Fenêtre du 7 octobre</span></div>
+  <h2>Deux blocs ont commenté deux événements différents</h2>
+  <p class="method">Fenêtre CHOC (7 octobre – 31 décembre 2023). Part des textes condamnant explicitement l'attaque du Hamas, et part soulevant la proportionnalité de la riposte.</p>
+  <figure>
+    <div class="legend"><span class="a">Condamne l'attaque</span><span>Soulève la proportionnalité</span></div>
+    <svg id="f-choc" viewBox="0 0 880 240"></svg>
+    <figcaption><span class="src">variables_batch_specifiques.csv (publication)</span><span class="note">n = 789 (G. radicale), 182 (G. modérée), 287 (Centre), 352 (Droite).</span></figcaption></figure>
+  <div class="body">
+    <p>L'un parle de l'attaque, l'autre de la riposte. Les deux ont raison de dire que l'autre ne parle pas de ce qui compte. Le chiffre que le débat public a cherché pendant des mois est ici : un texte de gauche radicale sur neuf condamne explicitement le 7 octobre dans les trois mois qui suivent.</p>
+  </div>
+</section>
+
+<!-- 09 -->
+<section class="planche" id="p9">
+  <div class="head"><span class="eyebrow">09</span><span class="section">Registres émotionnels</span></div>
+  <h2>Le deuil dure trois mois, l'indignation dure toujours</h2>
+  <p class="method">Registre émotionnel codé par texte. Part du deuil et de l'indignation (gauche radicale) et du deuil et de la défiance (droite) dans la première et la dernière fenêtre.</p>
+  <div class="tablewrap"><table>
+    <tr><th></th><th class="n">CHOC<br>oct.-déc. 2023</th><th class="n">NEW_OFFENSIVE<br>mars 2025 – janv. 2026</th></tr>
+    <tr><td>Gauche radicale · deuil</td><td class="n">14,1 %</td><td class="n">3,4 %</td></tr>
+    <tr><td>Gauche radicale · indignation</td><td class="n">50,8 %</td><td class="n"><b>67,8 %</b></td></tr>
+    <tr><td>Droite · deuil</td><td class="n">1,1 %</td><td class="n">0,0 %</td></tr>
+    <tr><td>Droite · défiance</td><td class="n"><b>50,3 %</b></td><td class="n">36,7 %</td></tr>
+  </table></div>
+  <div class="body" style="margin-top:22px">
+    <p>Le deuil disparaît. L'indignation s'installe et croît. La droite, elle, n'a pratiquement jamais été dans le deuil, même en octobre 2023 (4 textes sur 352) : elle était dans la défiance, émotion tournée vers un adversaire plutôt que vers une victime. Sur tout le corpus, la défiance fait <span class="num">41 %</span> des textes de droite, contre moins de 1 % à gauche.</p>
+    <p>Le Centre est le seul bloc où la peur apparaît de façon mesurable, et le seul majoritairement neutre (44 %).</p>
+  </div>
+  <figcaption style="margin-top:22px"><span class="src">emotional_register_v4.csv · emotional_register.csv</span><span class="note"></span></figcaption>
+</section>
+
+<!-- 10 -->
+<section class="planche" id="p10">
+  <div class="head"><span class="eyebrow">10</span><span class="section">Engagement</span></div>
+  <h2>Le marché de l'indignation : la nuance coûte un facteur deux à sept</h2>
+  <p class="method">Engagement médian reçu par un tweet selon sa position, de −2 à +2, pour trois blocs. Le texte extrême du camp est en rouge.</p>
+  <figure><svg id="f-eng" viewBox="0 0 880 260"></svg>
+    <figcaption><span class="src">engagement_bloc_stance.csv</span><span class="note">Gauche modérée non représentée : profil plat sur des effectifs faibles (9 textes à −2).</span></figcaption></figure>
+  <div class="body">
+    <p>Dans trois blocs sur quatre, le texte le plus tranché est le plus partagé et le texte neutre le moins. Un député du Centre qui tweete une position nuancée reçoit <span class="num">sept fois</span> moins d'attention que s'il tweete une position tranchée.</p>
+    <p>Ce n'est pas que les députés sont extrêmes : c'est que seuls leurs textes extrêmes existent socialement.</p>
+  </div>
+</section>
+
+<!-- 11 -->
+<section class="planche" id="p11">
+  <div class="head"><span class="eyebrow">11</span><span class="section">Twitter et hémicycle</span></div>
+  <h2>Deux scènes, deux grammaires : « vous » contre « victimes »</h2>
+  <p class="method">Mots distinguant les discours en séance (négatif) des tweets (positif) pour la gauche radicale, score log-odds. Régression de la position sur l'arène, contrôlant bloc et mois.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Surreprésenté en séance</th><th class="n">z</th><th>Surreprésenté sur X</th><th class="n">z</th></tr>
+    <tr><td>vous</td><td class="n"><b>−21,7</b></td><td>victimes (Droite)</td><td class="n">+3,9</td></tr>
+    <tr><td>avez</td><td class="n">−9,8</td><td>cessez (G. modérée)</td><td class="n">+3,9</td></tr>
+    <tr><td>allez</td><td class="n">−7,8</td><td>barbarie (Droite)</td><td class="n">+3,4</td></tr>
+    <tr><td>votre</td><td class="n">−6,7</td><td></td><td class="n"></td></tr>
+    <tr><td>bancs</td><td class="n">−6,6</td><td></td><td class="n"></td></tr>
+  </table></div>
+  <div class="body" style="margin-top:22px">
+    <p>En moyenne, l'arène ne change rien à la position (coefficient −0,02, p = 0,34). Une exception : la gauche radicale est plus pro-palestinienne sur X qu'en séance (+0,50, p = 0,011). Ses discours d'hémicycle sont plus mesurés que ses tweets.</p>
+    <p>Mais la grammaire change. Dans l'hémicycle, on s'adresse à un adversaire présent. Sur X, on parle d'une victime absente. Même député, même sujet, deux actes de langage.</p>
+  </div>
+  <figcaption style="margin-top:22px"><span class="src">fighting_words_twitter_vs_an.csv · regression_delta_stance.csv · twitter_vs_an.csv</span><span class="note"></span></figcaption>
+</section>
+
+<!-- 12 -->
+<section class="planche" id="p12">
+  <div class="head"><span class="eyebrow">12</span><span class="section">Le Centre</span></div>
+  <h2>L'illusion du mouvement, et les vrais convertis</h2>
+  <p class="method">Position moyenne du Centre / Majorité sur les seuls mois où il produit plus de 100 textes. Sept mois sur 28 en comptent moins de 20.</p>
+  <figure><svg id="f-centre" viewBox="0 0 880 220"></svg>
+    <figcaption><span class="src">stance_mensuel.csv · movers_caches.csv</span><span class="note">Largeur moyenne de l'intervalle de confiance à 95 % sur la série complète : 0,66 point.</span></figcaption></figure>
+  <div class="body">
+    <p>Le Centre passe pour le bloc mobile. Une bonne partie de sa mobilité est du bruit d'échantillonnage : 6 textes en décembre 2024, 8 en janvier 2026. Sur les mois pleins, la série montre un adoucissement réel d'environ 0,4 point, lent, sans rupture nette.</p>
+    <p>Là où le Centre bouge vraiment, c'est individuellement. Les convertis du corpus, ceux dont la position finale s'écarte le plus de la position initiale vers le pro-palestinien, sont presque tous du Centre : Erwan Balanant (−1,5 → +1,0), Pierre Cazeneuve (−1,0 → +1,0), Marie Lebec, Constance Le Grip, Laurent Croizier, Amélia Lakrafi. La droite a un déplacement individuel moyen de <span class="num">0,00</span>. Le Centre est le seul bloc où des personnes changent d'avis.</p>
+  </div>
+</section>
+
+<!-- 13 -->
+<section class="planche" id="p13">
+  <div class="head"><span class="eyebrow">13</span><span class="section">Limites des outils</span></div>
+  <h2>Ce que les outils sophistiqués n'ont pas vu</h2>
+  <p class="method">Valence, activation et dominance (lexique NRC-VAD), fondements moraux, polarisation entropique, ACP du vocabulaire individuel.</p>
+  <div class="body">
+    <p>Résultat : rien. La valence oscille entre 0,49 et 0,52 pour tous les blocs et tous les mois. Les fondements moraux entre 0,16 et 0,21. L'analyse en composantes principales ne classe correctement que <span class="num">43 %</span> des députés dans leur bloc.</p>
+    <p>Ce n'est pas un échec sans intérêt. Cela dit que la polarisation n'est ni dans le ton, ni dans le vocabulaire moral, ni dans le lexique pris globalement. Elle est dans deux choses précises : les objets que l'on nomme (Gaza ou Hamas, Israël ou LFI) et les actes de langage (demander ou dénoncer, pleurer ou défier). Les dictionnaires ne voient pas cela. La lecture des cibles et des demandes, oui.</p>
+  </div>
+  <figcaption style="margin-top:22px"><span class="src">affective_vad_by_bloc_month.csv · moral_foundations_by_bloc_month.csv · pca_coordonnees.csv</span><span class="note"></span></figcaption>
+</section>
+
+<section class="synth">
+  <span class="eyebrow">Synthèse</span>
+  <h2 style="margin-top:8px">Le conflit gelé de l'hémicycle</h2>
+  <ol>
+    <li>Les positions sont fixées dès octobre 2023 et ne bougent plus (01, 12).</li>
+    <li>Ce qui évolue, c'est qui parle : de moins en moins de monde (211 députés actifs en octobre 2023, 34 en janvier 2026), de plus en plus concentré, de plus en plus à gauche (02, 03).</li>
+    <li>Ce qui évolue, ce sont les mots : de « cessez-le-feu » à « génocide », de « Netanyahou » à « Israël » (05).</li>
+    <li>Ce qui évolue, c'est l'usage : la droite convertit Gaza en argument contre LFI au rythme des élections (07).</li>
+    <li>Ce qui ne bouge jamais, c'est la question posée : pour un camp, que faire des victimes de Gaza ; pour l'autre, que faire du Hamas et de ceux qui ne le condamnent pas (04, 06, 08).</li>
+  </ol>
+  <p style="margin-top:26px;font-family:var(--cond);font-weight:500;font-size:22px;line-height:1.25;max-width:640px">Gaza n'a pas changé les députés. Elle a montré qui ils étaient, et le mécanisme de récompense des réseaux sociaux s'est chargé de figer le portrait.</p>
+</section>
+
+<section class="articles">
+  <span class="eyebrow">Six articles possibles</span>
+  <div style="margin-top:14px">
+    <div class="row"><span class="k">1</span><span class="t">Vingt députés</span><span class="d">Planches 02 et 03. Figure : courbe de concentration.</span></div>
+    <div class="row"><span class="k">2</span><span class="t">Gaza ou Hamas : deux mots, deux questions</span><span class="d">Planches 04 et 08. Figure : double série mensuelle « gaza » / « hamas ».</span></div>
+    <div class="row"><span class="k">3</span><span class="t">Le mot abandonné et le mot qui a changé de camp</span><span class="d">Planche 05. Figure : « cessez-le-feu » et « génocide » sur 28 mois.</span></div>
+    <div class="row"><span class="k">4</span><span class="t">Ce que la droite dit quand elle parle de Gaza</span><span class="d">Planches 06, 07, 09. Figure : cibles intérieures par fenêtre, pic électoral.</span></div>
+    <div class="row"><span class="k">5</span><span class="t">Le marché de l'indignation</span><span class="d">Planches 10 et 11. Figure : engagement médian par position.</span></div>
+    <div class="row"><span class="k">6</span><span class="t">Deux ans de guerre, un pour cent</span><span class="d">Planches 01, 12, 13. Figure : décomposition de variance.</span></div>
+  </div>
+  <p style="margin-top:18px;font-size:12.5px;color:var(--mute)">Chaque article tient sur des tables concordantes entre les deux moteurs, ou sur des tables uniques dont la spécification est nommée. Aucun ne dépend du diff-in-diff événementiel, qui reste à trancher.</p>
+</section>
+
+<section class="limits">
+  <span class="eyebrow">Ce que ces chiffres ne disent pas</span>
+  <ul>
+    <li><b>Les positions sont annotées par un modèle de langage</b>, pas par des humains. L'accord entre deux versions du modèle est bon (ρ = 0,86), mais la validation humaine reste à faire correctement. D'ici là, les positions individuelles sont des estimations.</li>
+    <li><b>Le corpus est déséquilibré</b> : 63 % des textes viennent d'un bloc. Aucune moyenne « toutes tendances confondues » n'apparaît ici.</li>
+    <li><b>Le design est descriptif</b>, avant/après, sans groupe de contrôle. Rien ici n'est causal.</li>
+    <li><b>Le texte brut n'est plus disponible.</b> Ces résultats sont des agrégats ; on ne peut plus y revenir pour lire un tweet ou vérifier un cas.</li>
+  </ul>
+</section>
+
+<footer><span>Sources : analysis/data/results/ et publication/data/results/ · deux moteurs, 78 tables, 74 796 lignes</span><span>Version Markdown : analysis/reports/TOPO_GAZA_HEMICYCLE.md</span></footer>
+</div>
+
+<script>
+(function(){
+  const NS='http://www.w3.org/2000/svg';
+  const C={ink:'#111111',rule:'#D4D0CA',mute:'#888888',acc:'#E8413C',fill:'rgba(232,65,60,0.12)',grey:'#AAAAAA',light:'#CCCCCC'};
+  const MONO='"Courier Prime","Courier New",monospace', COND='"Barlow Condensed","Arial Narrow",Arial,sans-serif', BODY='"Barlow","Helvetica Neue",Arial,sans-serif';
+  function el(p,t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e;}
+  function txt(p,x,y,s,a){const e=el(p,'text',Object.assign({x,y,fill:C.ink,'font-family':BODY,'font-size':11},a||{}));e.textContent=s;return e;}
+  const svg=id=>document.getElementById(id);
+
+  // 01 ANOVA stacked bar
+  (function(){const s=svg('f-anova');const parts=[['Bloc politique',61.0,C.acc],['Période',1.1,C.ink],['Interaction',0.4,C.grey],['Arène',0.08,C.light],['Résidu (individus, bruit)',37.5,C.rule]];
+    const x0=20,W=840,y=48,h=44;let x=x0;
+    parts.forEach(p=>{const w=W*p[1]/100;el(s,'rect',{x,y,width:Math.max(w,1.5),height:h,fill:p[2]});x+=w;});
+    txt(s,x0,y+h+22,'Bloc politique',{'font-family':COND,'font-weight':700,'font-size':13,fill:C.acc});txt(s,x0,y+h+40,'61,0 %',{'font-family':MONO,'font-weight':700,'font-size':13,fill:C.acc});
+    const xr=x0+W*0.625;txt(s,xr,y+h+22,'Résidu : individus, bruit',{'font-family':COND,'font-weight':700,'font-size':13,fill:C.mute});txt(s,xr,y+h+40,'37,5 %',{'font-family':MONO,'font-size':13,fill:C.mute});
+    const xp=x0+W*0.61;el(s,'line',{x1:xp+5,y1:y-6,x2:xp+5,y2:y-26,stroke:C.ink,'stroke-width':1});
+    txt(s,xp+10,y-14,'Période 1,1 % · interaction 0,4 % · arène 0,08 %',{'font-family':MONO,'font-size':11});
+  })();
+
+  // 02 concentration
+  (function(){const s=svg('f-conc');const rows=[['1 député (A. Caron)',7.4],['2 députés',13.4],['10 députés',31.2],['20 députés',45.1],['50 députés',68.6],['100 députés',83.8],['501 députés',100]];
+    const x0=190,W=650,y0=14,rh=32;
+    rows.forEach((r,i)=>{const y=y0+i*rh;const w=W*r[1]/100;const hot=i===3;
+      txt(s,x0-12,y+16,r[0],{'text-anchor':'end','font-family':COND,'font-weight':700,'font-size':13,fill:hot?C.acc:C.ink});
+      el(s,'rect',{x:x0,y:y+3,width:w,height:20,fill:hot?C.acc:(i===6?C.rule:C.ink)});
+      txt(s,x0+w+8,y+17,r[1].toLocaleString('fr-FR')+' %',{'font-family':MONO,'font-weight':hot?700:400,'font-size':12,fill:hot?C.acc:C.ink});});
+    el(s,'line',{x1:x0,y1:y0-2,x2:x0,y2:y0+rows.length*rh,stroke:C.ink,'stroke-width':1});
+  })();
+
+  // 03 visibility quintiles
+  (function(){const s=svg('f-vis');const v=[-0.776,-0.799,-0.376,0.028,1.203];const lab=['Q1 moins visibles','Q2','Q3','Q4','Q5 plus visibles'];
+    const x0=60,W=780,cy=100,H=70;const sc=t=>cy - t*(H/2)/2*2;
+    const y=t=>cy - t*(H/1.6);
+    el(s,'line',{x1:x0,y1:cy,x2:x0+W,y2:cy,stroke:C.rule});txt(s,x0+W+4,cy+4,'0',{'font-family':MONO,'font-size':10,fill:C.mute});
+    txt(s,x0-6,y(1)+4,'+1',{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});txt(s,x0-6,y(-1)+4,'−1',{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});
+    el(s,'line',{x1:x0,y1:y(1),x2:x0+W,y2:y(1),stroke:C.rule,'stroke-dasharray':'2 4'});el(s,'line',{x1:x0,y1:y(-1),x2:x0+W,y2:y(-1),stroke:C.rule,'stroke-dasharray':'2 4'});
+    const step=W/5;v.forEach((t,i)=>{const cx=x0+step*(i+0.5);const hot=i===4;
+      el(s,'line',{x1:cx,y1:cy,x2:cx,y2:y(t),stroke:hot?C.acc:C.ink,'stroke-width':2});el(s,'circle',{cx,cy:y(t),r:6,fill:hot?C.acc:C.ink});
+      txt(s,cx,(t>0?y(t)-12:y(t)+18),(t>0?'+':'−')+Math.abs(t).toFixed(2).replace('.',','),{'text-anchor':'middle','font-family':MONO,'font-weight':700,'font-size':12,fill:hot?C.acc:C.ink});
+      txt(s,cx,186,lab[i],{'text-anchor':'middle','font-family':COND,'font-weight':700,'font-size':12,fill:hot?C.acc:C.mute});});
+    txt(s,x0,18,'Position moyenne (−2 Israël … +2 Palestine)',{'font-family':BODY,'font-size':10,fill:C.mute});
+  })();
+
+  // shared month axis
+  const months=['2023-10','2023-11','2023-12','2024-01','2024-02','2024-03','2024-04','2024-05','2024-06','2024-07','2024-08','2024-09','2024-10','2024-11','2024-12','2025-01','2025-02','2025-03','2025-04','2025-05','2025-06','2025-07','2025-08','2025-09','2025-10','2025-11','2025-12','2026-01'];
+  function monthAxis(s,x0,W,ybase,n){for(let i=0;i<n;i++){const m=months[i];if(m.endsWith('-01')||i===0){const x=x0+W*i/(n-1);el(s,'line',{x1:x,y1:ybase,x2:x,y2:ybase+5,stroke:C.ink});txt(s,x,ybase+18,m.endsWith('-01')?'janv. '+m.slice(0,4):'oct. 2023',{'text-anchor':i===0?'start':'middle','font-family':MONO,'font-size':10,fill:C.mute});}}}
+  function path(s,pts,stroke,w){el(s,'path',{d:pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' '),fill:'none',stroke,'stroke-width':w||2,'stroke-linejoin':'round'});}
+
+  // 04 gaza / hamas
+  (function(){const s=svg('f-words');
+    const gaza=[8.0,4.7,2.1,3.1,3.3,5.2,3.4,2.2,1.9,2.8,2.1,1.0,3.8,2.8,0.8,2.8,2.0,2.7,1.7,5.1,3.7,3.9,2.0,3.3,3.1,-1.0,0.8];
+    const hamas=[-11.1,-8.3,-2.4,-8.0,-6.5,-6.0,-7.6,-10.2,-4.3,-4.9,-4.7,-6.0,-7.4,-5.1,-3.0,-6.3,-6.3,-5.2,-6.0,-5.4,-7.5,-8.1,-3.5,-7.4,-6.1,-2.8,-0.7];
+    const n=27,x0=50,W=790,top=20,bot=250;const y=v=>top+(10-v)/(22)*(bot-top);const x=i=>x0+W*i/(n-1);
+    [10,5,0,-5,-10].forEach(v=>{el(s,'line',{x1:x0,y1:y(v),x2:x0+W,y2:y(v),stroke:v===0?C.ink:C.rule,'stroke-width':v===0?1:0.75});txt(s,x0-8,y(v)+4,(v>0?'+':'')+v.toString().replace('-','−'),{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});});
+    txt(s,x0+W,y(10)-6,'← gauche',{'text-anchor':'end','font-family':COND,'font-weight':700,'font-size':11,fill:C.mute});txt(s,x0+W,y(-10)+16,'droite →',{'text-anchor':'end','font-family':COND,'font-weight':700,'font-size':11,fill:C.mute});
+    const pg=gaza.map((v,i)=>[x(i),y(v)]);const ph=hamas.map((v,i)=>[x(i),y(v)]);
+    el(s,'path',{d:'M'+pg.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join('L')+'L'+x(26)+' '+y(0)+'L'+x(0)+' '+y(0)+'Z',fill:C.fill});
+    path(s,pg,C.acc,2.2);path(s,ph,C.ink,2.2);
+    txt(s,x(0)+6,y(8.0)-6,'+8,0',{'font-family':MONO,'font-weight':700,'font-size':11,fill:C.acc});txt(s,x(0)+6,y(-11.1)+14,'−11,1',{'font-family':MONO,'font-weight':700,'font-size':11});
+    monthAxis(s,x0,W,bot+6,n);
+  })();
+
+  // 05 lexical two panels
+  (function(){const s=svg('f-lex');
+    const clf=[26.5,34.0,14.6,21.2,24.4,24.7,19.5,10.7,15.9,12.9,3.0,10.7,15.6,7.7,2.9,25.7,1.4,19.2,5.7,3.6,3.3,2.6,1.6,1.2,14.2,12.9,5.2,6.8];
+    const gen=[0,0,0,0.7,1.3,0.8,2.5,3.0,0.6,0.7,0.7,0.6,0.8,1.8,0.7,1.8,0.7,0.7,0.6,4.6,3.7,3.2,2.3,0.7,3.0,1.6,0.6,0];
+    const x0=50,W=790;const x=(i,n)=>x0+W*i/(n-1);
+    // panel A
+    let top=22,bot=170;let y=v=>top+(35-v)/35*(bot-top);
+    txt(s,x0,12,'« cessez-le-feu », % des textes de la gauche radicale',{'font-family':COND,'font-weight':700,'font-size':12});
+    [0,10,20,30].forEach(v=>{el(s,'line',{x1:x0,y1:y(v),x2:x0+W,y2:y(v),stroke:v===0?C.ink:C.rule,'stroke-width':v===0?1:0.75});txt(s,x0-8,y(v)+4,v+' %',{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});});
+    const pa=clf.map((v,i)=>[x(i,28),y(v)]);el(s,'path',{d:'M'+pa.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join('L')+'L'+x(27,28)+' '+y(0)+'L'+x0+' '+y(0)+'Z',fill:'rgba(17,17,17,0.06)'});path(s,pa,C.ink,2.2);
+    txt(s,x(1,28)+10,y(34)+3,'34 %',{'font-family':MONO,'font-weight':700,'font-size':11});txt(s,x(15,28),y(25.7)-8,'janv. 2025 : cessez-le-feu réel',{'text-anchor':'middle','font-family':BODY,'font-size':10,fill:C.mute});txt(s,x(23,28),y(1.2)-8,'1,2 %',{'text-anchor':'middle','font-family':MONO,'font-weight':700,'font-size':11});
+    // panel B
+    top=232;bot=380;y=v=>top+(5-v)/5*(bot-top);
+    txt(s,x0,222,'« génocide », score log-odds mensuel (positif = gauche)',{'font-family':COND,'font-weight':700,'font-size':12,fill:C.acc});
+    [0,2,4].forEach(v=>{el(s,'line',{x1:x0,y1:y(v),x2:x0+W,y2:y(v),stroke:v===0?C.ink:C.rule,'stroke-width':v===0?1:0.75});txt(s,x0-8,y(v)+4,'+'+v,{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});});
+    const pb=gen.slice(0,27).map((v,i)=>[x(i,28),y(v)]);el(s,'path',{d:'M'+pb.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join('L')+'L'+x(26,28)+' '+y(0)+'L'+x0+' '+y(0)+'Z',fill:C.fill});path(s,pb,C.acc,2.2);
+    el(s,'line',{x1:x(3,28),y1:y(0.7)-6,x2:x(3,28),y2:top+14,stroke:C.mute,'stroke-width':0.75});txt(s,x(3,28)+5,top+12,'janv. 2024 : ordonnance CIJ',{'text-anchor':'start','font-family':BODY,'font-size':10,fill:C.mute});txt(s,x(7,28),y(3.0)-8,'Rafah',{'text-anchor':'middle','font-family':BODY,'font-size':10,fill:C.mute});txt(s,x(19,28),y(4.6)-8,'+4,6',{'text-anchor':'middle','font-family':MONO,'font-weight':700,'font-size':11,fill:C.acc});
+    monthAxis(s,x0,W,bot+6,28);
+  })();
+
+  // 07 domestic targeting
+  (function(){const s=svg('f-dom');const rows=[['CHOC',15.0],['POST_CIJ',12.5],['RAFAH',42.3],['POST_SINWAR',34.9],['MANDATS_CPI',22.2],['CEASEFIRE_BREACH',23.9],['NEW_OFFENSIVE',29.6]];
+    const x0=40,W=800,base=190,H=150;const bw=W/rows.length;
+    [0,20,40].forEach(v=>{const yy=base-H*v/45;el(s,'line',{x1:x0,y1:yy,x2:x0+W,y2:yy,stroke:v===0?C.ink:C.rule,'stroke-width':v===0?1:0.75});txt(s,x0-8,yy+4,v+' %',{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});});
+    rows.forEach((r,i)=>{const h=H*r[1]/45;const hot=i===2;const x=x0+bw*i+bw*0.18;const w=bw*0.64;
+      el(s,'rect',{x,y:base-h,width:w,height:h,fill:hot?C.acc:C.ink});
+      txt(s,x+w/2,base-h-7,r[1].toFixed(1).replace('.',',')+' %',{'text-anchor':'middle','font-family':MONO,'font-weight':hot?700:400,'font-size':12,fill:hot?C.acc:C.ink});
+      txt(s,x+w/2,base+18,r[0],{'text-anchor':'middle','font-family':COND,'font-weight':700,'font-size':11,fill:hot?C.acc:C.mute});});
+    txt(s,x0+bw*2.5,base+36,'européennes 9 juin · législatives 30 juin / 7 juillet 2024',{'text-anchor':'middle','font-family':BODY,'font-style':'italic','font-size':10,fill:C.acc});
+  })();
+
+  // 08 CHOC grouped bars
+  (function(){const s=svg('f-choc');const blocs=['Gauche radicale','Gauche modérée','Centre / Majorité','Droite'];const cond=[11.4,23.2,57.3,67.2];const prop=[30.0,30.8,2.4,0.6];
+    const x0=40,W=800,base=190,H=150;const bw=W/4;
+    [0,25,50,75].forEach(v=>{const yy=base-H*v/75;el(s,'line',{x1:x0,y1:yy,x2:x0+W,y2:yy,stroke:v===0?C.ink:C.rule,'stroke-width':v===0?1:0.75});txt(s,x0-8,yy+4,v+' %',{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});});
+    blocs.forEach((b,i)=>{const gx=x0+bw*i+bw*0.15;const w=bw*0.3;
+      [[cond[i],C.acc,0],[prop[i],C.ink,1]].forEach(d=>{const h=H*d[0]/75;const x=gx+d[2]*(w+6);el(s,'rect',{x,y:base-h,width:w,height:Math.max(h,1),fill:d[1]});txt(s,x+w/2,base-h-6,d[0].toFixed(1).replace('.',',')+' %',{'text-anchor':'middle','font-family':MONO,'font-size':11,fill:d[1]});});
+      txt(s,gx+w+3,base+18,b,{'text-anchor':'middle','font-family':COND,'font-weight':700,'font-size':12});});
+  })();
+
+  // 10 engagement small multiples
+  (function(){const s=svg('f-eng');const data=[['Gauche radicale',[379,284.5,201.5,250,411],4,'× 2,0'],['Centre / Majorité',[142,70.5,20,18,26],0,'× 7,1'],['Droite',[98,50,32,11,153],0,'× 3,1']];
+    const pw=880/3;const H=140,base=190;
+    data.forEach((d,k)=>{const ox=pw*k+30;const w=pw-60;const bw=w/5;const max=Math.max(...d[1]);
+      txt(s,ox,18,d[0],{'font-family':COND,'font-weight':700,'font-size':13});txt(s,ox+w,18,d[3],{'text-anchor':'end','font-family':MONO,'font-weight':700,'font-size':13,fill:C.acc});
+      el(s,'line',{x1:ox,y1:base,x2:ox+w,y2:base,stroke:C.ink});
+      d[1].forEach((v,i)=>{const h=H*v/max;const x=ox+bw*i+bw*0.15;const hot=i===d[2];const neutral=i===2;const last=(k===2&&i===4);
+        el(s,'rect',{x,y:base-h,width:bw*0.7,height:Math.max(h,1),fill:last?C.rule:(hot?C.acc:(neutral?C.grey:C.ink))});
+        txt(s,x+bw*0.35,base-h-5,String(Math.round(v)),{'text-anchor':'middle','font-family':MONO,'font-size':10,fill:last?C.mute:(hot?C.acc:C.ink)});
+        txt(s,x+bw*0.35,base+16,['−2','−1','0','+1','+2'][i],{'text-anchor':'middle','font-family':MONO,'font-size':10,fill:C.mute});});
+      if(k===2)txt(s,ox+w,base+34,'(+2 : un seul texte)',{'text-anchor':'end','font-family':BODY,'font-style':'italic','font-size':9,fill:C.mute});
+    });
+    txt(s,30,244,'Engagement médian par tweet, selon la position. Gris : texte neutre.',{'font-family':BODY,'font-size':10,fill:C.mute});
+  })();
+
+  // 12 centre full months
+  (function(){const s=svg('f-centre');const pts=[['oct. 2023',-0.90,255],['nov. 2023',-0.81,107],['mai 2024',-0.62,104],['mai 2025',-0.48,122],['juin 2025',-0.56,116]];
+    const x0=60,W=780,top=30,bot=150;const y=v=>top+(0-v)/1.0*(bot-top);const step=W/5;
+    [0,-0.5,-1].forEach(v=>{el(s,'line',{x1:x0,y1:y(v),x2:x0+W,y2:y(v),stroke:v===0?C.ink:C.rule,'stroke-width':v===0?1:0.75});txt(s,x0-8,y(v)+4,v===0?'0':'−'+Math.abs(v).toFixed(1).replace('.',','),{'text-anchor':'end','font-family':MONO,'font-size':10,fill:C.mute});});
+    const P=pts.map((p,i)=>[x0+step*(i+0.5),y(p[1])]);path(s,P,C.grey,1.5);
+    pts.forEach((p,i)=>{const [cx,cy]=P[i];const hot=i===3;el(s,'circle',{cx,cy,r:7,fill:hot?C.acc:C.ink});
+      txt(s,cx,cy-14,'−'+Math.abs(p[1]).toFixed(2).replace('.',','),{'text-anchor':'middle','font-family':MONO,'font-weight':700,'font-size':12,fill:hot?C.acc:C.ink});
+      txt(s,cx,178,p[0],{'text-anchor':'middle','font-family':COND,'font-weight':700,'font-size':12});txt(s,cx,194,'n = '+p[2],{'text-anchor':'middle','font-family':MONO,'font-size':10,fill:C.mute});});
+    txt(s,x0,16,'Position moyenne du Centre, mois à plus de 100 textes',{'font-family':BODY,'font-size':10,fill:C.mute});
+  })();
+})();
+</script>
