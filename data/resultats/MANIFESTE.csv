@@ -1,0 +1,80 @@
+fichier,chaine,nature,statut,description
+chaine_lexicale/activity_bias_by_bloc.csv,lexicale,texte,utilisable,"Tweets par député actif, par bloc"
+chaine_lexicale/affective_polarization_temporal.csv,lexicale,texte,utilisable,"Écart affectif (VAD) entre blocs, par mois"
+chaine_lexicale/affective_vad_by_bloc_month.csv,lexicale,texte,utilisable,"Valence, activation, dominance (NRC-VAD) par bloc et par mois"
+chaine_lexicale/anova_interaction.csv,lexicale,jugement,utilisable,Analyse de variance avec interaction (doublon de anova_type2)
+chaine_lexicale/anova_type2.csv,lexicale,jugement,utilisable,"Analyse de variance de la position : bloc, fenêtre, arène, interaction"
+chaine_lexicale/attrition_mensuelle.csv,lexicale,texte,concordante entre chaînes ; comptes de députés gonflés par les doublons de nom,Députés actifs et textes par mois (députés comptés par graphie de nom)
+chaine_lexicale/ceasefire_call_batch_bloc.csv,lexicale,extraction,concordante entre chaînes,Appel au cessez-le-feu par fenêtre et par bloc (v4)
+chaine_lexicale/ceasefire_lexical.csv,lexicale,texte,utilisable,"Part des textes contenant « cessez-le-feu », « trêve »… par mois et par bloc"
+chaine_lexicale/convergence_batch_bloc.csv,lexicale,extraction,à utiliser avec la chaîne nommée,Convergence transpartisane (définitions différentes selon la chaîne)
+chaine_lexicale/cosine_distance_mensuelle.csv,lexicale,texte,à utiliser avec la chaîne nommée,"Distance cosinus TF-IDF entre blocs, par mois (vectorisations différentes selon la chaîne)"
+chaine_lexicale/deliberative_intensity_by_bloc_month.csv,lexicale,texte,utilisable,Part de marqueurs conflictuels par bloc et par mois
+chaine_lexicale/effective_dimensionality_temporal.csv,lexicale,jugement,utilisable,Dimensionnalité effective par mois
+chaine_lexicale/emotional_register.csv,lexicale,jugement,concordante entre chaînes,Registre émotionnel par bloc
+chaine_lexicale/emotional_register_v4.csv,lexicale,jugement,concordante entre chaînes,Registre émotionnel par fenêtre et par bloc
+chaine_lexicale/entropic_polarization_temporal.csv,lexicale,jugement,utilisable,Polarisation entropique (Bao et Gill) par mois
+chaine_lexicale/event_impact_diff_in_diff.csv,lexicale,jugement,à utiliser avec la chaîne nommée,Comparaisons avant/après événement (dates et fenêtres différentes selon la chaîne)
+chaine_lexicale/fighting_words.csv,lexicale,texte,à utiliser avec la chaîne nommée,Mots discriminants gauche / droite (log-odds)
+chaine_lexicale/fighting_words_temporal.csv,lexicale,texte,utilisable,"Mots discriminants gauche / droite, par mois"
+chaine_lexicale/fighting_words_twitter_vs_an.csv,lexicale,texte,utilisable,"Mots discriminants X / séance, par bloc"
+chaine_lexicale/frames_par_bloc.csv,lexicale,jugement,concordante entre chaînes,Cadres dominants par bloc
+chaine_lexicale/journal_run_analysis.txt,lexicale,journal,utilisable,Journal complet de l'exécution de la chaîne lexicale
+chaine_lexicale/lag_adoption.csv,lexicale,texte,utilisable,Premier mois où un bloc dépasse 10 % de « cessez-le-feu »
+chaine_lexicale/mann_kendall_bloc.csv,lexicale,jugement,utilisable,Tendance de la position mensuelle par bloc
+chaine_lexicale/moral_foundations_by_bloc_month.csv,lexicale,texte,utilisable,Fondements moraux (lexique) par bloc et par mois
+chaine_lexicale/movers_caches.csv,lexicale,jugement,utilisable ; comptes de députés gonflés par les doublons de nom,Changement individuel de position entre première et dernière fenêtre
+chaine_lexicale/panel_b4.csv,lexicale,jugement,concordante entre chaînes,Députés du panel présent dans toutes les fenêtres
+chaine_lexicale/pca_coordonnees.csv,lexicale,texte,utilisable,Coordonnées des députés sur deux composantes principales
+chaine_lexicale/polarisation_index.csv,lexicale,texte,à utiliser avec la chaîne nommée,Indice de polarisation mensuel (définitions différentes selon la chaîne)
+chaine_lexicale/pre_event_mann_kendall.csv,lexicale,jugement,utilisable,Tendances avant événement
+chaine_lexicale/registre_conflictuel_bloc_batch.csv,lexicale,texte,utilisable,Registre conflictuel par fenêtre et par bloc
+chaine_lexicale/regression_delta_stance.csv,lexicale,jugement,utilisable,"Écart X – séance par député-mois, régression"
+chaine_lexicale/stance_mensuel.csv,lexicale,jugement,concordante entre chaînes,Position moyenne mensuelle par bloc
+chaine_lexicale/stance_panel_vs_complet.csv,lexicale,jugement,concordante entre chaînes,Position du panel comparée au corpus complet
+chaine_lexicale/stance_twitter_vs_an_by_deputy.csv,lexicale,jugement,utilisable,Position X et séance par député-mois
+chaine_lexicale/variables_batch_specifiques.csv,lexicale,extraction,à utiliser avec la chaîne nommée,Variables propres aux fenêtres (contenu différent selon la chaîne)
+chaine_lexicale/visibility_paradox_quintiles.csv,lexicale,jugement,utilisable,Position selon le quintile de visibilité
+chaine_lexicale/volume_mensuel.csv,lexicale,texte,concordante entre chaînes,Textes par mois et par bloc
+chaine_lexicale/volume_par_groupe.csv,lexicale,texte,utilisable,Textes par groupe parlementaire
+chaine_lexicale/wasserstein_drift.csv,lexicale,jugement,utilisable,Dérive de la distribution des positions d'un mois à l'autre
+chaine_lexicale/wasserstein_inter_blocs.csv,lexicale,jugement,utilisable,"Distance de Wasserstein entre blocs, par mois"
+chaine_variables/accord_v3_v4.csv,variables,jugement,utilisable,Accord entre annotations v3 et v4 (5 905 textes communs)
+chaine_variables/arc_narratif.csv,variables,extraction,utilisable,Une variable caractéristique par fenêtre
+chaine_variables/attrition_mensuelle.csv,variables,texte,concordante entre chaînes ; comptes de députés gonflés par les doublons de nom,Députés actifs et textes par mois (députés comptés par graphie de nom)
+chaine_variables/ceasefire_call_batch_bloc.csv,variables,extraction,concordante entre chaînes,Appel au cessez-le-feu par fenêtre et par bloc (v4)
+chaine_variables/ceasefire_call_v4.csv,variables,extraction,utilisable,Appel au cessez-le-feu par bloc (v4)
+chaine_variables/ceasefire_lexical_v3.csv,variables,texte,utilisable,"Idem, chaîne variables"
+chaine_variables/ceasefire_type.csv,variables,extraction,utilisable,Type d'appel au cessez-le-feu par fenêtre et par bloc
+chaine_variables/coherence_twitter_an_par_depute.csv,variables,texte,vide,Vide
+chaine_variables/coherence_v4.csv,variables,jugement,utilisable,Contrôles de cohérence interne de la v4
+chaine_variables/conditionality.csv,variables,jugement,utilisable,Conditionnalité par bloc (v4)
+chaine_variables/conditionality_par_batch_bloc.csv,variables,jugement,utilisable,Conditionnalité par fenêtre et par bloc
+chaine_variables/convergence_batch_bloc.csv,variables,extraction,à utiliser avec la chaîne nommée,Convergence transpartisane (définitions différentes selon la chaîne)
+chaine_variables/cosine_distance_3paires.csv,variables,texte,utilisable,"Distance cosinus, trois paires de blocs"
+chaine_variables/cosine_distance_mensuelle.csv,variables,texte,à utiliser avec la chaîne nommée,"Distance cosinus TF-IDF entre blocs, par mois (vectorisations différentes selon la chaîne)"
+chaine_variables/droite_stance_mensuel.csv,variables,jugement,utilisable,Position mensuelle de la droite
+chaine_variables/droite_stance_par_batch.csv,variables,jugement,utilisable,Position de la droite par fenêtre
+chaine_variables/emotional_register.csv,variables,jugement,concordante entre chaînes,Registre émotionnel par bloc
+chaine_variables/emotional_register_v4.csv,variables,jugement,concordante entre chaînes,Registre émotionnel par fenêtre et par bloc
+chaine_variables/engagement_bloc_stance.csv,variables,jugement,utilisable,Engagement sur X selon le bloc et la position
+chaine_variables/event_impact_diff_in_diff.csv,variables,jugement,à utiliser avec la chaîne nommée,Comparaisons avant/après événement (dates et fenêtres différentes selon la chaîne)
+chaine_variables/fighting_words.csv,variables,texte,à utiliser avec la chaîne nommée,Mots discriminants gauche / droite (log-odds)
+chaine_variables/frames_par_bloc.csv,variables,jugement,concordante entre chaînes,Cadres dominants par bloc
+chaine_variables/key_demands_par_batch_bloc.csv,variables,extraction,utilisable,Demandes clés par fenêtre et par bloc
+chaine_variables/movers_top20.csv,variables,jugement,utilisable ; comptes de députés gonflés par les doublons de nom,Vingt plus grandes amplitudes individuelles
+chaine_variables/panel_b4.csv,variables,jugement,concordante entre chaînes,Députés du panel présent dans toutes les fenêtres
+chaine_variables/panel_b4_composition.csv,variables,texte,utilisable,Composition du panel
+chaine_variables/polarisation_index.csv,variables,texte,à utiliser avec la chaîne nommée,Indice de polarisation mensuel (définitions différentes selon la chaîne)
+chaine_variables/rapport_synthese.csv,variables,jugement,utilisable,Synthèse par bloc
+chaine_variables/stance_mensuel.csv,variables,jugement,concordante entre chaînes,Position moyenne mensuelle par bloc
+chaine_variables/stance_panel_vs_complet.csv,variables,jugement,concordante entre chaînes,Position du panel comparée au corpus complet
+chaine_variables/stance_par_groupe.csv,variables,jugement,utilisable,Position par groupe parlementaire
+chaine_variables/target_primary_par_batch_bloc.csv,variables,extraction,utilisable,Cible principale par fenêtre et par bloc
+chaine_variables/target_primary_par_bloc.csv,variables,extraction,utilisable,Cible principale par bloc
+chaine_variables/trajectoires_individuelles.csv,variables,jugement,utilisable ; comptes de députés gonflés par les doublons de nom,Profil de chaque auteur (doublons de nom non fusionnés)
+chaine_variables/twitter_vs_an.csv,variables,jugement,utilisable,Effet de l'arène sur la position
+chaine_variables/variables_batch_specifiques.csv,variables,extraction,7 variables dégénérées ; à utiliser avec la chaîne nommée,Variables propres aux fenêtres (contenu différent selon la chaîne)
+chaine_variables/variance_intra_bloc.csv,variables,jugement,utilisable ; comptes de députés gonflés par les doublons de nom,Dispersion des positions individuelles par bloc
+chaine_variables/volume_mensuel.csv,variables,texte,concordante entre chaînes,Textes par mois et par bloc
+chaine_variables/vue_ensemble.csv,variables,texte,utilisable ; comptes de députés gonflés par les doublons de nom,Vue d'ensemble par bloc (nombre de députés gonflé par les doublons)
